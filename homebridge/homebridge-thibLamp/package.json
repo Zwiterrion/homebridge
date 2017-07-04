@@ -1,0 +1,13 @@
+{
+  "name": "homebridge-thibLamp",
+  "version": "0.0.1",
+  "description": "Test plugin for homebridge",
+  "license": "",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+"engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}
