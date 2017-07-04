@@ -2,6 +2,9 @@
   "name": "homebridge-thibLamp",
   "version": "0.0.1",
   "description": "Test plugin for homebridge",
+  "dependencies": {
+    "request" : "^2.81.0"
+  },
   "license": "",
   "keywords": [
     "homebridge-plugin"
