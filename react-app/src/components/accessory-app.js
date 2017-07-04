@@ -1,5 +1,6 @@
 import React from 'react';
 import LightBulb from './lightbulb'
+import Lock from './lock'
 
 const AccessoryApp = React.createClass({
 
@@ -13,7 +14,7 @@ const AccessoryApp = React.createClass({
             <LightBulb name="Light bulb 2" />
           </div>
           <div className="1/2 grid__cell">
-            <LightBulb name="Light bulb 3" />
+            <Lock name="Lock 1" />
           </div>
           <div className="1/2 grid__cell">
             <LightBulb name="Light bulb 4" />

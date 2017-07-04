@@ -39,41 +39,20 @@ const Styles = {
   }
 };
 
-export const LightBulb = React.createClass({
+export const Lock = React.createClass({
   propTypes: {
     name: PropTypes.string.isRequired
   },
 
   getInitialState() {
     return {
-      brightness: 0,
-      on: false,
-      asc: true
+      locked: false
     };
   },
 
   handleToggleLike() {
-    let brightness = this.state.brightness;
-    let asc = this.state.asc;
-    if(asc){
-      if(brightness<100){
-        this.setState({brightness : brightness+10, on: true});
-      }
-      else{
-        this.setState({brightness : brightness-10, asc: false });
-      }
-    }
-    else{
-      if(brightness>10){
-        this.setState({brightness : brightness-10 });
-      }
-      else if(brightness==10){
-        this.setState({brightness : brightness-10, on : false});
-      }
-      else{
-        this.setState({brightness : brightness+10, on : true, asc: true });
-      }
-    }
+    const old = this.state.locked;
+    this.setState({locked: !old});
   },
 
   render() {
@@ -81,7 +60,7 @@ export const LightBulb = React.createClass({
       <div style={Styles.Card}>
           <h2 style={Styles.Title}> {this.props.name} </h2>
           <img style={Styles.Image}
-              src={this.state.on ? require(`../img/light-bulb-${this.state.brightness}.png`): require('../img/light-bulb-0.png')}
+              src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
               width="250"
               onClick={this.handleToggleLike}
           />
@@ -90,4 +69,4 @@ export const LightBulb = React.createClass({
   }
 });
 
-export default LightBulb
+export default Lock
