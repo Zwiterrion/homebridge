@@ -1,8 +1,5 @@
 const express = require('express')
 const fs = require('fs')
-const lockFile = require('lockfile');
-
-
 const app = express()
 
 const DIR_FILES = 'files/';
