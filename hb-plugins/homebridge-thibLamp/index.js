@@ -12,6 +12,7 @@ module.exports = function(homebridge){
 function ThibLampAccessory(log, config){
   this.log = log;
   this.name = config["name"];
+  this.id = config["id"];
   this.lampName = config["lamp_name"] || this.name; // this.name if lampName not defined
   this.log("Starting a thibLamp device with the name '" + this.lampName + "'");
 }
@@ -22,7 +23,7 @@ function ThibLampAccessory(log, config){
 ThibLampAccessory.prototype.isOn = function(callback){
 
   request.get({
-    url: "http://localhost:3000/lamp/state"
+    url: `http://localhost:3000/lamp/${this.id}/state`
   }, function(err, response, body) {
 
     if (!err && response.statusCode == 200) {
@@ -45,7 +46,7 @@ ThibLampAccessory.prototype.isOn = function(callback){
 */
 ThibLampAccessory.prototype.switch = function(switchOn, callback){
   request.get({
-    url: "http://localhost:3000/lamp/on/" + switchOn
+    url: `http://localhost:3000/lamp/${this.id}/on/` + switchOn
   }, function(err, response, body) {
 
     if (!err && response.statusCode == 200) {
@@ -64,7 +65,7 @@ ThibLampAccessory.prototype.switch = function(switchOn, callback){
 ThibLampAccessory.prototype.setBrightness = function(newBrightness,callback){
 
   request.get({
-    url: "http://localhost:3000/lamp/brightness/" + newBrightness
+    url: `http://localhost:3000/lamp/${this.id}/brightness/` + newBrightness
   }, function(err, response, body) {
 
     if (!err && response.statusCode == 200) {
@@ -83,7 +84,7 @@ ThibLampAccessory.prototype.setBrightness = function(newBrightness,callback){
 
 ThibLampAccessory.prototype.getBrightness = function(callback){
   request.get({
-    url: "http://localhost:3000/lamp/state"
+    url: `http://localhost:3000/${this.id}/lamp/state`
   }, function(err, response, body) {
 
     if (!err && response.statusCode == 200) {
@@ -101,9 +102,6 @@ ThibLampAccessory.prototype.getBrightness = function(callback){
 
 }
 
-// ThibLampAccessory.prototype.toggleOn = function(callback){
-//   callback(null,true);
-// }
 
 ThibLampAccessory.prototype.getServices = function(){
 
@@ -118,7 +116,6 @@ ThibLampAccessory.prototype.getServices = function(){
     .getCharacteristic(Characteristic.Brightness)
     .on('get', this.getBrightness.bind(this))
     .on('set', this.setBrightness.bind(this))
-    //.on('set', this.)
 
   return [lampService];
 }

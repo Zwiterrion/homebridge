@@ -47,6 +47,7 @@ const Styles = {
 
 export const LightBulb = React.createClass({
   propTypes: {
+    id : PropTypes.number.isRequired,
     name: PropTypes.string.isRequired
   },
 
@@ -60,7 +61,8 @@ export const LightBulb = React.createClass({
 
   componentDidMount(){
     this.interval = setInterval(() => {
-      fetch("http://localhost:3000/lamp/state").then((response) => response.json())
+      let url = "http://localhost:3000/lamp/"+ this.props.id +"/state";
+      fetch(url).then((response) => response.json())
       .then(
         responseJson => {
           console.log(responseJson);
@@ -69,15 +71,6 @@ export const LightBulb = React.createClass({
 
       );
     }, 100)
-    // console.log("componentDidMount");
-    // fetch("http://localhost:3000/lamp/state").then(response => response.json())
-    //   .then( responseJson => this.setState(
-    //     {
-    //       brightness : responseJson.brightness,
-    //       on: responseJson.on
-    //     }
-    //   )
-    // )},
   },
 
   componentWillUnmount(){
@@ -122,4 +115,4 @@ export const LightBulb = React.createClass({
   }
 });
 
-export default LightBulb
+export default LightBulb;

@@ -3,6 +3,7 @@ const fs = require('fs')
 const app = express()
 
 const DIR_FILES = 'files/';
+const PRE_OBJ_NAME = 'lamp';
 const FILE_ENCODE = "utf8";
 const SEND_FILE_OPT = {
     root: __dirname + '/files/',
@@ -30,6 +31,7 @@ function Lightbulb(){
   * extracted object
   */
 function readJsonFile(fileName, callbackSuccess, callbackError){
+  createLampFile(fileName);
   fs.readFile(DIR_FILES + fileName, FILE_ENCODE, function (err, data){
     if (err){
       console.log("error opening file :" + DIR_FILES + fileName);
@@ -39,6 +41,19 @@ function readJsonFile(fileName, callbackSuccess, callbackError){
       callbackSuccess.call(null,obj);
     }
   });
+}
+
+// create file if it doesn't exist
+function createLampFile(fileName){
+  if (!fs.existsSync(DIR_FILES + fileName)){
+    if (!fs.existsSync(DIR_FILES)){
+      fs.mkdirSync(DIR_FILES)
+      console.log("creating dir files");
+    }
+    console.log("creating file " + fileName);
+    fs.writeFileSync(DIR_FILES + fileName, JSON.stringify(new Lightbulb()),'utf8');
+  }
+
 }
 
 app.use(function(req, res, next) {
@@ -60,12 +75,12 @@ app.listen(3000, function () {
 /**
  * Switch on the lamp
  */
-app.get('/lamp/on/:isOn', function (req, res){
-  readJsonFile("lamp.json",
+app.get('/lamp/:id/on/:isOn', function (req, res){
+  readJsonFile(PRE_OBJ_NAME + req.params.id + ".json",
     (obj) => {
       obj.on = (req.params.isOn=="1");
       var json = JSON.stringify(obj);
-      fs.writeFileSync('files/lamp.json', json, 'utf8');
+      fs.writeFileSync(DIR_FILES + PRE_OBJ_NAME + req.params.id + ".json", json, 'utf8');
       res.json(obj);
     },
     () => {}
@@ -78,8 +93,9 @@ app.get('/lamp/on/:isOn', function (req, res){
  * @param  {[type]} req [description]
  * @param  {[type]} res [description]
  */
-app.get('/lamp/state', function(req, res){
-  res.sendFile("lamp.json", SEND_FILE_OPT, function(err){
+app.get('/lamp/:id/state', function(req, res){
+  createLampFile("lamp" + req.params.id + ".json");
+  res.sendFile(PRE_OBJ_NAME + req.params.id + ".json", SEND_FILE_OPT, function(err){
     if(err){
         console.log(err);
         res.status(err.status).end();
@@ -95,14 +111,14 @@ app.get('/lamp/state', function(req, res){
  * @param  {[type]} req [description]
  * @param  {[type]} res [description]
  */
-app.get('/lamp/:charac/:value', function(req, res){
+app.get('/lamp/:id/:charac/:value', function(req, res){
   if (CHARACTERISTICS.includes(req.params.charac)){
-    readJsonFile("lamp.json",
+    readJsonFile(PRE_OBJ_NAME + req.params.id + ".json",
       (obj) => {
         obj[req.params.charac] = eval(req.params.value);
         obj.on = true;
         var json = JSON.stringify(obj);
-        fs.writeFileSync('files/lamp.json', json, 'utf8');
+        fs.writeFileSync(DIR_FILES + PRE_OBJ_NAME + req.params.id + ".json", json, 'utf8');
         res.json(obj);
       },
       () => {}
