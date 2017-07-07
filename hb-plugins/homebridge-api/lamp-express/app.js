@@ -91,7 +91,7 @@ app.get('/lamp/state', function(req, res){
 })
 
 /**
- * Change the given charac
+ * Change the given charac (switch on the lamp too)
  * @param  {[type]} req [description]
  * @param  {[type]} res [description]
  */
@@ -100,6 +100,7 @@ app.get('/lamp/:charac/:value', function(req, res){
     readJsonFile("lamp.json",
       (obj) => {
         obj[req.params.charac] = eval(req.params.value);
+        obj.on = true;
         var json = JSON.stringify(obj);
         fs.writeFileSync('files/lamp.json', json, 'utf8');
         res.json(obj);

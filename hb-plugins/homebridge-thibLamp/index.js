@@ -101,6 +101,10 @@ ThibLampAccessory.prototype.getBrightness = function(callback){
 
 }
 
+// ThibLampAccessory.prototype.toggleOn = function(callback){
+//   callback(null,true);
+// }
+
 ThibLampAccessory.prototype.getServices = function(){
 
   var lampService = new Service.Lightbulb(this.name);
@@ -114,6 +118,7 @@ ThibLampAccessory.prototype.getServices = function(){
     .getCharacteristic(Characteristic.Brightness)
     .on('get', this.getBrightness.bind(this))
     .on('set', this.setBrightness.bind(this))
+    //.on('set', this.)
 
   return [lampService];
 }
