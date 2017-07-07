@@ -41,6 +41,11 @@ function readJsonFile(fileName, callbackSuccess, callbackError){
   });
 }
 
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
@@ -97,7 +102,6 @@ app.get('/lamp/:charac/:value', function(req, res){
         obj[req.params.charac] = eval(req.params.value);
         var json = JSON.stringify(obj);
         fs.writeFileSync('files/lamp.json', json, 'utf8');
-
         res.json(obj);
       },
       () => {}

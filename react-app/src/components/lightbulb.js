@@ -39,6 +39,12 @@ const Styles = {
   }
 };
 
+
+// var evtSource = new EventSource('/lamp/state');
+// evtSource.onmessage = function(e) {
+//   console.log("data receive by evtSource : " + e.data);
+// };
+
 export const LightBulb = React.createClass({
   propTypes: {
     name: PropTypes.string.isRequired
@@ -50,6 +56,32 @@ export const LightBulb = React.createClass({
       on: false,
       asc: true
     };
+  },
+
+  componentDidMount(){
+    this.interval = setInterval(() => {
+      fetch("http://localhost:3000/lamp/state").then((response) => response.json())
+      .then(
+        responseJson => {
+          console.log(responseJson);
+          this.setState({brightness : responseJson.brightness,on: responseJson.on});
+        }
+
+      );
+    }, 100)
+    // console.log("componentDidMount");
+    // fetch("http://localhost:3000/lamp/state").then(response => response.json())
+    //   .then( responseJson => this.setState(
+    //     {
+    //       brightness : responseJson.brightness,
+    //       on: responseJson.on
+    //     }
+    //   )
+    // )},
+  },
+
+  componentWillUnmount(){
+    clearInterval(this.interval);
   },
 
   handleToggleLike() {
