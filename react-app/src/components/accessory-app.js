@@ -18,7 +18,9 @@ const AccessoryApp = React.createClass({
             />
           </div>
           <div className="1/2 grid__cell">
-            <Lock name="Lock 1" />
+            <Lock name="Lock 1"
+                id = {1}
+            />
           </div>
           <div className="1/2 grid__cell">
             <LightBulb name="Light bulb 4"

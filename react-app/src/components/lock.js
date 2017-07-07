@@ -41,6 +41,7 @@ const Styles = {
 
 export const Lock = React.createClass({
   propTypes: {
+    id : PropTypes.number.isRequired,
     name: PropTypes.string.isRequired
   },
 
@@ -48,6 +49,24 @@ export const Lock = React.createClass({
     return {
       locked: false
     };
+  },
+
+  componentDidMount(){
+    this.interval = setInterval(() => {
+      let url = "http://localhost:3000/lock/"+ this.props.id +"/state";
+      fetch(url).then((response) => response.json())
+      .then(
+        responseJson => {
+          console.log(responseJson);
+          this.setState({locked : responseJson.on});
+        }
+
+      );
+    }, 100)
+  },
+
+  componentWillUnmount(){
+    clearInterval(this.interval);
   },
 
   handleToggleLike() {
@@ -62,7 +81,6 @@ export const Lock = React.createClass({
           <img style={Styles.Image}
               src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
               width="250"
-              onClick={this.handleToggleLike}
           />
       </div>
     )

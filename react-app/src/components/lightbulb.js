@@ -108,7 +108,6 @@ export const LightBulb = React.createClass({
           <img style={Styles.Image}
               src={this.state.on ? require(`../img/light-bulb-${this.state.brightness}.png`): require('../img/light-bulb-0.png')}
               width="250"
-              onClick={this.handleToggleLike}
           />
       </div>
     )
