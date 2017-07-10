@@ -26,12 +26,15 @@ function Lightbulb(){
   this.name = "";
 }
 
+function Lock(){
+  this.on = true;
+}
+
 /**
   * Read a json file and call the callback method passed in parameter with the
   * extracted object
   */
 function readJsonFile(fileName, callbackSuccess, callbackError){
-  createLampFile(fileName);
   fs.readFile(DIR_FILES + fileName, FILE_ENCODE, function (err, data){
     if (err){
       console.log("error opening file :" + DIR_FILES + fileName);
@@ -53,7 +56,17 @@ function createLampFile(fileName){
     console.log("creating file " + fileName);
     fs.writeFileSync(DIR_FILES + fileName, JSON.stringify(new Lightbulb()),'utf8');
   }
+}
 
+function createLockFile(fileName){
+  if (!fs.existsSync(DIR_FILES + fileName)){
+    if (!fs.existsSync(DIR_FILES)){
+      fs.mkdirSync(DIR_FILES)
+      console.log("creating dir files");
+    }
+    console.log("creating file " + fileName);
+    fs.writeFileSync(DIR_FILES + fileName, JSON.stringify(new Lock()),'utf8');
+  }
 }
 
 app.use(function(req, res, next) {
@@ -76,6 +89,7 @@ app.listen(3000, function () {
  * Switch on the lamp
  */
 app.get('/lamp/:id/on/:isOn', function (req, res){
+  createLampFile(fileName);
   readJsonFile(PRE_OBJ_NAME + req.params.id + ".json",
     (obj) => {
       obj.on = (req.params.isOn=="1");
@@ -113,7 +127,9 @@ app.get('/lamp/:id/state', function(req, res){
  */
 app.get('/lamp/:id/:charac/:value', function(req, res){
   if (CHARACTERISTICS.includes(req.params.charac)){
-    readJsonFile(PRE_OBJ_NAME + req.params.id + ".json",
+    let fileName = PRE_OBJ_NAME + req.params.id + ".json";
+    createLampFile(fileName);
+    readJsonFile(fileName,
       (obj) => {
         obj[req.params.charac] = eval(req.params.value);
         obj.on = true;
@@ -127,4 +143,32 @@ app.get('/lamp/:id/:charac/:value', function(req, res){
     console.log("Error : the specified characteristic does not exist.");
     res.status(404).send('Not found');
   }
+})
+
+app.get('/lock/:id/state', function(req, res){
+  let fileName = "lock" + req.params.id + ".json";
+  createLockFile(fileName);
+  res.sendFile(fileName, SEND_FILE_OPT, function(err){
+    if(err){
+        console.log(err);
+        res.status(err.status).end();
+    }
+    else{
+        console.log('Sent: ' + "lock.json");
+    }
+  });
+})
+
+app.get('/lock/:id/on/:isOn', function(req, res){
+  let fileName = "lock" + req.params.id + ".json";
+  createLockFile(fileName);
+  readJsonFile(fileName,
+    (obj) => {
+      obj.on = (req.params.isOn=="1");
+      var json = JSON.stringify(obj);
+      fs.writeFileSync(DIR_FILES + "lock" + req.params.id + ".json", json, 'utf8');
+      res.json(obj);
+    },
+    () => {}
+  )
 })
