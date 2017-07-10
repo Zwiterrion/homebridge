@@ -3,17 +3,17 @@ var Service, Characteristic;
 
 
 module.exports = function(homebridge){
-   Service = homebridge.hap.Service;
-   Characteristic = homebridge.hap.Characteristic;
-   homebridge.registerAccessory("homebridge-floLock", "FloLock",
-    FloLockAccessory);
+  Service = homebridge.hap.Service;
+  Characteristic = homebridge.hap.Characteristic;
+  homebridge.registerAccessory("homebridge-floLock", "FloLock",
+  FloLockAccessory);
 }
 
 function FloLockAccessory(log, config){
   this.log = log;
   this.name = config["name"];
   this.id = config["id"];
-  this.lockName = config["flo_lock"] || this.name; // this.name if lampName not defined
+  this.lockName = config["lock_name"] || this.name; // this.name if lampName not defined
   this.log("Starting a floLock device with the name '" + this.lockName + "'");
 }
 
@@ -74,7 +74,7 @@ FloLockAccessory.prototype.getServices = function(){
 
   lockMechanism
       .getCharacteristic(Characteristic.LockCurrentState)
-      ..on('get', this.isOn.bind(this))
+      .on('get', this.isOn.bind(this));
 
   return [lockMechanism];
 }
