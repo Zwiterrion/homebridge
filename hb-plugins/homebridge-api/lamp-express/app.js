@@ -77,7 +77,7 @@ app.use(function(req, res, next) {
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
-})              onClick={this.handleToggleLike}
+})
 
 
 
@@ -89,7 +89,7 @@ app.listen(3000, function () {
  * Switch on the lamp
  */
 app.get('/lamp/:id/on/:isOn', function (req, res){
-  createLampFile(fileName);
+  createLampFile("lamp" + req.params.id + ".json");
   readJsonFile(PRE_OBJ_NAME + req.params.id + ".json",
     (obj) => {
       obj.on = (req.params.isOn=="1");
@@ -113,9 +113,6 @@ app.get('/lamp/:id/state', function(req, res){
     if(err){
         console.log(err);
         res.status(err.status).end();
-    }
-    else{
-        console.log('Sent: ' + "lamp.json");
     }
   });
 })
@@ -152,9 +149,6 @@ app.get('/lock/:id/state', function(req, res){
     if(err){
         console.log(err);
         res.status(err.status).end();
-    }
-    else{
-        console.log('Sent: ' + "lock.json");
     }
   });
 })
