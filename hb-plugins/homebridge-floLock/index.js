@@ -73,8 +73,9 @@ FloLockAccessory.prototype.getServices = function(){
     .on('set', this.switch.bind(this));
 
   lockMechanism
-      .getCharacteristic(Characteristic.LockCurrentState)
-      .on('get', this.isOn.bind(this));
+    .getCharacteristic(Characteristic.LockCurrentState)
+    .on('get', this.isOn.bind(this))
+    .on('set', this.switch.bind(this));
 
   return [lockMechanism];
 }
