@@ -80,10 +80,11 @@ export const Lock = React.createClass({
     clearInterval(this.interval);
   },
 
-  handleToggleLike() {
-    const old = this.state.locked;
-    this.setState({locked: !old});
-  },
+  // handleClick() {
+  //   const old = this.state.locked;
+  //   let url = "http://localhost:3000/lock/"+ this.props.id +"/on/" + !old;
+  //   fetch(url);
+  // },
 
   render() {
     return (
@@ -92,6 +93,7 @@ export const Lock = React.createClass({
           <img style={Styles.Image}
               src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
               width="250"
+              //onClick={this.handleClick}
           />
           <div style={Styles.Info}>
             <span style={Styles.Label}>State</span>{this.state.locked?"Locked":"Unlocked"}
