@@ -102,6 +102,85 @@ ThibLampAccessory.prototype.getBrightness = function(callback){
 
 }
 
+ThibLampAccessory.prototype.setSaturation = function(newSaturation,callback){
+
+  request.get({
+    url: `http://localhost:3000/lamp/${this.id}/saturation/` + newSaturation
+  }, function(err, response, body) {
+
+    if (!err && response.statusCode == 200) {
+      var json = JSON.parse(body);
+      var saturation = json.saturation;
+      this.log("Lamp saturation is %s", saturation);
+      callback(null, saturation); // success
+    }
+    else {
+      this.log("Error getting state (status code %s): %s", response.statusCode, err);
+      callback(err);
+    }
+  }.bind(this));
+
+}
+
+ThibLampAccessory.prototype.getSaturation = function(callback){
+  request.get({
+    url: `http://localhost:3000/${this.id}/lamp/state`
+  }, function(err, response, body) {
+
+    if (!err && response.statusCode == 200) {
+      var json = JSON.parse(body);
+      this.log(body);
+      var saturation = json.saturation;
+      this.log("Lamp brightness is %s", saturation);
+      callback(null, saturation); // success
+    } else {
+      this.log("Error getting state (status code %s): %s", response.statusCode, err);
+      callback(err);
+    }
+  }.bind(this));
+
+}
+
+ThibLampAccessory.prototype.setHue = function(newHue,callback){
+
+  request.get({
+    url: `http://localhost:3000/lamp/${this.id}/hue/` + newHue
+  }, function(err, response, body) {
+
+    if (!err && response.statusCode == 200) {
+      var json = JSON.parse(body);
+      var hue = json.hue;
+      this.log("Lamp hue is %s", hue);
+      callback(null, hue); // success
+    }
+    else {
+      this.log("Error getting state (status code %s): %s", response.statusCode, err);
+      callback(err);
+    }
+  }.bind(this));
+
+}
+
+ThibLampAccessory.prototype.getHue = function(callback){
+  request.get({
+    url: `http://localhost:3000/${this.id}/lamp/state`
+  }, function(err, response, body) {
+
+    if (!err && response.statusCode == 200) {
+      var json = JSON.parse(body);
+      this.log(body);
+      var hue = json.hue;
+      this.log("Lamp hue is %s", hue);
+      callback(null, saturation); // success
+    }
+    else {
+      this.log("Error getting state (status code %s): %s", response.statusCode, err);
+      callback(err);
+    }
+  }.bind(this));
+
+}
+
 
 ThibLampAccessory.prototype.getServices = function(){
 
@@ -115,7 +194,17 @@ ThibLampAccessory.prototype.getServices = function(){
   lampService
     .getCharacteristic(Characteristic.Brightness)
     .on('get', this.getBrightness.bind(this))
-    .on('set', this.setBrightness.bind(this))
+    .on('set', this.setBrightness.bind(this));
+
+  lampService
+    .getCharacteristic(Characteristic.Saturation)
+    .on('get', this.getSaturation.bind(this))
+    .on('set', this.setSaturation.bind(this));
+
+  lampService
+    .getCharacteristic(Characteristic.Hue)
+    .on('get', this.getHue.bind(this))
+    .on('set', this.setHue.bind(this));
 
   return [lampService];
 }
