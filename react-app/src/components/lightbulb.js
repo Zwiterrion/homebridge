@@ -23,8 +23,8 @@ const Styles = {
     borderRadius: '15px 15px 0px 0px'
   },
   Info: {
-    marginTop: 125,
-    marginBottom: 100,
+    marginTop: 75,
+    marginBottom: 75,
     marginRight: 'auto',
     marginLeft: 'auto',
     float: 'center'
@@ -60,7 +60,9 @@ export const LightBulb = React.createClass({
     return {
       brightness: 0,
       on: false,
-      asc: true
+      asc: true,
+      hue: 0,
+      saturation: 0
     };
   },
 
@@ -71,7 +73,12 @@ export const LightBulb = React.createClass({
       .then(
         responseJson => {
           console.log(responseJson);
-          this.setState({brightness : responseJson.brightness,on: responseJson.on});
+          this.setState({
+            brightness : responseJson.brightness,
+            on: responseJson.on,
+            hue: responseJson.hue,
+            saturation: responseJson.saturation
+          });
         }
 
       );
@@ -115,9 +122,15 @@ export const LightBulb = React.createClass({
               width="250"
           />
           <div style={Styles.Info}>
-            <span style={Styles.Label}>State</span>{this.state.on?"On":"Off"}
-            <br/><br/>
-            <span style={Styles.Label}>Brightness</span>{this.state.brightness + "%"}
+            <div>
+              <span style={Styles.Label}>State</span>{this.state.on?"On":"Off"}
+              <br/><br/>
+              <span style={Styles.Label}>Brightness</span>{this.state.brightness + "%"}
+              <br/><br/>
+              <span style={Styles.Label}>Hue</span>{this.state.hue}
+              <br/><br/>
+              <span style={Styles.Label}>Saturation</span>{this.state.saturation}
+            </div>
           </div>
       </div>
     )
