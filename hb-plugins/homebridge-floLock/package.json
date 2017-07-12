@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Test plugin for homebridge",
   "dependencies": {
-    "request" : "^2.81.0"
+    "mqtt": "^2.9.1",
+    "request": "^2.81.0"
   },
   "license": "",
   "keywords": [

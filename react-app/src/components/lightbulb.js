@@ -5,10 +5,13 @@ const Styles = {
   Card: {
     boxSizing: 'border-box',
     boxShadow: '10px 10px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12)',
-    maxWidth: 250,
-    minWidth: 250,
+    maxWidth: 410,
+    minWidth: 410,
+    minHeight: 350,
     marginRight: 'auto',
-    marginLeft: 'auto'
+    marginLeft: 'auto',
+    background: 'white',
+    borderRadius: 20
   },
   Title: {
     fontWeight: 'bold',
@@ -16,14 +19,22 @@ const Styles = {
     color: 'white',
     background: 'rgb(57,101,178)',
     marginRight: 'auto',
-    marginLeft: 'auto'
+    marginLeft: 'auto',
+    borderRadius: '15px 15px 0px 0px'
   },
   Info: {
-    marginTop: 16,
-    marginBottom: 16,
+    marginTop: 125,
+    marginBottom: 100,
     marginRight: 'auto',
     marginLeft: 'auto',
     float: 'center'
+  },
+  Label: {
+    color: 'white',
+    marginRight: 8,
+    padding: 4,
+    background: 'grey',
+    borderRadius: '4px'
   },
   Liked: {
     cursor: 'pointer',
@@ -35,15 +46,9 @@ const Styles = {
   },
   Image: {
     padding: 8,
-    float: 'Center'
+    float: 'Left'
   }
 };
-
-
-// var evtSource = new EventSource('/lamp/state');
-// evtSource.onmessage = function(e) {
-//   console.log("data receive by evtSource : " + e.data);
-// };
 
 export const LightBulb = React.createClass({
   propTypes: {
@@ -109,6 +114,11 @@ export const LightBulb = React.createClass({
               src={this.state.on ? require(`../img/light-bulb-${this.state.brightness}.png`): require('../img/light-bulb-0.png')}
               width="250"
           />
+          <div style={Styles.Info}>
+            <span style={Styles.Label}>State</span>{this.state.on?"On":"Off"}
+            <br/><br/>
+            <span style={Styles.Label}>Brightness</span>{this.state.brightness + "%"}
+          </div>
       </div>
     )
   }

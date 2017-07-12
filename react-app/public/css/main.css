@@ -1,3 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background: rgb(220,220,220);
+  margin-top: 0px;
+  height: 98%;
+  margin: 0;
+  padding:0;
+}
+
+#main {
+    min-height: 100%;
 }

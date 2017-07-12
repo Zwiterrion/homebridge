@@ -15,7 +15,11 @@ const titleStyle ={
 export const App = React.createClass({
   render() {
     return (
-      <div className="grid">
+      <div>
+        <h1 style={titleStyle}>Homebridge accessories</h1>
+        <AccessoryApp />
+      </div>
+      /*<div className="grid">
           <div className="1/2 grid__cell">
             <h1 style={titleStyle}>Homebridge accessories</h1>
             <AccessoryApp />
@@ -24,7 +28,7 @@ export const App = React.createClass({
             <h1 style={titleStyle}>Homebridge platforms</h1>
             <PlatformApp />
           </div>
-      </div>
+      </div>*/
     );
   }
 });

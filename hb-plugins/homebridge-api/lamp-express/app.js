@@ -93,6 +93,9 @@ app.get('/lamp/:id/on/:isOn', function (req, res){
   readJsonFile(PRE_OBJ_NAME + req.params.id + ".json",
     (obj) => {
       obj.on = (req.params.isOn=="1");
+      /*if(obj.on && obj.brightness == 0){
+        obj.brightness = 100;
+      }*/
       var json = JSON.stringify(obj);
       fs.writeFileSync(DIR_FILES + PRE_OBJ_NAME + req.params.id + ".json", json, 'utf8');
       res.json(obj);
@@ -129,7 +132,7 @@ app.get('/lamp/:id/:charac/:value', function(req, res){
     readJsonFile(fileName,
       (obj) => {
         obj[req.params.charac] = eval(req.params.value);
-        obj.on = true;
+        obj.on = (obj.brightness == 0)?false:true;
         var json = JSON.stringify(obj);
         fs.writeFileSync(DIR_FILES + PRE_OBJ_NAME + req.params.id + ".json", json, 'utf8');
         res.json(obj);

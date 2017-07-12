@@ -5,10 +5,13 @@ const Styles = {
   Card: {
     boxSizing: 'border-box',
     boxShadow: '10px 10px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12)',
-    maxWidth: 250,
-    minWidth: 250,
+    maxWidth: 410,
+    minWidth: 410,
+    minHeight: 350,
     marginRight: 'auto',
-    marginLeft: 'auto'
+    marginLeft: 'auto',
+    background: 'white',
+    borderRadius: 20
   },
   Title: {
     fontWeight: 'bold',
@@ -16,14 +19,22 @@ const Styles = {
     color: 'white',
     background: 'rgb(57,101,178)',
     marginRight: 'auto',
-    marginLeft: 'auto'
+    marginLeft: 'auto',
+    borderRadius: '15px 15px 0px 0px'
   },
   Info: {
-    marginTop: 16,
-    marginBottom: 16,
+    marginTop: 150,
+    marginBottom: 150,
     marginRight: 'auto',
     marginLeft: 'auto',
     float: 'center'
+  },
+  Label: {
+    color: 'white',
+    marginRight: 8,
+    padding: 4,
+    background: 'grey',
+    borderRadius: '4px'
   },
   Liked: {
     cursor: 'pointer',
@@ -35,7 +46,7 @@ const Styles = {
   },
   Image: {
     padding: 8,
-    float: 'Center'
+    float: 'Left'
   }
 };
 
@@ -82,6 +93,9 @@ export const Lock = React.createClass({
               src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
               width="250"
           />
+          <div style={Styles.Info}>
+            <span style={Styles.Label}>State</span>{this.state.locked?"Locked":"Unlocked"}
+          </div>
       </div>
     )
   }
