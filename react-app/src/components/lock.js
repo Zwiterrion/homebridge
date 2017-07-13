@@ -63,28 +63,13 @@ export const Lock = React.createClass({
   },
 
   componentDidMount(){
-    // this.interval = setInterval(() => {
-    //   let url = "http://localhost:3000/lock/"+ this.props.id +"/state";
-    //   fetch(url).then((response) => response.json())
-    //   .then(
-    //     responseJson => {
-    //       console.log(responseJson);
-    //       this.setState({locked : responseJson.on});
-    //     }
-    //
-    //   );
-    // }, 100)
     var that = this;
     this.source = new EventSource("http://192.168.86.55:3000/update");
     this.source.addEventListener("open" ,function(e){
       console.log("sse : connection open");
-      // var on = e.data.json().on;
-      // that.setState({locked : on});
     });
     this.source.addEventListener("connected" ,function(e){
       console.log("sse : " + e.data.welcomeMsg);
-      // var on = e.data.json().on;
-      // that.setState({locked : on});
     })
     this.source.addEventListener(`lock${this.props.id}` ,function(e){
       console.log("sse : " + e.data);
@@ -99,12 +84,6 @@ export const Lock = React.createClass({
     this.source.close();
   },
 
-  // handleClick() {
-  //   const old = this.state.locked;
-  //   let url = "http://localhost:3000/lock/"+ this.props.id +"/on/" + !old;
-  //   fetch(url);
-  // },
-
   render() {
     return (
       <div style={Styles.Card}>
@@ -112,7 +91,6 @@ export const Lock = React.createClass({
           <img style={Styles.Image}
               src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
               width="250"
-              //onClick={this.handleClick}
           />
           <div style={Styles.Info}>
             <span style={Styles.Label}>State</span>{this.state.locked?"Locked":"Unlocked"}

@@ -60,57 +60,38 @@ export const LightBulb = React.createClass({
     return {
       brightness: 0,
       on: false,
-      asc: true,
       hue: 0,
       saturation: 0
     };
   },
 
   componentDidMount(){
-    // this.interval = setInterval(() => {
-    //   let url = "http://localhost:3000/lamp/"+ this.props.id +"/state";
-    //   fetch(url).then((response) => response.json())
-    //   .then(
-    //     responseJson => {
-    //       console.log(responseJson);
-    //       this.setState({
-    //         brightness : responseJson.brightness,
-    //         on: responseJson.on,
-    //         hue: responseJson.hue,
-    //         saturation: responseJson.saturation
-    //       });
-    //     }
-    //
-    //   );
-    // }, 100)
+    var that = this;
+    this.source = new EventSource("http://192.168.86.55:3000/update");
+    this.source.addEventListener("open" ,function(e){
+      console.log("sse : connection open");
+    });
+    this.source.addEventListener("connected" ,function(e){
+      console.log("sse : " + e.data.welcomeMsg);
+    })
+    this.source.addEventListener(`lamp${this.props.id}` ,function(e){
+      console.log("sse : " + e.data);
+      var on = JSON.parse(e.data).on;
+      var brightness = JSON.parse(e.data).brightness;
+      var hue = JSON.parse(e.data).hue;
+      var saturation = JSON.parse(e.data).saturation;
+      console.log("on :" + on + "brightness "+ brightness
+      + "hue "+ hue +"saturation "+ saturation);
+      that.setState({locked : on});
+      that.setState({locked : brightness});
+      that.setState({locked : hue});
+      that.setState({locked : saturation});
+    })
   },
 
   componentWillUnmount(){
-    //clearInterval(this.interval);
-  },
-
-  handleToggleLike() {
-    let brightness = this.state.brightness;
-    let asc = this.state.asc;
-    if(asc){
-      if(brightness<100){
-        this.setState({brightness : brightness+10, on: true});
-      }
-      else{
-        this.setState({brightness : brightness-10, asc: false });
-      }
-    }
-    else{
-      if(brightness>10){
-        this.setState({brightness : brightness-10 });
-      }
-      else if(brightness==10){
-        this.setState({brightness : brightness-10, on : false});
-      }
-      else{
-        this.setState({brightness : brightness+10, on : true, asc: true });
-      }
-    }
+    this.source.removeAllListeners();
+    this.source.close();
   },
 
   render() {
