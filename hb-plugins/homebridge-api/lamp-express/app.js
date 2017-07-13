@@ -1,3 +1,7 @@
+var EventEmitter = require('events').EventEmitter;
+
+var ee = new EventEmitter();
+
 const express = require('express')
 const fs = require('fs')
 const app = express()
@@ -15,8 +19,11 @@ const SEND_FILE_OPT = {
 };
 const CHARACTERISTICS = ['brightness','hue','saturation'];
 
+var sse;
+
 /**
  * Lightbulb object
+ * @constructor
  */
 function Lightbulb(){
   this.on = true;
@@ -26,6 +33,10 @@ function Lightbulb(){
   this.name = "";
 }
 
+/**
+ * Lock object
+ * @constructor
+ */
 function Lock(){
   this.on = true;
 }
@@ -37,18 +48,6 @@ function readJsonFile(fileName){
   data = fs.readFileSync(DIR_FILES + fileName, FILE_ENCODE);
   return JSON.parse(data);
 }
-
-// function readJsonFile(fileName, callbackSuccess, callbackError){
-//   fs.readFile(DIR_FILES + fileName, FILE_ENCODE, function (err, data){
-//     if (err){
-//       console.log("error opening file :" + DIR_FILES + fileName);
-//       callbackError.call(null);
-//     }else{
-//       let obj = JSON.parse(data);
-//       callbackSuccess.call(null,obj);
-//     }
-//   });
-// }
 
 // create file if it doesn't exist
 function createLampFile(fileName){
@@ -73,6 +72,31 @@ function createLockFile(fileName){
   }
 }
 
+function startSees(res) {
+  res.writeHead(200, {
+    'Content-Type': 'text/event-stream',
+    'Cache-Control': 'no-cache',
+    'Connection': 'keep-alive'
+  });
+  res.write("\n");
+
+
+
+  var sseFunc = function sendSse(name,data,id) {
+    res.write("event: " + name + "\n");
+    if(id) res.write("id: " + id + "\n");
+    res.write("data: " + JSON.stringify(data) + "\n\n");
+  };
+
+  ee.on('sse',function(topic,data){
+    sseFunc(topic,data);
+  });
+
+  return sseFunc;
+}
+
+
+
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
@@ -83,11 +107,15 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 
-
-
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!')
 })
+
+
+// for server side event suscribing
+app.get('/update',function(req, res){
+  sse = startSees(res);
+});
 
 /**
  * Switch on the lamp
@@ -96,9 +124,6 @@ app.get('/lamp/:id/on/:isOn', function (req, res){
   createLampFile("lamp" + req.params.id + ".json");
   obj = readJsonFile(PRE_OBJ_NAME + req.params.id + ".json");
   obj.on = (req.params.isOn=="1");
-  /*if(obj.on && obj.brightness == 0){
-    obj.brightness = 100;
-  }*/
   var json = JSON.stringify(obj);
   fs.writeFileSync(DIR_FILES + PRE_OBJ_NAME + req.params.id + ".json", json, 'utf8');
   res.json(obj);
@@ -154,12 +179,13 @@ app.get('/lock/:id/state', function(req, res){
   });
 })
 
-app.get('/lock/:id/on/:isOn', function(req, res){
+app.get('/lock/:id/on/:isOn',function(req, res){
   let fileName = "lock" + req.params.id + ".json";
   createLockFile(fileName);
   obj = readJsonFile(fileName);
-      obj.on = (req.params.isOn=="1");
-      var json = JSON.stringify(obj);
-      fs.writeFileSync(DIR_FILES + "lock" + req.params.id + ".json", json, 'utf8');
-      res.json(obj);
+  obj.on = (req.params.isOn=="1");
+  var json = JSON.stringify(obj);
+  fs.writeFileSync(DIR_FILES + "lock" + req.params.id + ".json", json, 'utf8');
+  res.json(obj);
+  ee.emit('sse',`lock${req.params.id}`,obj);
 })

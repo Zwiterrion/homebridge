@@ -67,26 +67,26 @@ export const LightBulb = React.createClass({
   },
 
   componentDidMount(){
-    this.interval = setInterval(() => {
-      let url = "http://localhost:3000/lamp/"+ this.props.id +"/state";
-      fetch(url).then((response) => response.json())
-      .then(
-        responseJson => {
-          console.log(responseJson);
-          this.setState({
-            brightness : responseJson.brightness,
-            on: responseJson.on,
-            hue: responseJson.hue,
-            saturation: responseJson.saturation
-          });
-        }
-
-      );
-    }, 100)
+    // this.interval = setInterval(() => {
+    //   let url = "http://localhost:3000/lamp/"+ this.props.id +"/state";
+    //   fetch(url).then((response) => response.json())
+    //   .then(
+    //     responseJson => {
+    //       console.log(responseJson);
+    //       this.setState({
+    //         brightness : responseJson.brightness,
+    //         on: responseJson.on,
+    //         hue: responseJson.hue,
+    //         saturation: responseJson.saturation
+    //       });
+    //     }
+    //
+    //   );
+    // }, 100)
   },
 
   componentWillUnmount(){
-    clearInterval(this.interval);
+    //clearInterval(this.interval);
   },
 
   handleToggleLike() {
