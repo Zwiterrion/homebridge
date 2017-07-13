@@ -9,7 +9,7 @@ const titleStyle ={
   fontWeight: 'bold',
   padding: 8,
   color: 'white',
-  background: 'rgb(57,101,178)'
+  background: 'rgb(0,120,150)'
 }
 
 export const App = React.createClass({

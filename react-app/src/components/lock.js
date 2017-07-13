@@ -10,14 +10,14 @@ const Styles = {
     minHeight: 350,
     marginRight: 'auto',
     marginLeft: 'auto',
-    background: 'white',
+    background: 'linear-gradient(-180deg, rgb(226,213,186), rgb(236,226,226))',
     borderRadius: 20
   },
   Title: {
     fontWeight: 'bold',
     padding: 8,
     color: 'white',
-    background: 'rgb(57,101,178)',
+    background: 'rgb(0,120,150)',
     marginRight: 'auto',
     marginLeft: 'auto',
     borderRadius: '15px 15px 0px 0px'
