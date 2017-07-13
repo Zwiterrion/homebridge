@@ -1,16 +1,11 @@
 {
-  "name": "react-workshop",
-  "description": "React Workshop",
+  "name": "react-app",
+  "description": "React App",
   "version": "0.1.0",
   "dependencies": {
-    "prop-types": "^15.5.10",
-    "react": "0.14.7",
-    "react-bootstrap-slider": "^2.0.0",
-    "react-dom": "0.14.7",
-    "react-rangeslider": "^2.1.0",
-    "react-router": "2.0.1",
-    "react-websocket": "^1.1.7",
-    "whatwg-fetch": "0.11.0"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "babel-loader": "6.2.4",

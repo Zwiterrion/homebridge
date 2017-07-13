@@ -80,8 +80,8 @@ export const LightBulb = React.createClass({
       var brightness = JSON.parse(e.data).brightness;
       var hue = JSON.parse(e.data).hue;
       var saturation = JSON.parse(e.data).saturation;
-      console.log("on :" + on + "brightness "+ brightness
-      + "hue "+ hue +"saturation "+ saturation);
+      console.log("on :" + on + " | brightness "+ brightness
+      + " | hue "+ hue +" | saturation "+ saturation);
       that.setState({on : on, brightness : brightness,
         hue : hue, saturation : saturation});
     })

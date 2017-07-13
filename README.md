@@ -33,6 +33,10 @@ Ensuite déplacez le fichier config.json situé à la racine du projet dans le d
 
 par défaut : ```~/.homebridge/```
 
+## Installation
+
+Lancez le script ```$ ./install.sh``` qui va s'occuper de lancer les ```npm install``` nécessaires.
+
 ## Lancement
 
 Ouvrez trois consoles et lancez les scripts :
