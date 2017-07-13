@@ -19,8 +19,6 @@ const SEND_FILE_OPT = {
 };
 const CHARACTERISTICS = ['brightness','hue','saturation'];
 
-var sse;
-
 /**
 * Lightbulb object
 * @constructor
