@@ -1,33 +1,33 @@
 {
-    "bridge": {
-        "name": "Homebridge de Florian",
-        "username": "CF:25:3D:E3:CE:46",
-        "port": 51786,
-        "pin": "037-41-155"
+  "bridge": {
+    "name": "Homebridge de Florian",
+    "username": "CF:25:3D:E3:CE:46",
+    "port": 51786,
+    "pin": "037-41-155"
+  },
+
+  "description": "Serli homebridge project",
+
+  "accessories": [
+    {
+      "accessory": "ThibLamp",
+      "name": "Lampe salon",
+      "id": "1"
     },
-
-    "description": "Serli homebridge project",
-
-    "accessories": [
-        {
-            "accessory": "ThibLamp",
-            "name": "Lampe salon",
-	    "id": "1"
-        },
-	{
-            "accessory": "ThibLamp",
-            "name": "Lampe cuisine",
-	    "id": "2"
-        },
-	{
-            "accessory": "FloLock",
-            "name": "Verrou entrée",
-	    "id": "1"
-        },
-	{
-            "accessory": "FloLock",
-            "name": "Verrou coffre fort",
-	    "id": "2"
-        }
-    ]
+    {
+      "accessory": "ThibLamp",
+      "name": "Lampe cuisine",
+      "id": "2"
+    },
+    {
+      "accessory": "FloLock",
+      "name": "Verrou entrée",
+      "id": "1"
+    },
+    {
+      "accessory": "FloLock",
+      "name": "Verrou coffre fort",
+      "id": "2"
+    }
+  ]
 }
