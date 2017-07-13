@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd hb-plugins/homebridge-api/lamp-express
+cd homebridge-api
 node app.js
 
