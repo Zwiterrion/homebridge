@@ -63,6 +63,16 @@ export const Lock = React.createClass({
   },
 
   componentDidMount(){
+
+    let url = "http://localhost:3000/lock/"+ this.props.id +"/state";
+    fetch(url).then((response) => response.json())
+    .then(
+      responseJson => {
+        console.log(responseJson);
+        this.setState({locked : responseJson.on});
+      }
+    );
+
     var that = this;
     this.source = new EventSource("http://192.168.86.55:3000/update");
     this.source.addEventListener("open" ,function(e){
@@ -87,14 +97,14 @@ export const Lock = React.createClass({
   render() {
     return (
       <div style={Styles.Card}>
-          <h2 style={Styles.Title}> {this.props.name} </h2>
-          <img style={Styles.Image}
-              src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
-              width="250"
-          />
-          <div style={Styles.Info}>
-            <span style={Styles.Label}>State</span>{this.state.locked?"Locked":"Unlocked"}
-          </div>
+        <h2 style={Styles.Title}> {this.props.name} </h2>
+        <img style={Styles.Image}
+          src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
+          width="250"
+        />
+        <div style={Styles.Info}>
+          <span style={Styles.Label}>State</span>{this.state.locked?"Locked":"Unlocked"}
+        </div>
       </div>
     )
   }
