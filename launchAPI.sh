@@ -1,5 +1,4 @@
 #!/bin/bash
 
-cd homebridge-api
+cd homebridge-api/src
 node app.js
-
