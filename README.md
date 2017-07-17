@@ -50,9 +50,9 @@ Ouvrez trois consoles et lancez les scripts :
 
 ## Architecture
 
-Nos lampes/verrous sont ajoutés à Homebridge par des plugins qui se trouvent dans le dossier ```./hb-plugins```.
+Nos lampes/verrous sont ajoutés à Homebridge par des plugins qui se trouvent dans le dossier ```./hb-plugins```. Ces plugins contiennent notamment les fonctions permettant d'utiliser les composants et de récuperer leur état.
 
-Homebridge communique les changements de nos objets à l'API par des requêtes HTTP. L'API est un serveur Node.js utilisant le framework Express.
+Homebridge communique les changements de nos objets à l'API par des requêtes HTTP. L'API est un serveur Node.js utilisant le framework Express. Les états des objets sont stockés dans des fichiers JSON sur le serveur.
 
-L'application permettant la visualisation de nos objets utilise React et implémente un composant par plugin Homebridge.
+L'application permettant la visualisation de nos objets utilise React et implémente un composant par plugin Homebridge. Les composants React reçoivent les changements sur les objets en s'abonnant à l'API via les Server Send Event.
 ![architecture](./architecture.png)
