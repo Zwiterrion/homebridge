@@ -2,25 +2,30 @@ var EventEmitter = require('events').EventEmitter;
 
 var ee = new EventEmitter();
 
-var startSees = function (res) {
-  res.writeHead(200, {
-    'Content-Type': 'text/event-stream',
-    'Cache-Control': 'no-cache',
-    'Connection': 'keep-alive'
-  });
-  res.write("\n");
+var startSees = {
 
-  var sseFunc = function sendSse(name,data,id) {
-    res.write("event: " + name + "\n");
-    if(id) res.write("id: " + id + "\n");
-    res.write("data: " + JSON.stringify(data) + "\n\n");
-  };
+  subscribers : [],
 
-  ee.on('sse',function(topic,data){
-    sseFunc(topic,data);
-  });
+  subscribe : function(res){
+    res.writeHead(200, {
+      'Content-Type': 'text/event-stream',
+      'Cache-Control': 'no-cache',
+      'Connection': 'keep-alive'
+    });
+    res.write("\n");
+    this.subscribers.push(res);
+  },
 
-  return sseFunc;
+  sseEventListen : function (){
+    let that = this;
+    ee.on('sse',function(name,data){
+        that.subscribers.forEach( function(res){
+        res.write("event: " + name + "\n");
+        res.write("data: " + JSON.stringify(data) + "\n\n");
+      })
+    });
+  }
+
 };
 
 exports.ee = ee;
