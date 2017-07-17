@@ -6,6 +6,7 @@ import AccessoryApp from './components/accessory-app';
 import PlatformApp from './components/platform-app';
 
 const titleStyle ={
+  margin:0,
   fontWeight: 'bold',
   padding: 8,
   color: 'white',

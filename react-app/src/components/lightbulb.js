@@ -1,6 +1,8 @@
 /* eslint react/no-multi-comp: 0, react/jsx-max-props-per-line: 0 */
 import React, { PropTypes } from 'react';
 
+const api = "http://192.168.86.55:3000"
+
 const Styles = {
   Card: {
     boxSizing: 'border-box',
@@ -67,7 +69,7 @@ export const LightBulb = React.createClass({
 
   componentDidMount(){
     // initialize component state with the server
-    let url = "http://192.168.86.55:3000/lamp/"+ this.props.id +"/state";
+    let url = api + "/lamp/"+ this.props.id +"/state";
     fetch(url).then((response) => response.json())
     .then(
       responseJson => {
@@ -83,7 +85,7 @@ export const LightBulb = React.createClass({
 
 
       var that = this;
-      this.source = new EventSource("http://192.168.86.55:3000/update");
+      this.source = new EventSource(api + "/update");
       this.source.addEventListener("open" ,function(e){
         console.log("sse : connection open");
       });
