@@ -1,8 +1,6 @@
 /* eslint react/no-multi-comp: 0, react/jsx-max-props-per-line: 0 */
 import React, { PropTypes } from 'react';
 
-const api = "http://192.168.86.55:3000"
-
 const Styles = {
   Card: {
     boxSizing: 'border-box',
@@ -54,6 +52,7 @@ const Styles = {
 
 export const LightBulb = React.createClass({
   propTypes: {
+    api: PropTypes.string.isRequired,
     id : PropTypes.number.isRequired,
     name: PropTypes.string.isRequired
   },
@@ -69,7 +68,7 @@ export const LightBulb = React.createClass({
 
   componentDidMount(){
     // initialize component state with the server
-    let url = api + "/lamp/"+ this.props.id +"/state";
+    let url = this.props.api + "/lamp/"+ this.props.id +"/state";
     fetch(url).then((response) => response.json())
     .then(
       responseJson => {
@@ -85,8 +84,8 @@ export const LightBulb = React.createClass({
 
 
       var that = this;
-      this.source = new EventSource(api + "/update");
-      this.source.addEventListener("open" ,function(e){
+      this.source = new EventSource(this.props.api + "/update");
+      this.source.addEventListener("open" ,function(){
         console.log("sse : connection open");
       });
       this.source.addEventListener("connected" ,function(e){
@@ -115,8 +114,8 @@ export const LightBulb = React.createClass({
           <div style={Styles.Card}>
             <h2 style={Styles.Title}> {this.props.name} </h2>
             <img style={Styles.Image}
-              src={this.state.on ? require(`../img/light-bulb-${this.state.brightness}.png`): require('../img/light-bulb-0.png')}
-              width="250"
+                src={this.state.on ? require(`../img/light-bulb-${this.state.brightness}.png`): require('../img/light-bulb-0.png')}
+                width="250"
             />
             <div style={Styles.Info}>
               <div>
