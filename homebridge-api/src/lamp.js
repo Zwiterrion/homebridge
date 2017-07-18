@@ -79,7 +79,6 @@ exports.changeCarac = function(req, res){
     obj[req.params.charac] = eval(req.params.value);
     obj.on = (obj.brightness != 0);
     let json = JSON.stringify(obj);
-    console.log("changing carac : " + json);
     fs.writeFileSync(DIR_FILES + PRE_OBJ_NAME + req.params.id + ".json", json, 'utf8');
     res.json(obj);
     ee.emit('sse',`lamp${req.params.id}`,obj);
