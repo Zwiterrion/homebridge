@@ -37,7 +37,7 @@ par défaut : ```~/.homebridge/```
 
 Lancez le script ```$ ./install.sh``` qui va s'occuper de lancer les ```npm install``` nécessaires.
 
-Dans le dossier react-app/src/components, modifiez la variable api dans lightbulb.js et lock.js pour qu'elle corresponde à l'adresse de l'api.
+Dans le dossier react-app/src/components/accessory-app.js, modifiez la variable api pour qu'elle corresponde à l'adresse de l'api.
 
 Modifiez aussi la variable host dans le fichier react-app/webpack.config.js pour qu'elle corresponde à l'adresse de votre ordinateur.
 
