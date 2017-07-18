@@ -18,7 +18,7 @@ function FloLockAccessory(log, config){
 }
 
 /**
-* check for the lampe current state (on/off)
+* check for the lock current state (on/off)
 */
 FloLockAccessory.prototype.isOn = function(callback){
 

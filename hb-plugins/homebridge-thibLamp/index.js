@@ -84,7 +84,7 @@ ThibLampAccessory.prototype.setBrightness = function(newBrightness,callback){
 
 ThibLampAccessory.prototype.getBrightness = function(callback){
   request.get({
-    url: `http://localhost:3000/${this.id}/lamp/state`
+    url: `http://localhost:3000/lamp/${this.id}/state`
   }, function(err, response, body) {
 
     if (!err && response.statusCode == 200) {
@@ -124,14 +124,14 @@ ThibLampAccessory.prototype.setSaturation = function(newSaturation,callback){
 
 ThibLampAccessory.prototype.getSaturation = function(callback){
   request.get({
-    url: `http://localhost:3000/${this.id}/lamp/state`
+    url: `http://localhost:3000/lamp/${this.id}/state`
   }, function(err, response, body) {
-
     if (!err && response.statusCode == 200) {
+
       var json = JSON.parse(body);
       this.log(body);
       var saturation = json.saturation;
-      this.log("Lamp brightness is %s", saturation);
+      this.log("Lamp saturation is %s", saturation);
       callback(null, saturation); // success
     } else {
       this.log("Error getting state (status code %s): %s", response.statusCode, err);
@@ -163,7 +163,7 @@ ThibLampAccessory.prototype.setHue = function(newHue,callback){
 
 ThibLampAccessory.prototype.getHue = function(callback){
   request.get({
-    url: `http://localhost:3000/${this.id}/lamp/state`
+    url: `http://localhost:3000/lamp/${this.id}/state`
   }, function(err, response, body) {
 
     if (!err && response.statusCode == 200) {
@@ -171,7 +171,7 @@ ThibLampAccessory.prototype.getHue = function(callback){
       this.log(body);
       var hue = json.hue;
       this.log("Lamp hue is %s", hue);
-      callback(null, saturation); // success
+      callback(null, hue); // success
     }
     else {
       this.log("Error getting state (status code %s): %s", response.statusCode, err);

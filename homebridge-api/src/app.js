@@ -4,11 +4,11 @@ const app = express()
 const ssevent = require('./ssevent.js')
 const lamp = require('./lamp.js')
 const lock = require('./lock.js')
-
 const ee = ssevent.ee;
 const startSees = ssevent.startSees;
 
-
+// start listening for event to forward with sse
+startSees.sseEventListen();
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -28,7 +28,7 @@ app.listen(3000, function () {
 // server side event subscription
 
 app.get('/update',function(req, res){
-  sse = startSees(res);
+  startSees.subscribe(res);
 });
 
 // lamp

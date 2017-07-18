@@ -1,6 +1,8 @@
 /* eslint react/no-multi-comp: 0, react/jsx-max-props-per-line: 0 */
 import React, { PropTypes } from 'react';
 
+const api = "http://192.168.86.55:3000"
+
 const Styles = {
   Card: {
     boxSizing: 'border-box',
@@ -10,14 +12,14 @@ const Styles = {
     minHeight: 350,
     marginRight: 'auto',
     marginLeft: 'auto',
-    background: 'white',
+    background: 'linear-gradient(-180deg, rgb(226,213,186), rgb(236,226,226))',
     borderRadius: 20
   },
   Title: {
     fontWeight: 'bold',
     padding: 8,
     color: 'white',
-    background: 'rgb(57,101,178)',
+    background: 'rgb(0,120,150)',
     marginRight: 'auto',
     marginLeft: 'auto',
     borderRadius: '15px 15px 0px 0px'
@@ -63,8 +65,18 @@ export const Lock = React.createClass({
   },
 
   componentDidMount(){
+
+    let url = api + "/lock/"+ this.props.id +"/state";
+    fetch(url).then((response) => response.json())
+    .then(
+      responseJson => {
+        console.log(responseJson);
+        this.setState({locked : responseJson.on});
+      }
+    );
+
     var that = this;
-    this.source = new EventSource("http://192.168.86.55:3000/update");
+    this.source = new EventSource(api + "/update");
     this.source.addEventListener("open" ,function(e){
       console.log("sse : connection open");
     });
@@ -87,14 +99,14 @@ export const Lock = React.createClass({
   render() {
     return (
       <div style={Styles.Card}>
-          <h2 style={Styles.Title}> {this.props.name} </h2>
-          <img style={Styles.Image}
-              src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
-              width="250"
-          />
-          <div style={Styles.Info}>
-            <span style={Styles.Label}>State</span>{this.state.locked?"Locked":"Unlocked"}
-          </div>
+        <h2 style={Styles.Title}> {this.props.name} </h2>
+        <img style={Styles.Image}
+          src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
+          width="250"
+        />
+        <div style={Styles.Info}>
+          <span style={Styles.Label}>State</span>{this.state.locked?"Locked":"Unlocked"}
+        </div>
       </div>
     )
   }
