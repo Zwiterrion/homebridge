@@ -157,7 +157,7 @@ ThibLampAccessory.prototype.getHue = function(callback){
   }, function(err, response, body) {
 
     if (!err && response.statusCode == 200) {
-      var json = JSON.parse(body
+      var json = JSON.parse(body);
       var hue = json.hue;
       callback(null, hue); // success
     }
