@@ -69,23 +69,14 @@ export const Lock = React.createClass({
     fetch(url).then((response) => response.json())
     .then(
       responseJson => {
-        console.log(responseJson);
         this.setState({locked : responseJson.on});
       }
     );
 
     var that = this;
     this.source = new EventSource(this.props.api + "/update");
-    this.source.addEventListener("open" ,function(){
-      console.log("sse : connection open");
-    });
-    this.source.addEventListener("connected" ,function(e){
-      console.log("sse : " + e.data.welcomeMsg);
-    })
     this.source.addEventListener(`lock${this.props.id}` ,function(e){
-      console.log("sse : " + e.data);
       var on = JSON.parse(e.data).on;
-      console.log("on :" + on);
       that.setState({locked : on});
     })
   },
@@ -100,8 +91,8 @@ export const Lock = React.createClass({
       <div style={Styles.Card}>
         <h2 style={Styles.Title}> {this.props.name} </h2>
         <img style={Styles.Image}
-          src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
-          width="250"
+            src={this.state.locked ? require(`../img/locked.png`): require('../img/unlocked.png')}
+            width="250"
         />
         <div style={Styles.Info}>
           <span style={Styles.Label}>State</span>{this.state.locked?"Locked":"Unlocked"}

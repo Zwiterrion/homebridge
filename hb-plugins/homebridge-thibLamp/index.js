@@ -28,9 +28,7 @@ ThibLampAccessory.prototype.isOn = function(callback){
 
     if (!err && response.statusCode == 200) {
       var json = JSON.parse(body);
-      this.log(body);
       var on = json.on;
-      console.log("The lamp is " + (on ? "on" : "off"));
       callback(null, on); // success
     }
     else {
@@ -52,7 +50,6 @@ ThibLampAccessory.prototype.switch = function(switchOn, callback){
     if (!err && response.statusCode == 200) {
       var json = JSON.parse(body);
       var on = json.on;
-      this.log("Lamp state is %s", on ? "on":"off");
       callback(null, on); // success
     }
     else {
@@ -71,7 +68,6 @@ ThibLampAccessory.prototype.setBrightness = function(newBrightness,callback){
     if (!err && response.statusCode == 200) {
       var json = JSON.parse(body);
       var brightness = json.brightness;
-      this.log("Lamp brightness is %s", brightness);
       callback(null, brightness); // success
     }
     else {
@@ -89,9 +85,7 @@ ThibLampAccessory.prototype.getBrightness = function(callback){
 
     if (!err && response.statusCode == 200) {
       var json = JSON.parse(body);
-      this.log(body);
       var brightness = json.brightness;
-      this.log("Lamp brightness is %s", brightness);
       callback(null, brightness); // success
     }
     else {
@@ -111,7 +105,6 @@ ThibLampAccessory.prototype.setSaturation = function(newSaturation,callback){
     if (!err && response.statusCode == 200) {
       var json = JSON.parse(body);
       var saturation = json.saturation;
-      this.log("Lamp saturation is %s", saturation);
       callback(null, saturation); // success
     }
     else {
@@ -129,9 +122,7 @@ ThibLampAccessory.prototype.getSaturation = function(callback){
     if (!err && response.statusCode == 200) {
 
       var json = JSON.parse(body);
-      this.log(body);
-      var saturation = json.saturation;
-      this.log("Lamp saturation is %s", saturation);
+      var saturation = json.saturation
       callback(null, saturation); // success
     } else {
       this.log("Error getting state (status code %s): %s", response.statusCode, err);
@@ -149,8 +140,7 @@ ThibLampAccessory.prototype.setHue = function(newHue,callback){
 
     if (!err && response.statusCode == 200) {
       var json = JSON.parse(body);
-      var hue = json.hue;
-      this.log("Lamp hue is %s", hue);
+      var hue = json.hue
       callback(null, hue); // success
     }
     else {
@@ -167,10 +157,8 @@ ThibLampAccessory.prototype.getHue = function(callback){
   }, function(err, response, body) {
 
     if (!err && response.statusCode == 200) {
-      var json = JSON.parse(body);
-      this.log(body);
+      var json = JSON.parse(body
       var hue = json.hue;
-      this.log("Lamp hue is %s", hue);
       callback(null, hue); // success
     }
     else {

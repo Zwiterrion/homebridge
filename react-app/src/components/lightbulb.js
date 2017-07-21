@@ -72,7 +72,6 @@ export const LightBulb = React.createClass({
     fetch(url).then((response) => response.json())
     .then(
       responseJson => {
-        console.log(responseJson);
         this.setState({
           brightness : responseJson.brightness,
           on: responseJson.on,
@@ -85,20 +84,11 @@ export const LightBulb = React.createClass({
 
       var that = this;
       this.source = new EventSource(this.props.api + "/update");
-      this.source.addEventListener("open" ,function(){
-        console.log("sse : connection open");
-      });
-      this.source.addEventListener("connected" ,function(e){
-        console.log("sse : " + e.data.welcomeMsg);
-      })
       this.source.addEventListener(`lamp${this.props.id}` ,function(e){
-        console.log("sse : " + e.data);
         var on = JSON.parse(e.data).on;
         var brightness = JSON.parse(e.data).brightness;
         var hue = JSON.parse(e.data).hue;
         var saturation = JSON.parse(e.data).saturation;
-        console.log("on :" + on + " | brightness "+ brightness
-        + " | hue "+ hue +" | saturation "+ saturation);
         that.setState({on : on, brightness : brightness,
           hue : hue, saturation : saturation});
         })

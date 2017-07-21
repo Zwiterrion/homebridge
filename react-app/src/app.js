@@ -3,7 +3,6 @@
 import 'whatwg-fetch';
 import React from 'react';
 import AccessoryApp from './components/accessory-app';
-import PlatformApp from './components/platform-app';
 
 const titleStyle ={
   margin:0,
@@ -20,16 +19,6 @@ export const App = React.createClass({
         <h1 style={titleStyle}>Homebridge accessories</h1>
         <AccessoryApp />
       </div>
-      /*<div className="grid">
-          <div className="1/2 grid__cell">
-            <h1 style={titleStyle}>Homebridge accessories</h1>
-            <AccessoryApp />
-          </div>
-          <div className="1/2 grid__cell">
-            <h1 style={titleStyle}>Homebridge platforms</h1>
-            <PlatformApp />
-          </div>
-      </div>*/
     );
   }
 });

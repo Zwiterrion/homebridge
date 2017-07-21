@@ -41,9 +41,7 @@ function createLampFile(fileName){
   if (!fs.existsSync(DIR_FILES + fileName)){
     if (!fs.existsSync(DIR_FILES)){
       fs.mkdirSync(DIR_FILES)
-      console.log("creating dir files");
     }
-    console.log("creating file " + fileName);
     fs.writeFileSync(DIR_FILES + fileName, JSON.stringify(new Lightbulb()),'utf8');
   }
 }

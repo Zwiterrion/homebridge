@@ -28,9 +28,7 @@ FloLockAccessory.prototype.isOn = function(callback){
 
     if (!err && response.statusCode == 200) {
       var json = JSON.parse(body);
-      this.log(body);
       var on = json.on;
-      console.log("The lock is " + (on ? "locked" : "unlocked"));
       callback(null, on); // success
     }
     else {
@@ -52,7 +50,6 @@ FloLockAccessory.prototype.switch = function(switchOn, callback){
     if (!err && response.statusCode == 200) {
       var json = JSON.parse(body);
       var on = json.on;
-      this.log("Lock state is %s", on ? "on":"off");
       callback(null, on); // success
     }
     else {
