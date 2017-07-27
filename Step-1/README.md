@@ -4,6 +4,8 @@ Homebridge est un serveur Node.js permettant d'émuler des objets compatible ave
 
 Ce projet a pour but de créer un robot "majordome" contrôlable depuis son iPhone en passant par un serveur Homebridge.
 
+Actuellement le projet permet de régler 2 lampes et 2 verrous virtuels avec l'application Home et permet de visualiser les modifications sur une application React.
+
 ## Pré-requis techniques
 
 Les pré-requis techniques sont les suivants :
