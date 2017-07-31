@@ -2,7 +2,7 @@
 
 import 'whatwg-fetch';
 import React from 'react';
-import AccessoryApp from './components/accessory-app';
+import Mic from './components/mic';
 
 const titleStyle ={
   margin:0,
@@ -15,9 +15,12 @@ const titleStyle ={
 export const App = React.createClass({
   render() {
     return (
-      <div>
-        <h1 style={titleStyle}>Homebridge accessories</h1>
-        <AccessoryApp />
+      <div className="outer">
+        <div className="middle">
+          <div className="inner">
+              <Mic />
+          </div>
+        </div>
       </div>
     );
   }
