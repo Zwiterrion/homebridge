@@ -1,0 +1,11 @@
+body {
+  margin: 0 !important;
+  padding:1px;
+  font-family: 'Roboto', sans-serif;
+  background: rgb(73,73,73);
+  height: 98%;
+}
+
+#main {
+    min-height: 100%;
+}
