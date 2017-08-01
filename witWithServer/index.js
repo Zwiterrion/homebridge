@@ -3,6 +3,9 @@ const fetch = require('node-fetch');
 const express = require('express')
 const app = express()
 const fs = require('fs')
+const toWav = require('audiobuffer-to-wav')
+const sox = require('sox.js')
+const { exec } = require('child_process');
 
 var bodyParser = require('body-parser')
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
@@ -34,23 +37,44 @@ app.post('/record', function(req, res){
   //     return res.json({'status': 'success'});
   //   }
   // })
-  fs.writeFileSync("audio/test.wav", buf)
-  var data = fs.readFileSync(`./audio/test.wav`);
-  fetch(API_ENDPOINT, {
-    method: 'POST',
-    body : data,
-    headers: {
-      'authorization' : 'Bearer ' + TOKEN,
-      'Content-Type' : 'audio/wav'
+  fs.writeFileSync("audio/test.ogg", buf)
+  // sox({
+  //   inputFile: './audio/test.opus',
+  //   outputFile: './audio/test.wav'
+  // });
+  exec( 'opusdec --force-wav audio/test.ogg - | sox - audio/test.wav', (err, stdout, stderr) => {
+    if (err) {
+      // node couldn't execute the command
+      console.log('error executing command');
+      console.log(`stderr: ${stderr}`);
+      return;
     }
-  }).then(function(res2) {
-    return res2.json();
-  }).then(function(json){
-    console.log("json : " + JSON.stringify(json));
-    console.log("json.entitites.object : " + json.entities.object);
-    smartSwitcher(json.intent, json.entities);
-    res.send("succes");
+
+    // the *entire* stdout and stderr (buffered)
+    console.log(`stdout: ${stdout}`);
+    console.log(`stderr: ${stderr}`);
+
+    var data = fs.readFileSync(`./audio/test.wav`);
+    fetch(API_ENDPOINT, {
+      method: 'POST',
+      body : data,
+      headers: {
+        'authorization' : 'Bearer ' + TOKEN,
+        'Content-Type' : 'audio/wav'
+      }
+    }).then(function(res2) {
+      return res2.json();
+    }).then(function(json){
+      console.log("json : " + JSON.stringify(json));
+      console.log("json.entitites.object : " + json.entities.object);
+      smartSwitcher(json.intent, json.entities);
+      res.send("succes");
+    });
+
+
   });
+
+
 
   // try{
   //   var data = fs.readFileSync(`./audio/test.wav`);

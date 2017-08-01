@@ -38,8 +38,8 @@ module.exports = {
     ]
   },
   devServer: {
-    port: 8080,
-    host: '192.168.86.53',
+    port: 3000,
+    host: 'localhost',
     historyApiFallback: true
   }
 };

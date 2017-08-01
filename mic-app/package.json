@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "dependencies": {
     "react": "^15.6.1",
+    "react-audio-recorder": "^2.0.0",
     "react-dom": "^15.6.1",
     "react-mic": "^8.0.0",
     "react-recorder": "^1.0.0",

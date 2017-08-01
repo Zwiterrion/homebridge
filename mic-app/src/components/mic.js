@@ -39,14 +39,14 @@ export const Mic = React.createClass({
       var base64 = dataUrl.split(',')[1];
       callback(base64);
     };
-    reader.readAsDataURL(blob);
+    reader.readAsDataURL(blob); // readAsDataUrl encode in base
   },
 
   onStop(recordedBlob){
     this.blobToBase64(recordedBlob.blob, function(base64){
       var update = {blob: base64};
       update = JSON.stringify(update);
-      fetch('http://192.168.86.55:8080/record/', {
+      fetch('http://localhost:8080/record/', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -65,7 +65,8 @@ export const Mic = React.createClass({
             className="sound-wave"
             onStop={this.onStop}
             strokeColor="#000000"
-            backgroundColor="#FF4081" />
+            backgroundColor="#FF4081"
+          />
         <br/>
         <button onClick={this.startRecording} type="button">Start</button>
         &nbsp;
