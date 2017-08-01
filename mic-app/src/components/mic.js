@@ -8,7 +8,8 @@ export const Mic = React.createClass({
 
   getInitialState() {
     return {
-      record: false
+      record: false,
+      hover : false
     };
   },
 
@@ -16,19 +17,11 @@ export const Mic = React.createClass({
   },
 
   componentWillUnmount(){
-    this.source.removeAllListeners();
-    this.source.close();
   },
 
-  startRecording(){
+  record(){
     this.setState({
-      record: true
-    });
-  },
-
-  stopRecording(){
-    this.setState({
-      record: false
+      record: !this.state.record
     });
   },
 
@@ -42,7 +35,7 @@ export const Mic = React.createClass({
     reader.readAsDataURL(blob); // readAsDataUrl encode in base
   },
 
-  onStop(recordedBlob){
+  handleStop(recordedBlob){
     this.blobToBase64(recordedBlob.blob, function(base64){
       var update = {blob: base64};
       update = JSON.stringify(update);
@@ -57,20 +50,55 @@ export const Mic = React.createClass({
     })
   },
 
+  handleMouseOver(){
+    this.setState({hover : true});
+  },
+
+  handleMouseOut(){
+    this.setState({hover : false});
+  },
+
+  selectImg(){
+    if(this.state.record){
+      if(this.state.hover){
+        return require(`../img/micOffHover.png`)
+      }
+      else{
+        return require(`../img/micOff.png`)
+      }
+    }
+    else{
+      if(this.state.hover){
+        return require(`../img/micOnHover.png`)
+      }
+      else{
+        return require(`../img/micOn.png`)
+      }
+    }
+  },
+
   render() {
     return (
       <div>
         <ReactMic
             record={this.state.record}
             className="sound-wave"
-            onStop={this.onStop}
-            strokeColor="#000000"
-            backgroundColor="#FF4081"
-          />
+            onStop={this.handleStop}
+            strokeColor="#ffffff"
+            backgroundColor="#008fca"
+            width="400"
+        />
         <br/>
-        <button onClick={this.startRecording} type="button">Start</button>
-        &nbsp;
-        <button onClick={this.stopRecording} type="button">Stop</button>
+        <br/>
+        <div className = "micbutton">
+          <img
+              src={this.selectImg()}
+              onMouseOver={this.handleMouseOver}
+              onMouseOut={this.handleMouseOut}
+              onClick={this.record}
+              width="100"
+          />
+        </div>
       </div>
     );
   }
