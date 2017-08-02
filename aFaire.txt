@@ -1,0 +1,35 @@
+backend de configuration
+scénario de base : accueil à Serli
+interaction social de bases
+(accueil, salutation, )
+
+- configurer trombinoscope dans back-end
+- règle de conversation comme Siri
+- allumer lampe d'entrée (avec couleur préférée de la personne)
+- avoir petit registre des personnes (avec couleur préférée, nom)
+- reco facial, conversation
+- api de reconnaissance d'image pour se déplacer, (pour plus tard)
+- pour l'instant robot fixe (prévoir qu'il se déplacera)
+- regarder pour générateur de back-end
+- demo de serli
+- répondre "je n'en en ai rien à foutre" pour le moment
+- annonces par enceinte (optionnelle)
+- parler avec propre ordi
+
+- prévoir plusieurs backend par mood
+- pouvoir configurer les moods selon l'heure (à prévoir)
+
+pour plus tard : 
+- mood conférence
+
+Architecture avec mood et scène : 
+
+mood et scène :
+mood : visite de Serli, conférence, Serli, ce que le robot peut faire, à le droit d'utiliser
+scène : ensemble des devices (+ plan des pièces), carré de déplacement, 
+
+la scène appartient au mood (plusieurs même mood avec des scènes différentes)
+
+point mardi
+
+

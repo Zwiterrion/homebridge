@@ -1,0 +1,147 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./microphone/css/microphone.min.css">
+  </head>
+  <body style="text-align: center;">
+    <center><div id="microphone"></div></center>
+    <pre id="result"></pre>
+    <div id="info"></div>
+    <div id="error"></div>
+    <script src="microphone/js/microphone.min.js"></script>
+    <script src="jquery-3.2.1.js"></script>
+
+    <script>
+      var headers = {
+       'Content-Type': 'application/json',
+      };
+
+
+      var mic = new Wit.Microphone(document.getElementById("microphone"));
+      var info = function (msg) {
+        document.getElementById("info").innerHTML = msg;
+      };
+      var error = function (msg) {
+        document.getElementById("error").innerHTML = msg;
+      };
+      mic.onready = function () {
+        info("Microphone is ready to record");
+      };
+      mic.onaudiostart = function () {
+        info("Recording started");
+        error("");
+      };
+      mic.onaudioend = function () {
+        info("Recording stopped, processing started");
+      };
+      mic.onresult = function (intent, entities) {
+        console.log("intent : " + intent.toSource());
+        console.log("entities : " + entities.toSource());
+        var r = kv("intent", intent);
+
+        for (var k in entities) {
+          var e = entities[k];
+
+          if (!(e instanceof Array)) {
+            r += kv(k, e.value);
+          } else {
+            for (var i = 0; i < e.length; i++) {
+              r += kv(k, e[i].value);
+            }
+          }
+        }
+
+        document.getElementById("result").innerHTML = r;
+        smartSwitcher(intent, entities );
+
+      };
+      mic.onerror = function (err) {
+        error("Error: " + err);
+      };
+      mic.onconnecting = function () {
+        info("Microphone is connecting");
+      };
+      mic.ondisconnected = function () {
+        info("Microphone is not connected");
+      };
+
+      mic.connect("JQFSBGLS2BJFAHQXFLL5J75OGZIVTCIO");
+      // mic.start();
+      // mic.stop();
+
+      function put(url, data, headers, success) {
+        $.ajax({
+            beforeSend: function(xhr){
+                $.each(headers, function(key, val) {
+                    xhr.setRequestHeader(key, val);
+                });
+            },
+            type: "PUT",
+            url: url,
+            processData: false,
+            data: data,
+            dataType: "json",
+            success: success
+        });
+      };
+
+      function get(url, success){
+        $.get(url, success);
+      };
+
+      function kv (k, v) {
+        if (toString.call(v) !== "[object String]") {
+          v = JSON.stringify(v);
+        }
+        return k + "=" + v + "\n";
+      };
+
+      function smartSwitcher(intent, entities){
+        // message
+        if (entities.message != null){
+          get(`http://192.168.86.53:5005/say/${entities.message.value}/fr-fr`, (data)=> {console.log("data recieved : " + data.toSource())});
+          console.log("message");
+        }
+        // object
+        else if (entities.object != null){
+          console.log("entities.object not null, entities.object :" + entities.object.toSource());
+          // objects are lamp, speakers, sensor ...
+          let nbObject = entities.object.length;
+          let objArray;
+          if (nbObject == null){
+            nbObject = 1;
+            objArray = [entities.object];
+          }else{
+            objArray = entities.object;
+          }
+
+          console.log("nbObject :" +  nbObject);
+          for (let i = 0; i < nbObject; i++){
+            switch (objArray[i].value){
+              case "lampe" :
+                let body = {"on": (entities.on_off.value)=="on" };
+                console.log(body.toSource());
+                put(
+                  "http://192.168.86.41/api/mOFeoGPD5DJlOlU8viJNN0ePuzzN0jQm79anuFDU/lights/2/state",
+                  JSON.stringify(body),
+                  headers,
+                  (response) => console.log(response.toSource())
+                );
+                break;
+              case "enceinte" :
+                get("http://192.168.86.53:5005/say/Dimitri travaille/fr-fr", (data)=> {console.log("data recieved : " + data.toSource())});
+                console.log("enceinte");
+                break;
+              case "alouette" :
+                get("http://192.168.86.53:5005/favorite/Alouette 98.3 (Musique Française)", (data)=> {console.log("data recieved : " + data.toSource())});
+                console.log("alouette");
+                break;
+            }
+          }
+        }
+      }
+
+      // "192.168.86.53:5005/say/coucou/fr-fr"
+
+    </script>
+  </body>
+  </html>
