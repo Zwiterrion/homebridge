@@ -3,10 +3,9 @@ const fetch = require('node-fetch');
 const express = require('express')
 const app = express()
 const fs = require('fs')
-const sox = require('sox.js')
 const { exec } = require('child_process');
-
-var bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
+const querystring = require('querystring');
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
@@ -48,15 +47,17 @@ app.post('/record', function(req, res){
         'authorization' : 'Bearer ' + TOKEN,
         'Content-Type' : 'audio/wav'
       }
-    }).then(function(res2) {
+    })
+    .then(function(res2) {
       return res2.json();
-    }).then(function(json){
+    })
+    .then(function(json){
       console.log("json : " + JSON.stringify(json));
       console.log("json.entitites.object : " + json.entities.object);
-      smartSwitcher(json.intent, json.entities);
-      res.send("succes");
-    });
-  });
+      return smartSwitcher(json.intent, json.entities);
+    })
+    .then(result=>res.json(result))
+  })
 });
 
 
@@ -75,8 +76,7 @@ app.get('/audio/:name', function(req, res){
     }).then(function(json){
       console.log("json : " + JSON.stringify(json));
       console.log("json.entitites.object : " + json.entities.object);
-      smartSwitcher(json.intent, json.entities);
-      res.send("succes");
+      res.send(smartSwitcher(json.intent, json.entities));
     });
   }catch(e){
     console.log('Error:', e.stack);
@@ -90,6 +90,7 @@ function smartSwitcher(intent, entities){
       (data)=> { console.log("data recieved : " + data) }
     );
     console.log("message");
+    return ""
   }
   // object
   else if (entities.object != null){
@@ -128,6 +129,29 @@ function smartSwitcher(intent, entities){
           break;
       }
     }
+    return (entities.on_off[0].value)=="on"? "Je viens d'allumer la lampe":"Je viens d'éteindre la lampe";
+  }
+  else if (entities.salutation != null){
+    return "Bonjour ! Tu va bien ?"
+    // const params = {
+    //   key: 'b29c66ace5c74a4d8150cd95b6819725',
+    //   hl: 'fr-fr',
+    //   src: 'Bonjour Florian ! Tu va bien ?',
+    //   r: 0,
+    //   c: 'mp3',
+    //   f: '44khz_16bit_stereo',
+    //   ssml: false,
+    //   b64: false,
+    // };
+    // const uri = "http://api.voicerss.org/";
+    // console.log("Salutation");
+    //
+    // fetch(uri + "?" + querystring.stringify(params), {
+    //   method: 'GET',
+    // }).then((content) => {
+    //   console.log(content.url);
+    //   return content.url;
+    // })
   }
 }
 

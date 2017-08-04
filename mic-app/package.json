@@ -8,6 +8,7 @@
     "react-dom": "^15.6.1",
     "react-mic": "^8.0.0",
     "react-recorder": "^1.0.0",
+    "react-sound": "^0.8.0",
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
