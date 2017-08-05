@@ -28,5 +28,13 @@ body {
 }
 
 .micbutton {
-  padding-left: 150px;
+  padding-left: 160px;
+}
+
+.mouth {
+  padding-left: 125px;
+}
+
+.recordDisplay {
+  display:none;
 }

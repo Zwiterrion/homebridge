@@ -36,8 +36,8 @@ app.post('/record', function(req, res){
     }
 
     // the *entire* stdout and stderr (buffered)
-    console.log(`stdout: ${stdout}`);
-    console.log(`stderr: ${stderr}`);
+    // console.log(`stdout: ${stdout}`);
+    // console.log(`stderr: ${stderr}`);
 
     var data = fs.readFileSync(`./audio/test.wav`);
     fetch(API_ENDPOINT, {
@@ -52,8 +52,8 @@ app.post('/record', function(req, res){
       return res2.json();
     })
     .then(function(json){
-      console.log("json : " + JSON.stringify(json));
-      console.log("json.entitites.object : " + json.entities.object);
+      // console.log("json : " + JSON.stringify(json));
+      // console.log("json.entitites.object : " + json.entities.object);
       return smartSwitcher(json.intent, json.entities);
     })
     .then(result=>res.json(result))
@@ -84,6 +84,7 @@ app.get('/audio/:name', function(req, res){
 });
 
 function smartSwitcher(intent, entities){
+  console.log(entities);
   // message
   if (entities.message != null){
     fetch(`http://192.168.86.53:5005/say/${entities.message.value}/fr-fr`).then(
@@ -132,27 +133,25 @@ function smartSwitcher(intent, entities){
     return (entities.on_off[0].value)=="on"? "Je viens d'allumer la lampe":"Je viens d'éteindre la lampe";
   }
   else if (entities.salutation != null){
-    return "Bonjour ! Tu va bien ?"
-    // const params = {
-    //   key: 'b29c66ace5c74a4d8150cd95b6819725',
-    //   hl: 'fr-fr',
-    //   src: 'Bonjour Florian ! Tu va bien ?',
-    //   r: 0,
-    //   c: 'mp3',
-    //   f: '44khz_16bit_stereo',
-    //   ssml: false,
-    //   b64: false,
-    // };
-    // const uri = "http://api.voicerss.org/";
-    // console.log("Salutation");
-    //
-    // fetch(uri + "?" + querystring.stringify(params), {
-    //   method: 'GET',
-    // }).then((content) => {
-    //   console.log(content.url);
-    //   return content.url;
-    // })
+    return "Bonjour, comment-allez vous ?"
   }
+  else if (entities.couleur != null){
+    return "J'espère que cette nouvelle ambiance vous conviendra."
+  }
+  else{
+    const tirage = getRandomInt(0,2);
+    switch(tirage){
+      case 0 : return "Je n'ai pas compris ce que vous avez dit."
+      case 1 : return "Pouvez vous répéter ?"
+      default : return "Je n'ai pas compris ce que vous avez dit."
+    }
+  }
+}
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
 }
 
 app.listen(PORT, ()=>(console.log(`listening on port : ${PORT}`)));

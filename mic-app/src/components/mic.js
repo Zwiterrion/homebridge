@@ -71,14 +71,10 @@ export const Mic = React.createClass({
           fetch(uri + "?" + querystring.stringify(params), {
             method: 'GET'
           }).then((content) => {
-            const text = content.url
-            // const text = content.url + "";
-            console.log(text);
             that.setState({
-              mp3: text,
+              mp3: content.url,
               sound: true
             });
-            // console.log(this.state);
           });
         })
       })
@@ -120,6 +116,26 @@ export const Mic = React.createClass({
     if(this.state.sound){
       return (
         <div>
+          <img
+              src={require(`../img/eyes.png`)}
+              width="400"
+          />
+          <img
+              className = "micbutton"
+              src={this.selectImg()}
+              onMouseOver={this.handleMouseOver}
+              onMouseOut={this.handleMouseOut}
+              onClick={this.record}
+              width="80"
+          />
+          <br/>
+          <br/>
+          <img
+              className = "mouth"
+              src={require(`../img/mouth.png`)}
+              width="150"
+          />
+          <div className = "recordDisplay">
           <ReactMic
               record={this.state.record}
               className="sound-wave"
@@ -128,16 +144,6 @@ export const Mic = React.createClass({
               backgroundColor="#008fca"
               width="400"
           />
-          <br/>
-          <br/>
-          <div className = "micbutton">
-            <img
-                src={this.selectImg()}
-                onMouseOver={this.handleMouseOver}
-                onMouseOut={this.handleMouseOut}
-                onClick={this.record}
-                width="100"
-            />
           </div>
           <Sound
               url={this.state.mp3}
@@ -150,6 +156,26 @@ export const Mic = React.createClass({
     else{
       return (
         <div>
+          <img
+              src={require(`../img/eyes.png`)}
+              width="400"
+          />
+          <img
+              className = "micbutton"
+              src={this.selectImg()}
+              onMouseOver={this.handleMouseOver}
+              onMouseOut={this.handleMouseOut}
+              onClick={this.record}
+              width="80"
+          />
+          <br/>
+          <br/>
+          <img
+              className = "mouth"
+              src={require(`../img/mouth.png`)}
+              width="150"
+          />
+          <div className = "recordDisplay">
           <ReactMic
               record={this.state.record}
               className="sound-wave"
@@ -158,16 +184,6 @@ export const Mic = React.createClass({
               backgroundColor="#008fca"
               width="400"
           />
-          <br/>
-          <br/>
-          <div className = "micbutton">
-            <img
-                src={this.selectImg()}
-                onMouseOver={this.handleMouseOver}
-                onMouseOut={this.handleMouseOut}
-                onClick={this.record}
-                width="100"
-            />
           </div>
         </div>
       );
