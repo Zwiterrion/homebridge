@@ -17,6 +17,12 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "node-fetch": "^1.7.1"
+    "audiobuffer": "^0.2.0",
+    "audiobuffer-to-wav": "^1.0.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "node-fetch": "^1.7.1",
+    "request": "^2.81.0"
   }
 }
