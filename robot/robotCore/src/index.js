@@ -1,7 +1,7 @@
 var OHLamp = require('./domo/openHab/lamp');
 var OHSpeakers = require('./domo/openHab/speakers');
 
-const OPENHAB_URL = 'http://localhost:8080';
+const OPENHAB_URL = 'http://192.168.86.55:8080';
 
 let lamp2 = new OHLamp(
 	`${OPENHAB_URL}/rest`,

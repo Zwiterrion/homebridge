@@ -35,6 +35,9 @@ function OHSpeakers(baseURL, speakerName, state = DEFAULT_STATE){
 		return fetchPost(`_volume`,`${volume}`);
 	}
 
+	this.playAudio = function(uri){
+		return fetchPost(`_playuri`,`${uri}`);
+	}
 }
 
 module.exports = OHSpeakers;
