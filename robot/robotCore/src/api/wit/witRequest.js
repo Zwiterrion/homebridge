@@ -3,7 +3,7 @@ const fetch = require('node-fetch')
 const TOKEN = 'M6TTF3QQLPHJ7VSCSMDCFRSK2H4NNHEJ';
 const API_ENDPOINT = 'https://api.wit.ai/speech';
 
-function sendWitRequest(data){
+function sendAudioRequest(data){
 	return fetch(API_ENDPOINT, {
 		method: 'POST',
 		body : data,
@@ -14,4 +14,4 @@ function sendWitRequest(data){
 	}).then(result => {console.log(result);return result} )
 }
 
-module.exports = sendWitRequest;
+module.exports = sendAudioRequest;
