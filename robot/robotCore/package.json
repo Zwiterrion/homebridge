@@ -20,6 +20,7 @@
     "audiobuffer": "^0.2.0",
     "audiobuffer-to-wav": "^1.0.0",
     "body-parser": "^1.17.2",
+    "child-process-promise": "^2.2.1",
     "express": "^4.15.3",
     "fs": "0.0.1-security",
     "node-fetch": "^1.7.1",

@@ -48,9 +48,9 @@ function OHLamp(baseURL, lampName, state = DEFAULT_STATE){
 		return fetchPost(`_color`, `${this.state.hue},${this.state.saturation},${value}`);
 	}
 
-
-	this.setColor = function(hue, saturation, value){
-		return fetchPost(`_color`, `${hue},${saturation},${value}`);
+	// hsv is an array containing the 3 hsv value
+	this.setColor = function(hsv){
+		return fetchPost(`_color`, `${hsv}`);
 	}
 
 }
