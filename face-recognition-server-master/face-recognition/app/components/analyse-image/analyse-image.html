@@ -1,0 +1,18 @@
+<div class="container fill" ng-click="$ctrl.recognize()">
+  <div class="row">
+    <div class="span12">
+      <img src="/images/bandeau-linka-rouge.png" width="100%" routerLink="/" [routerLinkActive]="['router-link-active']"/>
+    </div>
+    <br/>
+    <div class="span12" [hidden]="analysing">
+      <video #video></video>
+    </div>
+    <div class="span12" [hidden]="!analysing">
+      <canvas #canvas></canvas>
+    </div>
+    <div class="span12">
+      <button type="button" class="btn btn-default" (click)="analyse()" *ngIf="!analysing">Analyse</button>
+      <button type="button" class="btn btn-default" (click)="reset()" *ngIf="analysing">Reset</button>
+    </div>
+  </div>
+</div>

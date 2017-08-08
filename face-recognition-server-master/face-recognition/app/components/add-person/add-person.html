@@ -1,0 +1,24 @@
+<div class="container fill">
+  <div class="row">
+    <div class="span12">
+      <img src="/images/bandeau-linka-rouge.png" width="100%" routerLink="/" [routerLinkActive]="['router-link-active']"/>
+    </div>
+    <br/>
+    <div class="span12">
+      <video #video></video>
+    </div>
+    <div class="span12">
+      <canvas #canvas hidden="true"></canvas>
+    </div>
+    <div class="span12">
+      <form>
+        <div class="form-group">
+          <input name="name" class="form-control" type="text" placeholder="Client Name" [(ngModel)]="name" required/>
+        </div>
+        <div class="form-group">
+          <button type="button" class="btn btn-default" (click)="addNewPerson()">Add Client</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

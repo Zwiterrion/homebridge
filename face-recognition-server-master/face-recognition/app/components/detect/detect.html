@@ -1,0 +1,50 @@
+<div class="container fill">
+  <div class="row">
+    <div class="span12" style="display: flex">
+      <img src="/images/bandeau-linka-rouge.png" width="100%" height="140"
+        (click)="displayOptions.showMenu = !displayOptions.showMenu"/>
+        <img src="/images/ball.gif" *ngIf="displayOptions.loading"/>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span12">
+      <div *ngIf="client.name">
+        <h1> Bonjour {{client.name}} : Bienvenue à Serli !</h1>
+      </div>
+      <div *ngIf="!client.name">
+        <h1> Bienvenue à Serli</h1>
+      </div>
+      <div class="btn-group btn-group-justified" *ngIf="displayOptions.showMenu">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default" (click)="displayOptions.showWebcam = !displayOptions.showWebcam">Show/Hide Webcam</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default" routerLink="add-person" [routerLinkActive]="['router-link-active']">Add Person</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default" routerLink="faces-importer" [routerLinkActive]="['router-link-active']">Import Faces</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default" routerLink="analyse" [routerLinkActive]="['router-link-active']">Analyse</button>
+        </div>
+      </div>
+    </div>
+
+    <div [hidden]="!displayOptions.showWebcam">
+      <div class="span12">
+        <video #video autoplay></video>
+      </div>
+    </div>
+    <div *ngIf="!displayOptions.showWebcam">
+      <div class="span12">
+        <img src="/images/plan-linka.png" width="100%" />
+      </div>
+    </div>
+    <div [hidden]="displayOptions.detectModeOn">
+      <div class="span12">
+        <canvas #canvas hidden="true"></canvas>
+      </div>
+    </div>
+  </div>
+</div>

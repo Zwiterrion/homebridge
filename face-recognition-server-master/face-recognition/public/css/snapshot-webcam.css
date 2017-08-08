@@ -1,0 +1,45 @@
+.span12 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.fill {
+  /*min-height: 100%;*/
+}
+.row {
+  /*height: 100%;
+  min-height: 100%;*/
+}
+
+/*snapshot-webcam {
+  height: 100%;
+  min-height: 100%;
+}*/
+
+.table {
+  border: 0.5px solid #000000;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+   border: 0.5px solid #000000;
+}
+
+td, th {
+  font-size: 200%;
+}
+
+html {
+  /*height: 100%;*/
+}
+body {
+  /*height: 100%;*/
+  background-color: #e1dacc;
+  color: #878673;
+}

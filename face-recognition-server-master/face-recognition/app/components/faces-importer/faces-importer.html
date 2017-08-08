@@ -1,0 +1,16 @@
+<div class="container fill">
+  <div class="row">
+    <div class="span12">
+      <img src="/images/bandeau-linka-rouge.png" width="100%" routerLink="/" [routerLinkActive]="['router-link-active']"/>
+    </div>
+    <div class="span12">
+      <h3>Select files to upload, file names format : <b>FirstName-LastName.png</b></h3>
+      <form>
+        <br/>
+        <div class="form-group">
+          <input type="file" name="file" id="fileupload" (change)="uploadImages($event)" style="margin: auto;" multiple />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
