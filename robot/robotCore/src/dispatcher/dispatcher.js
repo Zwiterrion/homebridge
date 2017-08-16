@@ -4,7 +4,6 @@ const fetch = require('node-fetch')
 const SIMPLE_COLORS = require('../../config/colors/simpleColors.json');
 const EXTENDED_COLORS = require('../../config/colors/extendedColors.json');
 const COLORS = Object.assign({},SIMPLE_COLORS,EXTENDED_COLORS);
-console.log(COLORS);
 
 // object and APIs
 const OHLamp = require('../domo/openHab/lamp');
@@ -30,7 +29,7 @@ function smartSwitcher(intent, entities){
       (data)=> { console.log("data recieved : " + data)}
     );
     console.log("message");
-		return ""; 
+		return "";
   }
   // object
   else if (entities.object != null){
