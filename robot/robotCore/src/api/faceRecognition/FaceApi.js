@@ -66,8 +66,8 @@ function FaceAPI (){
 			body : data
 		}).then(results => results.map( res => {
 			let name = res.json()
-			.filter((person:any) => personIds.indexOf(person.personId) !== -1)
-			.map((person:any) => person.name);
+			.filter((person) => personIds.indexOf(person.personId) !== -1)
+			.map((person) => person.name);
 			return name;
 		});
   }
