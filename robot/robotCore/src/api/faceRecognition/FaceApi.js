@@ -4,13 +4,11 @@ const API_KEY = 'eb8bc9e352f6421f9dc3b3ea30ad736c';
 const API_ROOT_URL = 'https://api.projectoxford.ai/face/v1.0';
 const GROUP_ID = 'linka-digitech';
 
-
 function FaceAPI (){
 
-	this.detectFace = function(dataURI){
+	this.detectFace = function(data){
 		let headers = {'Content-Type': 'application/octet-stream','Ocp-Apim-Subscription-Key': API_KEY};
     let url = API_ROOT_URL+'/detect?returnFaceId=true&returnFaceLandmarks=false';
-    let data = CanvasUtils.convertToDataURIToBinary(dataURI);
 
 		return fetch(`${url}`, {
 			method : 'POST',
@@ -55,23 +53,21 @@ function FaceAPI (){
 		}))
   }
 
-  thid.getPersonNames = function(personIds) {
+  this.getPersonNames = function(personIds) {
     let headers = {'Content-Type': 'application/json','Ocp-Apim-Subscription-Key': API_KEY};
     let url = API_ROOT_URL+'/persongroups/'+GROUP_ID+'/persons';
 
 
 		return fetch(`${url}`, {
-			method : 'POST',
-			headers : headers,
-			body : data
+			method : 'GET',
+			headers : headers
 		}).then(results => results.map( res => {
 			let name = res.json()
 			.filter((person) => personIds.indexOf(person.personId) !== -1)
 			.map((person) => person.name);
 			return name;
-		});
+		}))
   }
-
 
   this.deletePerson = function(personId) {
     let headers = {'Content-Type': 'application/json','Ocp-Apim-Subscription-Key': API_KEY};
@@ -122,7 +118,7 @@ function FaceAPI (){
   // }
 
   this.persistedFacesBlob = function(res,blob) {
-    let headers = new Headers{'Content-Type': 'application/octet-stream','Ocp-Apim-Subscription-Key': API_KEY};
+    let headers = {'Content-Type': 'application/octet-stream','Ocp-Apim-Subscription-Key': API_KEY};
     let url = API_ROOT_URL+'/persongroups/'+GROUP_ID+'/persons/'+res+'/persistedFaces';
     let data = blob;
 		return fetch(`${url}`, {
