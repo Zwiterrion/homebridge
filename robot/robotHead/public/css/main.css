@@ -38,3 +38,7 @@ body {
 .recordDisplay {
   display:none;
 }
+
+.webcam {
+  padding-left: 50px;
+}
