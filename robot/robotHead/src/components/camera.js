@@ -2,7 +2,7 @@ import React from 'react';
 import Webcam from 'react-webcam';
 import {convertToDataURIToBinary} from '../utils/canvasUtils.js';
 
-const INTERVAL = 20000;
+const INTERVAL = 5000;
 const URL = `http://localhost:8090/detect`;
 
 const API_KEY = 'eb8bc9e352f6421f9dc3b3ea30ad736c';
@@ -25,7 +25,7 @@ export const Camera = React.createClass({
 
 	capture(){
 		const imageSrc = convertToDataURIToBinary(this.webcam.getScreenshot());
-		console.log(imageSrc);
+		// console.log(imageSrc);
 		// fetch(URL, {
 		// 	method: 'POST',
 		// 	headers: {
@@ -53,13 +53,14 @@ export const Camera = React.createClass({
 					// return faceIds;
 					console.log(faceIds)
 				}
+				else
 				console.log("face id vide")
 			}
 	)})
 	},
 
 	componentDidMount(){
-		// setInterval(()=>{ this.recognize() }, INTERVAL);
+		// setInterval(()=>{ this.capture() }, INTERVAL);
   },
 
   componentWillUnmount(){
@@ -73,18 +74,15 @@ export const Camera = React.createClass({
 
 	render() {
 		return (
-			<div>
-				<h2>Camera</h2>
-				<div>
+			<div className = "webcam">
 					<Webcam
 						audio={false}
-          	height={500}
+          	height={300}
           	ref={this.setRef}
           	screenshotFormat="image/jpeg"
-          	width={500}
+          	width={300}
 					/>
 					<button onClick={this.capture}>Capture photo</button>
-				</div>
 			</div>
 		)
 	}
