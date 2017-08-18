@@ -4,10 +4,21 @@ const bodyParser = require('body-parser');
 const processAudio = require('./expressFunctions/userAudioInputProcessing');
 const processVideo = require('./expressFunctions/userVideoInputProcessing');
 
+const options = {
+	extended: true,
+  inflate: true,
+  limit: '50mb',
+  type: 'application/octet-stream'
+};
+
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
-app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
-  extended: true
-}));
+app.use(bodyParser.urlencoded(options));
+
+// app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+//   extended: true
+// }));
+
+// app.use(bodyParser.raw(options))
 
 const PORT=8090;
 

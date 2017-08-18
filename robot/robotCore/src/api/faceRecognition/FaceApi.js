@@ -3,24 +3,29 @@ const fetch = require('node-fetch')
 const API_KEY = 'eb8bc9e352f6421f9dc3b3ea30ad736c';
 const API_ROOT_URL = 'https://api.projectoxford.ai/face/v1.0';
 const GROUP_ID = 'linka-digitech';
+const util = require('util')
 
 function FaceAPI (){
 
 	this.detectFace = function(data){
+		console.log("detect face");
+		console.log("data dans detect face : " + util.inspect(data));
 		let headers = {'Content-Type': 'application/octet-stream','Ocp-Apim-Subscription-Key': API_KEY};
     let url = API_ROOT_URL+'/detect?returnFaceId=true&returnFaceLandmarks=false';
-
 		return fetch(`${url}`, {
 			method : 'POST',
 			headers : headers,
 			body : data
-		}).then(results => results.map( res => {
-			let faceIds = res.json().map((face) => face.faceId);
-			if(faceIds.length > 0) {
-				return faceIds;
+		}).then( results => {
+			console.log(results);
+			results.map( res => {
+				let faceIds = res.json().map((face) => face.faceId);
+				if(faceIds.length > 0) {
+					return faceIds;
+				}
+				return [];
 			}
-			return [];
-		}))
+	)})
 	}
 
 	this.identify = function(faceIds) {

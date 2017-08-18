@@ -1,12 +1,13 @@
 const audioProcessing = require('../api/wit/witRequest.js');
-const faceApi = require('../api/faceRecognition/FaceApi.js');
+const FaceApi = require('../api/faceRecognition/FaceApi.js');
+const util = require('util')
 
 function processVideo(req, res){
-	audioProcessing(req)
-	.then( json => {
-		return faceApi.detectFace(json.intent, json.entities);
-	})
-	.then( result=>res.json(result) )
+	// req.setEncoding('utf16');
+	console.log("req: " + util.inspect(req.body));
+	const faceApi = new FaceApi();
+	faceApi.detectFace(req.body)
+	.then( result => console.log(result) )
 }
 
 module.exports = processVideo;
