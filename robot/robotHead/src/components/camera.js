@@ -25,7 +25,6 @@ export const Camera = React.createClass({
 
 	capture(){
 		const imageSrc = convertToDataURIToBinary(this.webcam.getScreenshot());
-<<<<<<< HEAD
 		console.log(imageSrc);
 		fetch(URL, {
 			method: 'POST',
@@ -57,40 +56,6 @@ export const Camera = React.createClass({
 	// 			console.log("face id vide")
 	// 		}
 	// )})
-=======
-		// console.log(imageSrc);
-		// fetch(URL, {
-		// 	method: 'POST',
-		// 	headers: {
-		// 		'Accept': 'application/octet-stream',
-		// 		'Content-Type': 'application/octet-stream'
-		// 	},
-		// 	body: imageSrc
-		// })
-		let headers = {'Content-Type': 'application/octet-stream','Ocp-Apim-Subscription-Key': API_KEY};
-    let url = API_ROOT_URL+'/detect?returnFaceId=true&returnFaceLandmarks=false';
-		return fetch(`${url}`, {
-			method : 'POST',
-			headers : headers,
-			body : imageSrc
-		})
-		.then( results => {
-			return results.json()
-		})
-		.then(results => {
-			console.log(results.toSource());
-			results.map( face => {
-				console.log(face)
-				let faceIds = face.faceId;
-				if(faceIds.length > 0) {
-					// return faceIds;
-					console.log(faceIds)
-				}
-				else
-				console.log("face id vide")
-			}
-	)})
->>>>>>> 07dac51c30c7e3b7e19c9edda148ead30a071547
 	},
 
 	componentDidMount(){
