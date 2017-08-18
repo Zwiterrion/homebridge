@@ -2,6 +2,7 @@
 import React from 'react';
 import {ReactMic} from 'react-mic';
 import Sound from 'react-sound';
+import config from '../config.json';
 const querystring = require('querystring');
 
 export const Mic = React.createClass({
@@ -44,7 +45,7 @@ export const Mic = React.createClass({
     this.blobToBase64(recordedBlob.blob, function(base64){
       var update = {blob: base64};
       update = JSON.stringify(update);
-      fetch('http://localhost:8090/record/', {
+      fetch(config.api + 'record/', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -55,10 +56,9 @@ export const Mic = React.createClass({
       .then((response)=>{
         response.json().then((text)=>
         {
-          console.log(text);
           const params = {
-            key: 'b29c66ace5c74a4d8150cd95b6819725',
-            hl: 'fr-fr',
+            key: config.voicerss.key,
+            hl: config.voicerss.language,
             src: text,
             r: 0,
             c: 'mp3',
@@ -66,9 +66,8 @@ export const Mic = React.createClass({
             ssml: false,
             b64: false
           };
-          const uri = "http://api.voicerss.org/";
 
-          fetch(uri + "?" + querystring.stringify(params), {
+          fetch(config.voicerss.uri + "?" + querystring.stringify(params), {
             method: 'GET'
           }).then((content) => {
             that.setState({

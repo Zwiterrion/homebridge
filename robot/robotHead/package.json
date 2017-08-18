@@ -3,6 +3,7 @@
   "description": "React App",
   "version": "0.1.0",
   "dependencies": {
+    "json-loader": "^0.5.7",
     "react": "^15.6.1",
     "react-audio-recorder": "^2.0.0",
     "react-dom": "^15.6.1",
