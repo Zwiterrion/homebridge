@@ -26,36 +26,36 @@ export const Camera = React.createClass({
 	capture(){
 		const imageSrc = convertToDataURIToBinary(this.webcam.getScreenshot());
 		console.log(imageSrc);
-		// fetch(URL, {
-		// 	method: 'POST',
-		// 	headers: {
-		// 		'Accept': 'application/octet-stream',
-		// 		'Content-Type': 'application/octet-stream'
-		// 	},
-		// 	body: imageSrc
-		// })
-		let headers = {'Content-Type': 'application/octet-stream','Ocp-Apim-Subscription-Key': API_KEY};
-    let url = API_ROOT_URL+'/detect?returnFaceId=true&returnFaceLandmarks=false';
-		return fetch(`${url}`, {
-			method : 'POST',
-			headers : headers,
-			body : imageSrc
+		fetch(URL, {
+			method: 'POST',
+			headers: {
+				'Accept': 'application/octet-stream',
+				'Content-Type': 'application/octet-stream'
+			},
+			body: imageSrc
 		})
-		.then( results => {
-			return results.json()
-		})
-		.then(results => {
-			console.log(results.toSource());
-			results.map( face => {
-				console.log(face)
-				let faceIds = face.faceId;
-				if(faceIds.length > 0) {
-					// return faceIds;
-					console.log(faceIds)
-				}
-				console.log("face id vide")
-			}
-	)})
+	// 	let headers = {'Content-Type': 'application/octet-stream','Ocp-Apim-Subscription-Key': API_KEY};
+  //   let url = API_ROOT_URL+'/detect?returnFaceId=true&returnFaceLandmarks=false';
+	// 	return fetch(`${url}`, {
+	// 		method : 'POST',
+	// 		headers : headers,
+	// 		body : imageSrc
+	// 	})
+	// 	.then( results => {
+	// 		return results.json()
+	// 	})
+	// 	.then(results => {
+	// 		console.log(results.toSource());
+	// 		results.map( face => {
+	// 			console.log(face)
+	// 			let faceIds = face.faceId;
+	// 			if(faceIds.length > 0) {
+	// 				// return faceIds;
+	// 				console.log(faceIds)
+	// 			}
+	// 			console.log("face id vide")
+	// 		}
+	// )})
 	},
 
 	componentDidMount(){

@@ -8,24 +8,22 @@ const util = require('util')
 function FaceAPI (){
 
 	this.detectFace = function(data){
-		console.log("detect face");
-		console.log("data dans detect face : " + util.inspect(data));
 		let headers = {'Content-Type': 'application/octet-stream','Ocp-Apim-Subscription-Key': API_KEY};
     let url = API_ROOT_URL+'/detect?returnFaceId=true&returnFaceLandmarks=false';
 		return fetch(`${url}`, {
 			method : 'POST',
 			headers : headers,
 			body : data
-		}).then( results => {
-			console.log(results);
-			results.map( res => {
-				let faceIds = res.json().map((face) => face.faceId);
+		})
+		.then( results => {return results.json()} )
+		.then( results => {
+				let faceIds = results.map((face) => face.faceId);
 				if(faceIds.length > 0) {
 					return faceIds;
 				}
 				return [];
 			}
-	)})
+		).catch(e => console.log(e));
 	}
 
 	this.identify = function(faceIds) {
