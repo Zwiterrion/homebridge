@@ -9,6 +9,20 @@ const API_KEY = 'eb8bc9e352f6421f9dc3b3ea30ad736c';
 const API_ROOT_URL = 'https://api.projectoxford.ai/face/v1.0';
 const GROUP_ID = 'linka-digitech';
 
+const camDivStyle ={
+	marginTop : "50px",
+	borderStyle : "solid",
+	borderWidth : "5px",
+	borderColor : "rgb(2, 110, 210)",
+	borderRadius: "50px",
+	background: "rgb(255, 255, 255)",
+};
+
+const buttonStyle = {
+	display:"block", /* change this from inline-block */
+  margin:"0 auto", /* this will center  it */
+}
+
 export const Camera = React.createClass({
 
 	getInitialState() {
@@ -34,28 +48,7 @@ export const Camera = React.createClass({
 			},
 			body: imageSrc
 		})
-	// 	let headers = {'Content-Type': 'application/octet-stream','Ocp-Apim-Subscription-Key': API_KEY};
-  //   let url = API_ROOT_URL+'/detect?returnFaceId=true&returnFaceLandmarks=false';
-	// 	return fetch(`${url}`, {
-	// 		method : 'POST',
-	// 		headers : headers,
-	// 		body : imageSrc
-	// 	})
-	// 	.then( results => {
-	// 		return results.json()
-	// 	})
-	// 	.then(results => {
-	// 		console.log(results.toSource());
-	// 		results.map( face => {
-	// 			console.log(face)
-	// 			let faceIds = face.faceId;
-	// 			if(faceIds.length > 0) {
-	// 				// return faceIds;
-	// 				console.log(faceIds)
-	// 			}
-	// 			console.log("face id vide")
-	// 		}
-	// )})
+
 	},
 
 	componentDidMount(){
@@ -73,7 +66,10 @@ export const Camera = React.createClass({
 
 	render() {
 		return (
-			<div className = "webcam">
+			<div
+				className = "webcam"
+				style = {camDivStyle}
+			>
 					<Webcam
 						audio={false}
           	height={300}
@@ -81,7 +77,12 @@ export const Camera = React.createClass({
           	screenshotFormat="image/jpeg"
           	width={300}
 					/>
-					<button onClick={this.capture}>Capture photo</button>
+					<button
+						onClick={this.capture}
+						style = {buttonStyle}
+					>
+						Capture photo
+					</button>
 			</div>
 		)
 	}

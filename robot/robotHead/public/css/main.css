@@ -1,38 +1,8 @@
+
 body {
-  margin: 0 !important;
-  padding:1px;
+  /*height: 100%;*/
   font-family: 'Roboto', sans-serif;
   background: rgb(73,73,73);
-}
-
-#main {
-    min-height: 100%;
-}
-
-.outer {
-    display: table;
-    position: absolute;
-    height: 98%;
-    width: 98%;
-}
-
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.inner {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-}
-
-.micbutton {
-  padding-left: 160px;
-}
-
-.mouth {
-  padding-left: 125px;
 }
 
 .recordDisplay {

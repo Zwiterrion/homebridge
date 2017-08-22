@@ -3,32 +3,35 @@ import React from 'react';
 import {ReactMic} from 'react-mic';
 import Sound from 'react-sound';
 import config from '../config.json';
+import Face from './face';
 const querystring = require('querystring');
 
-export const Mic = React.createClass({
-  propTypes: {
-  },
+const divMicStyle = {
+	//margin : "10px",
+}
 
-  getInitialState() {
-    return {
-      record: false,
-      hover : false,
+class Mic extends React.Component{
+
+  propTypes: {
+  }
+
+	constructor(props){
+		super(props);
+		this.state = {
+			record: false,
       mp3 : "",
       sound : false
-    };
-  },
+		}
+	}
 
   componentDidMount(){
-  },
+  }
 
   componentWillUnmount(){
-  },
+  }
 
-  record(){
-    this.setState({
-      record: !this.state.record
-    });
-  },
+	record = () => this.setState({record: !this.state.record})
+
 
   blobToBase64(blob, callback) {
     var reader = new FileReader();
@@ -38,9 +41,9 @@ export const Mic = React.createClass({
       callback(base64);
     };
     reader.readAsDataURL(blob); // readAsDataUrl encode in base
-  },
+  }
 
-  handleStop(recordedBlob){
+  handleStop = (recordedBlob) => {
     let that = this;
     this.blobToBase64(recordedBlob.blob, function(base64){
       var update = {blob: base64};
@@ -78,71 +81,28 @@ export const Mic = React.createClass({
         })
       })
     })
-  },
+  }
 
-  handleMouseOver(){
-    this.setState({hover : true});
-  },
 
-  handleMouseOut(){
-    this.setState({hover : false});
-  },
-
-  selectImg(){
-    if(this.state.record){
-      if(this.state.hover){
-        return require(`../img/micOffHover.png`)
-      }
-      else{
-        return require(`../img/micOff.png`)
-      }
-    }
-    else{
-      if(this.state.hover){
-        return require(`../img/micOnHover.png`)
-      }
-      else{
-        return require(`../img/micOn.png`)
-      }
-    }
-  },
-
-  setSound(){
-    this.setState({sound:false});
-  },
+	setSound = () => this.setState({sound:false})
 
   render() {
-    if(this.state.sound){
+		if (this.state.sound){
       return (
-        <div>
-          <img
-              src={require(`../img/eyes.png`)}
-              width="400"
-          />
-          <img
-              className = "micbutton"
-              src={this.selectImg()}
-              onMouseOver={this.handleMouseOver}
-              onMouseOut={this.handleMouseOut}
-              onClick={this.record}
-              width="80"
-          />
-          <br/>
-          <br/>
-          <img
-              className = "mouth"
-              src={require(`../img/mouth.png`)}
-              width="150"
-          />
+        <div style={divMicStyle}>
+          <Face
+						record={this.state.record}
+						onMicClick={this.record}
+					/>
           <div className = "recordDisplay">
-          <ReactMic
-              record={this.state.record}
-              className="sound-wave"
-              onStop={this.handleStop}
-              strokeColor="#ffffff"
-              backgroundColor="#008fca"
-              width="400"
-          />
+	          <ReactMic
+	              record={this.state.record}
+	              className="sound-wave"
+	              onStop={this.handleStop}
+	              strokeColor="#ffffff"
+	              backgroundColor="#008fca"
+	              width="400"
+	          />
           </div>
           <Sound
               url={this.state.mp3}
@@ -154,40 +114,25 @@ export const Mic = React.createClass({
     }
     else{
       return (
-        <div>
-          <img
-              src={require(`../img/eyes.png`)}
-              width="400"
-          />
-          <img
-              className = "micbutton"
-              src={this.selectImg()}
-              onMouseOver={this.handleMouseOver}
-              onMouseOut={this.handleMouseOut}
-              onClick={this.record}
-              width="80"
-          />
-          <br/>
-          <br/>
-          <img
-              className = "mouth"
-              src={require(`../img/mouth.png`)}
-              width="150"
-          />
-          <div className = "recordDisplay">
-          <ReactMic
-              record={this.state.record}
-              className="sound-wave"
-              onStop={this.handleStop}
-              strokeColor="#ffffff"
-              backgroundColor="#008fca"
-              width="400"
-          />
-          </div>
+        <div style={divMicStyle}>
+					<Face
+						record={this.state.record}
+						onMicClick={this.record}
+					/>
+					<div className = "recordDisplay">
+	          <ReactMic
+	              record={this.state.record}
+	              className="sound-wave"
+	              onStop={this.handleStop}
+	              strokeColor="#ffffff"
+	              backgroundColor="#008fca"
+	              width="400"
+	          />
+					</div>
         </div>
       );
     }
   }
-});
+}
 
 export default Mic;
