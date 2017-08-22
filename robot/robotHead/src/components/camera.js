@@ -2,30 +2,33 @@ import React from 'react';
 import Webcam from 'react-webcam';
 import {convertToDataURIToBinary} from '../utils/canvasUtils.js';
 
-const INTERVAL = 5000;
 const URL = `http://localhost:8090/detect`;
-
-const API_KEY = 'eb8bc9e352f6421f9dc3b3ea30ad736c';
-const API_ROOT_URL = 'https://api.projectoxford.ai/face/v1.0';
-const GROUP_ID = 'linka-digitech';
+const INTERVAL = 1000;
 
 export const Camera = React.createClass({
 
 	getInitialState() {
     return {
 			client : {
-				name : "",
-			},
+				name : " "
+			}
     };
   },
+
+	componentDidMount(){
+		setInterval(()=>{ this.capture() }, INTERVAL);
+	},
+
+	componentWillUnmount(){
+	},
 
 	setRef(webcam){
 		this.webcam = webcam;
 	},
 
 	capture(){
+		let that = this;
 		const imageSrc = convertToDataURIToBinary(this.webcam.getScreenshot());
-		console.log(imageSrc);
 		fetch(URL, {
 			method: 'POST',
 			headers: {
@@ -34,54 +37,39 @@ export const Camera = React.createClass({
 			},
 			body: imageSrc
 		})
-	// 	let headers = {'Content-Type': 'application/octet-stream','Ocp-Apim-Subscription-Key': API_KEY};
-  //   let url = API_ROOT_URL+'/detect?returnFaceId=true&returnFaceLandmarks=false';
-	// 	return fetch(`${url}`, {
-	// 		method : 'POST',
-	// 		headers : headers,
-	// 		body : imageSrc
-	// 	})
-	// 	.then( results => {
-	// 		return results.json()
-	// 	})
-	// 	.then(results => {
-	// 		console.log(results.toSource());
-	// 		results.map( face => {
-	// 			console.log(face)
-	// 			let faceIds = face.faceId;
-	// 			if(faceIds.length > 0) {
-	// 				// return faceIds;
-	// 				console.log(faceIds)
-	// 			}
-	// 			console.log("face id vide")
-	// 		}
-	// )})
+		.then(response => {
+			response.json().then(names =>{
+				if(names){
+					if(names[0]){
+						let name = names[0].name;
+						for(let i = 1; i<names.length; i++){
+							name = name + " et " + names[i].name;
+						}
+						that.setState({name: name})
+					}
+					else that.setState({name: " "});
+				}
+			})
+		})
 	},
 
-	componentDidMount(){
-		// setInterval(()=>{ this.capture() }, INTERVAL);
-  },
-
-  componentWillUnmount(){
-  },
-
-
-	recognize() {
-    const dataURI = this.extractImageFromWebCam();
-    this.displayOptions.loading = true;
-  },
+	// recognize() {
+  //   const dataURI = this.extractImageFromWebCam();
+  //   this.displayOptions.loading = true;
+  // },
 
 	render() {
 		return (
 			<div className = "webcam">
+				<h2>{this.state.name}</h2>
 					<Webcam
 						audio={false}
-          	height={300}
-          	ref={this.setRef}
-          	screenshotFormat="image/jpeg"
-          	width={300}
+						height={300}
+						ref={this.setRef}
+						screenshotFormat="image/jpeg"
+						width={300}
 					/>
-					<button onClick={this.capture}>Capture photo</button>
+					{/* <button onClick={this.capture}>Capture photo</button> */}
 			</div>
 		)
 	}
