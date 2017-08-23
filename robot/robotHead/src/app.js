@@ -10,8 +10,8 @@ import {
   Link
 } from 'react-router-dom';
 
-export const App = React.createClass({
-  render() {
+class App extends React.Component{
+	render() {
     return (
 			<div className="grid--middle grid--center">
 				<div className="1/2 grid__cell">
@@ -23,4 +23,6 @@ export const App = React.createClass({
 			</div>
     );
   }
-});
+}
+
+export default App;
