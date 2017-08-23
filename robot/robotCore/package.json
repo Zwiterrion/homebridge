@@ -24,6 +24,7 @@
     "child-process-promise": "^2.2.1",
     "express": "^4.15.3",
     "fs": "0.0.1-security",
+    "gm": "^1.23.0",
     "node-fetch": "^1.7.1",
     "request": "^2.81.0"
   }

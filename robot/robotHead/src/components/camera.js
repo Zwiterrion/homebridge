@@ -5,28 +5,40 @@ import {convertToDataURIToBinary} from '../utils/canvasUtils.js';
 const URL = `http://localhost:8090/detect`;
 const INTERVAL = 1000;
 
-export const Camera = React.createClass({
+const camDivStyle ={
+	marginTop : "50px",
+	borderStyle : "solid",
+	borderWidth : "5px",
+	borderColor : "rgb(2, 110, 210)",
+	borderRadius: "50px",
+	background: "rgb(255, 255, 255)",
+};
 
-	getInitialState() {
-    return {
+const buttonStyle = {
+	display:"block", /* change this from inline-block */
+  margin:"0 auto", /* this will center  it */
+}
+
+class Camera extends React.Component {
+
+	constructor(props){
+		super(props);
+		this.state = {
 			client : {
 				name : " "
 			}
-    };
-  },
+		}
+	}
 
 	componentDidMount(){
-		setInterval(()=>{ this.capture() }, INTERVAL);
-	},
+		setInterval( () => { this.capture() }, INTERVAL);
+	}
 
-	componentWillUnmount(){
-	},
+	componentWillUnmount(){}
 
-	setRef(webcam){
-		this.webcam = webcam;
-	},
+	setRef = (webcam) => this.webcam = webcam
 
-	capture(){
+	capture = () => {
 		let that = this;
 		const imageSrc = convertToDataURIToBinary(this.webcam.getScreenshot());
 		fetch(URL, {
@@ -45,18 +57,13 @@ export const Camera = React.createClass({
 						for(let i = 1; i<names.length; i++){
 							name = name + " et " + names[i].name;
 						}
-						that.setState({name: name})
+						that.setState({ name : name })
 					}
-					else that.setState({name: " "});
+					else that.setState({ name : " " });
 				}
 			})
 		})
-	},
-
-	// recognize() {
-  //   const dataURI = this.extractImageFromWebCam();
-  //   this.displayOptions.loading = true;
-  // },
+	}
 
 	render() {
 		return (
@@ -74,6 +81,6 @@ export const Camera = React.createClass({
 		)
 	}
 
-})
+}
 
 export default Camera;
