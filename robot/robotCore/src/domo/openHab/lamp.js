@@ -25,12 +25,12 @@ function OHLamp(baseURL, lampName, state = DEFAULT_STATE){
 
 
 	this.turnOff = function(){
-		return fetchPost(`_color`, `${this.state.hue},${this.state.saturation},0`);
+		return fetchPost(`_switch`, `OFF`);
 	}
 
 
 	this.turnOn = function(){
-		return fetchPost(`_color`, `${this.state.hue},${this.state.saturation},100`);
+		return fetchPost(`_switch`, `ON`);
 	}
 
 

@@ -1,5 +1,4 @@
 const winston = require('winston');
-const util = require('util');
 const {eventEmitter, events} = require('../events.js')
 
 function lampSwitch(req, res) {

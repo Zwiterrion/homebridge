@@ -19,4 +19,4 @@ const events = {
 }
 
 
-module.exports = { eventEmitter ,events };
+module.exports = { eventEmitter, events };

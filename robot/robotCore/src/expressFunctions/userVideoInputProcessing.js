@@ -1,4 +1,3 @@
-const audioProcessing = require('../api/wit/witRequest.js');
 const FaceApi = require('../api/faceRecognition/FaceApi.js');
 const fs = require('fs');
 const gm = require('gm');
