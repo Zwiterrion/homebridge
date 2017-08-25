@@ -3,6 +3,11 @@ const app = express()
 const bodyParser = require('body-parser');
 const processAudio = require('./expressFunctions/userAudioInputProcessing');
 const processVideo = require('./expressFunctions/userVideoInputProcessing');
+const winston = require('winston');
+const util = require('util');
+const lampSwitch = require('./expressFunctions/domoEvents');
+const { eventEmitter, events } = require('./events.js')
+
 
 const rawOptions = {
 	extended: false,
@@ -14,6 +19,9 @@ const urlencodedOptions = {
 };
 
 const PORT = 8090;
+
+eventEmitter.on(events.domoEvents.lampOn, () => winston.info('A lamp has been switched on'))
+
 
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
 app.use( bodyParser.urlencoded(urlencodedOptions) );
@@ -30,5 +38,6 @@ app.use(function(req, res, next) {
 
 app.post('/record', processAudio);
 app.post('/detect', processVideo);
-
+app.post('/light/state', lampSwitch); 
 app.listen(PORT, ()=>(console.log(`listening on port : ${PORT}`)));
+
