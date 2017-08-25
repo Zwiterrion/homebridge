@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const processAudio = require('./expressFunctions/userAudioInputProcessing');
 const processVideo = require('./expressFunctions/userVideoInputProcessing');
 const lampSwitch = require('./expressFunctions/domoEvents');
+const fs = require('fs');
 
 
 
@@ -35,5 +36,12 @@ app.use(function(req, res, next) {
 app.post('/record', processAudio);
 app.post('/detect', processVideo);
 app.post('/light/state', lampSwitch); 
-app.listen(PORT, ()=>(console.log(`listening on port : ${PORT}`)));
+app.listen(PORT, ()=>{
+  console.log(`listening on port : ${PORT}`);
+  initImg("img/");
+});
+
+function initImg(imgPath){
+  fs.createReadStream(`${imgPath}source.jpg`).pipe(fs.createWriteStream(`${imgPath}test0.jpg`));
+}
 

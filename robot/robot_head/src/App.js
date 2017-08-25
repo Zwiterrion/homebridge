@@ -11,12 +11,14 @@ import Mic from './components/mic';
 class App extends Component {
   render() {
     return (
-      <div className="grid--middle grid--center">
-        <div className="1/2 grid__cell">
-          <Mic />
-        </div>
-        <div className="1/2 grid__cell">
-          <Camera className="camera" />
+      <div className="container">
+        <div className="row align-items-center justify-content-center">
+          <div className="col">
+            <Mic />
+          </div>
+          <div className="col">
+            <Camera className="camera" />
+          </div>
         </div>
       </div>
     );
