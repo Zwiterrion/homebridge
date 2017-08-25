@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd robotHead
+cd robot_head
 npm start

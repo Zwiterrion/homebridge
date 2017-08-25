@@ -1,8 +1,5 @@
-/* eslint react/no-multi-comp: 0, react/jsx-max-props-per-line: 0 */
 import PropTypes from 'prop-types';
 import React from 'react';
-import config from '../config.json';
-const querystring = require('querystring');
 
 const faceStyle = {
 	maxHeight:"100%",
@@ -77,6 +74,7 @@ class Face extends React.Component {
 	          <img
 								className="3/3 grid__cell"
 	              src={require(`../img/eyes.png`)}
+								alt="les yeux du robot"
 								style={eyesStyle}
 	          />
 					</div>
@@ -84,6 +82,7 @@ class Face extends React.Component {
 	          <img
 	              className = "1/3 grid__cell"
 	              src={this.selectImg()}
+								alt="le bouton du micro"
 	              onMouseOver={this.handleMouseOver}
 	              onMouseOut={this.handleMouseOut}
 	              onClick={this.props.onMicClick}
@@ -94,6 +93,7 @@ class Face extends React.Component {
 	          <img
 	              className = "1/3 grid__cell"
 	              src={require(`../img/mouth.png`)}
+								alt="la bouche du robot"
 	              style={mouthStyle}
 	          />
 					</div>

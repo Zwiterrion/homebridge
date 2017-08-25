@@ -1,11 +1,9 @@
 const fetch = require('node-fetch');
-const fs = require('fs');
-const gm = require('gm');
+// const util = require('util');
 
 const API_KEY = 'eb8bc9e352f6421f9dc3b3ea30ad736c';
 const API_ROOT_URL = 'https://api.projectoxford.ai/face/v1.0';
 const GROUP_ID = 'linka-digitech';
-const util = require('util');
 
 function FaceAPI (){
 //==============================================================================
@@ -50,7 +48,9 @@ function FaceAPI (){
 			{
 				let tab = [];
 				for(let i in results){
-					tab[i] = results[i].candidates[0].personId;
+					if(results[i].candidates[0]){
+						tab[i] = results[i].candidates[0].personId;
+					}
 				}
 				return tab
 			}

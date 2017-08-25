@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd robotHead
+cd robot_head
 npm install
-cd ../robotCore
+cd ../robot_core
 npm install

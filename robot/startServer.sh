@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd robotCore/src
+cd robot_core/src
 node index.js

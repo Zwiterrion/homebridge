@@ -1,4 +1,3 @@
-/* eslint react/no-multi-comp: 0, react/jsx-max-props-per-line: 0 */
 import React from 'react';
 import {ReactMic} from 'react-mic';
 import Sound from 'react-sound';
@@ -11,27 +10,26 @@ const divMicStyle = {
 }
 
 class Mic extends React.Component{
-
-  propTypes: {
-  }
-
+  
 	constructor(props){
 		super(props);
 		this.state = {
 			record: false,
       mp3 : "",
       sound : false
-		}
+    }
+    this.record = this.record.bind(this);
+    this.handleStop = this.handleStop.bind(this);
+    this.setSound = this.setSound.bind(this);
 	}
 
-  componentDidMount(){
+  componentDidMount(){}
+
+  componentWillUnmount(){}
+
+	record(){
+    this.setState({record: !this.state.record})
   }
-
-  componentWillUnmount(){
-  }
-
-	record = () => this.setState({record: !this.state.record})
-
 
   blobToBase64(blob, callback) {
     var reader = new FileReader();
@@ -43,12 +41,12 @@ class Mic extends React.Component{
     reader.readAsDataURL(blob); // readAsDataUrl encode in base
   }
 
-  handleStop = (recordedBlob) => {
+  handleStop(recordedBlob){
     let that = this;
     this.blobToBase64(recordedBlob.blob, function(base64){
       var update = {blob: base64};
       update = JSON.stringify(update);
-      fetch(config.api + 'record/', {
+      fetch(config.server + 'record/', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -83,8 +81,9 @@ class Mic extends React.Component{
     })
   }
 
-
-	setSound = () => this.setState({sound:false})
+	setSound(){
+    this.setState({sound:false})
+  }
 
   render() {
 		if (this.state.sound){
@@ -93,16 +92,16 @@ class Mic extends React.Component{
           <Face
 						record={this.state.record}
 						onMicClick={this.record}
-					/>
+          />
           <div className = "recordDisplay">
-	          <ReactMic
-	              record={this.state.record}
-	              className="sound-wave"
-	              onStop={this.handleStop}
-	              strokeColor="#ffffff"
-	              backgroundColor="#008fca"
-	              width="400"
-	          />
+            <ReactMic
+              record={this.state.record}
+              className="sound-wave"
+              onStop={this.handleStop}
+              strokeColor="#ffffff"
+              backgroundColor="#008fca"
+              width="400"
+            />
           </div>
           <Sound
               url={this.state.mp3}
@@ -120,14 +119,14 @@ class Mic extends React.Component{
 						onMicClick={this.record}
 					/>
 					<div className = "recordDisplay">
-	          <ReactMic
-	              record={this.state.record}
-	              className="sound-wave"
-	              onStop={this.handleStop}
-	              strokeColor="#ffffff"
-	              backgroundColor="#008fca"
-	              width="400"
-	          />
+            <ReactMic
+              record={this.state.record}
+              className="sound-wave"
+              onStop={this.handleStop}
+              strokeColor="#ffffff"
+              backgroundColor="#008fca"
+              width="400"
+            />
 					</div>
         </div>
       );
