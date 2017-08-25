@@ -1,0 +1,8 @@
+{
+  "server": "http://192.168.86.108:8090/",
+  "voicerss" : {
+    "key": "b29c66ace5c74a4d8150cd95b6819725",
+    "uri": "http://api.voicerss.org/",
+    "language": "fr-fr"
+  }
+}
