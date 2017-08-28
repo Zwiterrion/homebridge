@@ -1,7 +1,6 @@
 const FaceApi = require('../api/faceRecognition/FaceApi.js');
 const fs = require('fs');
 const gm = require('gm');
-const util = require('util');
 
 const faceApi = new FaceApi();
 
@@ -13,36 +12,27 @@ function processVideo(req, res){
 	fs.writeFileSync(path1, buf);
 
 	var options = {
-		tolerance: 0.015,
+		tolerance: 0.03,
 	};
 	gm.compare(path0, path1, options, function (err, isEqual, equality, raw) {
 		if (err) throw err;
-		// console.log(`diff : ${equality * 100}%`);
+		// console.log("equals");
+		// console.log(`raw : ${raw}`)
 		if(isEqual){
 			res.json(0);
 		}
 		else{
 			faceApi.detectFace(req.body)
 			.then( faceIds => {
-				// console.log(`face id : ${faceIds}`);
+				console.log(`face id : ${faceIds}`);
 				return faceApi.identify(faceIds);
 			})
 			.then( personId => {
-				// console.log(`person id : ${personId}`);
+				console.log(`person id : ${personId}`);
 				return faceApi.getPersonNames(personId);
 			})
 			.then (result => {
-				// console.log(result);
-				if(result.length == 0){
-					console.log("Aucune personne reconnue");
-				}
-				else{
-					console.log("=================");
-					for(let i in result){
-						console.log(result[i].name)
-					}
-					console.log("=================");
-				}
+				console.log(result);
 				res.json(result)
 			})
 		}
