@@ -2,7 +2,26 @@
 body {
   /*height: 100%;*/
   font-family: 'Roboto', sans-serif;
-  background: rgb(73,73,73);
+  /* background: rgb(73,73,73); */
+  /* background: url('../bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; */
+width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  /* background: url("../bg-pattern.png"),
+  #7b4397;
+  background: url("../bg-pattern.png"),
+  -webkit-linear-gradient(to left,
+  #7b4397,
+  #dc2430); */
+  background: url("../bg-pattern.png"),
+  linear-gradient(to left,
+  #00A8B3,
+  #3D4C5F);
 }
 
 .recordDisplay {
