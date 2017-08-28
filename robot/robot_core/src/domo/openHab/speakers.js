@@ -24,19 +24,19 @@ function OHSpeakers(baseURL, speakerName, state = DEFAULT_STATE){
 	}
 
 	this.play = function(){
-		return fetchPost(`_control`, `PLAY`);
+		return fetchPost(`_Control`, `PLAY`);
 	}
 
 	this.pause = function(){
-		return fetchPost(`_control`,`PAUSE`);
+		return fetchPost(`_Control`,`PAUSE`);
 	}
 
 	this.setVolume = function(volume){
-		return fetchPost(`_volume`,`${volume}`);
+		return fetchPost(`_Volume`,`${volume}`);
 	}
 
 	this.playAudio = function(uri){
-		return fetchPost(`_playuri`,`${uri}`);
+		return fetchPost(`_PlayURI`,`${uri}`);
 	}
 }
 

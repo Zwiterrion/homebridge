@@ -13,12 +13,12 @@ const OPENHAB_URL = 'http://192.168.86.55:8080';
 
 let lamp2 = new OHLamp(
 	`${OPENHAB_URL}/rest`,
-	'hue_0210_0017886830d3_2'
+	'HueColorLamp2'
 );
 
 let play1 = new OHSpeakers(
 	`${OPENHAB_URL}/rest`,
-	'sonos_PLAY1_RINCON_949F3E8C3E8001400'
+	'SonosPLAY1'
 );
 
 function smartSwitcher(intent, entities){

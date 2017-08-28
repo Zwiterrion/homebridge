@@ -25,32 +25,32 @@ function OHLamp(baseURL, lampName, state = DEFAULT_STATE){
 
 
 	this.turnOff = function(){
-		return fetchPost(`_switch`, `OFF`);
+		return fetchPost(`_Switch`, `OFF`);
 	}
 
 
 	this.turnOn = function(){
-		return fetchPost(`_switch`, `ON`);
+		return fetchPost(`_Switch`, `ON`);
 	}
 
 
 	this.setHue = function(hue){
-		return fetchPost(`_color`, `${hue},${this.state.saturation},${this.state.value}`);
+		return fetchPost(`_Color`, `${hue},${this.state.saturation},${this.state.value}`);
 	}
 
 
 	this.setSaturation = function(saturation) {
-		return fetchPost(`_color`, `${this.state.hue},${saturation},${this.state.value}`);
+		return fetchPost(`_Color`, `${this.state.hue},${saturation},${this.state.value}`);
 	}
 
 
 	this.setValue = function(value){
-		return fetchPost(`_color`, `${this.state.hue},${this.state.saturation},${value}`);
+		return fetchPost(`_Color`, `${this.state.hue},${this.state.saturation},${value}`);
 	}
 
 	// hsv is an array containing the 3 hsv value
 	this.setColor = function(hsv){
-		return fetchPost(`_color`, `${hsv}`);
+		return fetchPost(`_Color`, `${hsv}`);
 	}
 
 }

@@ -118,3 +118,41 @@
 2017-08-28T08:44:56.476Z - info: A lamp has been switched on
 2017-08-28T08:45:20.179Z - info: lamp_off
 2017-08-28T08:45:20.180Z - info: A lamp has been switched off
+2017-08-28T08:51:54.259Z - info: lamp_on
+2017-08-28T08:51:54.263Z - info: A lamp has been switched on
+2017-08-28T08:51:59.193Z - info: lamp_off
+2017-08-28T08:51:59.195Z - info: A lamp has been switched off
+2017-08-28T08:52:00.792Z - info: lamp_on
+2017-08-28T08:52:00.793Z - info: A lamp has been switched on
+2017-08-28T08:52:04.510Z - info: lamp_off
+2017-08-28T08:52:04.511Z - info: A lamp has been switched off
+2017-08-28T08:52:06.651Z - info: lamp_on
+2017-08-28T08:52:06.656Z - info: A lamp has been switched on
+2017-08-28T08:52:14.849Z - info: lamp_off
+2017-08-28T08:52:14.854Z - info: A lamp has been switched off
+2017-08-28T08:52:14.861Z - info: lamp_on
+2017-08-28T08:52:14.863Z - info: A lamp has been switched on
+2017-08-28T08:53:22.552Z - info: lamp_off
+2017-08-28T08:53:22.552Z - info: A lamp has been switched off
+2017-08-28T08:53:24.391Z - info: lamp_on
+2017-08-28T08:53:24.396Z - info: A lamp has been switched on
+2017-08-28T08:53:24.497Z - info: lamp_off
+2017-08-28T08:53:24.499Z - info: A lamp has been switched off
+2017-08-28T08:53:27.936Z - info: lamp_on
+2017-08-28T08:53:27.940Z - info: A lamp has been switched on
+2017-08-28T08:53:28.495Z - info: lamp_off
+2017-08-28T08:53:28.499Z - info: A lamp has been switched off
+2017-08-28T08:53:31.510Z - info: lamp_on
+2017-08-28T08:53:31.511Z - info: A lamp has been switched on
+2017-08-28T08:53:50.796Z - info: lamp_off
+2017-08-28T08:53:50.799Z - info: A lamp has been switched off
+2017-08-28T08:53:53.023Z - info: lamp_on
+2017-08-28T08:53:53.024Z - info: A lamp has been switched on
+2017-08-28T08:54:50.659Z - info: lamp_off
+2017-08-28T08:54:50.676Z - info: A lamp has been switched off
+2017-08-28T08:54:52.259Z - info: lamp_on
+2017-08-28T08:54:52.260Z - info: A lamp has been switched on
+2017-08-28T09:21:12.021Z - info: lamp_off
+2017-08-28T09:21:12.026Z - info: A lamp has been switched off
+2017-08-28T09:21:25.182Z - info: lamp_on
+2017-08-28T09:21:25.184Z - info: A lamp has been switched on
