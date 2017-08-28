@@ -5,9 +5,6 @@ import config from '../config.json';
 import Face from './face';
 const querystring = require('querystring');
 
-const divMicStyle = {
-	//margin : "10px",
-}
 
 class Mic extends React.Component{
   
@@ -21,14 +18,24 @@ class Mic extends React.Component{
     this.record = this.record.bind(this);
     this.handleStop = this.handleStop.bind(this);
     this.setSound = this.setSound.bind(this);
-	}
-
+  }
+  
+  
   componentDidMount(){}
-
+  
   componentWillUnmount(){}
-
+  
 	record(){
     this.setState({record: !this.state.record})
+  }
+  
+  getMicDivStyle(){
+    if (!this.state.record) {
+      return {
+        display: "none"
+      }
+    }
+    return {}
   }
 
   blobToBase64(blob, callback) {
@@ -88,19 +95,23 @@ class Mic extends React.Component{
   render() {
 		if (this.state.sound){
       return (
-        <div style={divMicStyle}>
+        <div>
           <Face
 						record={this.state.record}
 						onMicClick={this.record}
           />
-          <div className = "recordDisplay">
+          <div
+            className="row justify-content-center"
+            style={this.getMicDivStyle()}
+          >
             <ReactMic
               record={this.state.record}
               className="sound-wave"
               onStop={this.handleStop}
               strokeColor="#ffffff"
               backgroundColor="#008fca"
-              width="400"
+              width="500"
+              height="100"
             />
           </div>
           <Sound
@@ -113,19 +124,23 @@ class Mic extends React.Component{
     }
     else{
       return (
-        <div style={divMicStyle}>
+        <div>
 					<Face
 						record={this.state.record}
 						onMicClick={this.record}
 					/>
-					<div className = "recordDisplay">
+          <div 
+            className="row justify-content-center" 
+            style={this.getMicDivStyle()} 
+          >
             <ReactMic
               record={this.state.record}
               className="sound-wave"
               onStop={this.handleStop}
               strokeColor="#ffffff"
               backgroundColor="#008fca"
-              width="400"
+              width="500"
+              height="100"
             />
 					</div>
         </div>

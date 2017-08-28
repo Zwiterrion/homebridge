@@ -10,25 +10,10 @@ const titleStyle = {
 	marginTop: "20px"
 }
 
-// const camDivStyle ={
-// 	marginTop : "50px",
-// 	borderStyle : "solid",
-// 	borderWidth : "5px",
-// 	borderColor : "rgb(2, 110, 210)",
-// 	borderRadius: "50px",
-// 	background: "rgb(255, 255, 255)"
-// };
-
-// const buttonStyle = {
-// 	display:"block", /* change this from inline-block */
-// 	margin:"0 auto" /* this will center  it */
-// }
-
 class Camera extends React.Component {
 
 	constructor(props){
-		super(props);
-		this.updateDimensions = this.updateDimensions.bind(this);
+		super(props);		
 		this.setRef = this.setRef.bind(this);
 		this.capture = this.capture.bind(this);
 		this.state = {
@@ -38,27 +23,13 @@ class Camera extends React.Component {
 		};
 	}
 
-	componentWillMount() {
-		// this.updateDimensions();
-	}
+	componentWillMount() {}
 
-	componentDidMount(){
-		// window.addEventListener("resize", this.updateDimensions);
+	componentDidMount(){		
 		setInterval( () => { this.capture() }, INTERVAL);
 	}
 	
-	componentWillUnmount(){
-		// window.removeEventListener("resize", this.updateDimensions);
-	}
-	
-	updateDimensions() {
-		const MIN_LIMIT = 300; 
-		const MAX_LIMIT = 640; 
-		let width = window.innerWidth*0.45;
-		if (width < MIN_LIMIT) width = MIN_LIMIT;
-		else if (width > MAX_LIMIT) width = MAX_LIMIT;
-		this.setState({ width: width });
-	}
+	componentWillUnmount(){}
 
 	setRef(webcam){
 		this.webcam = webcam

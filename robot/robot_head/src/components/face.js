@@ -8,25 +8,19 @@ const faceStyle = {
 
 const eyesStyle = {
 	width:"400px",
-	// maxHeight:"100%",
-	// maxWidth:"100%",
 	marginTop:"40px"
 }
 
 const buttonStyle = {
-	paddingTop:"3%",
-	// maxHeight:"100%",
-	// maxWidth:"100%",
+	paddingTop:"5%",	
 	marginBottom:"40px",
 	width:"80px"
 }
 
 const mouthStyle = {
-	paddingTop:"5%",
-	// maxHeight:"100%",
-	// maxWidth:"100%",
 	marginBottom:"20px",
-	width:"150px"
+	width:"150px",
+	height:"80px"
 }
 
 class Face extends React.Component {
@@ -49,7 +43,16 @@ class Face extends React.Component {
 
   componentDidMount(){}
 
-  componentWillUnmount(){}
+	componentWillUnmount(){}
+	
+	getMouthDivStyle() {
+		if (this.props.record){
+			return {
+				display: "none"
+			}
+		}
+		return {}
+	}
 
   selectImg(){
     if(this.props.record){
@@ -90,11 +93,14 @@ class Face extends React.Component {
 	              style={buttonStyle}
 	          />
 					</div>
-					<div className="row justify-content-center">					
+					<div 
+						className="row justify-content-center"
+						style={this.getMouthDivStyle()} 	
+					>					
 	          <img	              
 	              src={require(`../img/mouth.png`)}
 								alt="la bouche du robot"
-	              style={mouthStyle}
+	              style={mouthStyle}					
 	          />
 					</div>
 				</div>
