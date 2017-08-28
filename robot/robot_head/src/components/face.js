@@ -7,15 +7,17 @@ const faceStyle = {
 }
 
 const eyesStyle = {
-	width:"400px"
+	width:"400px",
 	// maxHeight:"100%",
 	// maxWidth:"100%",
+	marginTop:"40px"
 }
 
 const buttonStyle = {
 	paddingTop:"3%",
 	// maxHeight:"100%",
 	// maxWidth:"100%",
+	marginBottom:"40px",
 	width:"80px"
 }
 
@@ -23,6 +25,7 @@ const mouthStyle = {
 	paddingTop:"5%",
 	// maxHeight:"100%",
 	// maxWidth:"100%",
+	marginBottom:"20px",
 	width:"150px"
 }
 
@@ -70,17 +73,15 @@ class Face extends React.Component {
   render() {
       return (
 				<div style={faceStyle}>
-	        <div className="grid--middle grid--center">
-	          <img
-								className="3/3 grid__cell"
+					<div className="row justify-content-center">	        
+	          <img								
 	              src={require(`../img/eyes.png`)}
 								alt="les yeux du robot"
 								style={eyesStyle}
 	          />
 					</div>
-					<div className="grid--middle grid--center">
-	          <img
-	              className = "1/3 grid__cell"
+					<div className="row justify-content-center">					
+	          <img	              
 	              src={this.selectImg()}
 								alt="le bouton du micro"
 	              onMouseOver={this.handleMouseOver}
@@ -89,9 +90,8 @@ class Face extends React.Component {
 	              style={buttonStyle}
 	          />
 					</div>
-					<div className="grid--middle grid--center">
-	          <img
-	              className = "1/3 grid__cell"
+					<div className="row justify-content-center">					
+	          <img	              
 	              src={require(`../img/mouth.png`)}
 								alt="la bouche du robot"
 	              style={mouthStyle}

@@ -6,6 +6,10 @@ import config from '../config.json';
 const INTERVAL = 1500;
 const NOBODY = "Aucun visage reconnu";
 
+const titleStyle = {
+	marginTop: "20px"
+}
+
 // const camDivStyle ={
 // 	marginTop : "50px",
 // 	borderStyle : "solid",
@@ -24,19 +28,37 @@ class Camera extends React.Component {
 
 	constructor(props){
 		super(props);
+		this.updateDimensions = this.updateDimensions.bind(this);
+		this.setRef = this.setRef.bind(this);
+		this.capture = this.capture.bind(this);
 		this.state = {
+			width : 500,
 			person : [],
 			names : NOBODY
 		};
-		this.setRef = this.setRef.bind(this);
-		this.capture = this.capture.bind(this);
+	}
+
+	componentWillMount() {
+		// this.updateDimensions();
 	}
 
 	componentDidMount(){
+		// window.addEventListener("resize", this.updateDimensions);
 		setInterval( () => { this.capture() }, INTERVAL);
 	}
-
-	componentWillUnmount(){}
+	
+	componentWillUnmount(){
+		// window.removeEventListener("resize", this.updateDimensions);
+	}
+	
+	updateDimensions() {
+		const MIN_LIMIT = 300; 
+		const MAX_LIMIT = 640; 
+		let width = window.innerWidth*0.45;
+		if (width < MIN_LIMIT) width = MIN_LIMIT;
+		else if (width > MAX_LIMIT) width = MAX_LIMIT;
+		this.setState({ width: width });
+	}
 
 	setRef(webcam){
 		this.webcam = webcam
@@ -78,13 +100,18 @@ class Camera extends React.Component {
 	render() {
 		return (
 			<div className = "webcam">
-				<h2>{this.state.names}</h2>
-					<Webcam
-						audio={false}
-						ref={this.setRef}
-						screenshotFormat="image/jpeg"
-						width={400}
-					/>					
+				<div className="row justify-content-center">					
+					<h2 style={titleStyle}>{this.state.names}</h2>					
+				</div>
+
+				<div className="row justify-content-center">					
+						<Webcam
+							audio={false}
+							ref={this.setRef}
+							screenshotFormat="image/jpeg"
+							width={this.state.width}
+						/>										
+				</div>
 			</div>
 		)
 	}
