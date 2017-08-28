@@ -1,12 +1,12 @@
-const winston = require('winston');
+const logger = require('../utils/logger.js');
 const {eventEmitter, events} = require('../events.js')
 
 function lampSwitch(req, res) {
-    res.send("operation finished");
     let state = req.body.state;
     let event = state === 'on' ? events.domoEvents.lampOn : events.domoEvents.lampOff
-    winston.info(event);
+    logger.info(event);
     eventEmitter.emit(event);
+    res.send("operation finished");
 }
 
 module.exports = lampSwitch

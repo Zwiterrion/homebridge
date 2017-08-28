@@ -1,0 +1,158 @@
+2017-08-25T14:38:55.860Z - info: lamp_off
+2017-08-25T14:38:58.789Z - info: lamp_on
+2017-08-25T14:38:59.781Z - info: lamp_off
+2017-08-25T14:39:00.794Z - info: lamp_on
+2017-08-25T14:39:01.781Z - info: lamp_off
+2017-08-25T14:39:02.785Z - info: lamp_on
+2017-08-25T14:39:03.786Z - info: lamp_off
+2017-08-25T14:39:04.793Z - info: lamp_on
+2017-08-25T14:39:37.853Z - info: lamp_off
+2017-08-25T14:40:07.866Z - info: lamp_on
+2017-08-25T14:40:09.810Z - info: lamp_off
+2017-08-25T14:40:10.784Z - info: lamp_on
+2017-08-25T14:40:11.781Z - info: lamp_off
+2017-08-25T14:40:12.783Z - info: lamp_on
+2017-08-25T14:42:59.861Z - info: lamp_off
+2017-08-25T14:43:01.790Z - info: lamp_on
+2017-08-25T14:43:03.788Z - info: lamp_off
+2017-08-25T14:43:04.783Z - info: lamp_on
+2017-08-25T14:43:05.784Z - info: lamp_off
+2017-08-25T14:43:06.796Z - info: lamp_on
+2017-08-25T14:43:07.785Z - info: lamp_off
+2017-08-25T14:43:08.789Z - info: lamp_on
+2017-08-25T14:43:09.786Z - info: lamp_off
+2017-08-25T14:43:48.237Z - info: lamp_on
+2017-08-25T14:43:48.887Z - info: lamp_off
+2017-08-25T14:43:49.421Z - info: lamp_on
+2017-08-25T14:43:49.574Z - info: lamp_off
+2017-08-25T14:43:49.732Z - info: lamp_on
+2017-08-25T14:43:49.944Z - info: lamp_off
+2017-08-25T14:46:43.661Z - info: lamp_on
+2017-08-25T14:46:45.140Z - info: lamp_off
+2017-08-25T14:46:46.083Z - info: lamp_on
+2017-08-25T14:46:46.792Z - info: lamp_off
+2017-08-25T14:46:47.382Z - info: lamp_on
+2017-08-25T14:46:47.968Z - info: lamp_off
+2017-08-25T14:46:48.485Z - info: lamp_on
+2017-08-25T14:47:24.077Z - info: lamp_off
+2017-08-25T14:47:24.082Z - info: A lamp has been switched off
+2017-08-25T14:47:25.153Z - info: lamp_on
+2017-08-25T14:47:25.156Z - info: A lamp has been switched on
+2017-08-25T14:47:25.836Z - info: lamp_off
+2017-08-25T14:47:25.837Z - info: A lamp has been switched off
+2017-08-25T14:47:26.337Z - info: lamp_on
+2017-08-25T14:47:26.345Z - info: A lamp has been switched on
+2017-08-25T14:47:26.776Z - info: lamp_off
+2017-08-25T14:47:26.788Z - info: A lamp has been switched off
+2017-08-25T14:47:27.108Z - info: lamp_on
+2017-08-25T14:47:27.109Z - info: A lamp has been switched on
+2017-08-25T14:47:27.257Z - info: lamp_off
+2017-08-25T14:47:27.258Z - info: A lamp has been switched off
+2017-08-25T14:47:27.708Z - info: lamp_on
+2017-08-25T14:47:27.709Z - info: A lamp has been switched on
+2017-08-25T14:47:28.193Z - info: lamp_off
+2017-08-25T14:47:28.194Z - info: A lamp has been switched off
+2017-08-25T14:55:42.728Z - info: lamp_on
+2017-08-25T14:55:42.731Z - info: A lamp has been switched on
+2017-08-25T14:55:46.838Z - info: lamp_off
+2017-08-25T14:55:46.841Z - info: A lamp has been switched off
+2017-08-25T14:55:48.079Z - info: lamp_on
+2017-08-25T14:55:48.081Z - info: A lamp has been switched on
+2017-08-25T14:55:48.626Z - info: lamp_off
+2017-08-25T14:55:48.628Z - info: A lamp has been switched off
+2017-08-25T14:55:49.474Z - info: lamp_on
+2017-08-25T14:55:49.475Z - info: A lamp has been switched on
+2017-08-25T14:55:50.120Z - info: lamp_off
+2017-08-25T14:55:50.120Z - info: A lamp has been switched off
+2017-08-25T14:58:18.803Z - info: lamp_on
+2017-08-25T14:58:18.803Z - info: A lamp has been switched on
+2017-08-25T15:01:11.812Z - info: lamp_off
+2017-08-25T15:01:11.812Z - info: A lamp has been switched off
+2017-08-25T15:01:14.792Z - info: lamp_on
+2017-08-25T15:01:14.794Z - info: A lamp has been switched on
+2017-08-25T15:01:20.817Z - info: lamp_off
+2017-08-25T15:01:20.820Z - info: A lamp has been switched off
+2017-08-25T15:01:21.791Z - info: lamp_on
+2017-08-25T15:01:21.791Z - info: A lamp has been switched on
+2017-08-25T15:01:23.793Z - info: lamp_off
+2017-08-25T15:01:23.797Z - info: A lamp has been switched off
+2017-08-25T15:01:24.791Z - info: lamp_on
+2017-08-25T15:01:24.791Z - info: A lamp has been switched on
+2017-08-25T15:01:29.787Z - info: lamp_off
+2017-08-25T15:01:29.787Z - info: A lamp has been switched off
+2017-08-25T15:01:35.782Z - info: lamp_on
+2017-08-25T15:01:35.783Z - info: A lamp has been switched on
+2017-08-25T15:01:37.788Z - info: lamp_off
+2017-08-25T15:01:37.788Z - info: A lamp has been switched off
+2017-08-25T15:01:38.781Z - info: lamp_on
+2017-08-25T15:01:38.782Z - info: A lamp has been switched on
+2017-08-25T15:01:49.788Z - info: lamp_off
+2017-08-25T15:01:49.788Z - info: A lamp has been switched off
+2017-08-25T15:01:50.784Z - info: lamp_on
+2017-08-25T15:01:50.784Z - info: A lamp has been switched on
+2017-08-25T15:01:51.793Z - info: lamp_off
+2017-08-25T15:01:51.795Z - info: A lamp has been switched off
+2017-08-25T15:01:52.807Z - info: lamp_on
+2017-08-25T15:01:52.807Z - info: A lamp has been switched on
+2017-08-25T15:23:47.800Z - info: lamp_off
+2017-08-25T15:23:47.801Z - info: A lamp has been switched off
+2017-08-25T15:23:49.789Z - info: lamp_on
+2017-08-25T15:23:49.790Z - info: A lamp has been switched on
+2017-08-25T15:23:50.788Z - info: lamp_off
+2017-08-25T15:23:50.793Z - info: A lamp has been switched off
+2017-08-25T15:23:52.785Z - info: lamp_on
+2017-08-25T15:23:52.789Z - info: A lamp has been switched on
+2017-08-25T15:23:57.780Z - info: lamp_off
+2017-08-25T15:23:57.780Z - info: A lamp has been switched off
+2017-08-25T15:23:58.796Z - info: lamp_on
+2017-08-25T15:23:58.798Z - info: A lamp has been switched on
+2017-08-28T08:44:33.213Z - info: lamp_on
+2017-08-28T08:44:33.216Z - info: A lamp has been switched on
+2017-08-28T08:44:41.210Z - info: lamp_on
+2017-08-28T08:44:41.214Z - info: A lamp has been switched on
+2017-08-28T08:44:48.049Z - info: lamp_off
+2017-08-28T08:44:48.051Z - info: A lamp has been switched off
+2017-08-28T08:44:51.477Z - info: lamp_off
+2017-08-28T08:44:51.477Z - info: A lamp has been switched off
+2017-08-28T08:44:56.473Z - info: lamp_on
+2017-08-28T08:44:56.476Z - info: A lamp has been switched on
+2017-08-28T08:45:20.179Z - info: lamp_off
+2017-08-28T08:45:20.180Z - info: A lamp has been switched off
+2017-08-28T08:51:54.259Z - info: lamp_on
+2017-08-28T08:51:54.263Z - info: A lamp has been switched on
+2017-08-28T08:51:59.193Z - info: lamp_off
+2017-08-28T08:51:59.195Z - info: A lamp has been switched off
+2017-08-28T08:52:00.792Z - info: lamp_on
+2017-08-28T08:52:00.793Z - info: A lamp has been switched on
+2017-08-28T08:52:04.510Z - info: lamp_off
+2017-08-28T08:52:04.511Z - info: A lamp has been switched off
+2017-08-28T08:52:06.651Z - info: lamp_on
+2017-08-28T08:52:06.656Z - info: A lamp has been switched on
+2017-08-28T08:52:14.849Z - info: lamp_off
+2017-08-28T08:52:14.854Z - info: A lamp has been switched off
+2017-08-28T08:52:14.861Z - info: lamp_on
+2017-08-28T08:52:14.863Z - info: A lamp has been switched on
+2017-08-28T08:53:22.552Z - info: lamp_off
+2017-08-28T08:53:22.552Z - info: A lamp has been switched off
+2017-08-28T08:53:24.391Z - info: lamp_on
+2017-08-28T08:53:24.396Z - info: A lamp has been switched on
+2017-08-28T08:53:24.497Z - info: lamp_off
+2017-08-28T08:53:24.499Z - info: A lamp has been switched off
+2017-08-28T08:53:27.936Z - info: lamp_on
+2017-08-28T08:53:27.940Z - info: A lamp has been switched on
+2017-08-28T08:53:28.495Z - info: lamp_off
+2017-08-28T08:53:28.499Z - info: A lamp has been switched off
+2017-08-28T08:53:31.510Z - info: lamp_on
+2017-08-28T08:53:31.511Z - info: A lamp has been switched on
+2017-08-28T08:53:50.796Z - info: lamp_off
+2017-08-28T08:53:50.799Z - info: A lamp has been switched off
+2017-08-28T08:53:53.023Z - info: lamp_on
+2017-08-28T08:53:53.024Z - info: A lamp has been switched on
+2017-08-28T08:54:50.659Z - info: lamp_off
+2017-08-28T08:54:50.676Z - info: A lamp has been switched off
+2017-08-28T08:54:52.259Z - info: lamp_on
+2017-08-28T08:54:52.260Z - info: A lamp has been switched on
+2017-08-28T09:21:12.021Z - info: lamp_off
+2017-08-28T09:21:12.026Z - info: A lamp has been switched off
+2017-08-28T09:21:25.182Z - info: lamp_on
+2017-08-28T09:21:25.184Z - info: A lamp has been switched on

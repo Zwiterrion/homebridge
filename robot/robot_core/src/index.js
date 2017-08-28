@@ -7,18 +7,28 @@ const lampSwitch = require('./expressFunctions/domoEvents');
 const fs = require('fs');
 
 
+// getting the mood and loading the events
+const config = require('../config/config.json');
+require(`./mood/${config.mood}.js`)()
+
+// process.argv.forEach(function (val, index, array) {
+//   console.log(index + ': ' + val);
+// });
+
+
+// to be removed
+const PORT = 8090;
+
+// express part
 
 const rawOptions = {
-	extended: false,
+  extended: false,
   type: 'application/octet-stream'
 };
 
 const urlencodedOptions = {
-	extended: true,
+  extended: true,
 };
-
-const PORT = 8090;
-
 
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
 app.use( bodyParser.urlencoded(urlencodedOptions) );
@@ -31,8 +41,9 @@ app.use(function(req, res, next) {
 });
 
 
-// routes
 
+
+// routes
 app.post('/record', processAudio);
 app.post('/detect', processVideo);
 app.post('/light/state', lampSwitch); 
