@@ -1,6 +1,7 @@
 const FaceApi = require('../api/faceRecognition/FaceApi.js');
 const fs = require('fs');
 const gm = require('gm');
+const { eventEmitter, events } = require('../events.js')
 
 const faceApi = new FaceApi();
 
@@ -33,7 +34,8 @@ function processVideo(req, res){
 			})
 			.then (result => {
 				console.log(result);
-				res.json(result)
+				eventEmitter.emit(events.userEvents.faceRecognize, result);
+				res.json(result);
 			})
 		}
 		fs.rename(path1, path0, function(err) {

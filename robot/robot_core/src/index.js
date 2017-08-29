@@ -3,6 +3,7 @@ const app = express()
 const bodyParser = require('body-parser');
 const processAudio = require('./expressFunctions/userAudioInputProcessing');
 const processVideo = require('./expressFunctions/userVideoInputProcessing');
+const sse = require('./expressFunctions/sse');
 const lampSwitch = require('./expressFunctions/domoEvents');
 const fs = require('fs');
 
@@ -14,6 +15,9 @@ require(`./mood/${config.mood}.js`)()
 // process.argv.forEach(function (val, index, array) {
 //   console.log(index + ': ' + val);
 // });
+
+
+sse.sseEventListen();
 
 
 // to be removed
@@ -42,15 +46,18 @@ app.use(function(req, res, next) {
 
 
 
-
 // routes
 app.post('/record', processAudio);
 app.post('/detect', processVideo);
 app.post('/light/state', lampSwitch); 
+app.get('/sse', (req, res) => {
+  sse.subscribe(res)
+});
 app.listen(PORT, ()=>{
   console.log(`listening on port : ${PORT}`);
   initImg("img/");
 });
+
 
 function initImg(imgPath){
   fs.createReadStream(`${imgPath}source.jpg`).pipe(fs.createWriteStream(`${imgPath}test0.jpg`));

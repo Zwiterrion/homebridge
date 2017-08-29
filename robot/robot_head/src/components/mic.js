@@ -110,8 +110,8 @@ class Mic extends React.Component{
               onStop={this.handleStop}
               strokeColor="#ffffff"
               backgroundColor="#008fca"
-              width="500"
-              height="100"
+              width={500}
+              height={100}
             />
           </div>
           <Sound
@@ -139,8 +139,8 @@ class Mic extends React.Component{
               onStop={this.handleStop}
               strokeColor="#ffffff"
               backgroundColor="#008fca"
-              width="500"
-              height="100"
+              width={500}
+              height={100}
             />
 					</div>
         </div>

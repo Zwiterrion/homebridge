@@ -2,6 +2,7 @@ import 'whatwg-fetch';
 import React, { Component } from 'react';
 import Camera from './components/camera';
 import Mic from './components/mic';
+import Head from './components/head';
 // import {
 //   BrowserRouter as Router,
 //   Route,
@@ -19,6 +20,7 @@ class App extends Component {
           <div className="col">
             <Camera className="camera" />
           </div>
+          <Head/>
         </div>
       </div>
     );

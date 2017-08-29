@@ -13,6 +13,11 @@ const events = {
 
 	userEvents : {
 		voiceHeard : "voice_heard",
+		faceRecognize : "face_recognize"
+	},
+
+	sse : {
+		voiceSynthesis : "sse_voice"
 	},
 
 
