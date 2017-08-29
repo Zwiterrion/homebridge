@@ -483,3 +483,87 @@
 2017-08-29T13:00:23.326Z - info: faces recognize : 
 2017-08-29T13:00:25.818Z - info: faces recognize : Thibault Herault
 2017-08-29T13:00:27.553Z - info: faces recognize : Thibault Herault
+2017-08-29T14:17:23.356Z - info: lamp_on
+2017-08-29T14:17:23.360Z - info: A lamp has been switched on
+2017-08-29T14:34:44.432Z - info: push the data : [object Object] in 
+2017-08-29T14:35:14.296Z - info: lamp_off
+2017-08-29T14:35:14.297Z - info: A lamp has been switched off
+2017-08-29T14:35:16.294Z - info: lamp_on
+2017-08-29T14:35:16.303Z - info: A lamp has been switched on
+2017-08-29T14:37:21.329Z - info: push the data : [object Object] in [object Object]
+2017-08-29T14:39:26.433Z - info: push the data : [object Object] in [object Object],[object Object]
+2017-08-29T14:40:19.106Z - info: push the data : [object Object] in [object Object],[object Object],[object Object]
+2017-08-29T14:40:28.981Z - info: push the data : [object Object] in 
+2017-08-29T14:40:32.421Z - info: faces recognize : Thibault Herault
+2017-08-29T14:40:36.653Z - info: faces recognize : Thibault Herault
+2017-08-29T14:40:39.324Z - info: lamp_off
+2017-08-29T14:40:39.335Z - info: A lamp has been switched off
+2017-08-29T14:40:41.299Z - info: lamp_on
+2017-08-29T14:40:41.303Z - info: A lamp has been switched on
+2017-08-29T14:41:09.593Z - info: push the data : [object Object] in 
+2017-08-29T14:41:24.237Z - info: faces recognize : Thibault Herault
+2017-08-29T14:41:30.284Z - info: faces recognize : Thibault Herault
+2017-08-29T14:41:33.886Z - info: lamp_off
+2017-08-29T14:41:33.887Z - info: A lamp has been switched off
+2017-08-29T14:41:36.633Z - info: lamp_on
+2017-08-29T14:41:36.635Z - info: A lamp has been switched on
+2017-08-29T14:41:47.174Z - info: lamp_off
+2017-08-29T14:41:47.175Z - info: A lamp has been switched off
+2017-08-29T14:41:48.630Z - info: lamp_on
+2017-08-29T14:41:48.634Z - info: A lamp has been switched on
+2017-08-29T14:41:56.831Z - info: faces recognize : Thibault Herault
+2017-08-29T14:42:51.342Z - info: faces recognize : Thibault Herault
+2017-08-29T14:42:51.554Z - info: faces recognize : Thibault Herault
+2017-08-29T14:43:15.145Z - info: faces recognize : Thibault Herault
+2017-08-29T14:43:15.889Z - info: push the data : [object Object] in [object Object]
+2017-08-29T14:43:16.001Z - info: faces recognize : 
+2017-08-29T14:43:26.475Z - info: push the data : [object Object] in [object Object],[object Object]
+2017-08-29T14:43:58.673Z - info: push the data : [object Object] in [object Object],[object Object],[object Object]
+2017-08-29T14:44:04.429Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:44:17.465Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:44:35.886Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:44:46.996Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:44:59.563Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:45:41.213Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:46:00.291Z - info: lamp_off
+2017-08-29T14:46:00.294Z - info: A lamp has been switched off
+2017-08-29T14:46:02.289Z - info: lamp_on
+2017-08-29T14:46:02.289Z - info: A lamp has been switched on
+2017-08-29T14:46:38.346Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:46:49.879Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:47:02.033Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:47:10.292Z - info: lamp_off
+2017-08-29T14:47:10.292Z - info: A lamp has been switched off
+2017-08-29T14:47:12.289Z - info: lamp_on
+2017-08-29T14:47:12.294Z - info: A lamp has been switched on
+2017-08-29T14:47:23.292Z - info: lamp_off
+2017-08-29T14:47:23.292Z - info: A lamp has been switched off
+2017-08-29T14:47:25.290Z - info: lamp_on
+2017-08-29T14:47:25.293Z - info: A lamp has been switched on
+2017-08-29T14:47:28.305Z - info: lamp_off
+2017-08-29T14:47:28.306Z - info: A lamp has been switched off
+2017-08-29T14:47:30.295Z - info: lamp_on
+2017-08-29T14:47:30.296Z - info: A lamp has been switched on
+2017-08-29T14:49:35.333Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:51:40.442Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:53:45.522Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:53:56.643Z - info: faces recognize : Thibault Herault
+2017-08-29T14:53:57.420Z - info: faces recognize : 
+2017-08-29T14:54:03.174Z - info: faces recognize : Thibault Herault
+2017-08-29T14:54:10.344Z - info: faces recognize : Thibault Herault
+2017-08-29T14:54:19.239Z - info: faces recognize : 
+2017-08-29T14:54:25.441Z - info: faces recognize : Thibault Herault
+2017-08-29T14:54:42.871Z - info: faces recognize : Thibault Herault
+2017-08-29T14:55:50.542Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:57:17.330Z - info: faces recognize : 
+2017-08-29T14:57:27.117Z - info: faces recognize : Thibault Herault
+2017-08-29T14:57:44.208Z - info: faces recognize : 
+2017-08-29T14:57:45.617Z - info: faces recognize : 
+2017-08-29T14:57:47.130Z - info: faces recognize : 
+2017-08-29T14:57:55.549Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T14:58:43.303Z - info: faces recognize : Thibault Herault
+2017-08-29T14:58:44.810Z - info: faces recognize : 
+2017-08-29T14:59:25.228Z - info: faces recognize : 
+2017-08-29T14:59:31.400Z - info: faces recognize : 
+2017-08-29T14:59:59.149Z - info: faces recognize : Thibault Herault
+2017-08-29T15:00:00.163Z - info: faces recognize : 
