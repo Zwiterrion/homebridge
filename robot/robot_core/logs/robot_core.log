@@ -567,3 +567,136 @@
 2017-08-29T14:59:31.400Z - info: faces recognize : 
 2017-08-29T14:59:59.149Z - info: faces recognize : Thibault Herault
 2017-08-29T15:00:00.163Z - info: faces recognize : 
+2017-08-29T15:15:26.351Z - info: push the data : [object Object] in 
+2017-08-29T15:15:30.978Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T15:15:32.456Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T15:15:33.935Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T15:15:35.451Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T15:15:36.954Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T15:15:39.162Z - info: push the data : [object Object] in [object Object]
+2017-08-29T15:16:06.314Z - info: lamp_off
+2017-08-29T15:16:06.315Z - info: A lamp has been switched off
+2017-08-29T15:16:08.299Z - info: lamp_on
+2017-08-29T15:16:08.300Z - info: A lamp has been switched on
+2017-08-29T15:18:13.563Z - info: push the data : [object Object] in [object Object],[object Object]
+2017-08-29T15:18:21.848Z - info: push the data : [object Object] in [object Object],[object Object],[object Object]
+2017-08-29T15:18:26.626Z - warn: gm compare: Request did not return an image.
+
+2017-08-29T15:18:37.044Z - info: faces recognize : 
+2017-08-29T15:18:37.198Z - info: faces recognize : 
+2017-08-29T15:18:51.884Z - info: push the data : [object Object] in 
+2017-08-29T15:18:57.989Z - info: faces recognize : Thibault Herault
+2017-08-29T15:19:09.498Z - info: faces recognize : Thibault Herault
+2017-08-29T15:19:12.993Z - info: faces recognize : Thibault Herault
+2017-08-29T15:19:22.531Z - info: faces recognize : Thibault Herault
+2017-08-29T15:19:22.609Z - info: faces recognize : 
+2017-08-29T15:19:50.019Z - info: faces recognize : Thibault Herault
+2017-08-29T15:20:00.614Z - info: faces recognize : 
+2017-08-29T15:20:07.560Z - info: faces recognize : 
+2017-08-29T15:20:13.450Z - info: faces recognize : 
+2017-08-29T15:21:23.060Z - info: faces recognize : 
+2017-08-29T15:21:35.764Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-08-29T15:21:35.795Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-08-29T15:21:38.065Z - info: push the data : [object Object] in [object Object]
+2017-08-29T15:21:38.089Z - info: faces recognize : 
+2017-08-29T15:21:38.097Z - info: faces recognize : 
+2017-08-29T15:21:38.103Z - info: faces recognize : 
+2017-08-29T15:21:38.107Z - info: faces recognize : 
+2017-08-29T15:21:38.629Z - info: faces recognize : Thibault Herault
+2017-08-29T15:21:38.738Z - info: faces recognize : 
+2017-08-29T15:21:39.225Z - info: faces recognize : Thibault Herault
+2017-08-29T15:21:43.324Z - info: faces recognize : Thibault Herault
+2017-08-29T15:23:49.713Z - info: push the data : [object Object] in [object Object],[object Object]
+2017-08-29T15:25:54.758Z - info: push the data : [object Object] in [object Object],[object Object],[object Object]
+2017-08-29T15:27:59.864Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object]
+2017-08-29T15:28:52.608Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T15:30:57.647Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T15:33:02.742Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T15:35:07.851Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T15:37:12.954Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T15:39:18.052Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T15:41:23.151Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T15:43:28.252Z - info: push the data : [object Object] in [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2017-08-29T16:14:14.209Z - info: push the data : [object Object] in 
+2017-08-29T16:14:17.241Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:18.698Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:20.208Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:21.695Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:23.396Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:25.120Z - info: push the data : [object Object] in [object Object]
+2017-08-29T16:14:30.469Z - info: push the data : [object Object] in 
+2017-08-29T16:14:31.407Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:32.900Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:34.376Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:38.965Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:41.352Z - info: push the data : [object Object] in 
+2017-08-29T16:14:44.456Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:45.910Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:50.483Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:51.929Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:14:52.201Z - info: push the data : [object Object] in 
+2017-08-29T16:14:53.423Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-29T16:15:07.307Z - info: faces recognize : Thibault Herault
+2017-08-29T16:15:43.005Z - info: faces recognize : Thibault Herault
+2017-08-29T16:15:44.871Z - info: faces recognize : 
+2017-08-29T16:15:47.313Z - info: faces recognize : Thibault Herault
+2017-08-29T16:16:50.490Z - info: push the data : [object Object] in 
+2017-08-29T16:17:07.432Z - info: faces recognize : 
+2017-08-29T16:17:09.296Z - info: faces recognize : Thibault Herault
+2017-08-29T16:17:41.126Z - info: faces recognize : Thibault Herault
+2017-08-29T16:18:24.307Z - info: faces recognize : 
+2017-08-29T16:19:04.763Z - info: faces recognize : 
+2017-08-29T16:19:07.125Z - info: faces recognize : 
+2017-08-29T16:19:07.791Z - info: faces recognize : 
+2017-08-30T10:04:43.049Z - info: push the data : [object Object] in 
+2017-08-30T10:04:50.191Z - info: faces recognize : Thibault Herault
+2017-08-30T10:04:58.803Z - info: faces recognize : Thibault Herault
+2017-08-30T10:05:07.862Z - info: faces recognize : Thibault Herault
+2017-08-30T10:05:08.760Z - info: faces recognize : 
+2017-08-30T10:05:16.895Z - info: faces recognize : Thibault Herault
+2017-08-30T10:05:19.883Z - info: faces recognize : Thibault Herault
+2017-08-30T13:24:34.483Z - info: push the data : [object Object] in 
+2017-08-30T13:24:40.848Z - info: faces recognize : Thibault Herault
+2017-08-30T13:24:45.246Z - info: faces recognize : 
+2017-08-30T13:24:48.904Z - info: faces recognize : Thibault Herault
+2017-08-30T13:28:07.613Z - info: faces recognize : Thibault Herault
+2017-08-30T13:28:13.152Z - info: faces recognize : Thibault Herault
+2017-08-30T13:28:14.209Z - info: faces recognize : 
+2017-08-30T13:28:38.691Z - info: faces recognize : Thibault Herault
+2017-08-30T13:28:50.311Z - info: faces recognize : Thibault Herault
+2017-08-30T13:29:02.890Z - info: push the data : [object Object] in 
+2017-08-30T13:29:14.822Z - info: faces recognize : Thibault Herault
+2017-08-30T13:29:34.128Z - info: faces recognize : Thibault Herault
+2017-08-30T13:29:51.361Z - info: push the data : [object Object] in [object Object]
+2017-08-30T13:31:14.073Z - info: lamp_off
+2017-08-30T13:31:14.075Z - info: A lamp has been switched off
+2017-08-30T13:41:45.741Z - info: push the data : [object Object] in 
+2017-08-30T13:41:57.565Z - info: result of processAudio : Je viens d'allumer la lampe
+2017-08-30T13:41:57.655Z - info: lamp_on
+2017-08-30T13:41:57.659Z - info: A lamp has been switched on
+2017-08-30T13:42:47.729Z - info: result of processAudio : Je viens d'éteindre la lampe
+2017-08-30T13:42:47.783Z - info: lamp_off
+2017-08-30T13:42:47.784Z - info: A lamp has been switched off
+2017-08-30T13:44:39.299Z - info: result of processAudio : Je viens d'éteindre la lampe
+2017-08-30T13:46:44.701Z - info: push the data : [object Object] in [object Object]

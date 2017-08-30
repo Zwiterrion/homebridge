@@ -3,7 +3,6 @@ import {ReactMic} from 'react-mic';
 import Sound from 'react-sound';
 import config from '../config.json';
 import Face from './face';
-const querystring = require('querystring');
 
 
 class Head extends React.Component{
@@ -28,14 +27,14 @@ class Head extends React.Component{
     this.source.addEventListener(`sse_voice`, function (e) {
       // TODO call nice code to make the browser speak
       console.log(`sse : ${e.data}`);
-      fetch(config.voicerss.uri + "?" + querystring.stringify(that.getVoicerParam(e.data)), {
-        method: 'GET'
-      }).then((content) => {
+      // fetch(config.voicerss.uri + "?" + querystring.stringify(that.getVoicerParam(e.data)), {
+      //   method: 'GET'
+      // }).then((content) => {
         that.setState({
-          mp3: content.url,
+          mp3: e.data,
           sound: true
         });
-      });
+      //});
     })
   }
   
@@ -83,7 +82,6 @@ class Head extends React.Component{
   }
 
   handleStop(recordedBlob){
-    let that = this;
     this.blobToBase64(recordedBlob.blob, function(base64){
       var update = {blob: base64};
       update = JSON.stringify(update);
@@ -94,31 +92,6 @@ class Head extends React.Component{
           'Content-Type': 'application/json'
         },
         body: update
-      })
-      .then((response)=>{
-        response.json().then((text)=>
-        {
-          // const params = {
-          //   key: config.voicerss.key,
-          //   hl: config.voicerss.language,
-          //   src: text,
-          //   r: 0,
-          //   c: 'mp3',
-          //   f: '44khz_16bit_stereo',
-          //   ssml: false,
-          //   b64: false
-          // };
-          const params = that.getVoicerParam(text);
-
-          fetch(config.voicerss.uri + "?" + querystring.stringify(params), {
-            method: 'GET'
-          }).then((content) => {
-            that.setState({
-              mp3: content.url,
-              sound: true
-            });
-          });
-        })
       })
     })
   }
