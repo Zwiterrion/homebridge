@@ -5,32 +5,51 @@ const processVideo = require('./expressFunctions/userVideoInputProcessing');
 const sse = require('./expressFunctions/sse');
 const lampSwitch = require('./expressFunctions/domoEvents');
 const fs = require('fs');
+const logger = require('./utils/logger');
+const config = require('../config/config.json');
 
 const app = express();
 
+// =====================
+// mood selection
+// =====================
 
-// getting the mood and loading the events
-const config = require('../config/config.json');
+let selectedMood;
 
-require(`./mood/${config.mood}.js`)();
+// if it specified as a cmd arguments, choose it
+if (process.argv[2]) {
+  const acceptedMoods = ['conf', 'serli', 'welcome'];
+  if (acceptedMoods.includes(process.argv[2])) {
+    selectedMood = process.argv[2];
+  } else {
+    logger.warn('Invalid mood specified as cmd line argument, taking default mood from config.json');
+  }
+}
+// else we take the default one from the config file 
+if (!selectedMood) {
+  selectedMood = config.mood;
+}
 
-// process.argv.forEach(function (val, index, array) {
-//   console.log(index + ': ' + val);
-// });
+// loading events with the selected mood
+require(`./mood/${selectedMood}.js`)();
 
+// =====================
+// other initialization
+// =====================
 
 function initImg(imgPath) {
   fs.createReadStream(`${imgPath}source.jpg`).pipe(fs.createWriteStream(`${imgPath}test0.jpg`));
 }
 
-
 sse.sseEventListen();
 
+// =====================
+// express part
+// =====================
 
 // to be removed
 const PORT = 8090;
 
-// express part
 const rawOptions = {
   extended: false,
   type: 'application/octet-stream',
@@ -58,6 +77,6 @@ app.get('/sse', (req, res) => {
   sse.subscribe(res);
 });
 app.listen(PORT, () => {
-  console.log(`listening on port : ${PORT}`);
+  console.log(`listening on port : ${PORT}, with mood '${selectedMood}'`);
   initImg('img/');
 });

@@ -700,3 +700,20 @@
 2017-08-30T13:42:47.784Z - info: A lamp has been switched off
 2017-08-30T13:44:39.299Z - info: result of processAudio : Je viens d'éteindre la lampe
 2017-08-30T13:46:44.701Z - info: push the data : [object Object] in [object Object]
+2017-08-31T12:50:02.535Z - warn: Invalid mood specified as cmd line argument, taking default mood from config.json
+2017-08-31T12:54:15.486Z - info: lamp_off
+2017-08-31T12:54:17.440Z - info: lamp_on
+2017-08-31T12:54:44.976Z - info: push the data : [object Object] in 
+2017-08-31T12:54:48.008Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-31T12:54:49.492Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-31T12:54:51.051Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-08-31T12:54:53.434Z - info: push the data : [object Object] in [object Object]
+2017-08-31T12:55:00.448Z - info: lamp_off
+2017-08-31T12:55:03.438Z - info: lamp_on
+2017-08-31T12:57:08.795Z - info: push the data : [object Object] in [object Object],[object Object]
+2017-08-31T12:57:23.434Z - info: lamp_off
+2017-08-31T12:57:25.427Z - info: lamp_on
+2017-08-31T12:57:30.448Z - info: lamp_off

@@ -28,6 +28,7 @@
     "express": "^4.15.3",
     "fs": "0.0.1-security",
     "gm": "^1.23.0",
+    "lowdb": "^0.17.2",
     "node-fetch": "^1.7.1",
     "request": "^2.81.0",
     "winston": "^2.3.1"
