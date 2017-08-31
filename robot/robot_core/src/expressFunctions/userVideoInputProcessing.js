@@ -3,6 +3,7 @@ const fs = require('fs');
 const gm = require('gm');
 const logger = require('../utils/logger.js');
 const { eventEmitter, events } = require('../events.js');
+const util = require('util')
 
 const faceApi = new FaceApi();
 
@@ -18,14 +19,11 @@ function processVideo(req, res) {
   };
   gm.compare(path0, path1, options, (err, isEqual, equality, raw) => {
     if (err) logger.warn(err);
-    // console.log("equals");
-    // console.log(`raw : ${raw}`)
     if (isEqual || err) {
       res.json(0);
     } else {
       faceApi.detectFace(req.body)
         .then(faceIds =>
-          // console.log(`face id : ${faceIds}`);
           faceApi.identify(faceIds)
         )
         .then(personId =>
@@ -33,7 +31,7 @@ function processVideo(req, res) {
           faceApi.getPersonNames(personId)
         )
         .then((result) => {
-          console.log(result);
+          logger.info(`detection result : ${util.inspect(result)}`);
           eventEmitter.emit(events.userEvents.faceRecognize, result);
           res.json(result);
         });

@@ -1,0 +1,16 @@
+{
+  "people": [
+    {
+      "id": "ae64c04e-a197-4cb2-a67a-8600fd5c5a09",
+      "firstName": "Thibault",
+      "lastName": "Herault",
+      "favoriteColor": "blue"
+    },
+    {
+      "id": "ae64c04e-a197-4cb2-a67a-8600fd5c5a09",
+      "firstName": "Thibault",
+      "lastName": "Herault",
+      "favoriteColor": "blue"
+    }
+  ]
+}
