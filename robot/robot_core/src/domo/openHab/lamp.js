@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const logger = require('../../utils/logger')
 
 const DEFAULT_STATE = {
   hue: 0,
@@ -19,8 +20,7 @@ function OHLamp(baseURL, lampName, state = DEFAULT_STATE) {
       method: 'POST',
       headers: { 'content-type': 'text/plain' },
       body,
-    }).then(result => console.log(result))
-      .catch(error => console.log(`error : ${error}`));
+    }).catch(error => logger.error(`OHLamp fetch : ${error}`));
   }
 
 

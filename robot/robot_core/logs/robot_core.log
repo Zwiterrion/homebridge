@@ -1908,3 +1908,445 @@
 2017-09-01T09:38:38.850Z - info: Person already registered
 2017-09-01T09:38:38.851Z - info: Your favorite color is : bleu
 2017-09-01T09:38:52.345Z - info: faces recognize : 
+2017-09-01T09:50:16.128Z - info: faces recognize : 
+2017-09-01T09:50:17.789Z - info: faces recognize : 
+2017-09-01T09:50:22.373Z - info: faces recognize : Thibault Herault
+2017-09-01T09:50:22.381Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:50:22.383Z - info: Person already registered
+2017-09-01T09:50:22.385Z - info: Your favorite color is : bleu
+2017-09-01T09:50:24.669Z - info: faces recognize : 
+2017-09-01T09:50:27.197Z - info: faces recognize : 
+2017-09-01T09:50:36.550Z - info: faces recognize : Thibault Herault
+2017-09-01T09:50:36.550Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:50:36.551Z - info: Person already registered
+2017-09-01T09:50:36.551Z - info: Your favorite color is : bleu
+2017-09-01T09:50:43.959Z - info: faces recognize : Thibault Herault
+2017-09-01T09:50:43.961Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:50:43.962Z - info: Person already registered
+2017-09-01T09:50:43.962Z - info: Your favorite color is : bleu
+2017-09-01T09:50:45.501Z - info: faces recognize : 
+2017-09-01T09:50:47.220Z - info: faces recognize : 
+2017-09-01T09:50:54.884Z - info: faces recognize : 
+2017-09-01T09:51:00.439Z - info: faces recognize : 
+2017-09-01T09:51:04.367Z - info: faces recognize : Thibault Herault
+2017-09-01T09:51:04.367Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:51:04.370Z - info: Person already registered
+2017-09-01T09:51:04.371Z - info: Your favorite color is : bleu
+2017-09-01T09:51:08.284Z - info: faces recognize : 
+2017-09-01T09:51:10.297Z - info: faces recognize : Thibault Herault
+2017-09-01T09:51:10.299Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:51:10.300Z - info: Person already registered
+2017-09-01T09:51:10.300Z - info: Your favorite color is : bleu
+2017-09-01T09:51:11.202Z - info: faces recognize : 
+2017-09-01T09:51:13.441Z - info: faces recognize : Thibault Herault
+2017-09-01T09:51:13.446Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:51:13.447Z - info: Person already registered
+2017-09-01T09:51:13.448Z - info: Your favorite color is : bleu
+2017-09-01T09:51:14.115Z - info: faces recognize : 
+2017-09-01T09:51:15.923Z - info: faces recognize : 
+2017-09-01T09:51:16.941Z - info: faces recognize : 
+2017-09-01T09:51:18.462Z - info: faces recognize : 
+2017-09-01T09:51:20.287Z - info: faces recognize : 
+2017-09-01T09:51:21.496Z - info: faces recognize : 
+2017-09-01T09:51:23.713Z - info: faces recognize : Thibault Herault
+2017-09-01T09:51:23.713Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:51:23.714Z - info: Person already registered
+2017-09-01T09:51:23.715Z - info: Your favorite color is : bleu
+2017-09-01T09:51:24.577Z - info: faces recognize : 
+2017-09-01T09:51:26.248Z - info: faces recognize : 
+2017-09-01T09:51:28.331Z - info: faces recognize : Thibault Herault
+2017-09-01T09:51:28.331Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:51:28.332Z - info: Person already registered
+2017-09-01T09:51:28.333Z - info: Your favorite color is : bleu
+2017-09-01T09:51:29.853Z - info: faces recognize : Thibault Herault
+2017-09-01T09:51:29.861Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:51:29.863Z - info: Person already registered
+2017-09-01T09:51:29.864Z - info: Your favorite color is : bleu
+2017-09-01T09:51:30.640Z - info: faces recognize : 
+2017-09-01T09:51:32.020Z - info: faces recognize : 
+2017-09-01T09:51:36.427Z - info: faces recognize : 
+2017-09-01T09:51:38.156Z - info: faces recognize : 
+2017-09-01T09:51:45.926Z - info: faces recognize : 
+2017-09-01T09:51:49.369Z - info: faces recognize : Thibault Herault
+2017-09-01T09:51:49.370Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:51:49.371Z - info: Person already registered
+2017-09-01T09:51:49.371Z - info: Your favorite color is : bleu
+2017-09-01T09:51:53.145Z - info: faces recognize : 
+2017-09-01T09:51:54.772Z - info: faces recognize : 
+2017-09-01T09:51:56.140Z - info: faces recognize : 
+2017-09-01T09:52:02.136Z - info: faces recognize : 
+2017-09-01T09:52:03.882Z - info: faces recognize : 
+2017-09-01T09:52:05.186Z - info: faces recognize : 
+2017-09-01T09:52:06.565Z - info: faces recognize : 
+2017-09-01T09:52:08.372Z - info: faces recognize : 
+2017-09-01T09:52:10.519Z - info: faces recognize : Thibault Herault
+2017-09-01T09:52:10.520Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:52:10.521Z - info: Person already registered
+2017-09-01T09:52:10.525Z - info: Your favorite color is : bleu
+2017-09-01T09:52:11.287Z - info: faces recognize : 
+2017-09-01T09:52:18.118Z - info: faces recognize : Thibault Herault
+2017-09-01T09:52:18.121Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:52:18.122Z - info: Person already registered
+2017-09-01T09:52:18.122Z - info: Your favorite color is : bleu
+2017-09-01T09:52:19.282Z - info: faces recognize : Thibault Herault
+2017-09-01T09:52:19.283Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:52:19.287Z - info: Person already registered
+2017-09-01T09:52:19.287Z - info: Your favorite color is : bleu
+2017-09-01T09:52:19.873Z - info: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-01T09:52:27.754Z - info: faces recognize : 
+2017-09-01T09:52:29.767Z - info: faces recognize : Thibault Herault
+2017-09-01T09:52:29.769Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:52:29.771Z - info: Person already registered
+2017-09-01T09:52:29.771Z - info: Your favorite color is : bleu
+2017-09-01T09:52:32.508Z - info: faces recognize : 
+2017-09-01T09:52:33.799Z - info: faces recognize : 
+2017-09-01T09:52:46.696Z - info: faces recognize : Thibault Herault
+2017-09-01T09:52:46.700Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:52:46.701Z - info: Person already registered
+2017-09-01T09:52:46.701Z - info: Your favorite color is : bleu
+2017-09-01T09:52:49.412Z - info: faces recognize : Thibault Herault
+2017-09-01T09:52:49.413Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:52:49.414Z - info: Person already registered
+2017-09-01T09:52:49.415Z - info: Your favorite color is : bleu
+2017-09-01T09:52:54.097Z - info: faces recognize : Thibault Herault
+2017-09-01T09:52:54.099Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:52:54.100Z - info: Person already registered
+2017-09-01T09:52:54.106Z - info: Your favorite color is : bleu
+2017-09-01T09:53:04.325Z - info: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-01T09:53:05.780Z - info: faces recognize : 
+2017-09-01T09:53:08.438Z - info: faces recognize : 
+2017-09-01T09:53:17.970Z - info: faces recognize : 
+2017-09-01T09:53:19.834Z - info: faces recognize : Thibault Herault
+2017-09-01T09:53:19.840Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:53:19.844Z - info: Person already registered
+2017-09-01T09:53:19.847Z - info: Your favorite color is : bleu
+2017-09-01T09:53:21.367Z - info: faces recognize : Thibault Herault
+2017-09-01T09:53:21.367Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:53:21.369Z - info: Person already registered
+2017-09-01T09:53:21.370Z - info: Your favorite color is : bleu
+2017-09-01T09:53:22.613Z - info: faces recognize : Thibault Herault
+2017-09-01T09:53:22.617Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:53:22.617Z - info: Person already registered
+2017-09-01T09:53:22.617Z - info: Your favorite color is : bleu
+2017-09-01T09:53:22.636Z - info: result of processAudio : Je n'ai pas compris ce que vous avez dit.
+2017-09-01T09:53:23.855Z - info: faces recognize : 
+2017-09-01T09:53:36.509Z - info: faces recognize : Thibault Herault
+2017-09-01T09:53:36.511Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:53:36.513Z - info: Person already registered
+2017-09-01T09:53:36.514Z - info: Your favorite color is : bleu
+2017-09-01T09:53:38.732Z - info: faces recognize : 
+2017-09-01T09:53:40.092Z - info: faces recognize : 
+2017-09-01T09:53:41.832Z - info: result of processAudio : Je n'ai pas compris ce que vous avez dit.
+2017-09-01T09:53:52.090Z - info: faces recognize : 
+2017-09-01T09:53:53.832Z - info: faces recognize : 
+2017-09-01T09:54:00.452Z - info: faces recognize : Thibault Herault
+2017-09-01T09:54:00.456Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:54:00.460Z - info: Person already registered
+2017-09-01T09:54:00.461Z - info: Your favorite color is : bleu
+2017-09-01T09:54:01.098Z - info: faces recognize : 
+2017-09-01T09:54:03.416Z - info: faces recognize : Thibault Herault
+2017-09-01T09:54:03.417Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:54:03.417Z - info: Person already registered
+2017-09-01T09:54:03.417Z - info: Your favorite color is : bleu
+2017-09-01T09:54:04.115Z - info: faces recognize : 
+2017-09-01T09:54:05.591Z - info: faces recognize : 
+2017-09-01T09:54:27.295Z - info: faces recognize : Thibault Herault
+2017-09-01T09:54:27.296Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:54:27.296Z - info: Person already registered
+2017-09-01T09:54:27.297Z - info: Your favorite color is : bleu
+2017-09-01T09:54:28.993Z - info: faces recognize : Thibault Herault
+2017-09-01T09:54:28.993Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:54:28.994Z - info: Person already registered
+2017-09-01T09:54:28.994Z - info: Your favorite color is : bleu
+2017-09-01T09:54:29.210Z - info: result of processAudio : Je n'ai pas compris ce que vous avez dit.
+2017-09-01T09:54:30.299Z - info: faces recognize : Thibault Herault
+2017-09-01T09:54:30.300Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:54:30.302Z - info: Person already registered
+2017-09-01T09:54:30.303Z - info: Your favorite color is : bleu
+2017-09-01T09:54:31.351Z - info: faces recognize : 
+2017-09-01T09:54:35.088Z - info: faces recognize : Thibault Herault
+2017-09-01T09:54:35.091Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:54:35.092Z - info: Person already registered
+2017-09-01T09:54:35.092Z - info: Your favorite color is : bleu
+2017-09-01T09:54:43.782Z - info: result of processAudio : Je n'ai pas compris ce que vous avez dit.
+2017-09-01T09:54:44.367Z - info: faces recognize : Thibault Herault
+2017-09-01T09:54:44.368Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:54:44.369Z - info: Person already registered
+2017-09-01T09:54:44.369Z - info: Your favorite color is : bleu
+2017-09-01T09:54:48.000Z - info: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-01T09:54:50.198Z - info: faces recognize : 
+2017-09-01T09:55:06.372Z - info: faces recognize : Thibault Herault
+2017-09-01T09:55:06.374Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:55:06.376Z - info: Person already registered
+2017-09-01T09:55:06.377Z - info: Your favorite color is : bleu
+2017-09-01T09:55:07.676Z - info: faces recognize : 
+2017-09-01T09:55:14.256Z - info: result of processAudio : Pouvez vous répéter ?
+2017-09-01T09:55:14.430Z - info: faces recognize : Thibault Herault
+2017-09-01T09:55:14.431Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:55:14.431Z - info: Person already registered
+2017-09-01T09:55:14.433Z - info: Your favorite color is : bleu
+2017-09-01T09:55:26.352Z - info: faces recognize : Thibault Herault
+2017-09-01T09:55:26.352Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:55:26.352Z - info: Person already registered
+2017-09-01T09:55:26.354Z - info: Your favorite color is : bleu
+2017-09-01T09:55:27.393Z - info: faces recognize : 
+2017-09-01T09:55:28.220Z - info: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-01T09:55:33.098Z - info: faces recognize : 
+2017-09-01T09:55:40.608Z - info: faces recognize : 
+2017-09-01T09:55:42.181Z - info: faces recognize : 
+2017-09-01T09:57:41.142Z - info: faces recognize : 
+2017-09-01T09:57:42.442Z - info: faces recognize : 
+2017-09-01T09:57:45.679Z - info: faces recognize : 
+2017-09-01T09:57:46.991Z - info: faces recognize : 
+2017-09-01T09:58:37.074Z - info: faces recognize : 
+2017-09-01T09:58:54.996Z - info: faces recognize : 
+2017-09-01T09:59:02.127Z - info: faces recognize : 
+2017-09-01T09:59:47.093Z - info: faces recognize : 
+2017-09-01T09:59:54.572Z - info: faces recognize : 
+2017-09-01T09:59:56.849Z - info: faces recognize : Thibault Herault
+2017-09-01T09:59:56.864Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:59:56.865Z - info: Person already registered
+2017-09-01T09:59:56.866Z - info: Your favorite color is : bleu
+2017-09-01T09:59:58.454Z - info: faces recognize : Thibault Herault
+2017-09-01T09:59:58.454Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:59:58.455Z - info: Person already registered
+2017-09-01T09:59:58.455Z - info: Your favorite color is : bleu
+2017-09-01T09:59:58.901Z - info: faces recognize : 
+2017-09-01T10:00:01.479Z - info: faces recognize : Thibault Herault,Florian Nadaud
+2017-09-01T10:00:01.481Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T10:00:01.482Z - info: Person already registered
+2017-09-01T10:00:01.482Z - info: Your favorite color is : bleu
+2017-09-01T10:00:03.657Z - info: faces recognize : 
+2017-09-01T10:00:06.151Z - info: faces recognize : Thibault Herault
+2017-09-01T10:00:06.151Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T10:00:06.151Z - info: Person already registered
+2017-09-01T10:00:06.152Z - info: Your favorite color is : bleu
+2017-09-01T10:00:06.898Z - info: faces recognize : 
+2017-09-01T10:00:34.146Z - info: faces recognize : 
+2017-09-01T12:10:18.200Z - info: push the data : [object Object] in 
+2017-09-01T12:22:12.858Z - info: push the data : [object Object] in 
+2017-09-01T12:22:32.058Z - info: push the data : [object Object] in 
+2017-09-01T12:22:37.837Z - info: faces recognize : Thibault Herault
+2017-09-01T12:22:37.846Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T12:22:37.848Z - info: Person already registered
+2017-09-01T12:22:37.849Z - info: Your favorite color is : bleu
+2017-09-01T12:23:02.225Z - info: faces recognize : 
+2017-09-01T12:24:03.029Z - info: faces recognize : Thibault Herault
+2017-09-01T12:24:03.033Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T12:24:03.038Z - info: Person already registered
+2017-09-01T12:24:03.039Z - info: Your favorite color is : bleu
+2017-09-01T12:24:19.537Z - info: faces recognize : Thibault Herault
+2017-09-01T12:24:19.538Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T12:24:19.539Z - info: Person already registered
+2017-09-01T12:24:19.540Z - info: Your favorite color is : bleu
+2017-09-01T12:24:20.033Z - info: faces recognize : 
+2017-09-01T12:24:22.492Z - info: faces recognize : Thibault Herault
+2017-09-01T12:24:22.494Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T12:24:22.495Z - info: Person already registered
+2017-09-01T12:24:22.505Z - info: Your favorite color is : bleu
+2017-09-01T12:24:37.071Z - info: push the data : [object Object] in [object Object]
+2017-09-01T12:25:59.731Z - info: faces recognize : 
+2017-09-01T12:26:01.500Z - info: faces recognize : Thibault Herault
+2017-09-01T12:26:01.500Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T12:26:01.501Z - info: Person already registered
+2017-09-01T12:26:01.502Z - info: Your favorite color is : bleu
+2017-09-01T12:26:06.862Z - info: faces recognize : 
+2017-09-01T12:26:26.168Z - info: faces recognize : 
+2017-09-01T12:26:28.409Z - info: faces recognize : Thibault Herault
+2017-09-01T12:26:28.413Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T12:26:28.414Z - info: Person already registered
+2017-09-01T12:26:28.415Z - info: Your favorite color is : bleu
+2017-09-01T12:26:38.475Z - info: faces recognize : 
+2017-09-01T12:26:42.088Z - info: push the data : [object Object] in [object Object],[object Object]
+2017-09-01T12:27:00.949Z - info: faces recognize : 
+2017-09-01T12:27:02.169Z - info: faces recognize : 
+2017-09-01T12:27:06.005Z - info: faces recognize : Thibault Herault
+2017-09-01T12:27:06.006Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T12:27:06.007Z - info: Person already registered
+2017-09-01T12:27:06.012Z - info: Your favorite color is : bleu
+2017-09-01T12:28:06.052Z - info: faces recognize : 
+2017-09-01T12:28:07.895Z - info: faces recognize : Thibault Herault
+2017-09-01T12:28:07.897Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T12:28:07.897Z - info: Person already registered
+2017-09-01T12:28:07.898Z - info: Your favorite color is : bleu
+2017-09-01T12:39:13.673Z - info: push the data : [object Object] in 
+2017-09-01T12:39:13.896Z - info: faces recognize : Thibault Herault
+2017-09-01T12:39:13.901Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T12:39:13.904Z - info: Person already registered
+2017-09-01T12:39:13.906Z - info: Your favorite color is : bleu
+2017-09-01T14:00:36.000Z - info: push the data : [object Object] in 
+2017-09-01T14:00:48.490Z - info: faces recognize : 
+2017-09-01T14:00:49.976Z - info: faces recognize : Thibault Herault
+2017-09-01T14:00:49.988Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:00:49.989Z - info: Person already registered
+2017-09-01T14:00:49.990Z - info: Your favorite color is : bleu
+2017-09-01T14:00:50.992Z - info: faces recognize : 
+2017-09-01T14:00:53.500Z - info: faces recognize : Thibault Herault
+2017-09-01T14:00:53.501Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:00:53.501Z - info: Person already registered
+2017-09-01T14:00:53.502Z - info: Your favorite color is : bleu
+2017-09-01T14:00:56.911Z - info: faces recognize : Thibault Herault
+2017-09-01T14:00:56.924Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:00:56.926Z - info: Person already registered
+2017-09-01T14:00:56.928Z - info: Your favorite color is : bleu
+2017-09-01T14:01:00.066Z - info: push the data : [object Object] in 
+2017-09-01T14:17:53.602Z - info: faces recognize : Thibault Herault
+2017-09-01T14:17:53.608Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:17:53.609Z - info: Person already registered
+2017-09-01T14:17:53.610Z - info: Your favorite color is : bleu
+2017-09-01T14:17:58.637Z - info: faces recognize : 
+2017-09-01T14:18:03.891Z - info: faces recognize : Thibault Herault
+2017-09-01T14:18:03.893Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:18:03.893Z - info: Person already registered
+2017-09-01T14:18:03.893Z - info: Your favorite color is : bleu
+2017-09-01T14:18:07.295Z - info: push the data : [object Object] in 
+2017-09-01T14:18:13.356Z - debug: sse : a connection has been closed
+2017-09-01T14:18:41.961Z - info: push the data : [object Object] in 
+2017-09-01T14:18:43.184Z - info: faces recognize : 
+2017-09-01T14:18:48.919Z - debug: sse : a connection has been closed
+2017-09-01T14:18:49.906Z - info: push the data : [object Object] in 
+2017-09-01T14:18:54.707Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:18:55.764Z - info: faces recognize : Thibault Herault
+2017-09-01T14:18:55.768Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:18:55.768Z - info: Person already registered
+2017-09-01T14:18:55.769Z - info: Your favorite color is : bleu
+2017-09-01T14:19:15.309Z - info: push the data : [object Object] in [object Object]
+2017-09-01T14:19:25.141Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:19:26.640Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:19:33.317Z - info: faces recognize : Thibault Herault
+2017-09-01T14:19:33.318Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:19:33.320Z - info: Person already registered
+2017-09-01T14:19:33.321Z - info: Your favorite color is : bleu
+2017-09-01T14:19:42.552Z - info: faces recognize : 
+2017-09-01T14:19:43.282Z - info: faces recognize : 
+2017-09-01T14:19:45.158Z - info: faces recognize : Thibault Herault
+2017-09-01T14:19:45.161Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:19:45.163Z - info: Person already registered
+2017-09-01T14:19:45.163Z - info: Your favorite color is : bleu
+2017-09-01T14:19:59.521Z - info: faces recognize : 
+2017-09-01T14:20:00.278Z - info: faces recognize : 
+2017-09-01T14:20:01.654Z - info: faces recognize : 
+2017-09-01T14:20:02.363Z - info: faces recognize : 
+2017-09-01T14:20:03.109Z - info: faces recognize : 
+2017-09-01T14:20:04.061Z - info: faces recognize : 
+2017-09-01T14:20:04.738Z - info: faces recognize : 
+2017-09-01T14:20:05.873Z - info: faces recognize : 
+2017-09-01T14:20:06.281Z - info: faces recognize : 
+2017-09-01T14:20:06.577Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:20:21.462Z - info: faces recognize : Thibault Herault
+2017-09-01T14:20:21.463Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:20:21.464Z - info: Person already registered
+2017-09-01T14:20:21.465Z - info: Your favorite color is : bleu
+2017-09-01T14:20:22.144Z - info: faces recognize : Thibault Herault
+2017-09-01T14:20:22.151Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:20:22.156Z - info: Person already registered
+2017-09-01T14:20:22.158Z - info: Your favorite color is : bleu
+2017-09-01T14:20:31.102Z - info: faces recognize : 
+2017-09-01T14:20:31.629Z - info: faces recognize : Thibault Herault
+2017-09-01T14:20:31.631Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:20:31.632Z - info: Person already registered
+2017-09-01T14:20:31.633Z - info: Your favorite color is : bleu
+2017-09-01T14:20:33.278Z - info: push the data : [object Object] in [object Object],[object Object]
+2017-09-01T14:20:43.948Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:20:45.349Z - debug: sse : a connection has been closed
+2017-09-01T14:20:46.209Z - info: faces recognize : Thibault Herault
+2017-09-01T14:20:46.212Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:20:46.212Z - info: Person already registered
+2017-09-01T14:20:46.213Z - info: Your favorite color is : bleu
+2017-09-01T14:20:49.908Z - debug: sse : a connection has been closed
+2017-09-01T14:20:54.927Z - info: push the data : [object Object] in [object Object]
+2017-09-01T14:20:55.507Z - debug: sse : a connection has been closed
+2017-09-01T14:25:36.306Z - info: faces recognize : Thibault Herault
+2017-09-01T14:25:36.312Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:25:36.313Z - info: Person already registered
+2017-09-01T14:25:36.314Z - info: Your favorite color is : bleu
+2017-09-01T14:25:43.964Z - info: faces recognize : 
+2017-09-01T14:25:54.515Z - info: push the data : [object Object] in 
+2017-09-01T14:26:07.417Z - info: faces recognize : Thibault Herault
+2017-09-01T14:26:07.420Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:26:07.422Z - info: Person already registered
+2017-09-01T14:26:07.423Z - info: Your favorite color is : bleu
+2017-09-01T14:53:07.918Z - info: faces recognize : Thibault Herault
+2017-09-01T14:53:07.936Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:53:07.939Z - info: Person already registered
+2017-09-01T14:53:07.941Z - info: Your favorite color is : bleu
+2017-09-01T14:53:08.646Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:54:47.080Z - info: faces recognize : Thibault Herault
+2017-09-01T14:54:47.094Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:54:47.095Z - info: Person already registered
+2017-09-01T14:54:47.096Z - info: Your favorite color is : bleu
+2017-09-01T14:56:09.702Z - info: faces recognize : Thibault Herault
+2017-09-01T14:56:09.709Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:56:09.710Z - info: Person already registered
+2017-09-01T14:56:09.711Z - info: Your favorite color is : bleu
+2017-09-01T14:56:42.588Z - info: faces recognize : Thibault Herault
+2017-09-01T14:56:42.595Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:56:42.598Z - info: Person already registered
+2017-09-01T14:56:42.600Z - info: Your favorite color is : bleu
+2017-09-01T14:59:24.331Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:59:25.472Z - info: faces recognize : Thibault Herault
+2017-09-01T14:59:25.484Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:59:25.489Z - info: Person already registered
+2017-09-01T14:59:25.490Z - info: Your favorite color is : bleu
+2017-09-01T14:59:25.657Z - info: faces recognize : Thibault Herault
+2017-09-01T14:59:25.658Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:59:25.658Z - info: Person already registered
+2017-09-01T14:59:25.659Z - info: Your favorite color is : bleu
+2017-09-01T14:59:25.873Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:59:30.335Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:59:31.844Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:59:33.337Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:59:37.861Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:59:38.721Z - info: faces recognize : Thibault Herault
+2017-09-01T14:59:38.728Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:59:38.731Z - info: Person already registered
+2017-09-01T14:59:38.733Z - info: Your favorite color is : bleu
+2017-09-01T14:59:38.824Z - info: faces recognize : Thibault Herault
+2017-09-01T14:59:38.826Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:59:38.828Z - info: Person already registered
+2017-09-01T14:59:38.829Z - info: Your favorite color is : bleu
+2017-09-01T14:59:39.350Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-01T14:59:52.275Z - info: faces recognize : Thibault Herault
+2017-09-01T14:59:52.281Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T14:59:52.282Z - info: Person already registered
+2017-09-01T14:59:52.283Z - info: Your favorite color is : bleu
+2017-09-01T15:00:25.597Z - debug: sse : subscribe done
+2017-09-01T15:00:28.675Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T15:00:30.153Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T15:00:31.451Z - debug: sse : a connection has been closed
+2017-09-01T15:00:32.339Z - debug: sse : subscribe done
+2017-09-01T15:00:36.932Z - warn: gm compare: Request did not return an image.
+
+2017-09-01T15:00:50.649Z - info: faces recognize : 
+2017-09-01T15:00:51.949Z - info: faces recognize : 
+2017-09-01T15:00:54.173Z - info: faces recognize : Thibault Herault
+2017-09-01T15:00:54.174Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T15:00:54.175Z - info: Person already registered
+2017-09-01T15:00:54.176Z - info: Your favorite color is : bleu
+2017-09-01T15:00:55.731Z - info: faces recognize : Thibault Herault
+2017-09-01T15:00:55.733Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T15:00:55.735Z - info: Person already registered
+2017-09-01T15:00:55.736Z - info: Your favorite color is : bleu
+2017-09-01T15:01:14.055Z - info: faces recognize : Thibault Herault
+2017-09-01T15:01:14.057Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T15:01:14.060Z - info: Person already registered
+2017-09-01T15:01:14.062Z - info: Your favorite color is : bleu
+2017-09-01T15:01:16.486Z - info: faces recognize : Thibault Herault
+2017-09-01T15:01:16.490Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T15:01:16.490Z - info: Person already registered
+2017-09-01T15:01:16.491Z - info: Your favorite color is : bleu

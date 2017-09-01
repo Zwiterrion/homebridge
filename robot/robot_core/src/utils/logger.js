@@ -6,7 +6,7 @@ const LOG_FILE_NAME = 'robot_core.log';
 const logger = new (winston.Logger)({
   transports: [
     new (winston.transports.Console)({
-      level: 'info',
+      level: 'silly',
       timestamp: true,
       colorize: true,
     }),

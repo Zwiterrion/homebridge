@@ -5,15 +5,20 @@ const startSees = {
 
   subscribers: [],
 
-  subscribe(res) {
+  subscribe(req, res) {
     res.writeHead(200, {
       'Content-Type': 'text/event-stream',
       'Cache-Control': 'no-cache',
       Connection: 'keep-alive',
     });
     res.write('\n');
-    logger.info(`push the data : ${res} in ${this.subscribers}`);
     this.subscribers.push(res);
+    req.on('close', () => {
+      logger.debug('sse : a connection has been closed');
+      const index = this.subscribers.indexOf(res);
+      this.subscribers.splice(index, 1);
+    });
+    logger.debug('sse : subscribe done');
   },
 
   sseEventListen() {
@@ -23,6 +28,7 @@ const startSees = {
         res.write(`event: ${name}\n`);
         res.write(`data: ${text}\n\n`);
       });
+      logger.debug(`sse fired with event : ${name}, and data : ${text}`);
     });
   },
 

@@ -11,7 +11,7 @@ function processAudio(req, res) {
     .then(json => dispatcher(json.intent, json.entities))
     .then((result) => {
       res.json(result);
-      logger.info(`result of processAudio : ${result}`);
+      logger.debug(`result of processAudio : ${result}`);
       voicer.sendToSpeechUI(result);
     });
 }

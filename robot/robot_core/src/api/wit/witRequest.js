@@ -14,7 +14,10 @@ function sendAudioRequest(data) {
       authorization: `Bearer ${TOKEN}`,
       'Content-Type': 'audio/wav',
     },
-  }).then((result) => { console.log(result); return result; });
+  }).then((result) => {
+    //console.log(result);
+    return result;
+  });
 }
 
 

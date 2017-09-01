@@ -5,6 +5,7 @@ import config from '../config.json';
 import Face from './face';
 
 
+
 class Head extends React.Component{
   
 	constructor(props){

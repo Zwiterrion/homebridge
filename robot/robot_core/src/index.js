@@ -74,7 +74,7 @@ app.post('/record', processAudio);
 app.post('/detect', processVideo);
 app.post('/light/state', lampSwitch);
 app.get('/sse', (req, res) => {
-  sse.subscribe(res);
+  sse.subscribe(req, res);
 });
 app.listen(PORT, () => {
   console.log(`listening on port : ${PORT}, with mood '${selectedMood}'`);

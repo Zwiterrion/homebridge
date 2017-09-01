@@ -23,7 +23,7 @@ function unknown() {
 
 
 function smartSwitcher(intent, entities) {
-  console.log(entities);
+  // console.log(entities);
   // message
   if (entities.message != null) {
     fetch(`http://192.168.86.53:5005/say/${entities.message.value}/fr-fr`).then(
