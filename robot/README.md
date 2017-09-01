@@ -24,14 +24,14 @@ $ npm -v
 
 ### Graphics magick
 
-Installer Graphics magick pour gérer la comparaison d'image pour le
+Installez Graphics magick pour gérer la comparaison d'image pour le
 rafraîchissement de la reconnaissance visuelle :
 ```
 $ sudo apt-get install graphicsmagick
 ```
 
 ### Sox
-Installer Sox et opus-tools pour gérer la conversion audio pour utiliser Wit
+Installez Sox et opus-tools pour gérer la conversion audio pour utiliser Wit
 avec le son extrait du navigateur :
 ```
 $ sudo apt-get install sox
