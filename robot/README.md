@@ -1,4 +1,5 @@
-# Serli robot
+
+# Serli robot
 
 ## Présentation
 
@@ -8,13 +9,31 @@ la domotique
 - robotHead : la partie client qui contient l'IHM permettant de communiquer avec
 les personnes autour du robot
 
-## Installation coté serveur
+## Pré-requis techniques
+
+### Node.js
+
+Téléchargez et installez la version de Node.js correspondant à votre système d'exploitation, en suivant les indications disponibles sur le [site officiel](https://nodejs.org/en/download/).
+
+Vérifiez l'installation en lançant les commandes suivantes dans un terminal :
+
+```
+$ node -v
+$ npm -v
+```
+
+### Graphics magick
 
 Installer Graphics magick pour gérer la comparaison d'image pour le
 rafraîchissement de la reconnaissance visuelle :
-- sudo apt-get install graphicsmagick
+```
+$ sudo apt-get install graphicsmagick
+```
 
+### Sox
 Installer Sox et opus-tools pour gérer la conversion audio pour utiliser Wit
 avec le son extrait du navigateur :
-- sudo apt-get install sox
-- sudo apt-get install opus-tools
+```
+$ sudo apt-get install sox
+$ sudo apt-get install opus-tools
+```
