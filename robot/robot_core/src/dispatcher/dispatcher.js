@@ -1,26 +1,9 @@
 const fetch = require('node-fetch');
-
-// config
+const scenario = require('../scenario.js');
 const SIMPLE_COLORS = require('../../config/colors/simpleColors.json');
 const EXTENDED_COLORS = require('../../config/colors/extendedColors.json');
 
 const COLORS = Object.assign({}, SIMPLE_COLORS, EXTENDED_COLORS);
-
-// object and APIs
-const OHLamp = require('../domo/openHab/lamp');
-const OHSpeakers = require('../domo/openHab/speakers');
-
-const OPENHAB_URL = 'http://192.168.86.55:8080';
-
-const lamp2 = new OHLamp(
-  `${OPENHAB_URL}/rest`,
-  'HueColorLamp2'
-);
-
-const play1 = new OHSpeakers(
-  `${OPENHAB_URL}/rest`,
-  'SonosPLAY1'
-);
 
 function getRandomInt(min, max) {
   const roundedMin = Math.ceil(min);
@@ -72,7 +55,7 @@ function smartSwitcher(intent, entities) {
   } else if (entities.salutation != null) {
     return 'Bonjour, comment-allez vous ?';
   } else if (entities.couleur != null && COLORS.hasOwnProperty(entities.couleur[0].value)) {
-    lamp2.setColor(COLORS[entities.couleur[0].value]);
+    scenario.setLampColor(entities.couleur[0].value);
 
     return "J'espère que cette nouvelle ambiance vous conviendra.";
   }
