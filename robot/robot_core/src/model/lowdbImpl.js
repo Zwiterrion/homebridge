@@ -1,8 +1,12 @@
 const lowdb = require('lowdb');
 const FileAsync = require('lowdb/adapters/FileSync');
-
+const logger = require('../utils/logger.js');
 const adapter = new FileAsync('./model/data/people.json');
 const peopleDb = lowdb(adapter);
+const util = require('util')
+
+
+// the methods below need to be tested
 
 class LowDbWrapper {
   constructor(db) {
@@ -25,8 +29,10 @@ class LowDbWrapper {
   }
 
   getItem(itemCategory, searchField, searchValue) {
+    const searchedObj = {};
+    searchedObj[searchField] = searchValue;
     return this.db.get(itemCategory)
-      .find({ searchField: searchValue })
+      .find(searchedObj)
       .value();
   }
 

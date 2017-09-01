@@ -865,3 +865,1046 @@
 2017-08-31T15:29:38.930Z - info: result of processAudio : Je viens d'éteindre la lampe
 2017-08-31T15:29:38.980Z - info: lamp_off
 2017-08-31T15:29:38.982Z - info: A lamp has been switched off
+2017-09-01T07:40:44.325Z - info: push the data : [object Object] in 
+2017-09-01T07:40:47.370Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T07:40:48.838Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T07:40:50.316Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T07:40:51.551Z - info: push the data : [object Object] in [object Object]
+2017-09-01T07:40:54.633Z - warn: gm compare: Request did not return an image.
+
+2017-09-01T07:41:04.034Z - info: detection result : []
+2017-09-01T07:41:04.035Z - info: faces recognize : 
+2017-09-01T07:41:05.278Z - info: detection result : []
+2017-09-01T07:41:05.279Z - info: faces recognize : 
+2017-09-01T07:41:07.429Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T07:41:07.430Z - info: faces recognize : Thibault Herault
+2017-09-01T07:41:07.436Z - info: Adding Thibault Herault to storage
+2017-09-01T07:41:18.865Z - info: push the data : [object Object] in [object Object],[object Object]
+2017-09-01T07:41:37.005Z - info: detection result : []
+2017-09-01T07:41:37.006Z - info: faces recognize : 
+2017-09-01T07:41:39.612Z - info: detection result : []
+2017-09-01T07:41:39.617Z - info: faces recognize : 
+2017-09-01T07:41:42.716Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T07:41:42.728Z - info: faces recognize : Thibault Herault
+2017-09-01T07:41:42.730Z - info: Adding Thibault Herault to storage
+2017-09-01T07:42:00.396Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T07:42:00.399Z - info: faces recognize : Thibault Herault
+2017-09-01T07:42:00.399Z - info: Adding Thibault Herault to storage
+2017-09-01T07:42:05.340Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T07:42:05.342Z - info: faces recognize : Thibault Herault
+2017-09-01T07:42:05.343Z - info: Adding Thibault Herault to storage
+2017-09-01T07:43:01.875Z - info: push the data : [object Object] in 
+2017-09-01T07:43:37.360Z - info: push the data : [object Object] in 
+2017-09-01T07:43:52.640Z - info: detection result : []
+2017-09-01T07:43:52.642Z - info: faces recognize : 
+2017-09-01T07:43:53.024Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T07:43:53.028Z - info: faces recognize : Thibault Herault
+2017-09-01T07:43:53.037Z - info: Adding Thibault Herault to storage
+2017-09-01T07:43:58.169Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T07:43:58.170Z - info: faces recognize : Thibault Herault
+2017-09-01T07:43:58.173Z - info: Adding Thibault Herault to storage
+2017-09-01T07:44:10.198Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T07:44:10.204Z - info: faces recognize : Thibault Herault
+2017-09-01T07:44:10.206Z - info: Adding Thibault Herault to storage
+2017-09-01T07:44:15.836Z - info: push the data : [object Object] in 
+2017-09-01T07:44:17.299Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T07:44:17.304Z - info: faces recognize : Thibault Herault
+2017-09-01T07:44:17.310Z - info: isRegister : false
+2017-09-01T07:44:17.312Z - info: Adding Thibault Herault to storage
+2017-09-01T07:44:18.131Z - info: detection result : []
+2017-09-01T07:44:18.136Z - info: faces recognize : 
+2017-09-01T07:44:20.975Z - info: detection result : []
+2017-09-01T07:44:20.978Z - info: faces recognize : 
+2017-09-01T08:20:26.893Z - info: detection result : []
+2017-09-01T08:20:26.899Z - info: faces recognize : 
+2017-09-01T08:20:29.903Z - info: detection result : []
+2017-09-01T08:20:29.912Z - info: faces recognize : 
+2017-09-01T08:20:32.688Z - info: detection result : []
+2017-09-01T08:20:32.692Z - info: faces recognize : 
+2017-09-01T08:20:34.183Z - info: detection result : []
+2017-09-01T08:20:34.184Z - info: faces recognize : 
+2017-09-01T08:20:41.365Z - info: detection result : []
+2017-09-01T08:20:41.370Z - info: faces recognize : 
+2017-09-01T08:20:42.957Z - info: detection result : []
+2017-09-01T08:20:42.959Z - info: faces recognize : 
+2017-09-01T08:20:45.598Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:20:45.599Z - info: faces recognize : Thibault Herault
+2017-09-01T08:20:45.604Z - info: isRegister : undefined
+2017-09-01T08:20:45.606Z - info: Person already registered
+2017-09-01T08:20:49.865Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:20:49.866Z - info: faces recognize : Thibault Herault
+2017-09-01T08:20:49.867Z - info: isRegister : undefined
+2017-09-01T08:20:49.868Z - info: Person already registered
+2017-09-01T08:20:50.843Z - info: detection result : []
+2017-09-01T08:20:50.844Z - info: faces recognize : 
+2017-09-01T08:21:14.644Z - info: detection result : []
+2017-09-01T08:21:14.648Z - info: faces recognize : 
+2017-09-01T08:22:11.910Z - info: detection result : []
+2017-09-01T08:22:11.913Z - info: faces recognize : 
+2017-09-01T08:22:13.175Z - info: detection result : []
+2017-09-01T08:22:13.179Z - info: faces recognize : 
+2017-09-01T08:22:28.132Z - info: detection result : []
+2017-09-01T08:22:28.134Z - info: faces recognize : 
+2017-09-01T08:22:29.806Z - info: detection result : []
+2017-09-01T08:22:29.807Z - info: faces recognize : 
+2017-09-01T08:22:31.167Z - info: detection result : []
+2017-09-01T08:22:31.171Z - info: faces recognize : 
+2017-09-01T08:22:32.634Z - info: detection result : []
+2017-09-01T08:22:32.636Z - info: faces recognize : 
+2017-09-01T08:22:34.509Z - info: detection result : []
+2017-09-01T08:22:34.517Z - info: faces recognize : 
+2017-09-01T08:22:35.973Z - info: detection result : []
+2017-09-01T08:22:35.982Z - info: faces recognize : 
+2017-09-01T08:23:23.018Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:23:23.020Z - info: faces recognize : Thibault Herault
+2017-09-01T08:23:23.020Z - info: isRegister : undefined
+2017-09-01T08:23:23.021Z - info: Person already registered
+2017-09-01T08:23:26.186Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:23:26.188Z - info: faces recognize : Thibault Herault
+2017-09-01T08:23:26.189Z - info: isRegister : undefined
+2017-09-01T08:23:26.189Z - info: Person already registered
+2017-09-01T08:23:33.000Z - info: detection result : []
+2017-09-01T08:23:33.000Z - info: faces recognize : 
+2017-09-01T08:23:47.198Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:23:47.203Z - info: faces recognize : Thibault Herault
+2017-09-01T08:23:47.208Z - info: isRegister : undefined
+2017-09-01T08:23:47.209Z - info: Person already registered
+2017-09-01T08:23:57.882Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:23:57.894Z - info: faces recognize : Thibault Herault
+2017-09-01T08:23:57.908Z - info: isRegister : undefined
+2017-09-01T08:23:57.911Z - info: Adding Thibault Herault to storage
+2017-09-01T08:26:11.961Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:26:11.966Z - info: faces recognize : Thibault Herault
+2017-09-01T08:26:11.972Z - info: isRegister : undefined
+2017-09-01T08:26:11.974Z - info: Person already registered
+2017-09-01T08:27:38.188Z - info: detection result : []
+2017-09-01T08:27:38.194Z - info: faces recognize : 
+2017-09-01T08:27:40.492Z - info: detection result : []
+2017-09-01T08:27:40.494Z - info: faces recognize : 
+2017-09-01T08:27:42.307Z - info: detection result : []
+2017-09-01T08:27:42.308Z - info: faces recognize : 
+2017-09-01T08:27:45.786Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:27:45.787Z - info: faces recognize : Thibault Herault
+2017-09-01T08:27:45.791Z - info: isRegister : undefined
+2017-09-01T08:27:45.792Z - info: Person already registered
+2017-09-01T08:28:34.151Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:28:34.153Z - info: faces recognize : Thibault Herault
+2017-09-01T08:28:34.155Z - info: isRegister : undefined
+2017-09-01T08:28:34.155Z - info: Person already registered
+2017-09-01T08:28:35.603Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:28:35.609Z - info: faces recognize : Thibault Herault
+2017-09-01T08:28:35.610Z - info: isRegister : undefined
+2017-09-01T08:28:35.611Z - info: Person already registered
+2017-09-01T08:28:53.411Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:28:53.414Z - info: faces recognize : Thibault Herault
+2017-09-01T08:28:53.416Z - info: isRegister : undefined
+2017-09-01T08:28:53.416Z - info: Person already registered
+2017-09-01T08:29:02.865Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:29:02.870Z - info: faces recognize : Thibault Herault
+2017-09-01T08:29:14.708Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:29:14.712Z - info: faces recognize : Thibault Herault
+2017-09-01T08:29:22.661Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:29:22.666Z - info: faces recognize : Thibault Herault
+2017-09-01T08:29:22.668Z - info: isRegister : 
+2017-09-01T08:29:22.669Z - info: Person already registered
+2017-09-01T08:29:54.730Z - info: detection result : []
+2017-09-01T08:29:54.732Z - info: faces recognize : 
+2017-09-01T08:29:56.183Z - info: detection result : []
+2017-09-01T08:29:56.188Z - info: faces recognize : 
+2017-09-01T08:29:56.376Z - info: detection result : []
+2017-09-01T08:29:56.383Z - info: faces recognize : 
+2017-09-01T08:30:03.375Z - info: detection result : []
+2017-09-01T08:30:03.375Z - info: faces recognize : 
+2017-09-01T08:30:06.194Z - info: detection result : []
+2017-09-01T08:30:06.195Z - info: faces recognize : 
+2017-09-01T08:30:08.523Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:30:08.523Z - info: faces recognize : Thibault Herault
+2017-09-01T08:30:08.527Z - info: isRegister : 
+2017-09-01T08:30:08.529Z - info: Person already registered
+2017-09-01T08:31:41.136Z - info: detection result : []
+2017-09-01T08:31:41.140Z - info: faces recognize : 
+2017-09-01T08:31:42.463Z - info: detection result : []
+2017-09-01T08:31:42.464Z - info: faces recognize : 
+2017-09-01T08:31:43.760Z - info: detection result : []
+2017-09-01T08:31:43.760Z - info: faces recognize : 
+2017-09-01T08:31:44.080Z - info: detection result : []
+2017-09-01T08:31:44.081Z - info: faces recognize : 
+2017-09-01T08:31:55.979Z - info: detection result : []
+2017-09-01T08:31:55.980Z - info: faces recognize : 
+2017-09-01T08:32:09.617Z - info: detection result : []
+2017-09-01T08:32:09.618Z - info: faces recognize : 
+2017-09-01T08:32:10.818Z - info: detection result : []
+2017-09-01T08:32:10.822Z - info: faces recognize : 
+2017-09-01T08:32:19.878Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:32:19.883Z - info: faces recognize : Thibault Herault
+2017-09-01T08:32:19.886Z - info: isRegister : true
+2017-09-01T08:32:19.887Z - info: Person already registered
+2017-09-01T08:32:47.270Z - info: detection result : []
+2017-09-01T08:32:47.272Z - info: faces recognize : 
+2017-09-01T08:32:48.552Z - info: detection result : []
+2017-09-01T08:32:48.553Z - info: faces recognize : 
+2017-09-01T08:32:51.657Z - info: detection result : []
+2017-09-01T08:32:51.657Z - info: faces recognize : 
+2017-09-01T08:34:18.136Z - info: detection result : []
+2017-09-01T08:34:18.140Z - info: faces recognize : 
+2017-09-01T08:37:56.082Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:37:56.096Z - info: faces recognize : Thibault Herault
+2017-09-01T08:37:56.104Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:37:56.106Z - info: Adding Thibault Herault to storage
+2017-09-01T08:40:47.278Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:40:47.283Z - info: faces recognize : Thibault Herault
+2017-09-01T08:40:47.288Z - info: checkItem : undefined
+2017-09-01T08:40:47.288Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:40:47.289Z - info: checkItem : undefined
+2017-09-01T08:40:47.289Z - info: Adding Thibault Herault to storage
+2017-09-01T08:40:49.272Z - info: detection result : []
+2017-09-01T08:40:49.274Z - info: faces recognize : 
+2017-09-01T08:40:50.843Z - info: detection result : []
+2017-09-01T08:40:50.844Z - info: faces recognize : 
+2017-09-01T08:41:18.321Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:41:18.321Z - info: faces recognize : Thibault Herault
+2017-09-01T08:41:18.323Z - info: checkItem : undefined
+2017-09-01T08:41:18.323Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:41:18.323Z - info: checkItem : undefined
+2017-09-01T08:41:18.324Z - info: Adding Thibault Herault to storage
+2017-09-01T08:41:19.697Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:41:19.700Z - info: faces recognize : Thibault Herault
+2017-09-01T08:41:19.702Z - info: checkItem : undefined
+2017-09-01T08:41:19.703Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:41:19.704Z - info: checkItem : undefined
+2017-09-01T08:41:19.705Z - info: Adding Thibault Herault to storage
+2017-09-01T08:41:27.404Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:41:27.405Z - info: faces recognize : Thibault Herault
+2017-09-01T08:41:27.406Z - info: checkItem : undefined
+2017-09-01T08:41:27.406Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:41:27.407Z - info: checkItem : undefined
+2017-09-01T08:41:27.407Z - info: Adding Thibault Herault to storage
+2017-09-01T08:41:29.751Z - info: detection result : []
+2017-09-01T08:41:29.754Z - info: faces recognize : 
+2017-09-01T08:41:37.495Z - info: detection result : []
+2017-09-01T08:41:37.501Z - info: faces recognize : 
+2017-09-01T08:41:45.965Z - info: detection result : []
+2017-09-01T08:41:45.995Z - info: faces recognize : 
+2017-09-01T08:41:47.665Z - info: detection result : []
+2017-09-01T08:41:47.666Z - info: faces recognize : 
+2017-09-01T08:41:48.965Z - info: detection result : []
+2017-09-01T08:41:48.968Z - info: faces recognize : 
+2017-09-01T08:41:55.489Z - info: detection result : []
+2017-09-01T08:41:55.491Z - info: faces recognize : 
+2017-09-01T08:42:01.238Z - info: detection result : []
+2017-09-01T08:42:01.239Z - info: faces recognize : 
+2017-09-01T08:42:17.809Z - info: detection result : []
+2017-09-01T08:42:17.814Z - info: faces recognize : 
+2017-09-01T08:42:19.901Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:42:19.903Z - info: faces recognize : Thibault Herault
+2017-09-01T08:42:19.909Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:42:19.911Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:42:19.912Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:42:19.913Z - info: Adding Thibault Herault to storage
+2017-09-01T08:42:20.892Z - info: detection result : []
+2017-09-01T08:42:20.902Z - info: faces recognize : 
+2017-09-01T08:42:25.849Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:42:25.853Z - info: faces recognize : Thibault Herault
+2017-09-01T08:42:25.856Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:42:25.857Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:42:25.858Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:42:25.858Z - info: Adding Thibault Herault to storage
+2017-09-01T08:46:43.862Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:46:43.872Z - info: faces recognize : Thibault Herault
+2017-09-01T08:46:43.893Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:46:43.900Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:46:43.904Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:46:43.919Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:46:43.923Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:46:43.923Z - info: Adding Thibault Herault to storage
+2017-09-01T08:46:44.677Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:46:44.678Z - info: faces recognize : Thibault Herault
+2017-09-01T08:46:44.682Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:46:44.683Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:46:44.683Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:46:44.686Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:46:44.687Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:46:44.687Z - info: Adding Thibault Herault to storage
+2017-09-01T08:46:46.478Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:46:46.479Z - info: faces recognize : Thibault Herault
+2017-09-01T08:46:46.488Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:46:46.491Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:46:46.492Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:46:46.498Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:46:46.499Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:46:46.500Z - info: Adding Thibault Herault to storage
+2017-09-01T08:46:47.025Z - info: detection result : []
+2017-09-01T08:46:47.028Z - info: faces recognize : 
+2017-09-01T08:46:59.880Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:46:59.881Z - info: faces recognize : Thibault Herault
+2017-09-01T08:46:59.893Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:46:59.893Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:46:59.895Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:46:59.908Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:46:59.910Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:46:59.912Z - info: Adding Thibault Herault to storage
+2017-09-01T08:47:01.303Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:47:01.305Z - info: faces recognize : Thibault Herault
+2017-09-01T08:47:01.338Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:47:01.341Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:47:01.363Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:47:01.371Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:47:01.373Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:47:01.374Z - info: Adding Thibault Herault to storage
+2017-09-01T08:47:19.723Z - info: detection result : [ { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T08:47:19.724Z - info: faces recognize : Florian Nadaud
+2017-09-01T08:47:19.727Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:47:19.728Z - info: checkItem people, id, d359fc01-ebfe-4613-b7eb-79db19b71764: undefined
+2017-09-01T08:47:19.729Z - info: isRegister : d359fc01-ebfe-4613-b7eb-79db19b71764=>undefined
+2017-09-01T08:47:19.739Z - info:  get : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: [ { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:47:19.740Z - info: checkItem people, id, d359fc01-ebfe-4613-b7eb-79db19b71764: undefined
+2017-09-01T08:47:19.742Z - info: Adding Florian Nadaud to storage
+2017-09-01T08:47:20.861Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' },
+  { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T08:47:20.865Z - info: faces recognize : Thibault Herault,Florian Nadaud
+2017-09-01T08:47:21.759Z - info: detection result : []
+2017-09-01T08:47:21.763Z - info: faces recognize : 
+2017-09-01T08:48:52.310Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:48:52.314Z - info: faces recognize : Thibault Herault
+2017-09-01T08:49:48.380Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:49:48.385Z - info: faces recognize : Thibault Herault
+2017-09-01T08:49:48.398Z - info:  find : LodashWrapper {
+  __wrapped__: { people: [] },
+  __actions__: 
+   [ { func: [Function: get], args: [Object], thisArg: [Object] },
+     { func: [Function: thru], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:49:48.399Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:49:48.400Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:49:48.405Z - info:  find : LodashWrapper {
+  __wrapped__: { people: [] },
+  __actions__: 
+   [ { func: [Function: get], args: [Object], thisArg: [Object] },
+     { func: [Function: thru], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:49:48.407Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:49:48.409Z - info: Adding Thibault Herault to storage
+2017-09-01T08:49:49.523Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:49:49.525Z - info: faces recognize : Thibault Herault
+2017-09-01T08:49:49.533Z - info:  find : LodashWrapper {
+  __wrapped__: { people: [ [Object] ] },
+  __actions__: 
+   [ { func: [Function: get], args: [Object], thisArg: [Object] },
+     { func: [Function: thru], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:49:49.534Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:49:49.535Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:49:49.540Z - info:  find : LodashWrapper {
+  __wrapped__: { people: [ [Object] ] },
+  __actions__: 
+   [ { func: [Function: get], args: [Object], thisArg: [Object] },
+     { func: [Function: thru], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:49:49.541Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:49:49.542Z - info: Adding Thibault Herault to storage
+2017-09-01T08:49:50.163Z - info: detection result : []
+2017-09-01T08:49:50.181Z - info: faces recognize : 
+2017-09-01T08:50:43.999Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:50:44.004Z - info: faces recognize : Thibault Herault
+2017-09-01T08:50:44.010Z - info:  find : undefined
+2017-09-01T08:50:44.011Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:50:44.011Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:50:44.012Z - info:  find : undefined
+2017-09-01T08:50:44.014Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:50:44.014Z - info: Adding Thibault Herault to storage
+2017-09-01T08:50:44.384Z - info: detection result : []
+2017-09-01T08:50:44.387Z - info: faces recognize : 
+2017-09-01T08:50:46.193Z - info: detection result : []
+2017-09-01T08:50:46.200Z - info: faces recognize : 
+2017-09-01T08:50:47.573Z - info: detection result : []
+2017-09-01T08:50:47.573Z - info: faces recognize : 
+2017-09-01T08:51:22.283Z - info: detection result : []
+2017-09-01T08:51:22.286Z - info: faces recognize : 
+2017-09-01T08:51:24.549Z - info: detection result : []
+2017-09-01T08:51:24.552Z - info: faces recognize : 
+2017-09-01T08:51:27.843Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:51:27.844Z - info: faces recognize : Thibault Herault
+2017-09-01T08:51:27.856Z - info:  find : LodashWrapper {
+  __wrapped__: { people: [ [Object], [Object], [Object] ] },
+  __actions__: 
+   [ { func: [Function: get], args: [Object], thisArg: [Object] },
+     { func: [Function: thru], args: [Object], thisArg: [Object] },
+     { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:51:27.857Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:51:27.858Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:51:27.864Z - info:  find : LodashWrapper {
+  __wrapped__: { people: [ [Object], [Object], [Object] ] },
+  __actions__: 
+   [ { func: [Function: get], args: [Object], thisArg: [Object] },
+     { func: [Function: thru], args: [Object], thisArg: [Object] },
+     { func: [Function: get], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:51:27.865Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:51:27.865Z - info: Adding Thibault Herault to storage
+2017-09-01T08:51:27.970Z - info: detection result : []
+2017-09-01T08:51:27.976Z - info: faces recognize : 
+2017-09-01T08:52:27.594Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' },
+  { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T08:52:27.598Z - info: faces recognize : Thibault Herault,Florian Nadaud
+2017-09-01T08:52:27.747Z - info: detection result : []
+2017-09-01T08:52:27.750Z - info: faces recognize : 
+2017-09-01T08:52:31.617Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:52:31.618Z - info: faces recognize : Thibault Herault
+2017-09-01T08:52:31.634Z - info:  find : { searchField: '5' }
+2017-09-01T08:52:31.637Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:52:31.639Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:52:31.644Z - info:  find : { searchField: '5' }
+2017-09-01T08:52:31.646Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:52:31.647Z - info: Adding Thibault Herault to storage
+2017-09-01T08:52:32.564Z - info: detection result : []
+2017-09-01T08:52:32.564Z - info: faces recognize : 
+2017-09-01T08:52:53.031Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:52:53.035Z - info: faces recognize : Thibault Herault
+2017-09-01T08:52:53.044Z - info:  find : { searchField: '5' }
+2017-09-01T08:52:53.045Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:52:53.045Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:52:53.046Z - info:  find : { searchField: '5' }
+2017-09-01T08:52:53.047Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:52:53.047Z - info: Adding Thibault Herault to storage
+2017-09-01T08:53:19.655Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:53:19.656Z - info: faces recognize : Thibault Herault
+2017-09-01T08:53:19.661Z - info:  find : { searchField: '5' }
+2017-09-01T08:53:19.662Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:53:19.663Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:53:19.665Z - info:  find : { searchField: '5' }
+2017-09-01T08:53:19.667Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:53:19.668Z - info: Adding Thibault Herault to storage
+2017-09-01T08:54:10.860Z - info: detection result : [ { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T08:54:10.860Z - info: faces recognize : Florian Nadaud
+2017-09-01T08:54:10.863Z - info:  find : { searchField: '5' }
+2017-09-01T08:54:10.863Z - info: checkItem people, id, d359fc01-ebfe-4613-b7eb-79db19b71764: undefined
+2017-09-01T08:54:10.864Z - info: isRegister : d359fc01-ebfe-4613-b7eb-79db19b71764=>undefined
+2017-09-01T08:54:10.867Z - info:  find : { searchField: '5' }
+2017-09-01T08:54:10.867Z - info: checkItem people, id, d359fc01-ebfe-4613-b7eb-79db19b71764: undefined
+2017-09-01T08:54:10.868Z - info: Adding Florian Nadaud to storage
+2017-09-01T08:54:12.164Z - info: detection result : [ { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T08:54:12.165Z - info: faces recognize : Florian Nadaud
+2017-09-01T08:54:12.169Z - info:  find : { searchField: '5' }
+2017-09-01T08:54:12.170Z - info: checkItem people, id, d359fc01-ebfe-4613-b7eb-79db19b71764: undefined
+2017-09-01T08:54:12.171Z - info: isRegister : d359fc01-ebfe-4613-b7eb-79db19b71764=>undefined
+2017-09-01T08:54:12.174Z - info:  find : { searchField: '5' }
+2017-09-01T08:54:12.175Z - info: checkItem people, id, d359fc01-ebfe-4613-b7eb-79db19b71764: undefined
+2017-09-01T08:54:12.178Z - info: Adding Florian Nadaud to storage
+2017-09-01T08:54:15.537Z - info: detection result : [ { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T08:54:15.537Z - info: faces recognize : Florian Nadaud
+2017-09-01T08:54:15.539Z - info:  find : { searchField: '5' }
+2017-09-01T08:54:15.539Z - info: checkItem people, id, d359fc01-ebfe-4613-b7eb-79db19b71764: undefined
+2017-09-01T08:54:15.539Z - info: isRegister : d359fc01-ebfe-4613-b7eb-79db19b71764=>undefined
+2017-09-01T08:54:15.542Z - info:  find : { searchField: '5' }
+2017-09-01T08:54:15.542Z - info: checkItem people, id, d359fc01-ebfe-4613-b7eb-79db19b71764: undefined
+2017-09-01T08:54:15.542Z - info: Adding Florian Nadaud to storage
+2017-09-01T08:56:56.649Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:56:56.654Z - info: faces recognize : Thibault Herault
+2017-09-01T08:56:56.663Z - info:  find : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: 
+   [ { func: [Function: get], args: [Object], thisArg: [Object] },
+     { func: [Function: thru], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:56:56.663Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:56:56.664Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:56:56.667Z - info:  find : LodashWrapper {
+  __wrapped__: 
+   { people: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  __actions__: 
+   [ { func: [Function: get], args: [Object], thisArg: [Object] },
+     { func: [Function: thru], args: [Object], thisArg: [Object] } ],
+  __chain__: true,
+  __index__: 0,
+  __values__: undefined }
+2017-09-01T08:56:56.668Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:56:56.668Z - info: Adding Thibault Herault to storage
+2017-09-01T08:57:40.357Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:57:40.361Z - info: faces recognize : Thibault Herault
+2017-09-01T08:57:40.364Z - info:  find : undefined
+2017-09-01T08:57:40.365Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:57:40.365Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:57:40.366Z - info:  find : undefined
+2017-09-01T08:57:40.366Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:57:40.366Z - info: Adding Thibault Herault to storage
+2017-09-01T08:57:42.005Z - info: detection result : []
+2017-09-01T08:57:42.008Z - info: faces recognize : 
+2017-09-01T08:57:44.422Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T08:57:44.423Z - info: faces recognize : Thibault Herault
+2017-09-01T08:57:44.428Z - info:  find : { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+  firstName: 'Thibault',
+  lastName: 'Herault',
+  favoriteColor: 'bleu' }
+2017-09-01T08:57:44.430Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:57:44.431Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>undefined
+2017-09-01T08:57:44.434Z - info:  find : { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+  firstName: 'Thibault',
+  lastName: 'Herault',
+  favoriteColor: 'bleu' }
+2017-09-01T08:57:44.435Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: undefined
+2017-09-01T08:57:44.435Z - info: Adding Thibault Herault to storage
+2017-09-01T09:01:35.727Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:01:35.732Z - info: faces recognize : Thibault Herault
+2017-09-01T09:01:35.737Z - info: has : false
+2017-09-01T09:01:35.738Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: false
+2017-09-01T09:01:35.739Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>false
+2017-09-01T09:01:35.741Z - info: has : false
+2017-09-01T09:01:35.741Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: false
+2017-09-01T09:01:35.742Z - info: Adding Thibault Herault to storage
+2017-09-01T09:02:03.416Z - info: detection result : []
+2017-09-01T09:02:03.417Z - info: faces recognize : 
+2017-09-01T09:02:08.681Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:02:08.681Z - info: faces recognize : Thibault Herault
+2017-09-01T09:02:08.682Z - info: has : false
+2017-09-01T09:02:08.682Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: false
+2017-09-01T09:02:08.682Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>false
+2017-09-01T09:02:08.682Z - info: has : false
+2017-09-01T09:02:08.683Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: false
+2017-09-01T09:02:08.683Z - info: Adding Thibault Herault to storage
+2017-09-01T09:02:09.949Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:02:09.951Z - info: faces recognize : Thibault Herault
+2017-09-01T09:02:09.952Z - info: has : false
+2017-09-01T09:02:09.953Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: false
+2017-09-01T09:02:09.954Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>false
+2017-09-01T09:02:09.955Z - info: has : false
+2017-09-01T09:02:09.956Z - info: checkItem people, id, ae64c04e-a197-4cb2-a67a-8600fd5c5a09: false
+2017-09-01T09:02:09.957Z - info: Adding Thibault Herault to storage
+2017-09-01T09:05:10.561Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:05:10.568Z - info: faces recognize : Thibault Herault
+2017-09-01T09:05:53.955Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:05:53.961Z - info: faces recognize : Thibault Herault
+2017-09-01T09:05:53.965Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>false
+2017-09-01T09:05:53.966Z - info: Adding Thibault Herault to storage
+2017-09-01T09:05:56.077Z - info: detection result : []
+2017-09-01T09:05:56.080Z - info: faces recognize : 
+2017-09-01T09:05:58.239Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:05:58.241Z - info: faces recognize : Thibault Herault
+2017-09-01T09:05:58.242Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>false
+2017-09-01T09:05:58.243Z - info: Adding Thibault Herault to storage
+2017-09-01T09:06:43.716Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:06:43.720Z - info: faces recognize : Thibault Herault
+2017-09-01T09:06:43.723Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>false
+2017-09-01T09:06:43.724Z - info: Adding Thibault Herault to storage
+2017-09-01T09:06:44.410Z - info: detection result : []
+2017-09-01T09:06:44.412Z - info: faces recognize : 
+2017-09-01T09:06:45.760Z - info: detection result : []
+2017-09-01T09:06:45.763Z - info: faces recognize : 
+2017-09-01T09:06:47.234Z - info: detection result : []
+2017-09-01T09:06:47.234Z - info: faces recognize : 
+2017-09-01T09:06:50.802Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:06:50.803Z - info: faces recognize : Thibault Herault
+2017-09-01T09:06:50.811Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:06:50.812Z - info: Person already registered
+2017-09-01T09:06:52.049Z - info: detection result : []
+2017-09-01T09:06:52.051Z - info: faces recognize : 
+2017-09-01T09:06:52.808Z - info: detection result : []
+2017-09-01T09:06:52.811Z - info: faces recognize : 
+2017-09-01T09:06:54.716Z - info: detection result : []
+2017-09-01T09:06:54.716Z - info: faces recognize : 
+2017-09-01T09:11:07.098Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' },
+  { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T09:11:07.104Z - info: faces recognize : Thibault Herault,Florian Nadaud
+2017-09-01T09:11:07.110Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:11:07.111Z - info: Person already registered
+2017-09-01T09:11:08.117Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:11:08.123Z - info: faces recognize : Thibault Herault
+2017-09-01T09:11:08.127Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:11:08.128Z - info: Person already registered
+2017-09-01T09:11:09.461Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:11:09.463Z - info: faces recognize : Thibault Herault
+2017-09-01T09:11:09.468Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:11:09.469Z - info: Person already registered
+2017-09-01T09:11:10.715Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:11:10.716Z - info: faces recognize : Thibault Herault
+2017-09-01T09:11:10.717Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:11:10.717Z - info: Person already registered
+2017-09-01T09:11:12.436Z - info: detection result : [ { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T09:11:12.436Z - info: faces recognize : Florian Nadaud
+2017-09-01T09:11:12.437Z - info: isRegister : d359fc01-ebfe-4613-b7eb-79db19b71764=>false
+2017-09-01T09:11:12.437Z - info: Adding Florian Nadaud to storage
+2017-09-01T09:11:17.149Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:11:17.155Z - info: faces recognize : Thibault Herault
+2017-09-01T09:11:17.156Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:11:17.156Z - info: Person already registered
+2017-09-01T09:11:17.623Z - info: detection result : []
+2017-09-01T09:11:17.626Z - info: faces recognize : 
+2017-09-01T09:11:19.682Z - info: detection result : [ { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' },
+  { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:11:19.683Z - info: faces recognize : Florian Nadaud,Thibault Herault
+2017-09-01T09:11:19.683Z - info: isRegister : d359fc01-ebfe-4613-b7eb-79db19b71764=>true
+2017-09-01T09:11:19.685Z - info: Person already registered
+2017-09-01T09:11:38.227Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:11:38.228Z - info: faces recognize : Thibault Herault
+2017-09-01T09:11:38.229Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:11:38.230Z - info: Person already registered
+2017-09-01T09:11:39.537Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:11:39.538Z - info: faces recognize : Thibault Herault
+2017-09-01T09:11:39.539Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:11:39.539Z - info: Person already registered
+2017-09-01T09:11:51.372Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:11:51.376Z - info: faces recognize : Thibault Herault
+2017-09-01T09:11:51.377Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:11:51.378Z - info: Person already registered
+2017-09-01T09:11:52.100Z - info: detection result : []
+2017-09-01T09:11:52.120Z - info: faces recognize : 
+2017-09-01T09:12:39.063Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:12:39.067Z - info: faces recognize : Thibault Herault
+2017-09-01T09:12:39.068Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:12:39.068Z - info: Person already registered
+2017-09-01T09:12:39.269Z - info: detection result : []
+2017-09-01T09:12:39.273Z - info: faces recognize : 
+2017-09-01T09:12:40.628Z - info: detection result : []
+2017-09-01T09:12:40.632Z - info: faces recognize : 
+2017-09-01T09:12:41.890Z - info: detection result : []
+2017-09-01T09:12:41.891Z - info: faces recognize : 
+2017-09-01T09:12:43.456Z - info: detection result : []
+2017-09-01T09:12:43.460Z - info: faces recognize : 
+2017-09-01T09:12:44.894Z - info: detection result : []
+2017-09-01T09:12:44.894Z - info: faces recognize : 
+2017-09-01T09:12:46.380Z - info: detection result : []
+2017-09-01T09:12:46.384Z - info: faces recognize : 
+2017-09-01T09:12:48.542Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:12:48.543Z - info: faces recognize : Thibault Herault
+2017-09-01T09:12:48.543Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:12:48.544Z - info: Person already registered
+2017-09-01T09:12:50.057Z - info: detection result : []
+2017-09-01T09:12:50.064Z - info: faces recognize : 
+2017-09-01T09:12:54.592Z - info: detection result : [ { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T09:12:54.595Z - info: faces recognize : Florian Nadaud
+2017-09-01T09:12:54.599Z - info: isRegister : d359fc01-ebfe-4613-b7eb-79db19b71764=>true
+2017-09-01T09:12:54.602Z - info: Person already registered
+2017-09-01T09:12:56.762Z - info: detection result : []
+2017-09-01T09:12:56.763Z - info: faces recognize : 
+2017-09-01T09:12:58.370Z - info: detection result : []
+2017-09-01T09:12:58.370Z - info: faces recognize : 
+2017-09-01T09:12:59.886Z - info: detection result : []
+2017-09-01T09:12:59.888Z - info: faces recognize : 
+2017-09-01T09:13:21.016Z - info: detection result : []
+2017-09-01T09:13:21.017Z - info: faces recognize : 
+2017-09-01T09:13:22.379Z - info: detection result : []
+2017-09-01T09:13:22.382Z - info: faces recognize : 
+2017-09-01T09:13:35.768Z - info: detection result : []
+2017-09-01T09:13:35.772Z - info: faces recognize : 
+2017-09-01T09:13:40.941Z - info: detection result : []
+2017-09-01T09:13:40.948Z - info: faces recognize : 
+2017-09-01T09:13:42.623Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:13:42.630Z - info: faces recognize : Thibault Herault
+2017-09-01T09:13:42.631Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:13:42.633Z - info: Person already registered
+2017-09-01T09:13:43.473Z - info: detection result : []
+2017-09-01T09:13:43.474Z - info: faces recognize : 
+2017-09-01T09:13:44.802Z - info: detection result : []
+2017-09-01T09:13:44.803Z - info: faces recognize : 
+2017-09-01T09:21:19.833Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' },
+  { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T09:21:19.838Z - info: faces recognize : Thibault Herault,Florian Nadaud
+2017-09-01T09:21:19.843Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:21:19.845Z - info: Person already registered
+2017-09-01T09:21:19.845Z - info: Your favorite color is : bleu
+2017-09-01T09:21:21.698Z - info: detection result : []
+2017-09-01T09:21:21.703Z - info: faces recognize : 
+2017-09-01T09:21:23.989Z - info: detection result : []
+2017-09-01T09:21:23.995Z - info: faces recognize : 
+2017-09-01T09:25:30.848Z - info: detection result : [ { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' } ]
+2017-09-01T09:25:30.853Z - info: faces recognize : Florian Nadaud
+2017-09-01T09:25:30.859Z - info: isRegister : d359fc01-ebfe-4613-b7eb-79db19b71764=>true
+2017-09-01T09:25:30.860Z - info: Person already registered
+2017-09-01T09:25:30.860Z - info: Your favorite color is : vert
+2017-09-01T09:25:53.636Z - info: detection result : []
+2017-09-01T09:25:53.640Z - info: faces recognize : 
+2017-09-01T09:25:55.877Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:25:55.883Z - info: faces recognize : Thibault Herault
+2017-09-01T09:25:55.885Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:25:55.886Z - info: Person already registered
+2017-09-01T09:25:55.887Z - info: Your favorite color is : bleu
+2017-09-01T09:25:57.321Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:25:57.322Z - info: faces recognize : Thibault Herault
+2017-09-01T09:25:57.324Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:25:57.325Z - info: Person already registered
+2017-09-01T09:25:57.326Z - info: Your favorite color is : bleu
+2017-09-01T09:26:00.332Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:26:00.333Z - info: faces recognize : Thibault Herault
+2017-09-01T09:26:00.334Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:26:00.334Z - info: Person already registered
+2017-09-01T09:26:00.335Z - info: Your favorite color is : bleu
+2017-09-01T09:26:01.884Z - info: detection result : [ { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:26:01.885Z - info: faces recognize : Thibault Herault
+2017-09-01T09:26:01.885Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:26:01.886Z - info: Person already registered
+2017-09-01T09:26:01.886Z - info: Your favorite color is : bleu
+2017-09-01T09:26:03.503Z - info: detection result : [ { id: 'd359fc01-ebfe-4613-b7eb-79db19b71764',
+    name: 'Florian Nadaud' },
+  { id: 'ae64c04e-a197-4cb2-a67a-8600fd5c5a09',
+    name: 'Thibault Herault' } ]
+2017-09-01T09:26:03.507Z - info: faces recognize : Florian Nadaud,Thibault Herault
+2017-09-01T09:26:03.508Z - info: isRegister : d359fc01-ebfe-4613-b7eb-79db19b71764=>true
+2017-09-01T09:26:03.508Z - info: Person already registered
+2017-09-01T09:26:03.508Z - info: Your favorite color is : vert
+2017-09-01T09:26:07.331Z - info: detection result : []
+2017-09-01T09:26:07.336Z - info: faces recognize : 
+2017-09-01T09:26:08.559Z - info: detection result : []
+2017-09-01T09:26:08.563Z - info: faces recognize : 
+2017-09-01T09:26:10.143Z - info: detection result : []
+2017-09-01T09:26:10.149Z - info: faces recognize : 
+2017-09-01T09:36:29.955Z - info: faces recognize : 
+2017-09-01T09:36:49.019Z - info: faces recognize : 
+2017-09-01T09:36:50.369Z - info: faces recognize : 
+2017-09-01T09:37:00.201Z - info: faces recognize : Thibault Herault
+2017-09-01T09:37:00.210Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:37:00.212Z - info: Person already registered
+2017-09-01T09:37:00.214Z - info: Your favorite color is : bleu
+2017-09-01T09:37:02.426Z - info: faces recognize : 
+2017-09-01T09:37:05.448Z - info: faces recognize : Thibault Herault
+2017-09-01T09:37:05.449Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:37:05.450Z - info: Person already registered
+2017-09-01T09:37:05.450Z - info: Your favorite color is : bleu
+2017-09-01T09:37:47.978Z - info: faces recognize : 
+2017-09-01T09:37:54.945Z - info: faces recognize : 
+2017-09-01T09:37:56.435Z - info: faces recognize : 
+2017-09-01T09:37:58.801Z - info: faces recognize : Thibault Herault
+2017-09-01T09:37:58.807Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:37:58.809Z - info: Person already registered
+2017-09-01T09:37:58.809Z - info: Your favorite color is : bleu
+2017-09-01T09:38:00.157Z - info: faces recognize : Thibault Herault
+2017-09-01T09:38:00.159Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:38:00.160Z - info: Person already registered
+2017-09-01T09:38:00.162Z - info: Your favorite color is : bleu
+2017-09-01T09:38:00.808Z - info: faces recognize : 
+2017-09-01T09:38:03.594Z - info: faces recognize : Thibault Herault
+2017-09-01T09:38:03.596Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:38:03.597Z - info: Person already registered
+2017-09-01T09:38:03.598Z - info: Your favorite color is : bleu
+2017-09-01T09:38:12.570Z - info: push the data : [object Object] in 
+2017-09-01T09:38:14.202Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T09:38:15.657Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T09:38:17.141Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T09:38:18.668Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T09:38:21.784Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T09:38:23.149Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T09:38:24.563Z - info: push the data : [object Object] in 
+2017-09-01T09:38:24.667Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-01T09:38:26.630Z - info: push the data : [object Object] in [object Object]
+2017-09-01T09:38:34.124Z - info: push the data : [object Object] in 
+2017-09-01T09:38:38.841Z - info: faces recognize : Thibault Herault
+2017-09-01T09:38:38.848Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-01T09:38:38.850Z - info: Person already registered
+2017-09-01T09:38:38.851Z - info: Your favorite color is : bleu
+2017-09-01T09:38:52.345Z - info: faces recognize : 

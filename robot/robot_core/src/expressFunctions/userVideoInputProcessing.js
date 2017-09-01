@@ -31,7 +31,6 @@ function processVideo(req, res) {
           faceApi.getPersonNames(personId)
         )
         .then((result) => {
-          logger.info(`detection result : ${util.inspect(result)}`);
           eventEmitter.emit(events.userEvents.faceRecognize, result);
           res.json(result);
         });

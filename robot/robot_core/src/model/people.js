@@ -24,13 +24,13 @@ class PeopleModel {
 
   // }
 
-  // isRegister() {
+  isRegister(id) {
+    return (!!this.peopleDb.getItem('people', 'id', id));
+  }
 
-  // }
-
-  // getFavoriteColor() {
-
-  // }
+  getFavoriteColor(id) {
+    return (this.peopleDb.getItem('people', 'id', id)).favoriteColor;
+  }
 }
 
 module.exports = new PeopleModel(lowDBPeople);
