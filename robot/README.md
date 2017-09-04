@@ -23,11 +23,15 @@ $ npm -v
 ```
 
 ### Graphics magick
-
 Installez Graphics magick pour gérer la comparaison d'image pour le
 rafraîchissement de la reconnaissance visuelle :
 ```
 $ sudo apt-get install graphicsmagick
+```
+
+Vous aurez aussi besoin de imagemagick si celui-ci n'est pas déjà installé :
+```
+sudo apt-get install imagemagick
 ```
 
 ### Sox

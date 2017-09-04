@@ -2350,3 +2350,382 @@
 2017-09-01T15:01:16.490Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
 2017-09-01T15:01:16.490Z - info: Person already registered
 2017-09-01T15:01:16.491Z - info: Your favorite color is : bleu
+2017-09-04T09:13:52.219Z - debug: sse : subscribe done
+2017-09-04T09:14:09.001Z - info: faces recognize : Thibault Herault
+2017-09-04T09:14:09.007Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:14:09.010Z - info: Person already registered
+2017-09-04T09:14:09.012Z - info: Your favorite color is : bleu
+2017-09-04T09:14:09.033Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:14:09.868Z - info: faces recognize : Thibault Herault
+2017-09-04T09:14:09.869Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:14:09.869Z - info: Person already registered
+2017-09-04T09:14:09.869Z - info: Your favorite color is : bleu
+2017-09-04T09:14:09.878Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:14:14.399Z - info: faces recognize : Thibault Herault
+2017-09-04T09:14:14.399Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:14:14.400Z - info: Person already registered
+2017-09-04T09:14:14.402Z - info: Your favorite color is : bleu
+2017-09-04T09:14:14.413Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:14:15.665Z - info: faces recognize : Thibault Herault
+2017-09-04T09:14:15.666Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:14:15.666Z - info: Person already registered
+2017-09-04T09:14:15.667Z - info: Your favorite color is : bleu
+2017-09-04T09:14:15.678Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:14:23.412Z - info: faces recognize : Thibault Herault
+2017-09-04T09:14:23.417Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:14:23.418Z - info: Person already registered
+2017-09-04T09:14:23.419Z - info: Your favorite color is : bleu
+2017-09-04T09:14:23.433Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:14:45.844Z - info: faces recognize : Thibault Herault
+2017-09-04T09:14:45.854Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:14:45.855Z - info: Person already registered
+2017-09-04T09:14:45.855Z - info: Your favorite color is : bleu
+2017-09-04T09:14:45.865Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:03.747Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:03.748Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:03.749Z - info: Person already registered
+2017-09-04T09:15:03.749Z - info: Your favorite color is : bleu
+2017-09-04T09:15:03.759Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:05.139Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:05.140Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:05.141Z - info: Person already registered
+2017-09-04T09:15:05.142Z - info: Your favorite color is : bleu
+2017-09-04T09:15:05.150Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:09.937Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:09.942Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:09.946Z - info: Person already registered
+2017-09-04T09:15:09.947Z - info: Your favorite color is : bleu
+2017-09-04T09:15:09.962Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:11.303Z - info: faces recognize : 
+2017-09-04T09:15:12.679Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:12.680Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:12.680Z - info: Person already registered
+2017-09-04T09:15:12.680Z - info: Your favorite color is : bleu
+2017-09-04T09:15:12.686Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:14.186Z - info: faces recognize : 
+2017-09-04T09:15:15.650Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:15.653Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:15.653Z - info: Person already registered
+2017-09-04T09:15:15.654Z - info: Your favorite color is : bleu
+2017-09-04T09:15:15.663Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:17.194Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:17.198Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:17.199Z - info: Person already registered
+2017-09-04T09:15:17.201Z - info: Your favorite color is : bleu
+2017-09-04T09:15:17.213Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:35.581Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:35.581Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:35.584Z - info: Person already registered
+2017-09-04T09:15:35.585Z - info: Your favorite color is : bleu
+2017-09-04T09:15:35.592Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:38.164Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:38.164Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:38.165Z - info: Person already registered
+2017-09-04T09:15:38.165Z - info: Your favorite color is : bleu
+2017-09-04T09:15:38.173Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:42.768Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:42.769Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:42.770Z - info: Person already registered
+2017-09-04T09:15:42.772Z - info: Your favorite color is : bleu
+2017-09-04T09:15:42.784Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:51.890Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:51.894Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:51.894Z - info: Person already registered
+2017-09-04T09:15:51.896Z - info: Your favorite color is : bleu
+2017-09-04T09:15:51.902Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:52.230Z - debug: sse : a connection has been closed
+2017-09-04T09:15:53.654Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:53.663Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:53.664Z - info: Person already registered
+2017-09-04T09:15:53.666Z - info: Your favorite color is : bleu
+2017-09-04T09:15:53.685Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-04T09:15:57.259Z - debug: sse : subscribe done
+2017-09-04T09:15:59.663Z - info: faces recognize : Thibault Herault
+2017-09-04T09:15:59.667Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:15:59.668Z - info: Person already registered
+2017-09-04T09:15:59.670Z - info: Your favorite color is : bleu
+2017-09-04T09:16:01.236Z - info: faces recognize : 
+2017-09-04T09:16:04.110Z - info: faces recognize : Thibault Herault
+2017-09-04T09:16:04.110Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:16:04.111Z - info: Person already registered
+2017-09-04T09:16:04.112Z - info: Your favorite color is : bleu
+2017-09-04T09:16:11.840Z - info: faces recognize : Thibault Herault
+2017-09-04T09:16:11.845Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:16:11.847Z - info: Person already registered
+2017-09-04T09:16:11.848Z - info: Your favorite color is : bleu
+2017-09-04T09:16:14.207Z - info: faces recognize : 
+2017-09-04T09:16:17.935Z - info: faces recognize : Thibault Herault
+2017-09-04T09:16:17.945Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:16:17.946Z - info: Person already registered
+2017-09-04T09:16:17.947Z - info: Your favorite color is : bleu
+2017-09-04T09:16:19.474Z - info: faces recognize : Thibault Herault
+2017-09-04T09:16:19.476Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:16:19.477Z - info: Person already registered
+2017-09-04T09:16:19.479Z - info: Your favorite color is : bleu
+2017-09-04T09:16:26.969Z - info: faces recognize : Thibault Herault
+2017-09-04T09:16:26.971Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:16:26.977Z - info: Person already registered
+2017-09-04T09:16:26.979Z - info: Your favorite color is : bleu
+2017-09-04T09:16:43.924Z - info: faces recognize : Thibault Herault
+2017-09-04T09:16:43.927Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:16:43.928Z - info: Person already registered
+2017-09-04T09:16:43.929Z - info: Your favorite color is : bleu
+2017-09-04T09:16:49.829Z - info: faces recognize : Thibault Herault
+2017-09-04T09:16:49.833Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:16:49.834Z - info: Person already registered
+2017-09-04T09:16:49.836Z - info: Your favorite color is : bleu
+2017-09-04T09:16:51.529Z - info: faces recognize : Thibault Herault
+2017-09-04T09:16:51.533Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:16:51.534Z - info: Person already registered
+2017-09-04T09:16:51.536Z - info: Your favorite color is : bleu
+2017-09-04T09:16:58.883Z - info: faces recognize : Thibault Herault
+2017-09-04T09:16:58.887Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:16:58.888Z - info: Person already registered
+2017-09-04T09:16:58.894Z - info: Your favorite color is : bleu
+2017-09-04T09:17:00.474Z - info: faces recognize : Thibault Herault
+2017-09-04T09:17:00.478Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:17:00.479Z - info: Person already registered
+2017-09-04T09:17:00.481Z - info: Your favorite color is : bleu
+2017-09-04T09:17:03.249Z - info: faces recognize : Thibault Herault
+2017-09-04T09:17:03.250Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:17:03.255Z - info: Person already registered
+2017-09-04T09:17:03.258Z - info: Your favorite color is : bleu
+2017-09-04T09:17:10.280Z - info: faces recognize : Thibault Herault
+2017-09-04T09:17:10.280Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:17:10.280Z - info: Person already registered
+2017-09-04T09:17:10.281Z - info: Your favorite color is : bleu
+2017-09-04T09:17:25.285Z - info: faces recognize : Thibault Herault
+2017-09-04T09:17:25.287Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:17:25.288Z - info: Person already registered
+2017-09-04T09:17:25.288Z - info: Your favorite color is : bleu
+2017-09-04T09:17:42.044Z - info: faces recognize : 
+2017-09-04T09:17:57.263Z - debug: sse : a connection has been closed
+2017-09-04T09:17:58.838Z - info: faces recognize : Thibault Herault
+2017-09-04T09:17:58.838Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:17:58.839Z - info: Person already registered
+2017-09-04T09:17:58.840Z - info: Your favorite color is : bleu
+2017-09-04T09:18:00.092Z - info: faces recognize : Thibault Herault
+2017-09-04T09:18:00.092Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:18:00.093Z - info: Person already registered
+2017-09-04T09:18:00.093Z - info: Your favorite color is : bleu
+2017-09-04T09:18:02.322Z - debug: sse : subscribe done
+2017-09-04T09:18:12.971Z - info: faces recognize : Thibault Herault
+2017-09-04T09:18:12.978Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:18:12.984Z - info: Person already registered
+2017-09-04T09:18:12.987Z - info: Your favorite color is : bleu
+2017-09-04T09:18:20.466Z - info: faces recognize : Thibault Herault
+2017-09-04T09:18:20.470Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:18:20.471Z - info: Person already registered
+2017-09-04T09:18:20.473Z - info: Your favorite color is : bleu
+2017-09-04T09:18:21.874Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-04T09:18:22.246Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-04T09:18:25.266Z - info: faces recognize : 
+2017-09-04T09:18:26.600Z - info: faces recognize : Thibault Herault
+2017-09-04T09:18:26.605Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:18:26.606Z - info: Person already registered
+2017-09-04T09:18:26.609Z - info: Your favorite color is : bleu
+2017-09-04T09:18:31.445Z - info: faces recognize : Thibault Herault
+2017-09-04T09:18:31.450Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:18:31.451Z - info: Person already registered
+2017-09-04T09:18:31.453Z - info: Your favorite color is : bleu
+2017-09-04T09:18:40.154Z - info: faces recognize : Thibault Herault
+2017-09-04T09:18:40.158Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:18:40.158Z - info: Person already registered
+2017-09-04T09:18:40.158Z - info: Your favorite color is : bleu
+2017-09-04T09:18:43.088Z - info: faces recognize : Thibault Herault
+2017-09-04T09:18:43.089Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:18:43.090Z - info: Person already registered
+2017-09-04T09:18:43.092Z - info: Your favorite color is : bleu
+2017-09-04T09:18:52.097Z - info: faces recognize : Thibault Herault
+2017-09-04T09:18:52.108Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:18:52.108Z - info: Person already registered
+2017-09-04T09:18:52.108Z - info: Your favorite color is : bleu
+2017-09-04T09:18:55.136Z - info: faces recognize : Thibault Herault
+2017-09-04T09:18:55.138Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:18:55.138Z - info: Person already registered
+2017-09-04T09:18:55.140Z - info: Your favorite color is : bleu
+2017-09-04T09:19:04.320Z - info: faces recognize : Thibault Herault
+2017-09-04T09:19:04.325Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:19:04.338Z - info: Person already registered
+2017-09-04T09:19:04.342Z - info: Your favorite color is : bleu
+2017-09-04T09:19:05.984Z - info: faces recognize : Thibault Herault
+2017-09-04T09:19:05.987Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:19:05.989Z - info: Person already registered
+2017-09-04T09:19:05.991Z - info: Your favorite color is : bleu
+2017-09-04T09:19:14.957Z - info: faces recognize : Thibault Herault
+2017-09-04T09:19:14.961Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:19:14.969Z - info: Person already registered
+2017-09-04T09:19:14.985Z - info: Your favorite color is : bleu
+2017-09-04T09:19:16.458Z - info: faces recognize : Thibault Herault
+2017-09-04T09:19:16.462Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:19:16.464Z - info: Person already registered
+2017-09-04T09:19:16.468Z - info: Your favorite color is : bleu
+2017-09-04T09:19:28.620Z - info: faces recognize : Thibault Herault
+2017-09-04T09:19:28.625Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:19:28.626Z - info: Person already registered
+2017-09-04T09:19:28.627Z - info: Your favorite color is : bleu
+2017-09-04T09:19:30.300Z - info: faces recognize : Thibault Herault
+2017-09-04T09:19:30.300Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:19:30.300Z - info: Person already registered
+2017-09-04T09:19:30.301Z - info: Your favorite color is : bleu
+2017-09-04T09:19:31.566Z - info: faces recognize : 
+2017-09-04T09:19:33.045Z - info: faces recognize : Thibault Herault
+2017-09-04T09:19:33.048Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:19:33.049Z - info: Person already registered
+2017-09-04T09:19:33.049Z - info: Your favorite color is : bleu
+2017-09-04T09:19:39.190Z - info: faces recognize : Thibault Herault
+2017-09-04T09:19:39.191Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:19:39.191Z - info: Person already registered
+2017-09-04T09:19:39.192Z - info: Your favorite color is : bleu
+2017-09-04T09:19:40.573Z - info: faces recognize : Thibault Herault
+2017-09-04T09:19:40.579Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:19:40.580Z - info: Person already registered
+2017-09-04T09:19:40.582Z - info: Your favorite color is : bleu
+2017-09-04T09:19:52.927Z - info: faces recognize : 
+2017-09-04T09:19:54.190Z - info: faces recognize : 
+2017-09-04T09:19:55.756Z - info: faces recognize : 
+2017-09-04T09:19:57.321Z - info: faces recognize : Thibault Herault
+2017-09-04T09:19:57.326Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:19:57.327Z - info: Person already registered
+2017-09-04T09:19:57.328Z - info: Your favorite color is : bleu
+2017-09-04T09:19:58.855Z - info: faces recognize : 
+2017-09-04T09:20:00.252Z - info: faces recognize : Thibault Herault
+2017-09-04T09:20:00.253Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:20:00.255Z - info: Person already registered
+2017-09-04T09:20:00.257Z - info: Your favorite color is : bleu
+2017-09-04T09:20:04.849Z - info: faces recognize : Thibault Herault
+2017-09-04T09:20:04.859Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:20:04.862Z - info: Person already registered
+2017-09-04T09:20:04.863Z - info: Your favorite color is : bleu
+2017-09-04T09:20:06.461Z - info: faces recognize : Thibault Herault
+2017-09-04T09:20:06.461Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:20:06.461Z - info: Person already registered
+2017-09-04T09:20:06.461Z - info: Your favorite color is : bleu
+2017-09-04T09:20:22.250Z - debug: sse : a connection has been closed
+2017-09-04T09:20:27.286Z - debug: sse : subscribe done
+2017-09-04T09:20:39.089Z - info: faces recognize : Thibault Herault
+2017-09-04T09:20:39.095Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:20:39.095Z - info: Person already registered
+2017-09-04T09:20:39.095Z - info: Your favorite color is : bleu
+2017-09-04T09:20:39.820Z - info: faces recognize : Thibault Herault
+2017-09-04T09:20:39.822Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:20:39.823Z - info: Person already registered
+2017-09-04T09:20:39.824Z - info: Your favorite color is : bleu
+2017-09-04T09:20:41.524Z - info: faces recognize : 
+2017-09-04T09:20:42.509Z - info: faces recognize : Thibault Herault
+2017-09-04T09:20:42.513Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:20:42.516Z - info: Person already registered
+2017-09-04T09:20:42.517Z - info: Your favorite color is : bleu
+2017-09-04T09:21:05.574Z - info: faces recognize : Thibault Herault
+2017-09-04T09:21:05.574Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:21:05.575Z - info: Person already registered
+2017-09-04T09:21:05.576Z - info: Your favorite color is : bleu
+2017-09-04T09:21:06.880Z - info: faces recognize : 
+2017-09-04T09:21:12.139Z - info: faces recognize : Thibault Herault
+2017-09-04T09:21:12.141Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:21:12.147Z - info: Person already registered
+2017-09-04T09:21:12.148Z - info: Your favorite color is : bleu
+2017-09-04T09:21:44.897Z - info: faces recognize : Thibault Herault
+2017-09-04T09:21:44.900Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:21:44.903Z - info: Person already registered
+2017-09-04T09:21:44.907Z - info: Your favorite color is : bleu
+2017-09-04T09:21:46.452Z - info: faces recognize : Thibault Herault
+2017-09-04T09:21:46.457Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:21:46.458Z - info: Person already registered
+2017-09-04T09:21:46.460Z - info: Your favorite color is : bleu
+2017-09-04T09:21:51.671Z - info: faces recognize : 
+2017-09-04T09:21:54.086Z - info: faces recognize : Thibault Herault
+2017-09-04T09:21:54.088Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:21:54.088Z - info: Person already registered
+2017-09-04T09:21:54.088Z - info: Your favorite color is : bleu
+2017-09-04T09:21:55.433Z - info: faces recognize : Thibault Herault
+2017-09-04T09:21:55.435Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:21:55.435Z - info: Person already registered
+2017-09-04T09:21:55.436Z - info: Your favorite color is : bleu
+2017-09-04T09:21:56.942Z - info: faces recognize : 
+2017-09-04T09:21:59.163Z - info: faces recognize : 
+2017-09-04T09:22:03.698Z - info: faces recognize : 
+2017-09-04T09:22:05.091Z - info: faces recognize : 
+2017-09-04T09:22:08.831Z - info: faces recognize : Thibault Herault
+2017-09-04T09:22:08.832Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:22:08.832Z - info: Person already registered
+2017-09-04T09:22:08.833Z - info: Your favorite color is : bleu
+2017-09-04T09:22:20.817Z - info: faces recognize : Thibault Herault
+2017-09-04T09:22:20.818Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:22:20.820Z - info: Person already registered
+2017-09-04T09:22:20.823Z - info: Your favorite color is : bleu
+2017-09-04T09:22:22.293Z - info: faces recognize : Thibault Herault
+2017-09-04T09:22:22.298Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:22:22.301Z - info: Person already registered
+2017-09-04T09:22:22.301Z - info: Your favorite color is : bleu
+2017-09-04T09:22:27.291Z - debug: sse : a connection has been closed
+2017-09-04T09:22:32.295Z - debug: sse : subscribe done
+2017-09-04T09:22:35.945Z - info: faces recognize : Thibault Herault
+2017-09-04T09:22:35.946Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:22:35.953Z - info: Person already registered
+2017-09-04T09:22:35.956Z - info: Your favorite color is : bleu
+2017-09-04T09:23:11.838Z - info: faces recognize : Thibault Herault
+2017-09-04T09:23:11.840Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:23:11.840Z - info: Person already registered
+2017-09-04T09:23:11.841Z - info: Your favorite color is : bleu
+2017-09-04T09:23:20.796Z - info: faces recognize : Thibault Herault
+2017-09-04T09:23:20.805Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:23:20.805Z - info: Person already registered
+2017-09-04T09:23:20.806Z - info: Your favorite color is : bleu
+2017-09-04T09:23:22.506Z - info: faces recognize : Thibault Herault
+2017-09-04T09:23:22.508Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:23:22.508Z - info: Person already registered
+2017-09-04T09:23:22.509Z - info: Your favorite color is : bleu
+2017-09-04T09:24:01.750Z - info: faces recognize : Thibault Herault
+2017-09-04T09:24:01.758Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:24:01.760Z - info: Person already registered
+2017-09-04T09:24:01.762Z - info: Your favorite color is : bleu
+2017-09-04T09:24:03.291Z - info: faces recognize : Thibault Herault
+2017-09-04T09:24:03.293Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:24:03.295Z - info: Person already registered
+2017-09-04T09:24:03.295Z - info: Your favorite color is : bleu
+2017-09-04T09:24:04.801Z - info: faces recognize : Thibault Herault
+2017-09-04T09:24:04.810Z - info: isRegister : ae64c04e-a197-4cb2-a67a-8600fd5c5a09=>true
+2017-09-04T09:24:04.810Z - info: Person already registered
+2017-09-04T09:24:04.810Z - info: Your favorite color is : bleu
+2017-09-04T09:24:09.977Z - debug: sse : subscribe done
+2017-09-04T09:25:43.758Z - debug: sse : subscribe done
+2017-09-04T09:25:45.411Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-04T09:25:46.774Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-04T09:25:56.471Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-04T09:25:57.912Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-04T09:26:02.751Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-04T09:26:03.906Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-04T09:26:05.406Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-04T09:29:03.514Z - info: La lampe est allumée
+2017-09-04T09:29:03.947Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Ho%2C%20la%20lampe%20s'est%20allum%C3%A9e&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-04T09:31:12.925Z - info: La lampe est allumée
+2017-09-04T09:31:13.309Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Ho%2C%20la%20lampe%20s'est%20allum%C3%A9e&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-04T09:31:22.915Z - info: La lampe est allumée
+2017-09-04T09:31:23.211Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Ho%2C%20la%20lampe%20s'est%20allum%C3%A9e&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-04T09:40:38.726Z - info: La lampe est allumée
+2017-09-04T09:40:39.094Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Ho%2C%20la%20lampe%20s'est%20allum%C3%A9e&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-04T09:41:12.086Z - debug: sse : subscribe done
+2017-09-04T09:41:32.868Z - info: La lampe est allumée
+2017-09-04T09:41:33.219Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Ho%2C%20la%20lampe%20s'est%20allum%C3%A9e&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-04T10:06:56.956Z - debug: Emitting event for a lamp that has been switch off
+2017-09-04T10:06:57.914Z - debug: Emitting event for a lamp that has been switch on
+2017-09-04T10:06:58.251Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Ho%2C%20la%20lampe%20s'est%20allum%C3%A9e&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-04T13:58:43.960Z - debug: Emitting event for a lamp that has been switch off
+2017-09-04T13:59:09.943Z - debug: Emitting event for a lamp that has been switch off
+2017-09-04T13:59:11.924Z - debug: Emitting event for a lamp that has been switch on
+2017-09-04T13:59:18.170Z - debug: Emitting event for a lamp that has been switch off
+2017-09-04T13:59:18.989Z - debug: Emitting event for a lamp that has been switch on
+2017-09-04T13:59:43.888Z - debug: Emitting event for a lamp that has been switch off
+2017-09-04T13:59:44.902Z - debug: Emitting event for a lamp that has been switch on
+2017-09-04T14:00:47.995Z - debug: Emitting event for a lamp that has been switch off
+2017-09-04T14:00:52.923Z - debug: Emitting event for a lamp that has been switch on
+2017-09-04T14:00:56.882Z - debug: Emitting event for a lamp that has been switch off
+2017-09-04T14:00:57.887Z - debug: Emitting event for a lamp that has been switch on

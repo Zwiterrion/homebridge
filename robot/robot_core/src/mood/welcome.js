@@ -9,17 +9,17 @@ const voicer = new Voicer(new Voicerss());
 
 function bindEvents() {
   eventEmitter.on(events.domoEvents.lampOn, () => {
-    logger.info('A lamp has been switched on');
+    logger.debug('A lamp has been switched on');
   });
 
   eventEmitter.on(events.domoEvents.lampOff, () => logger.info('A lamp has been switched off'));
 
   eventEmitter.on(events.userEvents.faceRecognize, (faces) => {
-    logger.info(`faces recognize : ${faces.map(face => face.name)}`);
+    logger.debug(`faces recognize : ${faces.map(face => face.name)}`);
 
     // just for a person for the moment
     if (faces.length >= 1) {
-      logger.info(`isRegister : ${faces[0].id}=>${personDb.isRegister(faces[0].id)}`);
+      logger.debug(`isRegister : ${faces[0].id}=>${personDb.isRegister(faces[0].id)}`);
       if (personDb.isRegister(faces[0].id)) {
         logger.info('Person already registered');
         const favColor = personDb.getFavoriteColor(faces[0].id);

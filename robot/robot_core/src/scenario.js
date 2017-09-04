@@ -22,7 +22,7 @@ const play1 = new OHSpeakers(
 const scenario = {
   setLampColor(color) {
     lamp2.setColor(COLORS[color]);
-  }
+  },
 };
 
 module.exports = scenario;
