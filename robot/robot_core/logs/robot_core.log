@@ -2729,3 +2729,287 @@
 2017-09-04T14:00:52.923Z - debug: Emitting event for a lamp that has been switch on
 2017-09-04T14:00:56.882Z - debug: Emitting event for a lamp that has been switch off
 2017-09-04T14:00:57.887Z - debug: Emitting event for a lamp that has been switch on
+2017-09-05T12:26:52.123Z - debug: sse : subscribe done
+2017-09-05T12:26:58.230Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:26:58.238Z - info: Person already registered
+2017-09-05T12:26:58.242Z - info: Your favorite color is : bleu
+2017-09-05T12:27:13.814Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:27:13.819Z - info: Person already registered
+2017-09-05T12:27:42.618Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:27:42.621Z - info: Person already registered
+2017-09-05T12:27:56.044Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:27:56.046Z - info: Person already registered
+2017-09-05T12:27:57.473Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:27:57.476Z - info: Person already registered
+2017-09-05T12:27:58.297Z - debug: faces recognize : 
+2017-09-05T12:28:00.333Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:28:00.333Z - info: Person already registered
+2017-09-05T12:28:09.470Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:28:09.472Z - info: Person already registered
+2017-09-05T12:28:27.405Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:28:27.407Z - info: Person already registered
+2017-09-05T12:28:33.442Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:28:33.448Z - info: Person already registered
+2017-09-05T12:28:37.971Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:28:37.975Z - info: Person already registered
+2017-09-05T12:28:41.081Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:28:41.082Z - info: Person already registered
+2017-09-05T12:28:47.374Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:28:47.376Z - info: Person already registered
+2017-09-05T12:28:52.131Z - debug: sse : a connection has been closed
+2017-09-05T12:28:57.166Z - debug: sse : subscribe done
+2017-09-05T12:29:02.517Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:29:02.519Z - info: Person already registered
+2017-09-05T12:29:08.270Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:29:08.287Z - info: Person already registered
+2017-09-05T12:29:14.456Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:29:14.459Z - info: Person already registered
+2017-09-05T12:29:36.857Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:29:36.860Z - info: Person already registered
+2017-09-05T12:29:38.539Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:29:38.539Z - info: Person already registered
+2017-09-05T12:29:41.801Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:29:41.802Z - info: Person already registered
+2017-09-05T12:29:55.150Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:29:55.156Z - info: Person already registered
+2017-09-05T12:30:06.346Z - debug: faces recognize : 
+2017-09-05T12:30:10.790Z - debug: faces recognize : 
+2017-09-05T12:30:21.353Z - debug: faces recognize : 
+2017-09-05T12:30:23.013Z - debug: faces recognize : 
+2017-09-05T12:30:25.052Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:30:25.053Z - info: Person already registered
+2017-09-05T12:30:26.482Z - debug: faces recognize : 
+2017-09-05T12:30:32.400Z - debug: faces recognize : 
+2017-09-05T12:30:42.352Z - debug: faces recognize : 
+2017-09-05T12:30:45.945Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:30:45.947Z - info: Person already registered
+2017-09-05T12:30:47.425Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:30:47.429Z - info: Person already registered
+2017-09-05T12:30:49.352Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:30:49.354Z - info: Person already registered
+2017-09-05T12:30:50.807Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:30:50.808Z - info: Person already registered
+2017-09-05T12:30:52.283Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:30:52.288Z - info: Person already registered
+2017-09-05T12:30:57.170Z - debug: sse : a connection has been closed
+2017-09-05T12:31:02.179Z - debug: sse : subscribe done
+2017-09-05T12:31:02.516Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:31:02.529Z - info: Person already registered
+2017-09-05T12:31:04.551Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:31:04.557Z - info: Person already registered
+2017-09-05T12:31:40.493Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:31:40.506Z - info: Person already registered
+2017-09-05T12:31:44.306Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:31:44.308Z - info: Person already registered
+2017-09-05T12:31:44.561Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:31:44.566Z - info: Person already registered
+2017-09-05T12:31:46.136Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:31:46.137Z - info: Person already registered
+2017-09-05T12:31:48.185Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:31:48.187Z - info: Person already registered
+2017-09-05T12:31:53.721Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:31:53.727Z - info: Person already registered
+2017-09-05T12:31:56.295Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:31:56.296Z - info: Person already registered
+2017-09-05T12:32:13.081Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:32:13.085Z - info: Person already registered
+2017-09-05T12:32:14.672Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:32:14.673Z - info: Person already registered
+2017-09-05T12:32:46.081Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:32:46.085Z - info: Person already registered
+2017-09-05T12:32:47.855Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:32:47.855Z - info: Person already registered
+2017-09-05T12:32:52.862Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:32:52.864Z - info: Person already registered
+2017-09-05T12:33:02.181Z - debug: sse : a connection has been closed
+2017-09-05T12:33:07.190Z - debug: sse : subscribe done
+2017-09-05T12:33:22.705Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:33:22.706Z - info: Person already registered
+2017-09-05T12:34:20.423Z - debug: faces recognize : 
+2017-09-05T12:34:44.446Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:34:44.452Z - info: Person already registered
+2017-09-05T12:34:57.452Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:34:57.453Z - info: Person already registered
+2017-09-05T12:35:03.389Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:35:03.389Z - info: Person already registered
+2017-09-05T12:35:06.500Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:35:06.504Z - info: Person already registered
+2017-09-05T12:35:07.194Z - debug: sse : a connection has been closed
+2017-09-05T12:35:10.168Z - debug: faces recognize : 
+2017-09-05T12:35:12.221Z - debug: sse : subscribe done
+2017-09-05T12:36:16.734Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:36:16.738Z - info: Person already registered
+2017-09-05T12:36:52.464Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:36:52.468Z - info: Person already registered
+2017-09-05T12:37:00.841Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:37:00.847Z - info: Person already registered
+2017-09-05T12:37:12.224Z - debug: sse : a connection has been closed
+2017-09-05T12:37:17.244Z - debug: sse : subscribe done
+2017-09-05T12:38:07.901Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:38:07.902Z - info: Person already registered
+2017-09-05T12:38:57.250Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:38:57.255Z - info: Person already registered
+2017-09-05T12:39:17.254Z - debug: sse : a connection has been closed
+2017-09-05T12:39:22.261Z - debug: sse : subscribe done
+2017-09-05T12:39:32.106Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:39:32.108Z - info: Person already registered
+2017-09-05T12:39:36.597Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:39:36.598Z - info: Person already registered
+2017-09-05T12:39:38.362Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:39:38.366Z - info: Person already registered
+2017-09-05T12:39:41.590Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:39:41.591Z - info: Person already registered
+2017-09-05T12:39:42.877Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:39:42.883Z - info: Person already registered
+2017-09-05T12:40:52.975Z - debug: faces recognize : 
+2017-09-05T12:40:54.741Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:40:54.742Z - info: Person already registered
+2017-09-05T12:41:13.914Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:41:13.916Z - info: Person already registered
+2017-09-05T12:41:20.085Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:41:20.086Z - info: Person already registered
+2017-09-05T12:41:22.262Z - debug: sse : a connection has been closed
+2017-09-05T12:41:24.603Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:41:24.608Z - info: Person already registered
+2017-09-05T12:41:26.114Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:41:26.118Z - info: Person already registered
+2017-09-05T12:41:27.272Z - debug: sse : subscribe done
+2017-09-05T12:41:27.519Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:41:27.520Z - info: Person already registered
+2017-09-05T12:41:37.943Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:41:37.946Z - info: Person already registered
+2017-09-05T12:41:59.159Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:41:59.160Z - info: Person already registered
+2017-09-05T12:42:14.014Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:42:14.018Z - info: Person already registered
+2017-09-05T12:42:30.523Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:42:30.523Z - info: Person already registered
+2017-09-05T12:42:42.494Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:42:42.501Z - info: Person already registered
+2017-09-05T12:43:26.056Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:43:26.064Z - info: Person already registered
+2017-09-05T12:43:27.273Z - debug: sse : a connection has been closed
+2017-09-05T12:43:32.048Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:43:32.049Z - info: Person already registered
+2017-09-05T12:43:32.281Z - debug: sse : subscribe done
+2017-09-05T12:43:33.734Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:43:33.740Z - info: Person already registered
+2017-09-05T12:43:35.717Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:43:35.721Z - info: Person already registered
+2017-09-05T12:43:41.173Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:43:41.174Z - info: Person already registered
+2017-09-05T12:43:59.340Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:43:59.346Z - info: Person already registered
+2017-09-05T12:44:01.345Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:44:01.345Z - info: Person already registered
+2017-09-05T12:44:15.969Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:44:15.972Z - info: Person already registered
+2017-09-05T12:44:19.454Z - debug: faces recognize : Thibault Herault
+2017-09-05T12:44:19.459Z - info: Person already registered
+2017-09-05T14:00:38.277Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:00:38.285Z - info: Person already registered
+2017-09-05T14:00:43.310Z - debug: sse : subscribe done
+2017-09-05T14:00:44.854Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:00:46.361Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:00:47.920Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:00:48.834Z - debug: sse : a connection has been closed
+2017-09-05T14:01:15.038Z - debug: sse : subscribe done
+2017-09-05T14:01:20.768Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:01:20.775Z - info: Person already registered
+2017-09-05T14:01:31.423Z - debug: sse : a connection has been closed
+2017-09-05T14:01:32.486Z - debug: sse : subscribe done
+2017-09-05T14:01:34.043Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:35.534Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:37.056Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:38.553Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:40.034Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:41.535Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:43.044Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:44.536Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:46.038Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:47.545Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:49.040Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:50.541Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:52.037Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:53.581Z - debug: sse : a connection has been closed
+2017-09-05T14:01:53.611Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-05T14:01:54.351Z - debug: sse : subscribe done
+2017-09-05T14:01:57.430Z - warn: gm compare: Request did not return an image.
+
+2017-09-05T14:02:04.004Z - debug: faces recognize : 
+2017-09-05T14:02:04.810Z - debug: faces recognize : 
+2017-09-05T14:02:08.625Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:02:08.629Z - info: Person already registered
+2017-09-05T14:03:14.958Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:03:14.962Z - info: Person already registered
+2017-09-05T14:03:16.000Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:03:16.003Z - info: Person already registered
+2017-09-05T14:03:42.876Z - debug: sse : subscribe done
+2017-09-05T14:03:48.278Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:03:48.296Z - info: Person already registered
+2017-09-05T14:03:57.007Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:03:57.009Z - info: Person already registered
+2017-09-05T14:13:27.725Z - debug: sse : subscribe done
+2017-09-05T14:13:33.277Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:13:33.296Z - info: Person already registered
+2017-09-05T14:13:33.297Z - debug: Person not seen yet
+2017-09-05T14:13:33.305Z - info: Your favorite color is : bleu
+2017-09-05T14:13:33.909Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-05T14:13:36.393Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect EHOSTUNREACH 192.168.86.55:8080
+2017-09-05T14:13:48.228Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:13:48.239Z - info: Person already registered
+2017-09-05T14:15:30.653Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:15:30.670Z - info: Person already registered
+2017-09-05T14:15:30.677Z - debug: Person not seen yet
+2017-09-05T14:15:30.684Z - info: Your favorite color is : bleu
+2017-09-05T14:15:31.157Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-05T14:15:33.770Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect EHOSTUNREACH 192.168.86.55:8080
+2017-09-05T14:16:17.153Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:16:17.158Z - info: Person already registered
+2017-09-05T14:25:05.623Z - debug: sse : subscribe done
+2017-09-05T14:25:13.544Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:25:13.553Z - info: Person already registered
+2017-09-05T14:25:13.556Z - debug: Person not seen yet
+2017-09-05T14:25:13.564Z - info: Your favorite color is : bleu
+2017-09-05T14:25:14.815Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-05T14:25:25.778Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:25:25.780Z - info: Person already registered
+2017-09-05T14:25:27.393Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:25:27.394Z - info: Person already registered
+2017-09-05T14:25:28.732Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:25:28.750Z - info: Person already registered
+2017-09-05T14:25:31.318Z - debug: sse : a connection has been closed
+2017-09-05T14:25:49.870Z - debug: sse : subscribe done
+2017-09-05T14:27:03.671Z - debug: faces recognize : 
+2017-09-05T14:27:14.941Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:27:14.946Z - info: Person already registered
+2017-09-05T14:27:20.541Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:27:20.543Z - info: Person already registered
+2017-09-05T14:27:30.051Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:27:30.051Z - info: Person already registered
+2017-09-05T14:27:49.873Z - debug: sse : a connection has been closed
+2017-09-05T14:27:54.878Z - debug: sse : subscribe done
+2017-09-05T14:29:54.880Z - debug: sse : a connection has been closed
+2017-09-05T14:29:59.889Z - debug: sse : subscribe done
+2017-09-05T14:30:04.526Z - debug: faces recognize : 
+2017-09-05T14:30:05.767Z - debug: faces recognize : 
+2017-09-05T14:30:56.165Z - debug: faces recognize : Thibault Herault
+2017-09-05T14:30:56.165Z - info: Person already registered
+2017-09-05T14:30:56.208Z - debug: faces recognize : 

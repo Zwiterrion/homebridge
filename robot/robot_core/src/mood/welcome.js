@@ -2,7 +2,7 @@ const { eventEmitter, events } = require('../events.js');
 const logger = require('../utils/logger.js');
 const Voicerss = require('../api/tts/voicerss.js');
 const Voicer = require('../userInteractions/voiceSynth.js');
-const personDb = require('../model/people');
+const personDb = require('../model/model');
 const scenario = require('../scenario.js');
 
 const voicer = new Voicer(new Voicerss());
@@ -19,12 +19,16 @@ function bindEvents() {
 
     // just for a person for the moment
     if (faces.length >= 1) {
-      logger.debug(`isRegister : ${faces[0].id}=>${personDb.isRegister(faces[0].id)}`);
-      if (personDb.isRegister(faces[0].id)) {
+      if (personDb.isPersonRegister(faces[0].id)) {
         logger.info('Person already registered');
-        const favColor = personDb.getFavoriteColor(faces[0].id);
-        logger.info(`Your favorite color is : ${favColor}`);
-        scenario.setLampColor(favColor);
+        if (!personDb.isPersonSeen(faces[0].id)) {
+          logger.debug('Person not seen yet');
+          personDb.checkPersonAsSeen(faces[0].id);
+          const favColor = personDb.getFavoriteColor(faces[0].id);
+          logger.info(`Your favorite color is : ${favColor}`);
+          voicer.sendToSpeechUI(`Bonjour ${faces[0].name}. Je met votre couleur préférée! ?`);
+          scenario.setLampColor(favColor);
+        }
       } else {
         const nameArray = faces[0].name.split(' ');
         logger.info(`Adding ${faces[0].name} to storage`);

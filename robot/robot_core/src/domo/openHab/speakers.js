@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const logger = require('../../utils/logger')
+const logger = require('../../utils/logger');
 
 const DEFAULT_STATE = {
   control: 'PAUSE',

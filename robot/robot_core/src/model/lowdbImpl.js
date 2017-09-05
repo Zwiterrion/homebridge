@@ -1,16 +1,12 @@
 const lowdb = require('lowdb');
-const FileAsync = require('lowdb/adapters/FileSync');
+const FileSync = require('lowdb/adapters/FileSync');
 const logger = require('../utils/logger.js');
-const adapter = new FileAsync('./model/data/people.json');
-const peopleDb = lowdb(adapter);
-const util = require('util')
-
-
-// the methods below need to be tested
+const util = require('util');
 
 class LowDbWrapper {
-  constructor(db) {
-    this.db = db;
+  constructor(fileName) {
+    const adapter = new FileSync(fileName);
+    this.db = lowdb(adapter);
   }
 
   /**
@@ -36,13 +32,37 @@ class LowDbWrapper {
       .value();
   }
 
+  // for a specific item
   setItemField(itemCategory, searchField, searchValue, assignField, assignValue) {
-    return this.getItem(itemCategory, searchField, searchValue)
-      .assign({ assignField: assignValue })
+    const searchedObj = {};
+    searchedObj[searchField] = searchValue;
+    const assignedObj = {};
+    assignedObj[assignField] = assignValue;
+    return this.db.get(itemCategory)
+      .find(searchedObj)
+      .assign(assignedObj)
+      .write();
+  }
+
+  // for all items of a given category
+  setAllItemsField(itemCategory, assignField, assignValue) {
+    const assignedObj = {};
+    assignedObj[assignField] = assignValue;
+    // logger.debug(this.db.get(itemCategory)
+    return this.db.get(itemCategory)
+      .forEach((item) => {
+        item[assignField] = assignValue;
+      })
+      .write();
+  }
+
+  deleteItem(itemCategory, searchField, searchValue) {
+    const searchedObj = {};
+    searchedObj[searchField] = searchValue;
+    return this.db.get(itemCategory)
+      .remove(searchedObj)
       .write();
   }
 }
 
-const lowDBPeople = new LowDbWrapper(peopleDb);
-
-module.exports = lowDBPeople;
+module.exports = LowDbWrapper;

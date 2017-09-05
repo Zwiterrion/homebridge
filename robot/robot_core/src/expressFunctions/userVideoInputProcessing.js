@@ -3,7 +3,7 @@ const fs = require('fs');
 const gm = require('gm');
 const logger = require('../utils/logger.js');
 const { eventEmitter, events } = require('../events.js');
-const util = require('util')
+const util = require('util');
 
 const faceApi = new FaceApi();
 
@@ -36,7 +36,7 @@ function processVideo(req, res) {
         });
     }
     fs.rename(path1, path0, (err) => {
-      if (err) console.log(`ERROR: ${err}`);
+      if (err) logger.error(err);
     });
   });
 }

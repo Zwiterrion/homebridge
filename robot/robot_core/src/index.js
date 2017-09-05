@@ -7,6 +7,7 @@ const lampSwitch = require('./expressFunctions/domoEvents');
 const fs = require('fs');
 const logger = require('./utils/logger');
 const config = require('../config/config.json');
+const personDb = require('./model/model');
 
 const app = express();
 
@@ -34,7 +35,7 @@ if (!selectedMood) {
 require(`./mood/${selectedMood}.js`)();
 
 // =====================
-// other initialization
+// other initialization (sse, image for comparison...)
 // =====================
 
 function initImg(imgPath) {
@@ -42,6 +43,9 @@ function initImg(imgPath) {
 }
 
 sse.sseEventListen();
+
+// unseen all person in the db so we can say hello to everyone
+personDb.uncheckAllPersonSeen();
 
 // =====================
 // express part
