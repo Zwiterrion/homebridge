@@ -44,6 +44,8 @@ Installez les dépendances npm du projet :
 $ npm install
 ```
 
+# Utilisation
+
 # Architecture
 
 | Nom  | Description  |
@@ -63,6 +65,7 @@ $ npm install
 | **src/mood**  | Les différents "mood" du robot (accueil, conférence ou Serli) et les actions que le robot peut faire pour chaque "mood" |
 | **src/userInteractions**  | Interaction avec l'interface utilisateur (mise à jour graphique, envoie d'audio), les envoies de données vers le client se font par SSE |
 | **src/utils**  | Utilitaires (logger ...)  |
+| **src**/context.js | L'objet permettant d'accéder au contexte et de le changer |
 | **src**/events.js  | L'objet permettant d'envoyer les évènements et la liste des évenements possibles |
 | **src**/index.js  | Les routes http de l'application  |
 | **src**/scenario.js  | Les fonctions répondants aux évènements en utilisant les APIs et objets connectés...  |
@@ -108,3 +111,12 @@ Les servent-sent events (SSE) permettent d'envoyer des informations du server ve
 Un évènement est prévu pour envoyer des informations via sse. 
 
 Pour plus d'informations : https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events
+
+## Contexte
+
+Le contexte permet de retenir un état particulier de l'application durant laquelle certaines actions auront un effet spécifique.
+Un exemple : 
+> Le robot demande la couleur préférée d'une persone qu'il reconnait pour la 1ère fois, le contexte change pour 'CHOOSING_COLOR' et retient les informations de la personne. Si la personne dit une couleur alors que ce contexte est actif, on pourra utiliser les informations du contexte pour enregistrer sa couleur. Si une personne dit une couleur dans un autre contexte une autre action pourra être effectuée (comme allumer la lampe de cette couleur).
+
+Il est possible de spécifier une durée (timeout) pour un contexte ainsi qu'une méthode s'éxécutant à la fin du temps imparti.
+Une autre méthode peut aussi être spécifié pour être exécutée lors de l'interruption du timeout par un changement de contexte. 
