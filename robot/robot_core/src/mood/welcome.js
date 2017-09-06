@@ -4,6 +4,8 @@ const Voicerss = require('../api/tts/voicerss.js');
 const Voicer = require('../userInteractions/voiceSynth.js');
 const personDb = require('../model/model');
 const scenario = require('../scenario.js');
+const { possibleContext, currentContext } = require('../context');
+
 
 const voicer = new Voicer(new Voicerss());
 
