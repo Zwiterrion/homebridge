@@ -82,5 +82,5 @@ app.get('/sse', (req, res) => {
 });
 app.listen(PORT, () => {
   console.log(`listening on port : ${PORT}, with mood '${selectedMood}'`);
-  initImg('img/');
+  initImg('./src/img/');
 });

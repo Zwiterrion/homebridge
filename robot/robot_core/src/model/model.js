@@ -5,7 +5,7 @@
 const LowDbWrapper = require('./lowdbImpl');
 const PeopleModel = require('./people');
 
-const FILE_PATH = './model/data/people.json';
+const FILE_PATH = './src/model/data/people.json';
 
 const peopleLowDb = new LowDbWrapper(FILE_PATH);
 const peopleDb = new PeopleModel(peopleLowDb);

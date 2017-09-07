@@ -38,8 +38,10 @@ class Camera extends React.Component {
 	capture(){		
 		let screenshot = this.webcam.getScreenshot();
 		if(screenshot){
+			//console.log('screenshot: ' + screenshot);
 			let that = this;
 			const imageSrc = convertToDataURIToBinary(screenshot);
+			//console.log(screenshot);
 			fetch(`${config.server}detect/`, {
 				method: 'POST',
 				headers: {

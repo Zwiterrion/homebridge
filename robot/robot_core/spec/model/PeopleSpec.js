@@ -33,7 +33,7 @@ describe('People', () => {
 
   it('should be possible to add a person and retrieve it', () => {
     peopleDb.addPerson(aPerson.id, aPerson.firstName,
-      aPerson.lastName, aPerson.favoriteColor);
+      aPerson.lastName, aPerson.favoriteColor, false);
     const fetchedPerson = peopleDb.getPerson(aPerson.id);
     expect(fetchedPerson).toEqual(aPerson);
   });
@@ -58,9 +58,9 @@ describe('People', () => {
 
   it('should be possible to unseen all person', () => {
     peopleDb.addPerson(anSWPerson.id, anSWPerson.firstName,
-      anSWPerson.lastName, anSWPerson.favoriteColor);
+      anSWPerson.lastName, anSWPerson.favoriteColor, false);
     peopleDb.addPerson(anotherPerson.id, anotherPerson.firstName,
-      anotherPerson.lastName, anotherPerson.favoriteColor);
+      anotherPerson.lastName, anotherPerson.favoriteColor, false);
     peopleDb.checkPersonAsSeen(aPerson.id);
     peopleDb.checkPersonAsSeen(anSWPerson.id);
     peopleDb.checkPersonAsSeen(anotherPerson.id);

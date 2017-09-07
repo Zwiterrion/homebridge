@@ -1,3 +1,40 @@
+# Robot Core
+
+- [Pré-requis techniques](#pré-requis-techniques)
+  - [Node.js](#nodejs)
+  - [Graphics magick](#graphics-magick)
+  - [Sox](#sox)
+- [Installation](#installation)
+- [Tests](#tests)
+- [Utilisation](#utilisation)
+- [Architecture](#architecture)
+- [Documentation](#documentation)
+  - [Moods et évènements](#moods-et-évènements)
+    - [Utiliser les évènements](#utiliser-les-évènements)
+  - [Domotique](#domotique)
+  - [APIs](#apis)- [Robot Core](#robot-core)
+- [Pré-requis techniques](#pré-requis-techniques)
+  - [Node.js](#nodejs)
+  - [Graphics magick](#graphics-magick)
+  - [Sox](#sox)
+- [Installation](#installation)
+- [Tests](#tests)
+- [Utilisation](#utilisation)
+- [Architecture](#architecture)
+- [Documentation](#documentation)
+  - [Moods et évènements](#moods-et-évènements)
+    - [Utiliser les évènements](#utiliser-les-évènements)
+  - [Domotique](#domotique)
+  - [APIs](#apis)
+  - [Server-sent events](#server-sent-events)
+  - [Contexte](#contexte)
+  - [Bugs connus](#bugs-connus)
+    - [Comparaison d'image pour la reconnaissance faciale :](#comparaison-dimage-pour-la-reconnaissance-faciale)
+  - [Server-sent events](#server-sent-events)
+  - [Contexte](#contexte)
+  - [Bugs connus](#bugs-connus)
+    - [Comparaison d'image pour la reconnaissance faciale :](#comparaison-dimage-pour-la-reconnaissance-faciale)
+
 # Pré-requis techniques
 
 ## Node.js
@@ -44,6 +81,15 @@ Installez les dépendances npm du projet :
 $ npm install
 ```
 
+# Tests 
+
+La librairie de tests utilisée est Jasmine. Les tests peuvent être lancés avec la commande : 
+```
+npm test
+```
+
+Pour l'instant seul le contexte et le stockage ont été testé.
+
 # Utilisation
 
 # Architecture
@@ -51,13 +97,13 @@ $ npm install
 | Nom  | Description  |
 |---|---|
 | **config**  | Contient les fichiers de configuration pour l'application  |
-| **lib**  |   |
+| **lib**  |  Fichiers d'exemples pour les testes |
 | **logs**  | Contient les logs générés par l'application  |
 | **node_modules**  | Contient les dépendances npm  |
 | **spec**  | Contient les tests  |
 | **src/api**  | Fonctions appellant les différentes APIs utilisées par le projet  |
 | **src/audio**  | Contient les fichiers audios temporaires qui seront envoyés à l'API de reconnaissance vocale  |
-| **src/dispatcher**  |  |
+| **src/dispatcher**  | Aiguilleur pour le json reçu de wit |
 | **src/domo**  | Contient les appels aux objets domotiques, ceux-ci peuvent se faire via une plateforme domotique regroupant les objets connectés (tel que Jeedom ou Openhab)|
 | **src/expressFunctions**  | Les fonctions repondant aux reqûetes http définies dans **src**/index.js |
 | **src/img**  | Contient les images temporaires utilisées pour le rafraichissement de la reconaissance visuelle |
@@ -120,3 +166,9 @@ Un exemple :
 
 Il est possible de spécifier une durée (timeout) pour un contexte ainsi qu'une méthode s'éxécutant à la fin du temps imparti.
 Une autre méthode peut aussi être spécifié pour être exécutée lors de l'interruption du timeout par un changement de contexte. 
+
+## Bugs connus
+
+### Comparaison d'image pour la reconnaissance faciale :
+
+- gm peut rencontrer un problème lors du lancement des applications, le client n'envoie pas toujours l'image (l'erreur est : empty input file).

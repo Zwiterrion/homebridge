@@ -49,7 +49,7 @@ function smartSwitcher(intent, entities) {
     for (let i = 0; i < nbObject; i++) {
       switch (objArray[i].value) {
         case 'lampe' :
-          entities.on ? lamp2.turnOn() : lamp2.turnOff();
+          entities.on ? scenario.turnLampOn() : scenario.turnLampOff();
           break;
       }
     }

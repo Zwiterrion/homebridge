@@ -10,8 +10,9 @@ const faceApi = new FaceApi();
 function processVideo(req, res) {
   const data = req.body;
   const buf = new Buffer(data, 'base64');
-  const path0 = 'img/test0.jpg';
-  const path1 = 'img/test1.jpg';
+  //logger.debug(buf);
+  const path0 = './src/img/test0.jpg';
+  const path1 = './src/img/test1.jpg';
   fs.writeFileSync(path1, buf);
 
   const options = {

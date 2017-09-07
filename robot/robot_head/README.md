@@ -1,3 +1,16 @@
+# Robot Head
+
+Robot head est l'interface utilisateur servant à envoyer certaines informations au coeur du robot (le serveur).
+Cette partie fonctionne avec [react](https://facebook.github.io/react/).
+
+## Components
+
+- Camera : permet de prendre des images à intervalle régulier pour les envoyers au serveur afin de faire de la reconnaissance faciale.
+- Face : contient le visuel du visage ainsi que l'objet micro permettant l'enregistrement et l'envoie du son
+- Head : regroupe camera et face ainsi que l'objet 'sound' permettant de jouer le son
+
+# Documentation react
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

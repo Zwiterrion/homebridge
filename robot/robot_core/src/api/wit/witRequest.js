@@ -23,15 +23,15 @@ function sendAudioRequest(data) {
 
 function audioToWit(req, oggFileName) {
   const buf = new Buffer(req.body.blob, 'base64'); // decode
-  fs.writeFileSync(`audio/${oggFileName}.ogg`, buf);
+  fs.writeFileSync(`src/audio/${oggFileName}.ogg`, buf);
   // converting the ogg extracted from the browser to a wav file usable by wit
-  return exec(`opusdec --force-wav audio/${oggFileName}.ogg - | sox - audio/${oggFileName}.wav`).then(
+  return exec(`opusdec --force-wav src/audio/${oggFileName}.ogg - | sox - src/audio/${oggFileName}.wav`).then(
     (res) => {
       const stdout = res.stdout;
       const stderr = res.stderr;
       console.log('stdout: ', stdout);
       console.log('stderr: ', stderr);
-      const data = fs.readFileSync(`./audio/${oggFileName}.wav`);
+      const data = fs.readFileSync(`./src/audio/${oggFileName}.wav`);
       return sendAudioRequest(data).then(
         res2 => res2.json()
       );

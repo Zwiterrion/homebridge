@@ -23,6 +23,14 @@ const scenario = {
   setLampColor(color) {
     lamp2.setColor(COLORS[color]);
   },
+
+  turnLampOff() {
+    lamp2.turnOff();
+  },
+
+  turnLampOn() {
+    lamp2.turnOn();
+  }
 };
 
 module.exports = scenario;

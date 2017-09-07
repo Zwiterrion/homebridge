@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd robot_core/src
-node index.js
+cd robot_core
+npm start

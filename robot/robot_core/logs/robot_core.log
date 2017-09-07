@@ -1553,3 +1553,1853 @@
 2017-09-07T10:08:37.458Z - debug: current context: NONE
 2017-09-07T10:08:37.459Z - debug: processing person
 2017-09-07T10:08:37.459Z - info: Person already registered
+2017-09-07T11:58:32.863Z - debug: sse : subscribe done
+2017-09-07T11:58:33.973Z - info: A lamp has been switched off
+2017-09-07T11:58:33.974Z - debug: Emitting event for a lamp that has been switch off
+2017-09-07T11:58:34.013Z - debug: A lamp has been switched on
+2017-09-07T11:58:34.018Z - debug: Emitting event for a lamp that has been switch on
+2017-09-07T11:58:38.853Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T11:58:40.339Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T11:58:41.840Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T11:58:43.347Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T11:58:44.843Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T11:58:46.421Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T11:58:47.184Z - debug: sse : a connection has been closed
+2017-09-07T11:58:47.924Z - debug: sse : subscribe done
+2017-09-07T11:58:50.996Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T11:58:52.514Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T11:58:52.546Z - debug: sse : a connection has been closed
+2017-09-07T11:58:53.349Z - debug: sse : subscribe done
+2017-09-07T11:58:56.416Z - warn: gm compare: Request did not return an image.
+
+2017-09-07T11:59:05.033Z - debug: faces recognize : Thibault Herault
+2017-09-07T11:59:05.040Z - debug: current context: NONE
+2017-09-07T11:59:05.041Z - debug: processing person
+2017-09-07T11:59:05.049Z - info: Person already registered
+2017-09-07T11:59:05.054Z - debug: Person not seen yet
+2017-09-07T11:59:05.061Z - info: Your favorite color is : vert
+2017-09-07T11:59:09.634Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T11:59:23.021Z - debug: faces recognize : Thibault Herault
+2017-09-07T11:59:23.025Z - debug: current context: NONE
+2017-09-07T11:59:23.030Z - debug: processing person
+2017-09-07T11:59:23.031Z - info: Person already registered
+2017-09-07T11:59:25.245Z - debug: result of processAudio : Je viens d'éteindre la lampe
+2017-09-07T11:59:25.317Z - info: A lamp has been switched off
+2017-09-07T11:59:25.319Z - debug: Emitting event for a lamp that has been switch off
+2017-09-07T11:59:25.554Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20viens%20d'%C3%A9teindre%20la%20lampe&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T11:59:33.460Z - debug: faces recognize : Thibault Herault
+2017-09-07T11:59:33.461Z - debug: current context: NONE
+2017-09-07T11:59:33.462Z - debug: processing person
+2017-09-07T11:59:33.468Z - info: Person already registered
+2017-09-07T11:59:35.275Z - debug: result of processAudio : Je n'ai pas compris ce que vous avez dit.
+2017-09-07T11:59:35.611Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20n'ai%20pas%20compris%20ce%20que%20vous%20avez%20dit.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T11:59:43.801Z - debug: faces recognize : Thibault Herault
+2017-09-07T11:59:43.804Z - debug: current context: NONE
+2017-09-07T11:59:43.806Z - debug: processing person
+2017-09-07T11:59:43.809Z - info: Person already registered
+2017-09-07T11:59:46.902Z - debug: result of processAudio : Je viens d'allumer la lampe
+2017-09-07T11:59:47.010Z - debug: A lamp has been switched on
+2017-09-07T11:59:47.011Z - debug: Emitting event for a lamp that has been switch on
+2017-09-07T11:59:47.189Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20viens%20d'allumer%20la%20lampe&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T11:59:52.717Z - debug: faces recognize : Thibault Herault
+2017-09-07T11:59:52.720Z - debug: current context: NONE
+2017-09-07T11:59:52.721Z - debug: processing person
+2017-09-07T11:59:52.726Z - info: Person already registered
+2017-09-07T11:59:55.770Z - debug: faces recognize : Thibault Herault
+2017-09-07T11:59:55.776Z - debug: current context: NONE
+2017-09-07T11:59:55.778Z - debug: processing person
+2017-09-07T11:59:55.779Z - info: Person already registered
+2017-09-07T12:00:13.891Z - debug: faces recognize : Thibault Herault
+2017-09-07T12:00:13.896Z - debug: current context: NONE
+2017-09-07T12:00:13.898Z - debug: processing person
+2017-09-07T12:00:13.899Z - info: Person already registered
+2017-09-07T12:00:15.293Z - debug: faces recognize : Thibault Herault
+2017-09-07T12:00:15.298Z - debug: current context: NONE
+2017-09-07T12:00:15.300Z - debug: processing person
+2017-09-07T12:00:15.305Z - info: Person already registered
+2017-09-07T12:00:19.765Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T12:00:20.206Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T12:00:41.316Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T12:00:42.743Z - debug: faces recognize : Thibault Herault
+2017-09-07T12:00:42.749Z - debug: current context: NONE
+2017-09-07T12:00:42.750Z - debug: processing person
+2017-09-07T12:00:42.750Z - info: Person already registered
+2017-09-07T12:00:43.669Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T12:01:18.693Z - debug: result of processAudio : Bonjour, comment-allez vous ?
+2017-09-07T12:01:19.076Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%2C%20comment-allez%20vous%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T12:01:23.603Z - debug: faces recognize : Thibault Herault
+2017-09-07T12:01:23.604Z - debug: current context: NONE
+2017-09-07T12:01:23.604Z - debug: processing person
+2017-09-07T12:01:23.605Z - info: Person already registered
+2017-09-07T12:51:42.445Z - debug: sse : subscribe done
+2017-09-07T12:51:44.001Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T12:51:45.475Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T12:51:46.969Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:01:49.072Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:01:50.496Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:02:16.132Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:02:17.527Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:02:19.019Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:02:20.536Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:02:22.070Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:03:36.061Z - debug: sse : subscribe done
+2017-09-07T13:03:39.092Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:03:40.550Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:03:42.048Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:43.667Z - debug: <Buffer >
+2017-09-07T13:05:43.708Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:45.122Z - debug: <Buffer >
+2017-09-07T13:05:45.142Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:46.623Z - debug: <Buffer >
+2017-09-07T13:05:46.647Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:48.140Z - debug: <Buffer >
+2017-09-07T13:05:48.170Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:49.635Z - debug: <Buffer >
+2017-09-07T13:05:49.678Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:51.136Z - debug: <Buffer >
+2017-09-07T13:05:51.174Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:52.626Z - debug: <Buffer >
+2017-09-07T13:05:52.652Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:54.124Z - debug: <Buffer >
+2017-09-07T13:05:54.146Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:55.628Z - debug: <Buffer >
+2017-09-07T13:05:55.650Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:57.131Z - debug: <Buffer >
+2017-09-07T13:05:57.156Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:05:58.628Z - debug: <Buffer >
+2017-09-07T13:05:58.651Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:00.128Z - debug: <Buffer >
+2017-09-07T13:06:00.158Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:01.659Z - debug: <Buffer >
+2017-09-07T13:06:01.695Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:03.161Z - debug: <Buffer >
+2017-09-07T13:06:03.199Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:04.640Z - debug: <Buffer >
+2017-09-07T13:06:04.668Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:06.140Z - debug: <Buffer >
+2017-09-07T13:06:06.162Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:07.639Z - debug: <Buffer >
+2017-09-07T13:06:07.667Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:09.176Z - debug: <Buffer >
+2017-09-07T13:06:09.201Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:10.645Z - debug: <Buffer >
+2017-09-07T13:06:10.669Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:12.139Z - debug: <Buffer >
+2017-09-07T13:06:12.166Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:13.642Z - debug: <Buffer >
+2017-09-07T13:06:13.664Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:15.146Z - debug: <Buffer >
+2017-09-07T13:06:15.173Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:16.640Z - debug: <Buffer >
+2017-09-07T13:06:16.666Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:18.141Z - debug: <Buffer >
+2017-09-07T13:06:18.163Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:19.644Z - debug: <Buffer >
+2017-09-07T13:06:19.670Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:21.146Z - debug: <Buffer >
+2017-09-07T13:06:21.174Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:22.652Z - debug: <Buffer >
+2017-09-07T13:06:22.673Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:24.152Z - debug: <Buffer >
+2017-09-07T13:06:24.176Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:25.655Z - debug: <Buffer >
+2017-09-07T13:06:25.679Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:27.156Z - debug: <Buffer >
+2017-09-07T13:06:27.176Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:28.659Z - debug: <Buffer >
+2017-09-07T13:06:28.678Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:30.156Z - debug: <Buffer >
+2017-09-07T13:06:30.182Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:31.660Z - debug: <Buffer >
+2017-09-07T13:06:31.683Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:33.155Z - debug: <Buffer >
+2017-09-07T13:06:33.176Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:34.656Z - debug: <Buffer >
+2017-09-07T13:06:34.679Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:36.156Z - debug: <Buffer >
+2017-09-07T13:06:36.175Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:37.658Z - debug: <Buffer >
+2017-09-07T13:06:37.682Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:39.157Z - debug: <Buffer >
+2017-09-07T13:06:39.180Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:40.656Z - debug: <Buffer >
+2017-09-07T13:06:40.680Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:42.155Z - debug: <Buffer >
+2017-09-07T13:06:42.177Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:43.660Z - debug: <Buffer >
+2017-09-07T13:06:43.681Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:45.167Z - debug: <Buffer >
+2017-09-07T13:06:45.188Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:46.661Z - debug: <Buffer >
+2017-09-07T13:06:46.681Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:48.195Z - debug: <Buffer >
+2017-09-07T13:06:48.242Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:49.671Z - debug: <Buffer >
+2017-09-07T13:06:49.698Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:51.167Z - debug: <Buffer >
+2017-09-07T13:06:51.195Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:52.669Z - debug: <Buffer >
+2017-09-07T13:06:52.687Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:54.170Z - debug: <Buffer >
+2017-09-07T13:06:54.191Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:55.673Z - debug: <Buffer >
+2017-09-07T13:06:55.698Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:57.177Z - debug: <Buffer >
+2017-09-07T13:06:57.201Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:06:58.672Z - debug: <Buffer >
+2017-09-07T13:06:58.694Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:00.175Z - debug: <Buffer >
+2017-09-07T13:07:00.196Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:01.675Z - debug: <Buffer >
+2017-09-07T13:07:01.694Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:03.174Z - debug: <Buffer >
+2017-09-07T13:07:03.193Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:04.677Z - debug: <Buffer >
+2017-09-07T13:07:04.697Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:06.177Z - debug: <Buffer >
+2017-09-07T13:07:06.199Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:07.677Z - debug: <Buffer >
+2017-09-07T13:07:07.700Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:09.178Z - debug: <Buffer >
+2017-09-07T13:07:09.196Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:10.679Z - debug: <Buffer >
+2017-09-07T13:07:10.699Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:12.184Z - debug: <Buffer >
+2017-09-07T13:07:12.208Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:13.690Z - debug: <Buffer >
+2017-09-07T13:07:13.712Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:15.186Z - debug: <Buffer >
+2017-09-07T13:07:15.215Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:16.686Z - debug: <Buffer >
+2017-09-07T13:07:16.717Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:18.189Z - debug: <Buffer >
+2017-09-07T13:07:18.210Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:27.496Z - debug: sse : subscribe done
+2017-09-07T13:07:30.536Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:07:32.031Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:07:33.447Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:07:33.447Z - debug: current context: NONE
+2017-09-07T13:07:33.448Z - debug: processing person
+2017-09-07T13:07:33.452Z - info: Person already registered
+2017-09-07T13:07:33.454Z - debug: Person not seen yet
+2017-09-07T13:07:33.457Z - info: Your favorite color is : vert
+2017-09-07T13:07:33.514Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:07:33.861Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T13:07:34.585Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:07:34.586Z - debug: current context: NONE
+2017-09-07T13:07:34.587Z - debug: processing person
+2017-09-07T13:07:34.589Z - info: Person already registered
+2017-09-07T13:07:34.999Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:07:35.450Z - debug: sse : a connection has been closed
+2017-09-07T13:07:36.156Z - debug: sse : subscribe done
+2017-09-07T13:07:37.710Z - debug: <Buffer >
+2017-09-07T13:07:37.741Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:39.176Z - debug: <Buffer >
+2017-09-07T13:07:39.200Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:40.676Z - debug: <Buffer >
+2017-09-07T13:07:40.705Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:42.182Z - debug: <Buffer >
+2017-09-07T13:07:42.204Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:42.798Z - debug: sse : a connection has been closed
+2017-09-07T13:07:43.606Z - debug: sse : subscribe done
+2017-09-07T13:07:45.126Z - debug: <Buffer >
+2017-09-07T13:07:45.155Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:46.631Z - debug: <Buffer >
+2017-09-07T13:07:46.652Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:48.124Z - debug: <Buffer >
+2017-09-07T13:07:48.151Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:49.627Z - debug: <Buffer >
+2017-09-07T13:07:49.659Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:51.165Z - debug: <Buffer >
+2017-09-07T13:07:51.186Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:52.636Z - debug: <Buffer >
+2017-09-07T13:07:52.659Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:54.135Z - debug: <Buffer >
+2017-09-07T13:07:54.175Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:55.647Z - debug: <Buffer >
+2017-09-07T13:07:55.680Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:57.141Z - debug: <Buffer >
+2017-09-07T13:07:57.162Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:07:58.634Z - debug: <Buffer >
+2017-09-07T13:07:58.662Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:00.144Z - debug: <Buffer >
+2017-09-07T13:08:00.169Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:01.637Z - debug: <Buffer >
+2017-09-07T13:08:01.658Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:03.135Z - debug: <Buffer >
+2017-09-07T13:08:03.166Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:04.637Z - debug: <Buffer >
+2017-09-07T13:08:04.669Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:06.139Z - debug: <Buffer >
+2017-09-07T13:08:06.160Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:07.637Z - debug: <Buffer >
+2017-09-07T13:08:07.657Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:09.140Z - debug: <Buffer >
+2017-09-07T13:08:09.164Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:10.641Z - debug: <Buffer >
+2017-09-07T13:08:10.663Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:12.142Z - debug: <Buffer >
+2017-09-07T13:08:12.168Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:13.644Z - debug: <Buffer >
+2017-09-07T13:08:13.672Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:15.140Z - debug: <Buffer >
+2017-09-07T13:08:15.175Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:16.636Z - debug: <Buffer >
+2017-09-07T13:08:16.658Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:18.138Z - debug: <Buffer >
+2017-09-07T13:08:18.160Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:19.638Z - debug: <Buffer >
+2017-09-07T13:08:19.659Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:21.142Z - debug: <Buffer >
+2017-09-07T13:08:21.169Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:22.642Z - debug: <Buffer >
+2017-09-07T13:08:22.665Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:24.146Z - debug: <Buffer >
+2017-09-07T13:08:24.166Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:25.644Z - debug: <Buffer >
+2017-09-07T13:08:25.665Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:27.148Z - debug: <Buffer >
+2017-09-07T13:08:27.170Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:28.646Z - debug: <Buffer >
+2017-09-07T13:08:28.669Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:30.144Z - debug: <Buffer >
+2017-09-07T13:08:30.179Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:31.655Z - debug: <Buffer >
+2017-09-07T13:08:31.699Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:33.145Z - debug: <Buffer >
+2017-09-07T13:08:33.183Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:34.657Z - debug: <Buffer >
+2017-09-07T13:08:34.686Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:36.163Z - debug: <Buffer >
+2017-09-07T13:08:36.192Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:37.658Z - debug: <Buffer >
+2017-09-07T13:08:37.685Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:39.170Z - debug: <Buffer >
+2017-09-07T13:08:39.196Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:40.657Z - debug: <Buffer >
+2017-09-07T13:08:40.684Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:42.180Z - debug: <Buffer >
+2017-09-07T13:08:42.201Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:43.705Z - debug: <Buffer >
+2017-09-07T13:08:43.726Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:45.308Z - debug: <Buffer >
+2017-09-07T13:08:45.332Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:46.805Z - debug: <Buffer >
+2017-09-07T13:08:46.844Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:48.312Z - debug: <Buffer >
+2017-09-07T13:08:48.340Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:49.859Z - debug: <Buffer >
+2017-09-07T13:08:49.890Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:51.347Z - debug: <Buffer >
+2017-09-07T13:08:51.368Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:52.843Z - debug: <Buffer >
+2017-09-07T13:08:52.876Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:54.376Z - debug: <Buffer >
+2017-09-07T13:08:54.448Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:55.866Z - debug: <Buffer >
+2017-09-07T13:08:55.908Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:57.372Z - debug: <Buffer >
+2017-09-07T13:08:57.405Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:08:58.876Z - debug: <Buffer >
+2017-09-07T13:08:58.913Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:00.385Z - debug: <Buffer >
+2017-09-07T13:09:00.407Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:01.885Z - debug: <Buffer >
+2017-09-07T13:09:01.936Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:03.398Z - debug: <Buffer >
+2017-09-07T13:09:03.425Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:04.979Z - debug: <Buffer >
+2017-09-07T13:09:05.014Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:06.420Z - debug: <Buffer >
+2017-09-07T13:09:06.451Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:07.979Z - debug: <Buffer >
+2017-09-07T13:09:08.042Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:09.510Z - debug: <Buffer >
+2017-09-07T13:09:09.536Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:10.982Z - debug: <Buffer >
+2017-09-07T13:09:11.023Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:12.534Z - debug: <Buffer >
+2017-09-07T13:09:12.572Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:14.039Z - debug: <Buffer >
+2017-09-07T13:09:14.071Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:15.225Z - debug: sse : a connection has been closed
+2017-09-07T13:09:15.828Z - debug: <Buffer >
+2017-09-07T13:09:15.863Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:17.507Z - debug: <Buffer >
+2017-09-07T13:09:17.566Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:09:21.040Z - debug: sse : subscribe done
+2017-09-07T13:09:31.610Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:31.654Z - warn: gm compare: Request did not return an image.
+
+2017-09-07T13:09:33.126Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:34.615Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:36.116Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:37.618Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:38.848Z - debug: sse : a connection has been closed
+2017-09-07T13:09:39.935Z - debug: sse : subscribe done
+2017-09-07T13:09:44.518Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:46.025Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:47.522Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:49.040Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:49.588Z - debug: sse : a connection has been closed
+2017-09-07T13:09:51.848Z - debug: sse : subscribe done
+2017-09-07T13:09:54.895Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:56.396Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:57.912Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:09:59.297Z - debug: sse : a connection has been closed
+2017-09-07T13:09:59.613Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:01.750Z - debug: sse : subscribe done
+2017-09-07T13:10:04.806Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:06.313Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:07.823Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:08.537Z - debug: sse : a connection has been closed
+2017-09-07T13:10:11.426Z - debug: sse : subscribe done
+2017-09-07T13:10:14.502Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:16.014Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:22.569Z - debug: sse : subscribe done
+2017-09-07T13:10:27.145Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:28.574Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:30.120Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:31.051Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:10:31.052Z - debug: current context: NONE
+2017-09-07T13:10:31.052Z - debug: processing person
+2017-09-07T13:10:31.056Z - info: Person already registered
+2017-09-07T13:10:31.058Z - debug: Person not seen yet
+2017-09-07T13:10:31.061Z - info: Your favorite color is : vert
+2017-09-07T13:10:31.596Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:31.670Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T13:10:33.115Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:34.665Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:36.119Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:37.686Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:10:38.414Z - debug: sse : a connection has been closed
+2017-09-07T13:10:40.029Z - debug: sse : subscribe done
+2017-09-07T13:10:43.083Z - debug: <Buffer >
+2017-09-07T13:10:43.124Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:10:44.579Z - debug: <Buffer >
+2017-09-07T13:10:44.602Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:10:46.076Z - debug: <Buffer >
+2017-09-07T13:10:46.096Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:10:47.572Z - debug: <Buffer >
+2017-09-07T13:10:47.598Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:10:49.113Z - debug: <Buffer >
+2017-09-07T13:10:49.142Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:10:50.581Z - debug: <Buffer >
+2017-09-07T13:10:50.605Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:10:52.097Z - debug: <Buffer >
+2017-09-07T13:10:52.121Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:10:53.653Z - debug: <Buffer >
+2017-09-07T13:10:53.709Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:10:53.938Z - debug: sse : a connection has been closed
+2017-09-07T13:10:55.096Z - debug: sse : subscribe done
+2017-09-07T13:10:58.134Z - debug: <Buffer >
+2017-09-07T13:10:58.170Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:10:59.631Z - debug: <Buffer >
+2017-09-07T13:10:59.652Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:01.198Z - debug: <Buffer >
+2017-09-07T13:11:01.237Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:02.650Z - debug: <Buffer >
+2017-09-07T13:11:02.682Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:04.149Z - debug: <Buffer >
+2017-09-07T13:11:04.182Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:05.665Z - debug: <Buffer >
+2017-09-07T13:11:05.693Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:07.211Z - debug: <Buffer >
+2017-09-07T13:11:07.264Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:08.669Z - debug: <Buffer >
+2017-09-07T13:11:08.694Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:10.177Z - debug: <Buffer >
+2017-09-07T13:11:10.203Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:11.726Z - debug: <Buffer >
+2017-09-07T13:11:11.765Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:13.232Z - debug: <Buffer >
+2017-09-07T13:11:13.296Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:15.077Z - debug: sse : a connection has been closed
+2017-09-07T13:11:15.251Z - debug: <Buffer >
+2017-09-07T13:11:15.287Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:16.887Z - debug: sse : subscribe done
+2017-09-07T13:11:22.722Z - debug: sse : a connection has been closed
+2017-09-07T13:11:25.955Z - debug: sse : subscribe done
+2017-09-07T13:11:38.170Z - debug: sse : a connection has been closed
+2017-09-07T13:11:40.062Z - debug: sse : subscribe done
+2017-09-07T13:11:43.097Z - debug: <Buffer >
+2017-09-07T13:11:43.120Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:44.620Z - debug: <Buffer >
+2017-09-07T13:11:44.642Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:46.107Z - debug: <Buffer >
+2017-09-07T13:11:46.137Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:47.608Z - debug: <Buffer >
+2017-09-07T13:11:47.632Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:49.153Z - debug: <Buffer >
+2017-09-07T13:11:49.184Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:50.660Z - debug: <Buffer >
+2017-09-07T13:11:50.684Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:52.139Z - debug: <Buffer >
+2017-09-07T13:11:52.180Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:53.640Z - debug: <Buffer >
+2017-09-07T13:11:53.675Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:55.142Z - debug: <Buffer >
+2017-09-07T13:11:55.170Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:56.666Z - debug: <Buffer >
+2017-09-07T13:11:56.684Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:58.147Z - debug: <Buffer >
+2017-09-07T13:11:58.170Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:11:59.680Z - debug: <Buffer >
+2017-09-07T13:11:59.705Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:01.167Z - debug: <Buffer >
+2017-09-07T13:12:01.194Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:02.693Z - debug: <Buffer >
+2017-09-07T13:12:02.733Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:04.233Z - debug: <Buffer >
+2017-09-07T13:12:04.260Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:05.720Z - debug: <Buffer >
+2017-09-07T13:12:05.756Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:07.226Z - debug: <Buffer >
+2017-09-07T13:12:07.258Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:08.720Z - debug: <Buffer >
+2017-09-07T13:12:08.740Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:10.225Z - debug: <Buffer >
+2017-09-07T13:12:10.274Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:11.766Z - debug: <Buffer >
+2017-09-07T13:12:11.796Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:13.239Z - debug: <Buffer >
+2017-09-07T13:12:13.273Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:14.739Z - debug: <Buffer >
+2017-09-07T13:12:14.778Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:16.249Z - debug: <Buffer >
+2017-09-07T13:12:16.279Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:17.749Z - debug: <Buffer >
+2017-09-07T13:12:17.770Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:19.275Z - debug: <Buffer >
+2017-09-07T13:12:19.309Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:20.817Z - debug: <Buffer >
+2017-09-07T13:12:20.842Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:22.320Z - debug: <Buffer >
+2017-09-07T13:12:22.343Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:23.821Z - debug: <Buffer >
+2017-09-07T13:12:23.856Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:25.335Z - debug: <Buffer >
+2017-09-07T13:12:25.371Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:26.821Z - debug: <Buffer >
+2017-09-07T13:12:26.845Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:28.322Z - debug: <Buffer >
+2017-09-07T13:12:28.345Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:29.823Z - debug: <Buffer >
+2017-09-07T13:12:29.867Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:31.323Z - debug: <Buffer >
+2017-09-07T13:12:31.366Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:32.827Z - debug: <Buffer >
+2017-09-07T13:12:32.853Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:34.348Z - debug: <Buffer >
+2017-09-07T13:12:34.394Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:35.840Z - debug: <Buffer >
+2017-09-07T13:12:35.871Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:37.333Z - debug: <Buffer >
+2017-09-07T13:12:37.358Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:38.834Z - debug: <Buffer >
+2017-09-07T13:12:38.868Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:40.357Z - debug: <Buffer >
+2017-09-07T13:12:40.390Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:41.859Z - debug: <Buffer >
+2017-09-07T13:12:41.880Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:43.371Z - debug: <Buffer >
+2017-09-07T13:12:43.395Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:44.871Z - debug: <Buffer >
+2017-09-07T13:12:44.904Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:46.378Z - debug: <Buffer >
+2017-09-07T13:12:46.403Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:47.888Z - debug: <Buffer >
+2017-09-07T13:12:47.908Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:49.401Z - debug: <Buffer >
+2017-09-07T13:12:49.426Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:50.908Z - debug: <Buffer >
+2017-09-07T13:12:50.948Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:52.390Z - debug: <Buffer >
+2017-09-07T13:12:52.414Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:53.905Z - debug: <Buffer >
+2017-09-07T13:12:53.928Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:55.389Z - debug: <Buffer >
+2017-09-07T13:12:55.416Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:56.904Z - debug: <Buffer >
+2017-09-07T13:12:56.935Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:58.433Z - debug: <Buffer >
+2017-09-07T13:12:58.462Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:12:59.901Z - debug: <Buffer >
+2017-09-07T13:12:59.936Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:01.406Z - debug: <Buffer >
+2017-09-07T13:13:01.434Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:02.901Z - debug: <Buffer >
+2017-09-07T13:13:02.930Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:04.409Z - debug: <Buffer >
+2017-09-07T13:13:04.435Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:05.901Z - debug: <Buffer >
+2017-09-07T13:13:05.936Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:07.523Z - debug: <Buffer >
+2017-09-07T13:13:07.574Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:08.918Z - debug: <Buffer >
+2017-09-07T13:13:08.949Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:10.453Z - debug: <Buffer >
+2017-09-07T13:13:10.494Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:11.921Z - debug: <Buffer >
+2017-09-07T13:13:11.948Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:13.462Z - debug: <Buffer >
+2017-09-07T13:13:13.503Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:14.961Z - debug: <Buffer >
+2017-09-07T13:13:14.994Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:16.549Z - debug: <Buffer >
+2017-09-07T13:13:16.608Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:13:16.734Z - debug: sse : a connection has been closed
+2017-09-07T13:13:18.758Z - debug: sse : subscribe done
+2017-09-07T13:13:24.808Z - debug: sse : a connection has been closed
+2017-09-07T13:13:27.825Z - debug: sse : subscribe done
+2017-09-07T13:13:40.928Z - debug: sse : a connection has been closed
+2017-09-07T13:13:42.815Z - debug: sse : subscribe done
+2017-09-07T13:13:45.882Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:13:45.913Z - warn: gm compare: Request did not return an image.
+
+2017-09-07T13:13:47.406Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:13:48.911Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:13:50.408Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:13:51.919Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:13:53.438Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:13:54.988Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:13:55.442Z - debug: sse : a connection has been closed
+2017-09-07T13:13:56.563Z - debug: sse : subscribe done
+2017-09-07T13:13:59.637Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:14:01.240Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:14:08.001Z - debug: sse : subscribe done
+2017-09-07T13:14:11.099Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:14:12.837Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:14:13.834Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:14:13.837Z - debug: current context: NONE
+2017-09-07T13:14:13.838Z - debug: processing person
+2017-09-07T13:14:13.843Z - info: Person already registered
+2017-09-07T13:14:13.845Z - debug: Person not seen yet
+2017-09-07T13:14:13.851Z - info: Your favorite color is : vert
+2017-09-07T13:14:13.995Z - debug: sse : a connection has been closed
+2017-09-07T13:14:14.207Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T13:14:14.311Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:14:17.633Z - debug: sse : subscribe done
+2017-09-07T13:14:20.674Z - debug: <Buffer >
+2017-09-07T13:14:20.708Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:22.189Z - debug: <Buffer >
+2017-09-07T13:14:22.228Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:23.711Z - debug: <Buffer >
+2017-09-07T13:14:23.739Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:25.309Z - debug: <Buffer >
+2017-09-07T13:14:25.344Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:26.780Z - debug: <Buffer >
+2017-09-07T13:14:26.847Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:28.243Z - debug: <Buffer >
+2017-09-07T13:14:28.306Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:29.720Z - debug: <Buffer >
+2017-09-07T13:14:29.744Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:31.263Z - debug: <Buffer >
+2017-09-07T13:14:31.303Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:32.736Z - debug: <Buffer >
+2017-09-07T13:14:32.765Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:34.249Z - debug: <Buffer >
+2017-09-07T13:14:34.281Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:35.763Z - debug: <Buffer >
+2017-09-07T13:14:35.793Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:37.280Z - debug: <Buffer >
+2017-09-07T13:14:37.337Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:38.817Z - debug: <Buffer >
+2017-09-07T13:14:38.867Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:40.321Z - debug: <Buffer >
+2017-09-07T13:14:40.379Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:14:44.752Z - debug: sse : subscribe done
+2017-09-07T13:14:56.871Z - debug: sse : a connection has been closed
+2017-09-07T13:16:31.479Z - debug: sse : subscribe done
+2017-09-07T13:17:01.639Z - debug: <Buffer >
+2017-09-07T13:17:01.692Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:17:01.744Z - debug: <Buffer >
+2017-09-07T13:17:01.780Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:17:09.764Z - debug: <Buffer >
+2017-09-07T13:17:09.790Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:17:13.866Z - debug: <Buffer >
+2017-09-07T13:17:13.916Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:17:18.033Z - debug: <Buffer >
+2017-09-07T13:17:18.054Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:17:22.084Z - debug: <Buffer >
+2017-09-07T13:17:22.108Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:17:26.088Z - debug: <Buffer >
+2017-09-07T13:17:26.110Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:17:30.657Z - debug: <Buffer >
+2017-09-07T13:17:30.695Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:17:34.792Z - debug: <Buffer >
+2017-09-07T13:17:34.822Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:17:38.997Z - debug: <Buffer >
+2017-09-07T13:17:39.034Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:17:43.236Z - debug: <Buffer >
+2017-09-07T13:17:43.280Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:18:35.872Z - debug: sse : subscribe done
+2017-09-07T13:19:06.148Z - debug: <Buffer >
+2017-09-07T13:19:06.192Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:09.929Z - debug: <Buffer >
+2017-09-07T13:19:09.971Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:14.462Z - debug: <Buffer >
+2017-09-07T13:19:14.504Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:18.735Z - debug: <Buffer >
+2017-09-07T13:19:18.758Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:22.794Z - debug: <Buffer >
+2017-09-07T13:19:22.816Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:30.812Z - debug: <Buffer >
+2017-09-07T13:19:30.837Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:30.852Z - debug: <Buffer >
+2017-09-07T13:19:30.874Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:35.007Z - debug: <Buffer >
+2017-09-07T13:19:35.042Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:39.156Z - debug: <Buffer >
+2017-09-07T13:19:39.192Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:43.215Z - debug: <Buffer >
+2017-09-07T13:19:43.237Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:47.325Z - debug: <Buffer >
+2017-09-07T13:19:47.365Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:51.489Z - debug: <Buffer >
+2017-09-07T13:19:51.515Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:55.665Z - debug: <Buffer >
+2017-09-07T13:19:55.703Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:19:59.808Z - debug: <Buffer >
+2017-09-07T13:19:59.839Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:03.794Z - debug: <Buffer >
+2017-09-07T13:20:03.817Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:07.918Z - debug: <Buffer >
+2017-09-07T13:20:07.939Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:07.974Z - debug: <Buffer >
+2017-09-07T13:20:08.000Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:16.257Z - debug: <Buffer >
+2017-09-07T13:20:16.282Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:20.450Z - debug: <Buffer >
+2017-09-07T13:20:20.478Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:24.601Z - debug: <Buffer >
+2017-09-07T13:20:24.635Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:28.807Z - debug: <Buffer >
+2017-09-07T13:20:28.857Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:33.108Z - debug: <Buffer >
+2017-09-07T13:20:33.138Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:35.894Z - debug: sse : a connection has been closed
+2017-09-07T13:20:37.265Z - debug: <Buffer >
+2017-09-07T13:20:37.285Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:41.308Z - debug: <Buffer >
+2017-09-07T13:20:41.340Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:46.955Z - debug: <Buffer >
+2017-09-07T13:20:46.987Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:20:47.092Z - debug: sse : subscribe done
+2017-09-07T13:20:47.097Z - debug: <Buffer >
+2017-09-07T13:20:47.134Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:21:01.820Z - debug: <Buffer >
+2017-09-07T13:21:01.882Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:21:06.606Z - debug: <Buffer >
+2017-09-07T13:21:06.633Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:21:06.673Z - debug: sse : subscribe done
+2017-09-07T13:21:10.887Z - debug: sse : a connection has been closed
+2017-09-07T13:21:28.698Z - debug: sse : subscribe done
+2017-09-07T13:21:33.267Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:21:33.299Z - warn: gm compare: Request did not return an image.
+
+2017-09-07T13:21:34.763Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:21:36.255Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:21:37.804Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:21:39.826Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:21:41.312Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:21:42.829Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:21:44.317Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:21:44.530Z - debug: sse : a connection has been closed
+2017-09-07T13:21:45.870Z - debug: sse : subscribe done
+2017-09-07T13:21:48.899Z - debug: <Buffer >
+2017-09-07T13:21:48.933Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:21:50.407Z - debug: <Buffer >
+2017-09-07T13:21:50.434Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:21:51.906Z - debug: <Buffer >
+2017-09-07T13:21:51.935Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:21:53.405Z - debug: <Buffer >
+2017-09-07T13:21:53.432Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:21:54.925Z - debug: <Buffer >
+2017-09-07T13:21:54.960Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:21:56.432Z - debug: <Buffer >
+2017-09-07T13:21:56.482Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:21:57.938Z - debug: <Buffer >
+2017-09-07T13:21:57.963Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:21:59.449Z - debug: <Buffer >
+2017-09-07T13:21:59.492Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:00.983Z - debug: <Buffer >
+2017-09-07T13:22:01.010Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:02.459Z - debug: <Buffer >
+2017-09-07T13:22:02.487Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:03.954Z - debug: <Buffer >
+2017-09-07T13:22:03.979Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:05.462Z - debug: <Buffer >
+2017-09-07T13:22:05.516Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:06.970Z - debug: <Buffer >
+2017-09-07T13:22:07.006Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:08.468Z - debug: <Buffer >
+2017-09-07T13:22:08.494Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:09.974Z - debug: <Buffer >
+2017-09-07T13:22:10.004Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:11.476Z - debug: <Buffer >
+2017-09-07T13:22:11.514Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:12.981Z - debug: <Buffer >
+2017-09-07T13:22:13.014Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:14.483Z - debug: <Buffer >
+2017-09-07T13:22:14.513Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:15.975Z - debug: <Buffer >
+2017-09-07T13:22:16.011Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:17.477Z - debug: <Buffer >
+2017-09-07T13:22:17.493Z - debug: sse : a connection has been closed
+2017-09-07T13:22:17.507Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T13:22:18.775Z - debug: sse : subscribe done
+2017-09-07T13:22:56.360Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:22:56.394Z - warn: gm compare: Request did not return an image.
+
+2017-09-07T13:22:57.842Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:22:59.335Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:00.840Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:02.350Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:03.854Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:05.361Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:06.857Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:08.351Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:09.542Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:23:09.545Z - debug: current context: NONE
+2017-09-07T13:23:09.548Z - debug: processing person
+2017-09-07T13:23:09.553Z - info: Person already registered
+2017-09-07T13:23:09.554Z - debug: Person not seen yet
+2017-09-07T13:23:09.560Z - info: Your favorite color is : vert
+2017-09-07T13:23:09.870Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:09.970Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T13:23:10.659Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:23:10.663Z - debug: current context: NONE
+2017-09-07T13:23:10.665Z - debug: processing person
+2017-09-07T13:23:10.668Z - info: Person already registered
+2017-09-07T13:23:11.374Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:12.880Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:14.395Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:15.886Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:17.386Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:18.891Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:19.124Z - debug: faces recognize : 
+2017-09-07T13:23:19.125Z - debug: current context: NONE
+2017-09-07T13:23:19.125Z - debug: processing person
+2017-09-07T13:23:20.400Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:20.486Z - debug: faces recognize : 
+2017-09-07T13:23:20.487Z - debug: current context: NONE
+2017-09-07T13:23:20.489Z - debug: processing person
+2017-09-07T13:23:21.899Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:22.961Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:23:22.961Z - debug: current context: NONE
+2017-09-07T13:23:22.962Z - debug: processing person
+2017-09-07T13:23:22.966Z - info: Person already registered
+2017-09-07T13:23:23.402Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:24.295Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:23:24.297Z - debug: current context: NONE
+2017-09-07T13:23:24.298Z - debug: processing person
+2017-09-07T13:23:24.299Z - info: Person already registered
+2017-09-07T13:23:24.911Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:26.420Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:27.925Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:29.451Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:30.926Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:32.431Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:33.334Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:23:33.339Z - debug: current context: NONE
+2017-09-07T13:23:33.340Z - debug: processing person
+2017-09-07T13:23:33.341Z - info: Person already registered
+2017-09-07T13:23:33.949Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:35.462Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:36.945Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:38.478Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:39.957Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:41.475Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:42.958Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:44.499Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:45.974Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:47.472Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:48.972Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:50.488Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:51.626Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:23:51.630Z - debug: current context: NONE
+2017-09-07T13:23:51.630Z - debug: processing person
+2017-09-07T13:23:51.631Z - info: Person already registered
+2017-09-07T13:23:51.971Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:53.479Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:54.994Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:56.490Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:57.979Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:23:59.497Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:00.985Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:02.482Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:03.989Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:05.503Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:06.995Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:08.512Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:10.001Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:11.507Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:12.999Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:13.949Z - debug: faces recognize : Thibault Herault
+2017-09-07T13:24:13.954Z - debug: current context: NONE
+2017-09-07T13:24:13.955Z - debug: processing person
+2017-09-07T13:24:13.957Z - info: Person already registered
+2017-09-07T13:24:14.507Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:15.312Z - debug: faces recognize : 
+2017-09-07T13:24:15.312Z - debug: current context: NONE
+2017-09-07T13:24:15.312Z - debug: processing person
+2017-09-07T13:24:15.998Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:17.504Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:19.002Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:20.504Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:22.002Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:23.509Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:25.011Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:26.513Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:28.022Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:29.515Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:31.013Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:32.514Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:34.031Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:35.532Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:37.034Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:38.543Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:40.045Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:41.588Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:43.034Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:44.575Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T13:24:45.236Z - debug: faces recognize : 
+2017-09-07T13:24:45.245Z - debug: current context: NONE
+2017-09-07T13:24:45.245Z - debug: processing person
+2017-09-07T15:36:51.181Z - debug: sse : subscribe done
+2017-09-07T15:36:55.695Z - debug: <Buffer >
+2017-09-07T15:36:55.744Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:36:57.172Z - debug: <Buffer >
+2017-09-07T15:36:57.205Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:36:58.785Z - debug: <Buffer >
+2017-09-07T15:36:58.811Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:37:03.551Z - debug: <Buffer >
+2017-09-07T15:37:03.646Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:37:04.615Z - debug: sse : subscribe done
+2017-09-07T15:37:12.656Z - debug: sse : subscribe done
+2017-09-07T15:37:15.681Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T15:37:17.157Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T15:37:18.645Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T15:37:18.870Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:37:18.872Z - debug: current context: NONE
+2017-09-07T15:37:18.873Z - debug: processing person
+2017-09-07T15:37:18.878Z - info: Person already registered
+2017-09-07T15:37:18.880Z - debug: Person not seen yet
+2017-09-07T15:37:18.893Z - info: Your favorite color is : vert
+2017-09-07T15:37:19.348Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:37:20.233Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T15:37:21.823Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T15:37:23.268Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T15:37:24.759Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T15:37:26.307Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T15:37:27.760Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T15:37:29.459Z - debug: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 03 03 03 04 06 04 04 04 04 04 08 06 06 05 ... >
+2017-09-07T15:39:54.035Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:39:54.040Z - debug: current context: NONE
+2017-09-07T15:39:54.041Z - debug: processing person
+2017-09-07T15:39:54.045Z - info: Person already registered
+2017-09-07T15:39:54.047Z - debug: Person not seen yet
+2017-09-07T15:39:54.051Z - info: Your favorite color is : vert
+2017-09-07T15:39:54.633Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:39:56.509Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:39:56.514Z - debug: current context: NONE
+2017-09-07T15:39:56.515Z - debug: processing person
+2017-09-07T15:39:56.516Z - info: Person already registered
+2017-09-07T15:39:57.816Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:39:57.817Z - debug: current context: NONE
+2017-09-07T15:39:57.817Z - debug: processing person
+2017-09-07T15:39:57.817Z - info: Person already registered
+2017-09-07T15:40:00.332Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:40:00.340Z - debug: current context: NONE
+2017-09-07T15:40:00.341Z - debug: processing person
+2017-09-07T15:40:00.342Z - info: Person already registered
+2017-09-07T15:40:02.094Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:40:02.096Z - debug: current context: NONE
+2017-09-07T15:40:02.097Z - debug: processing person
+2017-09-07T15:40:02.099Z - info: Person already registered
+2017-09-07T15:40:03.411Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:40:03.416Z - debug: current context: NONE
+2017-09-07T15:40:03.421Z - debug: processing person
+2017-09-07T15:40:03.424Z - info: Person already registered
+2017-09-07T15:40:19.875Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:40:19.880Z - debug: current context: NONE
+2017-09-07T15:40:19.882Z - debug: processing person
+2017-09-07T15:40:19.885Z - info: Person already registered
+2017-09-07T15:40:21.542Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:40:21.547Z - debug: current context: NONE
+2017-09-07T15:40:21.549Z - debug: processing person
+2017-09-07T15:40:21.550Z - info: Person already registered
+2017-09-07T15:40:22.084Z - debug: faces recognize : 
+2017-09-07T15:40:22.086Z - debug: current context: NONE
+2017-09-07T15:40:22.087Z - debug: processing person
+2017-09-07T15:40:24.467Z - debug: faces recognize : nathan fradet
+2017-09-07T15:40:24.468Z - debug: current context: NONE
+2017-09-07T15:40:24.468Z - debug: processing person
+2017-09-07T15:40:24.469Z - debug: Registering a new person named : nathan fradet
+2017-09-07T15:40:24.470Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T15:40:24.472Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T15:40:24.845Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20nathan%20fradet.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:40:25.403Z - debug: faces recognize : 
+2017-09-07T15:40:25.405Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:40:26.803Z - debug: faces recognize : 
+2017-09-07T15:40:26.805Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:40:29.286Z - debug: faces recognize : nathan fradet,Thibault Herault
+2017-09-07T15:40:29.296Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:40:31.120Z - debug: faces recognize : nathan fradet,Thibault Herault
+2017-09-07T15:40:31.120Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:40:33.070Z - debug: faces recognize : nathan fradet
+2017-09-07T15:40:33.070Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:40:48.722Z - debug: faces recognize : nathan fradet
+2017-09-07T15:40:48.722Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:40:50.212Z - debug: faces recognize : nathan fradet
+2017-09-07T15:40:50.212Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:40:54.667Z - debug: sse : subscribe done
+2017-09-07T15:40:56.216Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:40:56.550Z - debug: faces recognize : nathan fradet
+2017-09-07T15:40:56.556Z - debug: current context: NONE
+2017-09-07T15:40:56.558Z - debug: processing person
+2017-09-07T15:40:56.565Z - debug: Registering a new person named : nathan fradet
+2017-09-07T15:40:56.567Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T15:40:56.570Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T15:40:57.001Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20nathan%20fradet.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:40:57.707Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:40:59.235Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:00.699Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:02.265Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:03.752Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:05.281Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:06.773Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:08.304Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:09.803Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:11.291Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:12.825Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:14.309Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:14.577Z - debug: result of processAudio : Pouvez vous répéter ?
+2017-09-07T15:41:14.889Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Pouvez%20vous%20r%C3%A9p%C3%A9ter%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:41:15.799Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:17.312Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:18.866Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:20.368Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:21.862Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:23.385Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:24.867Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:26.372Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:26.573Z - debug: timeout callback ready to be called
+2017-09-07T15:41:26.584Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T15:41:27.867Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:29.404Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:30.635Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T15:41:30.920Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:31.099Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:41:32.400Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:33.901Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:35.392Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:36.921Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:38.403Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:39.911Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:41.486Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:42.933Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:44.442Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:45.930Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:47.440Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:48.936Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:50.457Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:51.955Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:53.453Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:54.947Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:56.452Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:57.944Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:41:59.489Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:01.013Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:05.610Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:07.053Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:07.264Z - debug: sse : subscribe done
+2017-09-07T15:42:08.403Z - debug: sse : a connection has been closed
+2017-09-07T15:42:08.753Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:09.580Z - debug: sse : subscribe done
+2017-09-07T15:42:11.128Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:12.635Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:14.145Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:15.668Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:17.161Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:18.647Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:53.434Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:54.007Z - debug: sse : subscribe done
+2017-09-07T15:42:55.546Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:57.068Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:42:58.580Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:43:01.645Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:43:03.060Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T15:43:31.065Z - debug: sse : subscribe done
+2017-09-07T15:43:36.919Z - debug: faces recognize : Thibault Herault,nathan fradet
+2017-09-07T15:43:36.920Z - debug: current context: NONE
+2017-09-07T15:43:36.921Z - debug: processing person
+2017-09-07T15:43:36.926Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T15:43:36.927Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T15:43:36.928Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T15:43:37.276Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:43:37.967Z - debug: faces recognize : Thibault Herault,nathan fradet
+2017-09-07T15:43:37.968Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:43:39.230Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:43:39.231Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:43:40.766Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:43:40.768Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:43:47.477Z - debug: faces recognize : Thibault Herault,nathan fradet
+2017-09-07T15:43:47.479Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:43:48.692Z - debug: faces recognize : Thibault Herault,nathan fradet
+2017-09-07T15:43:48.699Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:43:49.087Z - debug: Changing context CHOOSING_COLOR for context NONE
+2017-09-07T15:43:49.099Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T15:43:49.509Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:43:50.189Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:43:50.201Z - debug: current context: NONE
+2017-09-07T15:43:50.202Z - debug: processing person
+2017-09-07T15:43:50.205Z - info: Person already registered
+2017-09-07T15:43:50.209Z - debug: Person not seen yet
+2017-09-07T15:43:50.216Z - info: Your favorite color is : bleu
+2017-09-07T15:43:50.578Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:43:55.040Z - debug: faces recognize : Thibault Herault,nathan fradet
+2017-09-07T15:43:55.043Z - debug: current context: NONE
+2017-09-07T15:43:55.044Z - debug: processing person
+2017-09-07T15:43:55.045Z - info: Person already registered
+2017-09-07T15:44:12.488Z - debug: faces recognize : 
+2017-09-07T15:44:12.492Z - debug: current context: NONE
+2017-09-07T15:44:12.493Z - debug: processing person
+2017-09-07T15:44:13.803Z - debug: faces recognize : 
+2017-09-07T15:44:13.807Z - debug: current context: NONE
+2017-09-07T15:44:13.810Z - debug: processing person
+2017-09-07T15:44:15.284Z - debug: faces recognize : 
+2017-09-07T15:44:15.287Z - debug: current context: NONE
+2017-09-07T15:44:15.288Z - debug: processing person
+2017-09-07T15:44:17.388Z - debug: faces recognize : nathan fradet
+2017-09-07T15:44:17.388Z - debug: current context: NONE
+2017-09-07T15:44:17.388Z - debug: processing person
+2017-09-07T15:44:17.391Z - debug: Registering a new person named : nathan fradet
+2017-09-07T15:44:17.393Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T15:44:17.394Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T15:44:17.870Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20nathan%20fradet.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:44:20.390Z - debug: faces recognize : nathan fradet,Thibault Herault
+2017-09-07T15:44:20.391Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:44:20.730Z - debug: faces recognize : nathan fradet
+2017-09-07T15:44:20.731Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:44:32.847Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:44:32.851Z - debug: current context: CHOOSING_COLOR
+2017-09-07T15:44:34.251Z - debug: Changing context CHOOSING_COLOR for context NONE
+2017-09-07T15:44:34.261Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T15:44:34.622Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:44:39.288Z - debug: faces recognize : 
+2017-09-07T15:44:39.289Z - debug: current context: NONE
+2017-09-07T15:44:39.290Z - debug: processing person
+2017-09-07T15:44:41.421Z - debug: faces recognize : 
+2017-09-07T15:44:41.422Z - debug: current context: NONE
+2017-09-07T15:44:41.423Z - debug: processing person
+2017-09-07T15:44:43.507Z - debug: faces recognize : nathan fradet,Thibault Herault
+2017-09-07T15:44:43.509Z - debug: current context: NONE
+2017-09-07T15:44:43.514Z - debug: processing person
+2017-09-07T15:44:43.516Z - info: Person already registered
+2017-09-07T15:44:43.517Z - debug: Person not seen yet
+2017-09-07T15:44:43.529Z - info: Your favorite color is : rouge
+2017-09-07T15:44:43.935Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20nathan%20fradet.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:44:44.873Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:44:44.878Z - debug: current context: NONE
+2017-09-07T15:44:44.879Z - debug: processing person
+2017-09-07T15:44:44.880Z - info: Person already registered
+2017-09-07T15:44:50.433Z - debug: faces recognize : nathan fradet,Thibault Herault
+2017-09-07T15:44:50.440Z - debug: current context: NONE
+2017-09-07T15:44:50.440Z - debug: processing person
+2017-09-07T15:44:50.441Z - info: Person already registered
+2017-09-07T15:44:51.880Z - debug: faces recognize : nathan fradet
+2017-09-07T15:44:51.883Z - debug: current context: NONE
+2017-09-07T15:44:51.884Z - debug: processing person
+2017-09-07T15:44:51.884Z - info: Person already registered
+2017-09-07T15:44:57.313Z - debug: faces recognize : 
+2017-09-07T15:44:57.313Z - debug: current context: NONE
+2017-09-07T15:44:57.313Z - debug: processing person
+2017-09-07T15:44:59.657Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:44:59.660Z - debug: current context: NONE
+2017-09-07T15:44:59.661Z - debug: processing person
+2017-09-07T15:44:59.661Z - info: Person already registered
+2017-09-07T15:45:00.965Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:45:00.968Z - debug: current context: NONE
+2017-09-07T15:45:00.970Z - debug: processing person
+2017-09-07T15:45:00.971Z - info: Person already registered
+2017-09-07T15:45:07.533Z - debug: sse : subscribe done
+2017-09-07T15:45:08.213Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:45:08.217Z - debug: current context: NONE
+2017-09-07T15:45:08.219Z - debug: processing person
+2017-09-07T15:45:08.224Z - info: Person already registered
+2017-09-07T15:45:08.226Z - debug: Person not seen yet
+2017-09-07T15:45:08.230Z - info: Your favorite color is : bleu
+2017-09-07T15:45:08.758Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:45:10.465Z - debug: faces recognize : Thibault Herault,nathan fradet
+2017-09-07T15:45:10.465Z - debug: current context: NONE
+2017-09-07T15:45:10.466Z - debug: processing person
+2017-09-07T15:45:10.474Z - info: Person already registered
+2017-09-07T15:45:14.728Z - debug: faces recognize : Thibault Herault,nathan fradet
+2017-09-07T15:45:14.737Z - debug: current context: NONE
+2017-09-07T15:45:14.738Z - debug: processing person
+2017-09-07T15:45:14.738Z - info: Person already registered
+2017-09-07T15:45:16.216Z - debug: faces recognize : nathan fradet
+2017-09-07T15:45:16.217Z - debug: current context: NONE
+2017-09-07T15:45:16.218Z - debug: processing person
+2017-09-07T15:45:16.229Z - info: Person already registered
+2017-09-07T15:45:16.230Z - debug: Person not seen yet
+2017-09-07T15:45:16.241Z - info: Your favorite color is : rouge
+2017-09-07T15:45:16.587Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20nathan%20fradet.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T15:45:17.614Z - debug: faces recognize : nathan fradet
+2017-09-07T15:45:17.616Z - debug: current context: NONE
+2017-09-07T15:45:17.618Z - debug: processing person
+2017-09-07T15:45:17.620Z - info: Person already registered
+2017-09-07T15:45:19.271Z - debug: faces recognize : nathan fradet
+2017-09-07T15:45:19.272Z - debug: current context: NONE
+2017-09-07T15:45:19.277Z - debug: processing person
+2017-09-07T15:45:19.279Z - info: Person already registered
+2017-09-07T15:45:33.813Z - debug: faces recognize : 
+2017-09-07T15:45:33.819Z - debug: current context: NONE
+2017-09-07T15:45:33.821Z - debug: processing person
+2017-09-07T15:45:37.118Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:45:37.119Z - debug: current context: NONE
+2017-09-07T15:45:37.121Z - debug: processing person
+2017-09-07T15:45:37.122Z - info: Person already registered
+2017-09-07T15:45:38.684Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:45:38.686Z - debug: current context: NONE
+2017-09-07T15:45:38.686Z - debug: processing person
+2017-09-07T15:45:38.687Z - info: Person already registered
+2017-09-07T15:45:49.177Z - debug: faces recognize : Thibault Herault
+2017-09-07T15:45:49.182Z - debug: current context: NONE
+2017-09-07T15:45:49.183Z - debug: processing person
+2017-09-07T15:45:49.184Z - info: Person already registered
+2017-09-07T15:45:49.976Z - debug: faces recognize : 
+2017-09-07T15:45:49.978Z - debug: current context: NONE
+2017-09-07T15:45:49.978Z - debug: processing person
+2017-09-07T16:04:41.775Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:04:41.783Z - debug: current context: NONE
+2017-09-07T16:04:41.785Z - debug: processing person
+2017-09-07T16:04:41.795Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T16:04:41.797Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T16:04:41.799Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T16:04:42.144Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T16:04:54.115Z - debug: sse : subscribe done
+2017-09-07T16:04:55.705Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:04:57.231Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:02.619Z - debug: sse : subscribe done
+2017-09-07T16:05:04.175Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:05.620Z - debug: sse : a connection has been closed
+2017-09-07T16:05:05.629Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:08.010Z - debug: sse : subscribe done
+2017-09-07T16:05:11.101Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:12.695Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:14.093Z - debug: sse : a connection has been closed
+2017-09-07T16:05:14.335Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:20.335Z - debug: sse : subscribe done
+2017-09-07T16:05:21.872Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:23.369Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:48.106Z - debug: sse : subscribe done
+2017-09-07T16:05:52.674Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:54.145Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:55.663Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:57.148Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:05:58.652Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:06:00.159Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:06:01.683Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:06:06.249Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:06:07.365Z - debug: sse : subscribe done
+2017-09-07T16:06:10.530Z - warn: gm compare: Request did not return an image.
+
+2017-09-07T16:06:24.337Z - debug: faces recognize : 
+2017-09-07T16:06:24.337Z - debug: current context: NONE
+2017-09-07T16:06:24.338Z - debug: processing person
+2017-09-07T16:06:25.527Z - debug: faces recognize : 
+2017-09-07T16:06:25.535Z - debug: current context: NONE
+2017-09-07T16:06:25.535Z - debug: processing person
+2017-09-07T16:06:27.832Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:06:27.833Z - debug: current context: NONE
+2017-09-07T16:06:27.835Z - debug: processing person
+2017-09-07T16:06:27.842Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T16:06:27.843Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T16:06:27.844Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T16:06:28.399Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T16:06:41.220Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:06:41.227Z - debug: current context: CHOOSING_COLOR
+2017-09-07T16:08:57.059Z - debug: sse : subscribe done
+2017-09-07T16:08:57.134Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:08:57.136Z - debug: current context: NONE
+2017-09-07T16:08:57.139Z - debug: processing person
+2017-09-07T16:08:57.144Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T16:08:57.146Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T16:08:57.148Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T16:08:57.564Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T16:09:59.960Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:09:59.965Z - debug: current context: NONE
+2017-09-07T16:09:59.966Z - debug: processing person
+2017-09-07T16:09:59.972Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T16:09:59.973Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T16:09:59.976Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T16:10:00.377Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T16:10:02.748Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:10:02.752Z - debug: current context: CHOOSING_COLOR
+2017-09-07T16:10:08.086Z - debug: sse : subscribe done
+2017-09-07T16:10:08.547Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:10:08.548Z - debug: current context: CHOOSING_COLOR
+2017-09-07T16:10:15.006Z - debug: sse : subscribe done
+2017-09-07T16:10:15.019Z - debug: sse : a connection has been closed
+2017-09-07T16:10:17.494Z - debug: sse : subscribe done
+2017-09-07T16:10:19.039Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:10:20.512Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:10:26.867Z - debug: sse : subscribe done
+2017-09-07T16:10:28.411Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:10:29.870Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:10:31.492Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-07T16:10:55.054Z - debug: sse : subscribe done
+2017-09-07T16:11:00.878Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:11:00.880Z - debug: current context: NONE
+2017-09-07T16:11:00.881Z - debug: processing person
+2017-09-07T16:11:00.885Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T16:11:00.886Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T16:11:00.888Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T16:11:01.351Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T16:11:01.822Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:11:01.823Z - debug: current context: CHOOSING_COLOR
+2017-09-07T16:11:15.263Z - debug: Changing context CHOOSING_COLOR for context NONE
+2017-09-07T16:11:15.284Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T16:11:15.647Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T16:11:26.247Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:11:26.249Z - debug: current context: NONE
+2017-09-07T16:11:26.250Z - debug: processing person
+2017-09-07T16:11:26.251Z - info: Person already registered
+2017-09-07T16:11:30.952Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T16:11:31.315Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T16:11:37.977Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:11:37.983Z - debug: current context: NONE
+2017-09-07T16:11:37.985Z - debug: processing person
+2017-09-07T16:11:37.987Z - info: Person already registered
+2017-09-07T16:11:39.529Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:11:39.534Z - debug: current context: NONE
+2017-09-07T16:11:39.536Z - debug: processing person
+2017-09-07T16:11:39.537Z - info: Person already registered
+2017-09-07T16:11:40.455Z - debug: result of processAudio : Je viens d'éteindre la lampe
+2017-09-07T16:11:40.521Z - info: A lamp has been switched off
+2017-09-07T16:11:40.526Z - debug: Emitting event for a lamp that has been switch off
+2017-09-07T16:11:40.789Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20viens%20d'%C3%A9teindre%20la%20lampe&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T16:11:45.589Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:11:45.590Z - debug: current context: NONE
+2017-09-07T16:11:45.590Z - debug: processing person
+2017-09-07T16:11:45.591Z - info: Person already registered
+2017-09-07T16:12:15.039Z - debug: Changing context NONE for context NONE
+2017-09-07T16:12:15.050Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:15.075Z - debug: Changing context aContext for context NONE
+2017-09-07T16:12:15.078Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:15.079Z - debug: Changing context aContext for context NONE
+2017-09-07T16:12:15.084Z - debug: Changing context NONE for context NONE
+2017-09-07T16:12:15.087Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:15.089Z - debug: setting timeout context with name : aContext
+2017-09-07T16:12:15.093Z - debug: timeout callback ready to be called
+2017-09-07T16:12:15.094Z - debug: current:aContext === new:aContext
+2017-09-07T16:12:15.109Z - debug: timeoutCallback :  { [Function]
+  and: 
+   SpyStrategy {
+     identity: [Function],
+     exec: [Function],
+     callThrough: [Function],
+     returnValue: [Function],
+     returnValues: [Function],
+     throwError: [Function],
+     callFake: [Function],
+     stub: [Function] },
+  calls: 
+   CallTracker {
+     track: [Function],
+     any: [Function],
+     count: [Function],
+     argsFor: [Function],
+     all: [Function],
+     allArgs: [Function],
+     first: [Function],
+     mostRecent: [Function],
+     reset: [Function],
+     saveArgumentsByValue: [Function] } }
+2017-09-07T16:12:15.114Z - debug: Changing context NONE for context NONE
+2017-09-07T16:12:15.117Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:15.119Z - debug: setting timeout context with name : aContext
+2017-09-07T16:12:15.121Z - debug: timeout callback ready to be called
+2017-09-07T16:12:15.123Z - debug: current:aContext === new:aContext
+2017-09-07T16:12:15.124Z - debug: timeoutCallback :  [Function: advancedCallback]
+2017-09-07T16:12:15.126Z - debug: Changing context NONE for context awesomeContext
+2017-09-07T16:12:15.135Z - debug: Changing context awesomeContext for context NONE
+2017-09-07T16:12:15.138Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:15.140Z - debug: setting timeout context with name : aContext
+2017-09-07T16:12:15.142Z - debug: Changing context aContext for context awesomeContext
+2017-09-07T16:12:15.144Z - debug: setting timeout context with name : awesomeContext
+2017-09-07T16:12:15.148Z - debug: Changing context awesomeContext for context NONE
+2017-09-07T16:12:15.149Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:15.151Z - debug: setting timeout context with name : aContext
+2017-09-07T16:12:15.152Z - debug: Changing context aContext for context awesomeContext
+2017-09-07T16:12:15.154Z - debug: setting timeout context with name : awesomeContext
+2017-09-07T16:12:25.575Z - debug: Changing context NONE for context NONE
+2017-09-07T16:12:25.584Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:25.606Z - debug: Changing context aContext for context NONE
+2017-09-07T16:12:25.610Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:25.611Z - debug: Changing context aContext for context NONE
+2017-09-07T16:12:25.619Z - debug: Changing context NONE for context NONE
+2017-09-07T16:12:25.621Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:25.623Z - debug: setting timeout context with name : aContext
+2017-09-07T16:12:25.629Z - debug: timeout callback ready to be called
+2017-09-07T16:12:25.629Z - debug: current:aContext === new:aContext
+2017-09-07T16:12:25.644Z - debug: timeoutCallback :  { [Function]
+  and: 
+   SpyStrategy {
+     identity: [Function],
+     exec: [Function],
+     callThrough: [Function],
+     returnValue: [Function],
+     returnValues: [Function],
+     throwError: [Function],
+     callFake: [Function],
+     stub: [Function] },
+  calls: 
+   CallTracker {
+     track: [Function],
+     any: [Function],
+     count: [Function],
+     argsFor: [Function],
+     all: [Function],
+     allArgs: [Function],
+     first: [Function],
+     mostRecent: [Function],
+     reset: [Function],
+     saveArgumentsByValue: [Function] } }
+2017-09-07T16:12:25.647Z - debug: Changing context NONE for context NONE
+2017-09-07T16:12:25.649Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:25.650Z - debug: setting timeout context with name : aContext
+2017-09-07T16:12:25.651Z - debug: timeout callback ready to be called
+2017-09-07T16:12:25.651Z - debug: current:aContext === new:aContext
+2017-09-07T16:12:25.652Z - debug: timeoutCallback :  [Function: advancedCallback]
+2017-09-07T16:12:25.653Z - debug: Changing context NONE for context awesomeContext
+2017-09-07T16:12:25.659Z - debug: Changing context awesomeContext for context NONE
+2017-09-07T16:12:25.661Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:25.662Z - debug: setting timeout context with name : aContext
+2017-09-07T16:12:25.662Z - debug: Changing context aContext for context awesomeContext
+2017-09-07T16:12:25.664Z - debug: setting timeout context with name : awesomeContext
+2017-09-07T16:12:25.667Z - debug: Changing context awesomeContext for context NONE
+2017-09-07T16:12:25.668Z - debug: Changing context NONE for context aContext
+2017-09-07T16:12:25.668Z - debug: setting timeout context with name : aContext
+2017-09-07T16:12:25.670Z - debug: Changing context aContext for context awesomeContext
+2017-09-07T16:12:25.671Z - debug: setting timeout context with name : awesomeContext
+2017-09-07T16:13:11.896Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:13:11.900Z - debug: current context: NONE
+2017-09-07T16:13:11.900Z - debug: processing person
+2017-09-07T16:13:11.904Z - info: Person already registered
+2017-09-07T16:13:11.906Z - debug: Person not seen yet
+2017-09-07T16:13:11.914Z - info: Your favorite color is : bleu
+2017-09-07T16:13:12.337Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T16:13:12.863Z - debug: A lamp has been switched on
+2017-09-07T16:13:12.864Z - debug: Emitting event for a lamp that has been switch on
+2017-09-07T16:13:15.951Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:13:15.952Z - debug: current context: NONE
+2017-09-07T16:13:15.954Z - debug: processing person
+2017-09-07T16:13:15.959Z - info: Person already registered
+2017-09-07T16:13:27.834Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:13:27.836Z - debug: current context: NONE
+2017-09-07T16:13:27.844Z - debug: processing person
+2017-09-07T16:13:27.845Z - info: Person already registered
+2017-09-07T16:13:30.020Z - debug: result of processAudio : Je viens d'éteindre la lampe
+2017-09-07T16:13:30.119Z - info: A lamp has been switched off
+2017-09-07T16:13:30.126Z - debug: Emitting event for a lamp that has been switch off
+2017-09-07T16:13:30.329Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20viens%20d'%C3%A9teindre%20la%20lampe&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T16:13:31.122Z - debug: faces recognize : Thibault Herault
+2017-09-07T16:13:31.123Z - debug: current context: NONE
+2017-09-07T16:13:31.124Z - debug: processing person
+2017-09-07T16:13:31.124Z - info: Person already registered

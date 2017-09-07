@@ -1,6 +1,6 @@
 const winston = require('winston');
 
-const LOGS_DIR = '../logs/';
+const LOGS_DIR = './logs/';
 const LOG_FILE_NAME = 'robot_core.log';
 
 const logger = new (winston.Logger)({

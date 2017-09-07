@@ -1,6 +1,6 @@
 describe('Context', () => {
   const { possibleContext, Context } = require('../../src/context');
-  const logger = require('../../src/utils/logger');
+  //const logger = require('../../src/utils/logger');
 
   const contextName = 'aContext';
   const anotherContextName = 'awesomeContext';
@@ -57,7 +57,7 @@ describe('Context', () => {
     expect(breakCallback).toHaveBeenCalled();
   });
 
-  it('should fire the timeoutCallBack when breaking timeout', () =>{
+  it('should fire the timeoutCallBack when breaking timeout', () => {
     Context.change(contextName, {}, timeoutCallback, breakCallback, 100);
     Context.change(anotherContextName, {}, null, null, 100);
     expect(timeoutCallback).not.toHaveBeenCalled();

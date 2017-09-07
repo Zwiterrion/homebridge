@@ -52,8 +52,6 @@ function bindEvents() {
         }
       }
     }
-    // just for a person for the moment
-    
   });
 }
 

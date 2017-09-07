@@ -7,13 +7,13 @@ class PeopleModel {
     this.peopleDb.init({ people: [] });
   }
 
-  addPerson(id, firstName, lastName, favoriteColor = 'red') {
+  addPerson(id, firstName, lastName, favoriteColor = 'red', alreadySeen = true) {
     const item = {
       id,
       firstName,
       lastName,
       favoriteColor,
-      alreadySeen: false
+      alreadySeen
     };
     return this.peopleDb.addItem(ITEM_CATEGORY, item);
   }
