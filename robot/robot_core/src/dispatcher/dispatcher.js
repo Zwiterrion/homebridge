@@ -1,5 +1,7 @@
 const fetch = require('node-fetch');
 const scenario = require('../scenario.js');
+const personDb = require('../model/model');
+const { possibleContext, Context } = require('../context');
 const SIMPLE_COLORS = require('../../config/colors/simpleColors.json');
 const EXTENDED_COLORS = require('../../config/colors/extendedColors.json');
 
@@ -55,6 +57,13 @@ function smartSwitcher(intent, entities) {
   } else if (entities.salutation != null) {
     return 'Bonjour, comment-allez vous ?';
   } else if (entities.couleur != null && COLORS.hasOwnProperty(entities.couleur[0].value)) {
+    // deal with colors
+    if (Context.getCurrentContextName() === possibleContext.CHOOSING_COLOR) {
+      // use context to register the person and its color
+      const personData = Context.getCurrentContextData();
+      Context.setToDefaultContext();
+      personDb.addPerson(personData.id, personData.firstName, personData.lastName, entities.couleur[0].value);
+    }
     scenario.setLampColor(entities.couleur[0].value);
 
     return "J'espère que cette nouvelle ambiance vous conviendra.";

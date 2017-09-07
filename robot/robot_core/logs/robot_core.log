@@ -555,3 +555,1001 @@
 2017-09-06T15:19:59.743Z - debug: cleartimeout called
 2017-09-06T15:19:59.743Z - debug: just before setTimeoutContext
 2017-09-06T15:19:59.743Z - debug: setting timeout context with name : awesomeContext
+2017-09-07T08:02:30.971Z - debug: sse : subscribe done
+2017-09-07T08:02:36.728Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:02:36.733Z - info: Person already registered
+2017-09-07T08:02:36.735Z - debug: Person not seen yet
+2017-09-07T08:02:36.744Z - info: Your favorite color is : bleu
+2017-09-07T08:02:37.235Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:14:42.465Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:14:42.473Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:14:42.474Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:14:43.738Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:14:45.994Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:14:45.999Z - debug: Changing context CHOOSING_COLOR for context CHOOSING_COLOR
+2017-09-07T08:14:46.001Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:14:46.936Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:14:47.410Z - debug: faces recognize : 
+2017-09-07T08:14:49.361Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:14:49.364Z - debug: Changing context CHOOSING_COLOR for context CHOOSING_COLOR
+2017-09-07T08:14:49.365Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:14:50.365Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:14:54.367Z - debug: timeout callback ready to be called
+2017-09-07T08:14:54.373Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:14:57.994Z - debug: sse : subscribe done
+2017-09-07T08:15:01.890Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:15:01.893Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:15:01.895Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:15:06.897Z - debug: timeout callback ready to be called
+2017-09-07T08:15:06.898Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:15:09.776Z - debug: faces recognize : 
+2017-09-07T08:15:13.068Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:15:14.301Z - debug: faces recognize : 
+2017-09-07T08:15:14.311Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:15:14.313Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:15:14.313Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:15:15.008Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:15:15.195Z - debug: faces recognize : 
+2017-09-07T08:15:17.853Z - debug: faces recognize : 
+2017-09-07T08:15:19.316Z - debug: timeout callback ready to be called
+2017-09-07T08:15:19.320Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:15:20.664Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:15:20.665Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:15:20.667Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:15:21.162Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:15:23.605Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:15:23.606Z - debug: Changing context CHOOSING_COLOR for context CHOOSING_COLOR
+2017-09-07T08:15:23.607Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:15:24.113Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:15:25.403Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:15:25.404Z - debug: Changing context CHOOSING_COLOR for context CHOOSING_COLOR
+2017-09-07T08:15:25.407Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:15:25.761Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:15:27.773Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T08:15:28.361Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:15:30.408Z - debug: timeout callback ready to be called
+2017-09-07T08:15:30.409Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:15:41.845Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:15:41.849Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:15:41.854Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:15:42.567Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:15:44.224Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:15:44.225Z - debug: Changing context CHOOSING_COLOR for context CHOOSING_COLOR
+2017-09-07T08:15:44.225Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:15:44.822Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:21:12.513Z - debug: sse : subscribe done
+2017-09-07T08:21:13.511Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:21:14.062Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:21:15.584Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:21:17.064Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:21:42.573Z - debug: sse : subscribe done
+2017-09-07T08:21:47.886Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:21:51.166Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:22:12.017Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:22:41.899Z - debug: faces recognize : 
+2017-09-07T08:22:42.354Z - debug: sse : subscribe done
+2017-09-07T08:22:44.240Z - debug: faces recognize : 
+2017-09-07T08:22:46.493Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:22:48.059Z - debug: faces recognize : 
+2017-09-07T08:28:38.541Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:28:38.545Z - debug: curent context:() => currentContext.name
+2017-09-07T08:32:07.143Z - debug: sse : subscribe done
+2017-09-07T08:32:08.697Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:32:10.143Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:32:11.630Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:32:12.000Z - debug: sse : a connection has been closed
+2017-09-07T08:32:12.720Z - debug: sse : subscribe done
+2017-09-07T08:32:14.256Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:32:15.758Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:32:17.257Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:32:18.767Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:32:19.221Z - debug: sse : a connection has been closed
+2017-09-07T08:32:19.979Z - debug: sse : subscribe done
+2017-09-07T08:32:23.052Z - warn: gm compare: Request did not return an image.
+
+2017-09-07T08:32:36.340Z - debug: faces recognize : 
+2017-09-07T08:32:36.343Z - debug: current context: () => currentContext.name
+2017-09-07T08:32:36.344Z - debug: processing person
+2017-09-07T08:32:37.857Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:32:37.861Z - debug: current context: () => currentContext.name
+2017-09-07T08:32:37.861Z - debug: processing person
+2017-09-07T08:32:37.866Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:32:37.868Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:32:37.917Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:32:37.921Z - debug: current context: () => currentContext.name
+2017-09-07T08:32:38.230Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:32:39.617Z - debug: faces recognize : 
+2017-09-07T08:32:39.618Z - debug: current context: () => currentContext.name
+2017-09-07T08:32:42.870Z - debug: timeout callback ready to be called
+2017-09-07T08:32:42.871Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:32:50.880Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:32:50.881Z - debug: current context: () => currentContext.name
+2017-09-07T08:32:50.881Z - debug: processing person
+2017-09-07T08:32:50.884Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:32:50.888Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:32:51.282Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:32:53.544Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T08:32:53.960Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:32:55.889Z - debug: timeout callback ready to be called
+2017-09-07T08:32:55.890Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:34:35.664Z - debug: sse : subscribe done
+2017-09-07T08:34:37.147Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:34:37.149Z - debug: current context: NONE
+2017-09-07T08:34:37.150Z - debug: processing person
+2017-09-07T08:34:37.155Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:34:37.156Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:34:37.157Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:34:37.221Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:37.528Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:34:38.736Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:40.207Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:41.724Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:42.160Z - debug: timeout callback ready to be called
+2017-09-07T08:34:42.161Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:34:43.231Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:44.750Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:46.234Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:47.746Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:49.295Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:50.122Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T08:34:50.508Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:34:50.743Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:52.292Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:53.801Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:34:55.260Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:36:48.182Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:36:49.682Z - debug: sse : subscribe done
+2017-09-07T08:36:51.224Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:36:52.748Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:36:54.220Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:36:55.725Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:36:57.223Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:36:58.723Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:37:00.227Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:37:01.632Z - debug: sse : a connection has been closed
+2017-09-07T08:37:01.762Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:37:02.608Z - debug: sse : subscribe done
+2017-09-07T08:37:05.685Z - warn: gm compare: Request did not return an image.
+
+2017-09-07T08:37:11.349Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:37:11.350Z - debug: current context: NONE
+2017-09-07T08:37:11.351Z - debug: processing person
+2017-09-07T08:37:11.354Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:37:11.355Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:37:11.356Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:37:11.628Z - debug: faces recognize : 
+2017-09-07T08:37:11.638Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:37:11.918Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:37:15.534Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:37:15.541Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:37:23.743Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T08:37:24.090Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:37:41.359Z - debug: timeout callback ready to be called
+2017-09-07T08:37:41.363Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:37:42.555Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:37:42.556Z - debug: current context: NONE
+2017-09-07T08:37:42.567Z - debug: processing person
+2017-09-07T08:37:42.573Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:37:42.579Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:37:42.593Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:37:42.929Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:39:58.459Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:39:58.463Z - debug: current context: NONE
+2017-09-07T08:39:58.463Z - debug: processing person
+2017-09-07T08:39:58.470Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:39:58.471Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:39:58.472Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:39:58.865Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:39:59.862Z - debug: sse : subscribe done
+2017-09-07T08:40:01.463Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:40:02.899Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:40:04.402Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:40:05.958Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:40:07.559Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:40:07.821Z - debug: sse : a connection has been closed
+2017-09-07T08:40:08.642Z - debug: sse : subscribe done
+2017-09-07T08:40:11.676Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:40:13.180Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:40:14.418Z - debug: sse : a connection has been closed
+2017-09-07T08:40:15.218Z - debug: sse : subscribe done
+2017-09-07T08:40:16.776Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:40:18.279Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:40:19.787Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:40:47.584Z - debug: sse : subscribe done
+2017-09-07T08:40:53.124Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:40:53.126Z - debug: current context: NONE
+2017-09-07T08:40:53.127Z - debug: processing person
+2017-09-07T08:40:53.131Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:40:53.132Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:40:53.134Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:40:53.512Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:40:58.955Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:40:58.960Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:41:04.974Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:41:04.975Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:41:06.190Z - debug: Changing context CHOOSING_COLOR for context NONE
+2017-09-07T08:41:06.203Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T08:41:06.535Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:41:15.443Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:41:15.452Z - debug: current context: NONE
+2017-09-07T08:41:15.453Z - debug: processing person
+2017-09-07T08:41:15.456Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:41:15.459Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:41:15.460Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:41:15.989Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:45:30.797Z - debug: sse : subscribe done
+2017-09-07T08:45:36.723Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:45:36.726Z - debug: current context: NONE
+2017-09-07T08:45:36.727Z - debug: processing person
+2017-09-07T08:45:36.732Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:45:36.732Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:45:36.733Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:45:37.140Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:45:46.562Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:45:46.564Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:45:48.427Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:45:48.428Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:45:57.210Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:45:57.211Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:46:00.461Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:46:00.470Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:46:02.318Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:46:02.318Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:46:03.153Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:46:03.154Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:46:03.593Z - debug: result of processAudio : Je n'ai pas compris ce que vous avez dit.
+2017-09-07T08:46:03.907Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20n'ai%20pas%20compris%20ce%20que%20vous%20avez%20dit.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:46:06.735Z - debug: timeout callback ready to be called
+2017-09-07T08:46:06.736Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:46:23.566Z - debug: faces recognize : 
+2017-09-07T08:46:23.575Z - debug: current context: NONE
+2017-09-07T08:46:23.578Z - debug: processing person
+2017-09-07T08:46:25.011Z - debug: faces recognize : 
+2017-09-07T08:46:25.013Z - debug: current context: NONE
+2017-09-07T08:46:25.014Z - debug: processing person
+2017-09-07T08:46:27.177Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:46:27.183Z - debug: current context: NONE
+2017-09-07T08:46:27.184Z - debug: processing person
+2017-09-07T08:46:27.186Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:46:27.187Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:46:27.189Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:46:29.956Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:46:29.957Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:46:30.592Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:46:34.827Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:46:34.831Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:46:36.238Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:46:36.238Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:46:39.066Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:46:39.067Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:46:40.614Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:46:40.615Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:46:41.910Z - debug: Changing context CHOOSING_COLOR for context NONE
+2017-09-07T08:46:41.924Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T08:46:42.254Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:51:41.667Z - debug: sse : subscribe done
+2017-09-07T08:51:45.336Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:51:45.338Z - debug: current context: NONE
+2017-09-07T08:51:45.339Z - debug: processing person
+2017-09-07T08:51:45.344Z - info: Person already registered
+2017-09-07T08:51:45.345Z - debug: Person not seen yet
+2017-09-07T08:51:45.351Z - info: Your favorite color is : rouge
+2017-09-07T08:51:45.739Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:52:00.896Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:52:00.897Z - debug: current context: NONE
+2017-09-07T08:52:00.897Z - debug: processing person
+2017-09-07T08:52:00.898Z - info: Person already registered
+2017-09-07T08:52:20.758Z - debug: sse : subscribe done
+2017-09-07T08:52:21.727Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:52:21.728Z - debug: current context: NONE
+2017-09-07T08:52:21.729Z - debug: processing person
+2017-09-07T08:52:21.733Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:52:21.734Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:52:21.736Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:52:22.095Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:52:32.577Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:52:32.578Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:52:36.055Z - debug: Changing context CHOOSING_COLOR for context NONE
+2017-09-07T08:52:36.075Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T08:52:36.387Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:52:38.860Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:52:38.873Z - debug: current context: NONE
+2017-09-07T08:52:38.874Z - debug: processing person
+2017-09-07T08:52:38.876Z - info: Person already registered
+2017-09-07T08:52:38.880Z - debug: Person not seen yet
+2017-09-07T08:52:38.893Z - info: Your favorite color is : bleu
+2017-09-07T08:52:39.288Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:53:58.430Z - debug: sse : subscribe done
+2017-09-07T08:53:59.977Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:01.462Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:01.485Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:54:01.489Z - debug: current context: NONE
+2017-09-07T08:54:01.490Z - debug: processing person
+2017-09-07T08:54:01.494Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:54:01.495Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:54:01.496Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:54:02.017Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:54:02.966Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:04.463Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:05.970Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:07.537Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:09.025Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:10.533Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:12.037Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:13.532Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:15.048Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:16.540Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:18.076Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:19.553Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:21.048Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:22.543Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:54:24.082Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:56:16.427Z - debug: sse : subscribe done
+2017-09-07T08:56:22.153Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:56:22.155Z - debug: current context: NONE
+2017-09-07T08:56:22.158Z - debug: processing person
+2017-09-07T08:56:22.162Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:56:22.163Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:56:22.164Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:56:22.546Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:56:26.189Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:56:26.190Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:56:49.133Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:56:49.138Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:56:50.515Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:56:50.516Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:56:52.166Z - debug: timeout callback ready to be called
+2017-09-07T08:56:52.167Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:56:56.299Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:56:56.299Z - debug: current context: NONE
+2017-09-07T08:56:56.304Z - debug: processing person
+2017-09-07T08:56:56.306Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:56:56.321Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:56:56.323Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:56:56.684Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:57:00.828Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:57:00.833Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:57:18.871Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:57:18.873Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:57:26.304Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:57:26.304Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:57:26.328Z - debug: timeout callback ready to be called
+2017-09-07T08:57:26.333Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:57:29.394Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:57:29.394Z - debug: current context: NONE
+2017-09-07T08:57:29.394Z - debug: processing person
+2017-09-07T08:57:29.395Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:57:29.395Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:57:29.396Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:57:29.767Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:57:30.844Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:57:30.845Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:57:33.221Z - debug: faces recognize : 
+2017-09-07T08:57:33.221Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:57:43.485Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:57:43.489Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:57:43.838Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:57:43.839Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:57:49.909Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:57:49.917Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:57:59.396Z - debug: timeout callback ready to be called
+2017-09-07T08:57:59.397Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:58:40.641Z - debug: result of processAudio : Je n'ai pas compris ce que vous avez dit.
+2017-09-07T08:58:41.004Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20n'ai%20pas%20compris%20ce%20que%20vous%20avez%20dit.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:58:42.522Z - debug: faces recognize : 
+2017-09-07T08:58:42.523Z - debug: current context: NONE
+2017-09-07T08:58:42.525Z - debug: processing person
+2017-09-07T08:58:42.923Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-07T08:58:42.925Z - error:  Error: ENOENT: no such file or directory, rename 'img/test1.jpg' -> 'img/test0.jpg'
+    at Error (native)
+2017-09-07T08:58:45.454Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:58:45.454Z - debug: current context: NONE
+2017-09-07T08:58:45.456Z - debug: processing person
+2017-09-07T08:58:45.457Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:58:45.457Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:58:45.458Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:58:45.822Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:58:46.920Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:58:46.923Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:58:47.846Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:58:47.852Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:58:50.620Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:58:50.622Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:58:55.394Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:58:55.398Z - debug: current context: CHOOSING_COLOR
+2017-09-07T08:59:15.470Z - debug: timeout callback ready to be called
+2017-09-07T08:59:15.470Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T08:59:46.814Z - debug: faces recognize : Thibault Herault
+2017-09-07T08:59:46.819Z - debug: current context: NONE
+2017-09-07T08:59:46.820Z - debug: processing person
+2017-09-07T08:59:46.823Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T08:59:46.826Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T08:59:46.828Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T08:59:47.177Z - debug: sse : subscribe done
+2017-09-07T08:59:47.227Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T08:59:48.755Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:59:50.210Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:59:51.743Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:59:53.248Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:59:54.751Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:59:56.242Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:59:57.741Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T08:59:59.256Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:00:00.755Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:00:02.277Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:00:03.750Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:00:05.248Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:00:06.751Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:00:08.277Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:00:09.749Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:00:59.604Z - debug: sse : subscribe done
+2017-09-07T09:01:13.142Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:01:13.157Z - debug: current context: NONE
+2017-09-07T09:01:13.159Z - debug: processing person
+2017-09-07T09:01:13.164Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T09:01:13.166Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T09:01:13.168Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T09:01:13.644Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:01:16.839Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:01:16.841Z - debug: current context: CHOOSING_COLOR
+2017-09-07T09:01:22.889Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:01:22.895Z - debug: current context: CHOOSING_COLOR
+2017-09-07T09:01:24.511Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:01:24.512Z - debug: current context: CHOOSING_COLOR
+2017-09-07T09:01:43.175Z - debug: timeout callback ready to be called
+2017-09-07T09:01:43.178Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T09:02:01.230Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:02:01.240Z - debug: current context: NONE
+2017-09-07T09:02:01.240Z - debug: processing person
+2017-09-07T09:02:01.245Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T09:02:01.246Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T09:02:01.247Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T09:02:01.725Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:02:14.308Z - debug: Changing context CHOOSING_COLOR for context NONE
+2017-09-07T09:02:14.322Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T09:02:14.858Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:02:19.958Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:02:19.959Z - debug: current context: NONE
+2017-09-07T09:02:19.959Z - debug: processing person
+2017-09-07T09:02:19.960Z - info: Person already registered
+2017-09-07T09:02:19.963Z - debug: Person not seen yet
+2017-09-07T09:02:19.967Z - info: Your favorite color is : rouge
+2017-09-07T09:02:20.345Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:02:24.524Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:02:24.529Z - debug: current context: NONE
+2017-09-07T09:02:24.530Z - debug: processing person
+2017-09-07T09:02:24.532Z - info: Person already registered
+2017-09-07T09:02:26.376Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:02:26.376Z - debug: current context: NONE
+2017-09-07T09:02:26.377Z - debug: processing person
+2017-09-07T09:02:26.377Z - info: Person already registered
+2017-09-07T09:03:11.792Z - debug: sse : subscribe done
+2017-09-07T09:03:13.344Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:14.840Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:16.322Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:17.813Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:19.327Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:20.852Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:22.331Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:23.835Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:25.353Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:26.850Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:28.387Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:29.858Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:31.401Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:32.893Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:34.446Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:36.005Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:37.826Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:39.637Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:41.650Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:43.128Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:44.651Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:46.135Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:47.657Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:49.181Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:50.709Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:52.231Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:53.753Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:55.295Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:03:56.765Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:04:35.280Z - debug: sse : subscribe done
+2017-09-07T09:06:35.315Z - debug: sse : a connection has been closed
+2017-09-07T09:06:40.518Z - debug: sse : subscribe done
+2017-09-07T09:06:52.511Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T09:06:52.968Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:07:17.261Z - debug: sse : a connection has been closed
+2017-09-07T09:07:17.939Z - debug: sse : subscribe done
+2017-09-07T09:07:23.619Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:07:23.620Z - debug: current context: NONE
+2017-09-07T09:07:23.621Z - debug: processing person
+2017-09-07T09:07:23.626Z - info: Person already registered
+2017-09-07T09:07:23.629Z - debug: Person not seen yet
+2017-09-07T09:07:23.639Z - info: Your favorite color is : rouge
+2017-09-07T09:07:24.030Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:07:35.566Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:07:35.567Z - debug: current context: NONE
+2017-09-07T09:07:35.569Z - debug: processing person
+2017-09-07T09:07:35.570Z - info: Person already registered
+2017-09-07T09:07:38.591Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:07:38.591Z - debug: current context: NONE
+2017-09-07T09:07:38.593Z - debug: processing person
+2017-09-07T09:07:38.595Z - info: Person already registered
+2017-09-07T09:09:22.248Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:09:22.255Z - debug: current context: NONE
+2017-09-07T09:09:22.255Z - debug: processing person
+2017-09-07T09:09:22.256Z - info: Person already registered
+2017-09-07T09:09:24.029Z - debug: sse : a connection has been closed
+2017-09-07T09:09:29.042Z - debug: sse : subscribe done
+2017-09-07T09:10:02.391Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:10:02.391Z - debug: current context: NONE
+2017-09-07T09:10:02.392Z - debug: processing person
+2017-09-07T09:10:02.392Z - info: Person already registered
+2017-09-07T09:11:19.011Z - warn: gm compare: Unable to open file (img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-07T09:11:19.017Z - error:  Error: ENOENT: no such file or directory, rename 'img/test1.jpg' -> 'img/test0.jpg'
+    at Error (native)
+2017-09-07T09:11:29.043Z - debug: sse : a connection has been closed
+2017-09-07T09:11:34.062Z - debug: sse : subscribe done
+2017-09-07T09:12:38.095Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:12:38.098Z - debug: current context: NONE
+2017-09-07T09:12:38.098Z - debug: processing person
+2017-09-07T09:12:38.099Z - info: Person already registered
+2017-09-07T09:12:39.162Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:12:39.162Z - debug: current context: NONE
+2017-09-07T09:12:39.163Z - debug: processing person
+2017-09-07T09:12:39.164Z - info: Person already registered
+2017-09-07T09:12:43.585Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:12:43.585Z - debug: current context: NONE
+2017-09-07T09:12:43.585Z - debug: processing person
+2017-09-07T09:12:43.588Z - info: Person already registered
+2017-09-07T09:13:03.704Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:13:03.706Z - debug: current context: NONE
+2017-09-07T09:13:03.706Z - debug: processing person
+2017-09-07T09:13:03.707Z - info: Person already registered
+2017-09-07T09:13:05.090Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:13:05.092Z - debug: current context: NONE
+2017-09-07T09:13:05.092Z - debug: processing person
+2017-09-07T09:13:05.093Z - info: Person already registered
+2017-09-07T09:13:06.571Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:13:06.571Z - debug: current context: NONE
+2017-09-07T09:13:06.571Z - debug: processing person
+2017-09-07T09:13:06.572Z - info: Person already registered
+2017-09-07T09:13:08.329Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:13:08.330Z - debug: current context: NONE
+2017-09-07T09:13:08.330Z - debug: processing person
+2017-09-07T09:13:08.330Z - info: Person already registered
+2017-09-07T09:13:17.064Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:13:17.074Z - debug: current context: NONE
+2017-09-07T09:13:17.078Z - debug: processing person
+2017-09-07T09:13:17.081Z - info: Person already registered
+2017-09-07T09:13:34.063Z - debug: sse : a connection has been closed
+2017-09-07T09:13:39.067Z - debug: sse : subscribe done
+2017-09-07T09:31:05.638Z - debug: sse : subscribe done
+2017-09-07T09:31:12.652Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:31:12.653Z - debug: current context: NONE
+2017-09-07T09:31:12.654Z - debug: processing person
+2017-09-07T09:31:12.663Z - info: Person already registered
+2017-09-07T09:31:12.664Z - debug: Person not seen yet
+2017-09-07T09:31:12.671Z - info: Your favorite color is : rouge
+2017-09-07T09:31:13.055Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:31:33.138Z - debug: sse : a connection has been closed
+2017-09-07T09:31:56.891Z - debug: sse : subscribe done
+2017-09-07T09:32:10.378Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:32:10.382Z - debug: current context: NONE
+2017-09-07T09:32:10.384Z - debug: processing person
+2017-09-07T09:32:10.391Z - info: Person already registered
+2017-09-07T09:32:10.393Z - debug: Person not seen yet
+2017-09-07T09:32:10.397Z - info: Your favorite color is : rouge
+2017-09-07T09:32:10.846Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:33:12.890Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:33:12.894Z - debug: current context: NONE
+2017-09-07T09:33:12.894Z - debug: processing person
+2017-09-07T09:33:12.899Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T09:33:12.900Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T09:33:12.901Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T09:33:13.282Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:33:21.791Z - debug: sse : subscribe done
+2017-09-07T09:33:36.941Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:33:36.942Z - debug: current context: CHOOSING_COLOR
+2017-09-07T09:33:42.906Z - debug: timeout callback ready to be called
+2017-09-07T09:33:42.909Z - debug: current:CHOOSING_COLOR === new:CHOOSING_COLOR
+2017-09-07T09:34:04.010Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:34:04.011Z - debug: current context: NONE
+2017-09-07T09:34:04.012Z - debug: processing person
+2017-09-07T09:34:04.014Z - debug: Registering a new person named : Thibault Herault
+2017-09-07T09:34:04.016Z - debug: Changing context NONE for context CHOOSING_COLOR
+2017-09-07T09:34:04.017Z - debug: setting timeout context with name : CHOOSING_COLOR
+2017-09-07T09:34:04.426Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Quelle%20est%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:34:05.376Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:34:05.384Z - debug: current context: CHOOSING_COLOR
+2017-09-07T09:34:29.470Z - debug: Changing context CHOOSING_COLOR for context NONE
+2017-09-07T09:34:29.486Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T09:34:29.836Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:34:54.156Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:34:54.157Z - debug: current context: NONE
+2017-09-07T09:34:54.158Z - debug: processing person
+2017-09-07T09:34:54.160Z - info: Person already registered
+2017-09-07T09:34:54.160Z - debug: Person not seen yet
+2017-09-07T09:34:54.163Z - info: Your favorite color is : vert
+2017-09-07T09:34:54.499Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:35:09.350Z - debug: faces recognize : 
+2017-09-07T09:35:09.354Z - debug: current context: NONE
+2017-09-07T09:35:09.354Z - debug: processing person
+2017-09-07T09:35:18.192Z - debug: faces recognize : 
+2017-09-07T09:35:18.197Z - debug: current context: NONE
+2017-09-07T09:35:18.198Z - debug: processing person
+2017-09-07T09:35:25.629Z - debug: faces recognize : 
+2017-09-07T09:35:25.633Z - debug: current context: NONE
+2017-09-07T09:35:25.633Z - debug: processing person
+2017-09-07T09:35:28.498Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:35:28.498Z - debug: current context: NONE
+2017-09-07T09:35:28.499Z - debug: processing person
+2017-09-07T09:35:28.499Z - info: Person already registered
+2017-09-07T09:36:37.832Z - info: A lamp has been switched off
+2017-09-07T09:36:37.842Z - debug: Emitting event for a lamp that has been switch off
+2017-09-07T09:36:47.479Z - debug: A lamp has been switched on
+2017-09-07T09:36:47.482Z - debug: Emitting event for a lamp that has been switch on
+2017-09-07T09:37:37.982Z - debug: sse : subscribe done
+2017-09-07T09:37:43.875Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:37:43.876Z - debug: current context: NONE
+2017-09-07T09:37:43.877Z - debug: processing person
+2017-09-07T09:37:43.882Z - info: Person already registered
+2017-09-07T09:37:43.884Z - debug: Person not seen yet
+2017-09-07T09:37:43.887Z - info: Your favorite color is : vert
+2017-09-07T09:37:44.432Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:38:23.496Z - debug: sse : subscribe done
+2017-09-07T09:38:27.472Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:38:27.475Z - debug: current context: NONE
+2017-09-07T09:38:27.477Z - debug: processing person
+2017-09-07T09:38:27.482Z - info: Person already registered
+2017-09-07T09:38:27.485Z - debug: Person not seen yet
+2017-09-07T09:38:27.493Z - info: Your favorite color is : vert
+2017-09-07T09:38:27.987Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:38:30.310Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:38:30.311Z - debug: current context: NONE
+2017-09-07T09:38:30.312Z - debug: processing person
+2017-09-07T09:38:30.314Z - info: Person already registered
+2017-09-07T09:38:30.530Z - debug: faces recognize : 
+2017-09-07T09:38:30.534Z - debug: current context: NONE
+2017-09-07T09:38:30.535Z - debug: processing person
+2017-09-07T09:38:44.207Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:38:44.209Z - debug: current context: NONE
+2017-09-07T09:38:44.210Z - debug: processing person
+2017-09-07T09:38:44.211Z - info: Person already registered
+2017-09-07T09:38:45.960Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:38:45.965Z - debug: current context: NONE
+2017-09-07T09:38:45.967Z - debug: processing person
+2017-09-07T09:38:45.968Z - info: Person already registered
+2017-09-07T09:38:47.786Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:38:47.792Z - debug: current context: NONE
+2017-09-07T09:38:47.793Z - debug: processing person
+2017-09-07T09:38:47.795Z - info: Person already registered
+2017-09-07T09:39:33.951Z - debug: result of processAudio : Je n'ai pas compris ce que vous avez dit.
+2017-09-07T09:39:34.273Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20n'ai%20pas%20compris%20ce%20que%20vous%20avez%20dit.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:39:44.920Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:39:44.921Z - debug: current context: NONE
+2017-09-07T09:39:44.921Z - debug: processing person
+2017-09-07T09:39:44.922Z - info: Person already registered
+2017-09-07T09:39:46.387Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:39:46.387Z - debug: current context: NONE
+2017-09-07T09:39:46.387Z - debug: processing person
+2017-09-07T09:39:46.387Z - info: Person already registered
+2017-09-07T09:40:22.411Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:40:22.422Z - debug: current context: NONE
+2017-09-07T09:40:22.423Z - debug: processing person
+2017-09-07T09:40:22.426Z - info: Person already registered
+2017-09-07T09:40:24.094Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:40:24.094Z - debug: current context: NONE
+2017-09-07T09:40:24.094Z - debug: processing person
+2017-09-07T09:40:24.095Z - info: Person already registered
+2017-09-07T09:40:44.113Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:40:44.115Z - debug: current context: NONE
+2017-09-07T09:40:44.116Z - debug: processing person
+2017-09-07T09:40:44.117Z - info: Person already registered
+2017-09-07T09:40:54.665Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:40:54.667Z - debug: current context: NONE
+2017-09-07T09:40:54.668Z - debug: processing person
+2017-09-07T09:40:54.668Z - info: Person already registered
+2017-09-07T09:41:05.173Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:41:05.173Z - debug: current context: NONE
+2017-09-07T09:41:05.174Z - debug: processing person
+2017-09-07T09:41:05.176Z - info: Person already registered
+2017-09-07T09:41:34.274Z - debug: sse : a connection has been closed
+2017-09-07T09:41:39.309Z - debug: sse : subscribe done
+2017-09-07T09:41:45.430Z - debug: faces recognize : 
+2017-09-07T09:41:45.430Z - debug: current context: NONE
+2017-09-07T09:41:45.430Z - debug: processing person
+2017-09-07T09:41:47.046Z - debug: faces recognize : 
+2017-09-07T09:41:47.047Z - debug: current context: NONE
+2017-09-07T09:41:47.049Z - debug: processing person
+2017-09-07T09:41:49.246Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:41:49.252Z - debug: current context: NONE
+2017-09-07T09:41:49.254Z - debug: processing person
+2017-09-07T09:41:49.255Z - info: Person already registered
+2017-09-07T09:43:25.252Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:43:25.256Z - debug: current context: NONE
+2017-09-07T09:43:25.257Z - debug: processing person
+2017-09-07T09:43:25.262Z - info: Person already registered
+2017-09-07T09:43:25.264Z - debug: Person not seen yet
+2017-09-07T09:43:25.267Z - info: Your favorite color is : vert
+2017-09-07T09:43:25.630Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:43:43.972Z - debug: sse : subscribe done
+2017-09-07T09:43:46.982Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:43:48.478Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:43:49.980Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:43:51.519Z - debug: sse : a connection has been closed
+2017-09-07T09:44:42.937Z - debug: sse : subscribe done
+2017-09-07T09:44:45.954Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:44:47.425Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:44:48.922Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:44:49.747Z - debug: sse : a connection has been closed
+2017-09-07T09:46:23.559Z - debug: sse : subscribe done
+2017-09-07T09:46:31.099Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:46:32.543Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:46:34.037Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:46:35.555Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:46:37.074Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:46:38.062Z - debug: sse : a connection has been closed
+2017-09-07T09:47:01.780Z - debug: sse : subscribe done
+2017-09-07T09:47:06.350Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:07.765Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:09.299Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:10.826Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:12.306Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:13.780Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:15.274Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:16.779Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:18.284Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:19.800Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:21.326Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:22.793Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:24.279Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:47:25.788Z - warn: gm compare: Empty input file (img/test1.jpg).
+
+2017-09-07T09:48:08.515Z - debug: sse : subscribe done
+2017-09-07T09:48:17.329Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:48:17.331Z - debug: current context: NONE
+2017-09-07T09:48:17.333Z - debug: processing person
+2017-09-07T09:48:17.337Z - info: Person already registered
+2017-09-07T09:48:17.339Z - debug: Person not seen yet
+2017-09-07T09:48:17.345Z - info: Your favorite color is : vert
+2017-09-07T09:48:18.031Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:48:18.885Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:48:18.886Z - debug: current context: NONE
+2017-09-07T09:48:18.887Z - debug: processing person
+2017-09-07T09:48:18.888Z - info: Person already registered
+2017-09-07T09:48:20.791Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:48:20.791Z - debug: current context: NONE
+2017-09-07T09:48:20.792Z - debug: processing person
+2017-09-07T09:48:20.792Z - info: Person already registered
+2017-09-07T09:48:34.436Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:48:34.436Z - debug: current context: NONE
+2017-09-07T09:48:34.436Z - debug: processing person
+2017-09-07T09:48:34.437Z - info: Person already registered
+2017-09-07T09:48:44.048Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:48:44.049Z - debug: current context: NONE
+2017-09-07T09:48:44.049Z - debug: processing person
+2017-09-07T09:48:44.049Z - info: Person already registered
+2017-09-07T09:48:47.435Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:48:47.449Z - debug: current context: NONE
+2017-09-07T09:48:47.454Z - debug: processing person
+2017-09-07T09:48:47.456Z - info: Person already registered
+2017-09-07T09:48:53.595Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:48:53.600Z - debug: current context: NONE
+2017-09-07T09:48:53.601Z - debug: processing person
+2017-09-07T09:48:53.602Z - info: Person already registered
+2017-09-07T09:48:56.464Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T09:48:56.938Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T09:49:12.774Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:49:12.779Z - debug: current context: NONE
+2017-09-07T09:49:12.779Z - debug: processing person
+2017-09-07T09:49:12.780Z - info: Person already registered
+2017-09-07T09:49:53.316Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:49:53.322Z - debug: current context: NONE
+2017-09-07T09:49:53.324Z - debug: processing person
+2017-09-07T09:49:53.327Z - info: Person already registered
+2017-09-07T09:50:55.538Z - debug: faces recognize : Thibault Herault
+2017-09-07T09:50:55.539Z - debug: current context: NONE
+2017-09-07T09:50:55.540Z - debug: processing person
+2017-09-07T09:50:55.544Z - info: Person already registered
+2017-09-07T10:06:36.356Z - debug: sse : subscribe done
+2017-09-07T10:06:42.962Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:06:42.965Z - debug: current context: NONE
+2017-09-07T10:06:42.966Z - debug: processing person
+2017-09-07T10:06:42.970Z - info: Person already registered
+2017-09-07T10:06:42.971Z - debug: Person not seen yet
+2017-09-07T10:06:42.977Z - info: Your favorite color is : vert
+2017-09-07T10:06:43.430Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T10:06:48.017Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:06:48.023Z - debug: current context: NONE
+2017-09-07T10:06:48.024Z - debug: processing person
+2017-09-07T10:06:48.029Z - info: Person already registered
+2017-09-07T10:06:51.054Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:06:51.054Z - debug: current context: NONE
+2017-09-07T10:06:51.054Z - debug: processing person
+2017-09-07T10:06:51.055Z - info: Person already registered
+2017-09-07T10:07:00.808Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:07:00.821Z - debug: current context: NONE
+2017-09-07T10:07:00.821Z - debug: processing person
+2017-09-07T10:07:00.822Z - info: Person already registered
+2017-09-07T10:07:18.368Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T10:07:19.000Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T10:07:20.834Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:07:20.835Z - debug: current context: NONE
+2017-09-07T10:07:20.838Z - debug: processing person
+2017-09-07T10:07:20.843Z - info: Person already registered
+2017-09-07T10:07:31.298Z - debug: result of processAudio : Je n'ai pas compris ce que vous avez dit.
+2017-09-07T10:07:32.024Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20n'ai%20pas%20compris%20ce%20que%20vous%20avez%20dit.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T10:07:42.601Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-07T10:07:48.054Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T10:07:48.970Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:07:48.973Z - debug: current context: NONE
+2017-09-07T10:07:48.974Z - debug: processing person
+2017-09-07T10:07:48.974Z - info: Person already registered
+2017-09-07T10:07:55.198Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:07:55.202Z - debug: current context: NONE
+2017-09-07T10:07:55.202Z - debug: processing person
+2017-09-07T10:07:55.203Z - info: Person already registered
+2017-09-07T10:07:55.401Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:07:55.410Z - debug: current context: NONE
+2017-09-07T10:07:55.411Z - debug: processing person
+2017-09-07T10:07:55.411Z - info: Person already registered
+2017-09-07T10:07:58.087Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:07:58.088Z - debug: current context: NONE
+2017-09-07T10:07:58.088Z - debug: processing person
+2017-09-07T10:07:58.089Z - info: Person already registered
+2017-09-07T10:08:03.074Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:08:03.078Z - debug: current context: NONE
+2017-09-07T10:08:03.078Z - debug: processing person
+2017-09-07T10:08:03.081Z - info: Person already registered
+2017-09-07T10:08:04.554Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:08:04.557Z - debug: current context: NONE
+2017-09-07T10:08:04.557Z - debug: processing person
+2017-09-07T10:08:04.558Z - info: Person already registered
+2017-09-07T10:08:19.931Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:08:19.931Z - debug: current context: NONE
+2017-09-07T10:08:19.931Z - debug: processing person
+2017-09-07T10:08:19.932Z - info: Person already registered
+2017-09-07T10:08:22.019Z - debug: result of processAudio : Pouvez vous répéter ?
+2017-09-07T10:08:22.288Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Pouvez%20vous%20r%C3%A9p%C3%A9ter%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-07T10:08:22.369Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:08:22.373Z - debug: current context: NONE
+2017-09-07T10:08:22.374Z - debug: processing person
+2017-09-07T10:08:22.376Z - info: Person already registered
+2017-09-07T10:08:34.735Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:08:34.743Z - debug: current context: NONE
+2017-09-07T10:08:34.744Z - debug: processing person
+2017-09-07T10:08:34.745Z - info: Person already registered
+2017-09-07T10:08:37.455Z - debug: faces recognize : Thibault Herault
+2017-09-07T10:08:37.458Z - debug: current context: NONE
+2017-09-07T10:08:37.459Z - debug: processing person
+2017-09-07T10:08:37.459Z - info: Person already registered

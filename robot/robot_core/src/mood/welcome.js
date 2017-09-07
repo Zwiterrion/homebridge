@@ -4,9 +4,9 @@ const Voicerss = require('../api/tts/voicerss.js');
 const Voicer = require('../userInteractions/voiceSynth.js');
 const personDb = require('../model/model');
 const scenario = require('../scenario.js');
-const { possibleContext, currentContext } = require('../context');
+const { possibleContext, Context } = require('../context');
 
-
+const TIMEOUT_FOR_COLOR_CHOOSE = 30000; // => 30s
 const voicer = new Voicer(new Voicerss());
 
 function bindEvents() {
@@ -18,26 +18,42 @@ function bindEvents() {
 
   eventEmitter.on(events.userEvents.faceRecognize, (faces) => {
     logger.debug(`faces recognize : ${faces.map(face => face.name)}`);
+    logger.debug(`current context: ${Context.getCurrentContextName()}`);
+    //  process people faces only if we're in the default context
+    if (Context.getCurrentContextName() === possibleContext.NONE) {
+      logger.debug('processing person');
+      if (faces.length >= 1) {
+        if (personDb.isPersonRegister(faces[0].id)) {
+          logger.info('Person already registered');
+          if (!personDb.isPersonSeen(faces[0].id)) {
+            logger.debug('Person not seen yet');
+            personDb.checkPersonAsSeen(faces[0].id);
+            const favColor = personDb.getFavoriteColor(faces[0].id);
+            logger.info(`Your favorite color is : ${favColor}`);
+            voicer.sendToSpeechUI(`Bonjour ${faces[0].name}. Je met votre couleur préférée! ?`);
+            scenario.setLampColor(favColor);
+          }
+        } else {
+          logger.debug(`Registering a new person named : ${faces[0].name}`);
+          const nameArray = faces[0].name.split(' ');
+          if (!nameArray[1]) nameArray[1] = ''; // case only a firstname
 
-    // just for a person for the moment
-    if (faces.length >= 1) {
-      if (personDb.isPersonRegister(faces[0].id)) {
-        logger.info('Person already registered');
-        if (!personDb.isPersonSeen(faces[0].id)) {
-          logger.debug('Person not seen yet');
-          personDb.checkPersonAsSeen(faces[0].id);
-          const favColor = personDb.getFavoriteColor(faces[0].id);
-          logger.info(`Your favorite color is : ${favColor}`);
-          voicer.sendToSpeechUI(`Bonjour ${faces[0].name}. Je met votre couleur préférée! ?`);
-          scenario.setLampColor(favColor);
+
+          const personData = {
+            id: faces[0].id,
+            firstName: nameArray[0],
+            lastName: nameArray[1],
+            alreadySeen: true
+          };
+
+          // we change the context for the color one
+          Context.change(possibleContext.CHOOSING_COLOR, personData, null, null, TIMEOUT_FOR_COLOR_CHOOSE);
+          voicer.sendToSpeechUI(`Bonjour ${faces[0].name}. Quelle est votre couleur préférée ?`);
         }
-      } else {
-        const nameArray = faces[0].name.split(' ');
-        logger.info(`Adding ${faces[0].name} to storage`);
-        personDb.addPerson(faces[0].id, nameArray[0], nameArray[1], 'bleu');
-        voicer.sendToSpeechUI(`Bonjour ${faces[0].name}. Quelle est votre couleur préférée ?`);
       }
     }
+    // just for a person for the moment
+    
   });
 }
 

@@ -1,13 +1,6 @@
 {
   "people": [
     {
-      "id": "ae64c04e-a197-4cb2-a67a-8600fd5c5a09",
-      "firstName": "Thibault",
-      "lastName": "Herault",
-      "favoriteColor": "bleu",
-      "alreadySeen": true
-    },
-    {
       "id": "d359fc01-ebfe-4613-b7eb-79db19b71764",
       "firstName": "Florian",
       "lastName": "Nadaud",
@@ -20,6 +13,13 @@
       "lastName": "Petit",
       "favoriteColor": "orange",
       "alreadySeen": false
+    },
+    {
+      "id": "ae64c04e-a197-4cb2-a67a-8600fd5c5a09",
+      "firstName": "Thibault",
+      "lastName": "Herault",
+      "favoriteColor": "vert",
+      "alreadySeen": true
     }
   ]
 }

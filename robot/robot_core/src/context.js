@@ -70,12 +70,12 @@ const Context = {
    * timeout its breakCallback its called.
    * If timeout is equal to 0, the timeout is not set and context last until it is change.
    */
-  change: (contextName, contextObject = null, timeoutCallback = null, breakCallback = null, timeout = 0) => {
+  change: (contextName, contextData = null, timeoutCallback = null, breakCallback = null, timeout = 0) => {
     logger.debug(`Changing context ${currentContext.name} for context ${contextName}`);
     Context.breakTimeout(); // break old timeout context if it exist
     // maybe test if a the contextName is valid ?
     currentContext.name = contextName;
-    currentContext.contextData = contextObject;
+    currentContext.contextData = contextData;
     if (timeout !== 0) {
       setTimeoutContext(contextName, timeout, timeoutCallback, breakCallback);
     }
