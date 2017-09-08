@@ -5,7 +5,7 @@ Cette partie fonctionne avec [react](https://facebook.github.io/react/).
 
 ## Components
 
-- Camera : permet de prendre des images à intervalle régulier pour les envoyers au serveur afin de faire de la reconnaissance faciale.
+- Camera : permet de prendre des images à intervalle régulier pour les envoyer au serveur afin de faire de la reconnaissance faciale.
 - Face : contient le visuel du visage ainsi que l'objet micro permettant l'enregistrement et l'envoie du son
 - Head : regroupe camera et face ainsi que l'objet 'sound' permettant de jouer le son
 

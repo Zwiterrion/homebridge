@@ -148,7 +148,7 @@ Les objects connectés sont gérés à l'aide d'une plateforme de domotique, il 
 La plateforme domotique permet de regrouper tous nos objets, de les manipuler avec une interface graphique et de les faire interargir ensemble via des règles. Il est notamment possible d'écouter les changements d'états des objets et de faire des actions en conséquence (comme envoyer une requête au serveur du robot).
 La plateforme dispose d'un API permettant de la manipuler grâce à des requêtes http. On peut ainsi effectuer des requêtes sur nos objets définis dans la plateforme et celle-ci se charge de la manipulation physique des objets. 
 
-> **Note!** Les objets connectés peuvent aussi être directement controlés via une API qui leur est propre
+> **Note!** Les objets connectés peuvent aussi être directement controlés via une API qui leur est propre.
 
 ## APIs
 

@@ -4304,3 +4304,418 @@
 
 2017-09-08T09:44:30.541Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
 
+2017-09-08T12:26:34.170Z - debug: sse : subscribe done
+2017-09-08T12:26:40.366Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:26:40.368Z - debug: current context: NONE
+2017-09-08T12:26:40.369Z - debug: processing person
+2017-09-08T12:26:40.374Z - info: Person already registered
+2017-09-08T12:26:40.375Z - debug: Person not seen yet
+2017-09-08T12:26:40.386Z - info: Your favorite color is : bleu
+2017-09-08T12:26:40.424Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-08T12:26:40.973Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:27:36.697Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:27:36.698Z - debug: current context: NONE
+2017-09-08T12:27:36.703Z - debug: processing person
+2017-09-08T12:27:36.704Z - info: Person already registered
+2017-09-08T12:27:47.804Z - debug: faces recognize : 
+2017-09-08T12:27:47.810Z - debug: current context: NONE
+2017-09-08T12:27:47.811Z - debug: processing person
+2017-09-08T12:27:49.442Z - debug: faces recognize : 
+2017-09-08T12:27:49.446Z - debug: current context: NONE
+2017-09-08T12:27:49.447Z - debug: processing person
+2017-09-08T12:27:51.452Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:27:51.456Z - debug: current context: NONE
+2017-09-08T12:27:51.456Z - debug: processing person
+2017-09-08T12:27:51.457Z - info: Person already registered
+2017-09-08T12:27:52.225Z - debug: faces recognize : 
+2017-09-08T12:27:52.232Z - debug: current context: NONE
+2017-09-08T12:27:52.235Z - debug: processing person
+2017-09-08T12:27:59.816Z - debug: faces recognize : 
+2017-09-08T12:27:59.817Z - debug: current context: NONE
+2017-09-08T12:27:59.822Z - debug: processing person
+2017-09-08T12:28:01.382Z - debug: faces recognize : 
+2017-09-08T12:28:01.387Z - debug: current context: NONE
+2017-09-08T12:28:01.388Z - debug: processing person
+2017-09-08T12:28:03.516Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:28:03.520Z - debug: current context: NONE
+2017-09-08T12:28:03.521Z - debug: processing person
+2017-09-08T12:28:03.522Z - info: Person already registered
+2017-09-08T12:28:04.953Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:28:04.954Z - debug: current context: NONE
+2017-09-08T12:28:04.954Z - debug: processing person
+2017-09-08T12:28:04.955Z - info: Person already registered
+2017-09-08T12:28:05.708Z - debug: sse : a connection has been closed
+2017-09-08T12:28:06.457Z - debug: sse : subscribe done
+2017-09-08T12:28:06.525Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:28:06.526Z - debug: current context: NONE
+2017-09-08T12:28:06.526Z - debug: processing person
+2017-09-08T12:28:06.526Z - info: Person already registered
+2017-09-08T12:28:11.786Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:28:11.787Z - debug: current context: NONE
+2017-09-08T12:28:11.787Z - debug: processing person
+2017-09-08T12:28:11.791Z - info: Person already registered
+2017-09-08T12:28:12.670Z - debug: faces recognize : 
+2017-09-08T12:28:12.671Z - debug: current context: NONE
+2017-09-08T12:28:12.672Z - debug: processing person
+2017-09-08T12:28:14.686Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:28:14.686Z - debug: current context: NONE
+2017-09-08T12:28:14.687Z - debug: processing person
+2017-09-08T12:28:14.688Z - info: Person already registered
+2017-09-08T12:28:23.063Z - debug: faces recognize : 
+2017-09-08T12:28:23.067Z - debug: current context: NONE
+2017-09-08T12:28:23.068Z - debug: processing person
+2017-09-08T12:28:25.320Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:28:25.323Z - debug: current context: NONE
+2017-09-08T12:28:25.324Z - debug: processing person
+2017-09-08T12:28:25.326Z - info: Person already registered
+2017-09-08T12:28:29.150Z - debug: faces recognize : 
+2017-09-08T12:28:29.152Z - debug: current context: NONE
+2017-09-08T12:28:29.153Z - debug: processing person
+2017-09-08T12:28:30.799Z - debug: faces recognize : 
+2017-09-08T12:28:30.801Z - debug: current context: NONE
+2017-09-08T12:28:30.803Z - debug: processing person
+2017-09-08T12:28:46.927Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:28:46.932Z - debug: current context: NONE
+2017-09-08T12:28:46.934Z - debug: processing person
+2017-09-08T12:28:46.935Z - info: Person already registered
+2017-09-08T12:28:49.335Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:28:49.341Z - debug: current context: NONE
+2017-09-08T12:28:49.344Z - debug: processing person
+2017-09-08T12:28:49.345Z - info: Person already registered
+2017-09-08T12:28:50.273Z - debug: faces recognize : 
+2017-09-08T12:28:50.273Z - debug: current context: NONE
+2017-09-08T12:28:50.274Z - debug: processing person
+2017-09-08T12:29:04.699Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:29:04.700Z - debug: current context: NONE
+2017-09-08T12:29:04.700Z - debug: processing person
+2017-09-08T12:29:04.701Z - info: Person already registered
+2017-09-08T12:29:18.676Z - debug: faces recognize : 
+2017-09-08T12:29:18.677Z - debug: current context: NONE
+2017-09-08T12:29:18.677Z - debug: processing person
+2017-09-08T12:29:35.586Z - debug: faces recognize : 
+2017-09-08T12:29:35.586Z - debug: current context: NONE
+2017-09-08T12:29:35.586Z - debug: processing person
+2017-09-08T12:29:40.762Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:29:40.763Z - debug: current context: NONE
+2017-09-08T12:29:40.766Z - debug: processing person
+2017-09-08T12:29:40.770Z - info: Person already registered
+2017-09-08T12:29:43.778Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:29:43.779Z - debug: current context: NONE
+2017-09-08T12:29:43.779Z - debug: processing person
+2017-09-08T12:29:43.784Z - info: Person already registered
+2017-09-08T12:29:44.651Z - debug: faces recognize : 
+2017-09-08T12:29:44.652Z - debug: current context: NONE
+2017-09-08T12:29:44.653Z - debug: processing person
+2017-09-08T12:29:55.221Z - debug: faces recognize : 
+2017-09-08T12:29:55.221Z - debug: current context: NONE
+2017-09-08T12:29:55.222Z - debug: processing person
+2017-09-08T12:29:56.540Z - debug: faces recognize : 
+2017-09-08T12:29:56.544Z - debug: current context: NONE
+2017-09-08T12:29:56.544Z - debug: processing person
+2017-09-08T12:29:58.994Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:29:58.997Z - debug: current context: NONE
+2017-09-08T12:29:58.998Z - debug: processing person
+2017-09-08T12:29:58.999Z - info: Person already registered
+2017-09-08T12:30:06.460Z - debug: sse : a connection has been closed
+2017-09-08T12:30:06.659Z - debug: faces recognize : 
+2017-09-08T12:30:06.659Z - debug: current context: NONE
+2017-09-08T12:30:06.660Z - debug: processing person
+2017-09-08T12:30:11.467Z - debug: sse : subscribe done
+2017-09-08T12:30:16.841Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:30:16.841Z - debug: current context: NONE
+2017-09-08T12:30:16.841Z - debug: processing person
+2017-09-08T12:30:16.842Z - info: Person already registered
+2017-09-08T12:30:18.114Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:30:18.116Z - debug: current context: NONE
+2017-09-08T12:30:18.117Z - debug: processing person
+2017-09-08T12:30:18.119Z - info: Person already registered
+2017-09-08T12:30:19.520Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:30:19.521Z - debug: current context: NONE
+2017-09-08T12:30:19.521Z - debug: processing person
+2017-09-08T12:30:19.521Z - info: Person already registered
+2017-09-08T12:30:21.079Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:30:21.087Z - debug: current context: NONE
+2017-09-08T12:30:21.095Z - debug: processing person
+2017-09-08T12:30:21.100Z - info: Person already registered
+2017-09-08T12:30:23.391Z - debug: faces recognize : 
+2017-09-08T12:30:23.392Z - debug: current context: NONE
+2017-09-08T12:30:23.393Z - debug: processing person
+2017-09-08T12:30:46.777Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:30:46.778Z - debug: current context: NONE
+2017-09-08T12:30:46.778Z - debug: processing person
+2017-09-08T12:30:46.779Z - info: Person already registered
+2017-09-08T12:31:27.919Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:31:27.928Z - debug: current context: NONE
+2017-09-08T12:31:27.935Z - debug: processing person
+2017-09-08T12:31:27.936Z - info: Person already registered
+2017-09-08T12:31:34.115Z - debug: faces recognize : 
+2017-09-08T12:31:34.116Z - debug: current context: NONE
+2017-09-08T12:31:34.116Z - debug: processing person
+2017-09-08T12:31:35.630Z - debug: faces recognize : 
+2017-09-08T12:31:35.634Z - debug: current context: NONE
+2017-09-08T12:31:35.634Z - debug: processing person
+2017-09-08T12:31:39.339Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:31:39.343Z - debug: current context: NONE
+2017-09-08T12:31:39.344Z - debug: processing person
+2017-09-08T12:31:39.345Z - info: Person already registered
+2017-09-08T12:31:46.106Z - debug: faces recognize : 
+2017-09-08T12:31:46.111Z - debug: current context: NONE
+2017-09-08T12:31:46.112Z - debug: processing person
+2017-09-08T12:31:48.094Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:31:48.095Z - debug: current context: NONE
+2017-09-08T12:31:48.096Z - debug: processing person
+2017-09-08T12:31:48.099Z - info: Person already registered
+2017-09-08T12:31:49.115Z - debug: faces recognize : 
+2017-09-08T12:31:49.117Z - debug: current context: NONE
+2017-09-08T12:31:49.118Z - debug: processing person
+2017-09-08T12:31:59.534Z - debug: faces recognize : 
+2017-09-08T12:31:59.534Z - debug: current context: NONE
+2017-09-08T12:31:59.536Z - debug: processing person
+2017-09-08T12:32:05.528Z - debug: faces recognize : 
+2017-09-08T12:32:05.529Z - debug: current context: NONE
+2017-09-08T12:32:05.532Z - debug: processing person
+2017-09-08T12:32:11.469Z - debug: sse : a connection has been closed
+2017-09-08T12:32:16.484Z - debug: sse : subscribe done
+2017-09-08T12:33:11.720Z - debug: faces recognize : 
+2017-09-08T12:33:11.721Z - debug: current context: NONE
+2017-09-08T12:33:11.721Z - debug: processing person
+2017-09-08T12:34:16.489Z - debug: sse : a connection has been closed
+2017-09-08T12:34:21.499Z - debug: sse : subscribe done
+2017-09-08T12:34:50.129Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:34:50.132Z - debug: current context: NONE
+2017-09-08T12:34:50.134Z - debug: processing person
+2017-09-08T12:34:50.136Z - info: Person already registered
+2017-09-08T12:34:50.590Z - debug: faces recognize : 
+2017-09-08T12:34:50.591Z - debug: current context: NONE
+2017-09-08T12:34:50.592Z - debug: processing person
+2017-09-08T12:35:04.829Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:35:04.830Z - debug: current context: NONE
+2017-09-08T12:35:04.831Z - debug: processing person
+2017-09-08T12:35:04.832Z - info: Person already registered
+2017-09-08T12:35:08.169Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:35:08.169Z - debug: current context: NONE
+2017-09-08T12:35:08.169Z - debug: processing person
+2017-09-08T12:35:08.170Z - info: Person already registered
+2017-09-08T12:35:09.990Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:35:09.991Z - debug: current context: NONE
+2017-09-08T12:35:09.991Z - debug: processing person
+2017-09-08T12:35:10.002Z - info: Person already registered
+2017-09-08T12:35:43.351Z - debug: faces recognize : 
+2017-09-08T12:35:43.351Z - debug: current context: NONE
+2017-09-08T12:35:43.352Z - debug: processing person
+2017-09-08T12:35:44.720Z - debug: faces recognize : 
+2017-09-08T12:35:44.734Z - debug: current context: NONE
+2017-09-08T12:35:44.737Z - debug: processing person
+2017-09-08T12:35:46.049Z - debug: faces recognize : 
+2017-09-08T12:35:46.051Z - debug: current context: NONE
+2017-09-08T12:35:46.052Z - debug: processing person
+2017-09-08T12:35:47.801Z - debug: faces recognize : 
+2017-09-08T12:35:47.803Z - debug: current context: NONE
+2017-09-08T12:35:47.804Z - debug: processing person
+2017-09-08T12:35:49.889Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:35:49.890Z - debug: current context: NONE
+2017-09-08T12:35:49.891Z - debug: processing person
+2017-09-08T12:35:49.900Z - info: Person already registered
+2017-09-08T12:35:57.448Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:35:57.453Z - debug: current context: NONE
+2017-09-08T12:35:57.454Z - debug: processing person
+2017-09-08T12:35:57.455Z - info: Person already registered
+2017-09-08T12:36:05.197Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:36:05.200Z - debug: current context: NONE
+2017-09-08T12:36:05.201Z - debug: processing person
+2017-09-08T12:36:05.201Z - info: Person already registered
+2017-09-08T12:36:05.582Z - debug: result of processAudio : Pouvez vous répéter ?
+2017-09-08T12:36:05.949Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Pouvez%20vous%20r%C3%A9p%C3%A9ter%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:36:06.858Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:36:06.858Z - debug: current context: NONE
+2017-09-08T12:36:06.858Z - debug: processing person
+2017-09-08T12:36:06.870Z - info: Person already registered
+2017-09-08T12:36:08.831Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:36:08.834Z - debug: current context: NONE
+2017-09-08T12:36:08.836Z - debug: processing person
+2017-09-08T12:36:08.838Z - info: Person already registered
+2017-09-08T12:36:12.049Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:36:12.050Z - debug: current context: NONE
+2017-09-08T12:36:12.050Z - debug: processing person
+2017-09-08T12:36:12.051Z - info: Person already registered
+2017-09-08T12:36:16.366Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:36:16.368Z - debug: current context: NONE
+2017-09-08T12:36:16.371Z - debug: processing person
+2017-09-08T12:36:16.374Z - info: Person already registered
+2017-09-08T12:36:18.029Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:36:18.035Z - debug: current context: NONE
+2017-09-08T12:36:18.037Z - debug: processing person
+2017-09-08T12:36:18.038Z - info: Person already registered
+2017-09-08T12:36:19.123Z - debug: result of processAudio : Je viens d'éteindre la lampe
+2017-09-08T12:36:19.419Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20viens%20d'%C3%A9teindre%20la%20lampe&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:36:19.576Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:36:19.579Z - debug: current context: NONE
+2017-09-08T12:36:19.580Z - debug: processing person
+2017-09-08T12:36:19.582Z - info: Person already registered
+2017-09-08T12:36:21.158Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:36:21.166Z - debug: current context: NONE
+2017-09-08T12:36:21.172Z - debug: processing person
+2017-09-08T12:36:21.176Z - info: Person already registered
+2017-09-08T12:36:30.446Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:36:30.455Z - debug: current context: NONE
+2017-09-08T12:36:30.455Z - debug: processing person
+2017-09-08T12:36:30.457Z - info: Person already registered
+2017-09-08T12:36:55.417Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:36:55.423Z - debug: current context: NONE
+2017-09-08T12:36:55.425Z - debug: processing person
+2017-09-08T12:36:55.428Z - info: Person already registered
+2017-09-08T12:36:55.430Z - debug: Person not seen yet
+2017-09-08T12:36:55.439Z - info: Your favorite color is : bleu
+2017-09-08T12:36:55.837Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:37:09.614Z - debug: sse : subscribe done
+2017-09-08T12:37:15.236Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:15.248Z - debug: current context: NONE
+2017-09-08T12:37:15.256Z - debug: processing person
+2017-09-08T12:37:15.258Z - info: Person already registered
+2017-09-08T12:37:18.174Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:18.178Z - debug: current context: NONE
+2017-09-08T12:37:18.178Z - debug: processing person
+2017-09-08T12:37:18.179Z - info: Person already registered
+2017-09-08T12:37:19.578Z - debug: result of processAudio : Je viens d'éteindre la lampe
+2017-09-08T12:37:19.598Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:19.602Z - debug: current context: NONE
+2017-09-08T12:37:19.603Z - debug: processing person
+2017-09-08T12:37:19.604Z - info: Person already registered
+2017-09-08T12:37:19.872Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20viens%20d'%C3%A9teindre%20la%20lampe&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:37:25.541Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:25.541Z - debug: current context: NONE
+2017-09-08T12:37:25.546Z - debug: processing person
+2017-09-08T12:37:25.548Z - info: Person already registered
+2017-09-08T12:37:28.572Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:28.577Z - debug: current context: NONE
+2017-09-08T12:37:28.578Z - debug: processing person
+2017-09-08T12:37:28.580Z - info: Person already registered
+2017-09-08T12:37:30.039Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:30.043Z - debug: current context: NONE
+2017-09-08T12:37:30.045Z - debug: processing person
+2017-09-08T12:37:30.046Z - info: Person already registered
+2017-09-08T12:37:32.812Z - debug: result of processAudio : Je viens d'allumer la lampe
+2017-09-08T12:37:33.324Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20viens%20d'allumer%20la%20lampe&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:37:39.108Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:39.109Z - debug: current context: NONE
+2017-09-08T12:37:39.109Z - debug: processing person
+2017-09-08T12:37:39.109Z - info: Person already registered
+2017-09-08T12:37:41.251Z - debug: result of processAudio : Pouvez vous répéter ?
+2017-09-08T12:37:41.535Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Pouvez%20vous%20r%C3%A9p%C3%A9ter%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:37:42.042Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:42.043Z - debug: current context: NONE
+2017-09-08T12:37:42.046Z - debug: processing person
+2017-09-08T12:37:42.050Z - info: Person already registered
+2017-09-08T12:37:48.059Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:48.062Z - debug: current context: NONE
+2017-09-08T12:37:48.063Z - debug: processing person
+2017-09-08T12:37:48.065Z - info: Person already registered
+2017-09-08T12:37:49.667Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:49.673Z - debug: current context: NONE
+2017-09-08T12:37:49.675Z - debug: processing person
+2017-09-08T12:37:49.676Z - info: Person already registered
+2017-09-08T12:37:53.300Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:37:53.311Z - debug: current context: NONE
+2017-09-08T12:37:53.311Z - debug: processing person
+2017-09-08T12:37:53.311Z - info: Person already registered
+2017-09-08T12:37:55.138Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-08T12:37:55.585Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:38:03.271Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:03.272Z - debug: current context: NONE
+2017-09-08T12:38:03.274Z - debug: processing person
+2017-09-08T12:38:03.277Z - info: Person already registered
+2017-09-08T12:38:04.925Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-08T12:38:05.006Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:05.010Z - debug: current context: NONE
+2017-09-08T12:38:05.012Z - debug: processing person
+2017-09-08T12:38:05.014Z - info: Person already registered
+2017-09-08T12:38:05.526Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:38:12.065Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:12.067Z - debug: current context: NONE
+2017-09-08T12:38:12.068Z - debug: processing person
+2017-09-08T12:38:12.069Z - info: Person already registered
+2017-09-08T12:38:13.770Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:13.773Z - debug: current context: NONE
+2017-09-08T12:38:13.776Z - debug: processing person
+2017-09-08T12:38:13.777Z - info: Person already registered
+2017-09-08T12:38:15.239Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:15.240Z - debug: current context: NONE
+2017-09-08T12:38:15.241Z - debug: processing person
+2017-09-08T12:38:15.241Z - info: Person already registered
+2017-09-08T12:38:17.386Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:17.389Z - debug: current context: NONE
+2017-09-08T12:38:17.390Z - debug: processing person
+2017-09-08T12:38:17.390Z - info: Person already registered
+2017-09-08T12:38:19.779Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:19.783Z - debug: current context: NONE
+2017-09-08T12:38:19.783Z - debug: processing person
+2017-09-08T12:38:19.784Z - info: Person already registered
+2017-09-08T12:38:25.857Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:25.866Z - debug: current context: NONE
+2017-09-08T12:38:25.871Z - debug: processing person
+2017-09-08T12:38:25.871Z - info: Person already registered
+2017-09-08T12:38:27.145Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:27.149Z - debug: current context: NONE
+2017-09-08T12:38:27.151Z - debug: processing person
+2017-09-08T12:38:27.153Z - info: Person already registered
+2017-09-08T12:38:41.805Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:41.805Z - debug: current context: NONE
+2017-09-08T12:38:41.805Z - debug: processing person
+2017-09-08T12:38:41.806Z - info: Person already registered
+2017-09-08T12:38:41.861Z - debug: result of processAudio : Pouvez vous répéter ?
+2017-09-08T12:38:41.897Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T12:38:41.924Z - warn: gm compare: Unable to open file (./src/img/test1.jpg) [Aucun fichier ou dossier de ce type].
+
+2017-09-08T12:38:41.932Z - error:  Error: ENOENT: no such file or directory, rename './src/img/test1.jpg' -> './src/img/test0.jpg'
+    at Error (native)
+2017-09-08T12:38:42.156Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Pouvez%20vous%20r%C3%A9p%C3%A9ter%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:38:44.249Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:44.258Z - debug: current context: NONE
+2017-09-08T12:38:44.259Z - debug: processing person
+2017-09-08T12:38:44.262Z - info: Person already registered
+2017-09-08T12:38:47.866Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:47.870Z - debug: current context: NONE
+2017-09-08T12:38:47.871Z - debug: processing person
+2017-09-08T12:38:47.871Z - info: Person already registered
+2017-09-08T12:38:52.801Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:52.807Z - debug: current context: NONE
+2017-09-08T12:38:52.808Z - debug: processing person
+2017-09-08T12:38:52.808Z - info: Person already registered
+2017-09-08T12:38:53.393Z - debug: result of processAudio : Je n'ai pas compris ce que vous avez dit.
+2017-09-08T12:38:53.708Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20n'ai%20pas%20compris%20ce%20que%20vous%20avez%20dit.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:38:54.273Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:38:54.274Z - debug: current context: NONE
+2017-09-08T12:38:54.274Z - debug: processing person
+2017-09-08T12:38:54.276Z - info: Person already registered
+2017-09-08T12:39:01.204Z - debug: faces recognize : 
+2017-09-08T12:39:01.205Z - debug: current context: NONE
+2017-09-08T12:39:01.205Z - debug: processing person
+2017-09-08T12:39:03.155Z - debug: result of processAudio : J'espère que cette nouvelle ambiance vous conviendra.
+2017-09-08T12:39:03.475Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:39:03.475Z - debug: current context: NONE
+2017-09-08T12:39:03.479Z - debug: processing person
+2017-09-08T12:39:03.481Z - info: Person already registered
+2017-09-08T12:39:03.539Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=J'esp%C3%A8re%20que%20cette%20nouvelle%20ambiance%20vous%20conviendra.&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:39:12.516Z - debug: result of processAudio : Pouvez vous répéter ?
+2017-09-08T12:39:12.679Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:39:12.680Z - debug: current context: NONE
+2017-09-08T12:39:12.680Z - debug: processing person
+2017-09-08T12:39:12.681Z - info: Person already registered
+2017-09-08T12:39:12.828Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Pouvez%20vous%20r%C3%A9p%C3%A9ter%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T12:39:13.890Z - debug: faces recognize : 
+2017-09-08T12:39:13.892Z - debug: current context: NONE
+2017-09-08T12:39:13.893Z - debug: processing person
+2017-09-08T12:39:14.689Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:39:14.694Z - debug: current context: NONE
+2017-09-08T12:39:14.695Z - debug: processing person
+2017-09-08T12:39:14.696Z - info: Person already registered
+2017-09-08T12:39:16.977Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:39:16.977Z - debug: current context: NONE
+2017-09-08T12:39:16.977Z - debug: processing person
+2017-09-08T12:39:16.978Z - info: Person already registered
+2017-09-08T12:39:21.481Z - debug: faces recognize : Thibault Herault
+2017-09-08T12:39:21.485Z - debug: current context: NONE
+2017-09-08T12:39:21.486Z - debug: processing person
+2017-09-08T12:39:21.487Z - info: Person already registered
+2017-09-08T12:39:26.644Z - debug: sse : a connection has been closed
