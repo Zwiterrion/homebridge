@@ -37,6 +37,7 @@ class Camera extends React.Component {
 
 	capture(){		
 		let screenshot = this.webcam.getScreenshot();
+		console.log(`screenshot ${screenshot}`);
 		if(screenshot){
 			//console.log('screenshot: ' + screenshot);
 			let that = this;

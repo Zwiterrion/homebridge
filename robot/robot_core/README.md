@@ -92,6 +92,11 @@ Pour l'instant seul le contexte et le stockage ont été testé.
 
 # Utilisation
 
+Pour lancer l'application, utiliser la commande suivante :
+```
+npm start
+```
+
 # Architecture
 
 | Nom  | Description  |
@@ -132,7 +137,7 @@ Les actions des moods peuvent être définies en s'abonnant à des évènements 
 
 De nouveaux évènements peuvent être ajoutés dans le fichier src/event.js.
 Pour émettre et recevoir des évènements, il suffit d'inclure le fichier event.js et de récupérer les deux objets de ce fichier :
-- eventEmitter : l'objet permettant d'émettre et des s'abonner à des évènements
+- eventEmitter : l'objet permettant d'émettre et de s'abonner à des évènements
 - events : l'objet contenant les évènements utilisés par le robot, c'est dans cet objet que doivent être ajoutés les nouveaux évènements. C'est aussi cet objet qui doit être référencé lors de l'émission d'un évènement ou lors d'un abonnement.
 
 Pour plus d'information sur les évènements : https://nodejs.org/api/events.html

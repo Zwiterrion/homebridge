@@ -22,9 +22,9 @@ const currentContext = {
  * and the callback is call
  * note : interval can be break with the break method of the Context object, if it happens,
  * the callback will not be called and the context may not return to none
- * @param {*} contextName name of the context
- * @param {*} interval duration in MS
- * @param {*} callback function to be called once the timer is over
+ * @param {string} contextName name of the context
+ * @param {number} interval duration in MS
+ * @param {func} callback function to be called once the timer is over
  */
 function setTimeoutContext(contextName, timeout, timeoutCallback, breakCallback) {
   logger.debug(`setting timeout context with name : ${contextName}`);
@@ -73,7 +73,6 @@ const Context = {
   change: (contextName, contextData = null, timeoutCallback = null, breakCallback = null, timeout = 0) => {
     logger.debug(`Changing context ${currentContext.name} for context ${contextName}`);
     Context.breakTimeout(); // break old timeout context if it exist
-    // maybe test if a the contextName is valid ?
     currentContext.name = contextName;
     currentContext.contextData = contextData;
     if (timeout !== 0) {

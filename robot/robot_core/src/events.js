@@ -7,7 +7,7 @@ const eventEmitter = new EventEmitter();
 // the events that can be used
 const events = {
 
-// for communication with the smart items
+  // for communication with the smart items
   domoEvents: {
     lampOn: 'lamp_on',
     lampOff: 'lamp_off',

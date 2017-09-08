@@ -3403,3 +3403,904 @@
 2017-09-07T16:13:31.123Z - debug: current context: NONE
 2017-09-07T16:13:31.124Z - debug: processing person
 2017-09-07T16:13:31.124Z - info: Person already registered
+2017-09-08T07:19:25.754Z - debug: sse : subscribe done
+2017-09-08T07:19:33.109Z - debug: faces recognize : Thibault Herault
+2017-09-08T07:19:33.112Z - debug: current context: NONE
+2017-09-08T07:19:33.113Z - debug: processing person
+2017-09-08T07:19:33.117Z - info: Person already registered
+2017-09-08T07:19:33.118Z - debug: Person not seen yet
+2017-09-08T07:19:33.120Z - info: Your favorite color is : bleu
+2017-09-08T07:19:33.556Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T07:19:33.706Z - debug: A lamp has been switched on
+2017-09-08T07:19:33.707Z - debug: Emitting event for a lamp that has been switch on
+2017-09-08T07:19:40.675Z - debug: faces recognize : Thibault Herault
+2017-09-08T07:19:40.686Z - debug: current context: NONE
+2017-09-08T07:19:40.686Z - debug: processing person
+2017-09-08T07:19:40.687Z - info: Person already registered
+2017-09-08T07:19:43.396Z - debug: faces recognize : Thibault Herault
+2017-09-08T07:19:43.398Z - debug: current context: NONE
+2017-09-08T07:19:43.401Z - debug: processing person
+2017-09-08T07:19:43.402Z - info: Person already registered
+2017-09-08T07:19:45.678Z - debug: faces recognize : Thibault Herault
+2017-09-08T07:19:45.680Z - debug: current context: NONE
+2017-09-08T07:19:45.681Z - debug: processing person
+2017-09-08T07:19:45.682Z - info: Person already registered
+2017-09-08T07:19:47.304Z - debug: faces recognize : Thibault Herault
+2017-09-08T07:19:47.305Z - debug: current context: NONE
+2017-09-08T07:19:47.305Z - debug: processing person
+2017-09-08T07:19:47.306Z - info: Person already registered
+2017-09-08T07:19:50.174Z - debug: result of processAudio : Pouvez vous répéter ?
+2017-09-08T07:19:50.449Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Pouvez%20vous%20r%C3%A9p%C3%A9ter%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T07:19:55.104Z - debug: faces recognize : Thibault Herault
+2017-09-08T07:19:55.108Z - debug: current context: NONE
+2017-09-08T07:19:55.111Z - debug: processing person
+2017-09-08T07:19:55.112Z - info: Person already registered
+2017-09-08T07:19:58.650Z - debug: faces recognize : Thibault Herault
+2017-09-08T07:19:58.650Z - debug: current context: NONE
+2017-09-08T07:19:58.651Z - debug: processing person
+2017-09-08T07:19:58.651Z - info: Person already registered
+2017-09-08T07:19:59.889Z - debug: result of processAudio : Je viens d'éteindre la lampe
+2017-09-08T07:19:59.947Z - info: A lamp has been switched off
+2017-09-08T07:19:59.948Z - debug: Emitting event for a lamp that has been switch off
+2017-09-08T07:20:00.191Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Je%20viens%20d'%C3%A9teindre%20la%20lampe&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T07:20:05.691Z - debug: faces recognize : Thibault Herault
+2017-09-08T07:20:05.692Z - debug: current context: NONE
+2017-09-08T07:20:05.693Z - debug: processing person
+2017-09-08T07:20:05.694Z - info: Person already registered
+2017-09-08T07:20:08.410Z - debug: sse : a connection has been closed
+2017-09-08T09:07:59.189Z - debug: sse : subscribe done
+2017-09-08T09:08:28.955Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:08:28.960Z - debug: current context: NONE
+2017-09-08T09:08:28.961Z - debug: processing person
+2017-09-08T09:08:28.967Z - info: Person already registered
+2017-09-08T09:08:28.969Z - debug: Person not seen yet
+2017-09-08T09:08:28.981Z - info: Your favorite color is : bleu
+2017-09-08T09:08:29.027Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-08T09:08:29.039Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:08:29.041Z - debug: current context: NONE
+2017-09-08T09:08:29.044Z - debug: processing person
+2017-09-08T09:08:29.047Z - info: Person already registered
+2017-09-08T09:08:29.269Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:08:29.270Z - debug: current context: NONE
+2017-09-08T09:08:29.270Z - debug: processing person
+2017-09-08T09:08:29.271Z - info: Person already registered
+2017-09-08T09:08:29.964Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T09:08:30.148Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:08:30.148Z - debug: current context: NONE
+2017-09-08T09:08:30.148Z - debug: processing person
+2017-09-08T09:08:30.149Z - info: Person already registered
+2017-09-08T09:08:31.442Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:08:31.444Z - debug: current context: NONE
+2017-09-08T09:08:31.444Z - debug: processing person
+2017-09-08T09:08:31.447Z - info: Person already registered
+2017-09-08T09:08:34.348Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:08:34.362Z - debug: current context: NONE
+2017-09-08T09:08:34.362Z - debug: processing person
+2017-09-08T09:08:34.363Z - info: Person already registered
+2017-09-08T09:08:43.314Z - debug: sse : a connection has been closed
+2017-09-08T09:08:44.305Z - debug: sse : subscribe done
+2017-09-08T09:08:45.840Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:08:47.340Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:08:48.873Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:08:50.809Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:08:52.818Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:08:54.297Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:08:55.845Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:08:57.329Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:08:58.850Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:00.462Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:01.977Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:03.456Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:05.052Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:06.495Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:08.241Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:09.654Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:11.164Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:12.653Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:14.199Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:15.667Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:17.216Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:18.722Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:20.207Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:21.709Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:23.216Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:24.728Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:26.285Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:27.796Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:29.377Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:30.830Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:32.349Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:33.849Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:35.384Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:36.866Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:38.364Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:38.940Z - debug: sse : a connection has been closed
+2017-09-08T09:09:40.697Z - debug: sse : subscribe done
+2017-09-08T09:09:45.277Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:46.781Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:09:47.000Z - debug: sse : a connection has been closed
+2017-09-08T09:09:50.063Z - debug: sse : subscribe done
+2017-09-08T09:09:53.145Z - warn: gm compare: Request did not return an image.
+
+2017-09-08T09:10:10.744Z - debug: faces recognize : 
+2017-09-08T09:10:10.746Z - debug: current context: NONE
+2017-09-08T09:10:10.747Z - debug: processing person
+2017-09-08T09:10:11.317Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:10:11.318Z - debug: current context: NONE
+2017-09-08T09:10:11.319Z - debug: processing person
+2017-09-08T09:10:11.321Z - info: Person already registered
+2017-09-08T09:10:28.187Z - debug: sse : a connection has been closed
+2017-09-08T09:10:29.417Z - debug: sse : subscribe done
+2017-09-08T09:10:32.529Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:34.025Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:35.560Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:37.049Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:38.550Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:40.079Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:41.586Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:43.089Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:44.608Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:46.107Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:47.617Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:49.161Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:50.666Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:52.181Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:53.926Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:55.346Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:56.819Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:58.392Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:10:59.915Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:01.428Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:02.949Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:04.455Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:06.041Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:07.530Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:09.002Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:10.520Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:12.043Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:13.545Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:15.043Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:16.554Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:18.068Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:19.571Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:21.072Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:22.584Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:24.079Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:25.609Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:27.214Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:28.757Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:30.243Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:31.756Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:33.258Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:34.772Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:36.272Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:37.796Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:11:38.173Z - debug: sse : a connection has been closed
+2017-09-08T09:11:39.391Z - debug: sse : subscribe done
+2017-09-08T09:11:49.091Z - debug: sse : a connection has been closed
+2017-09-08T09:11:56.493Z - debug: sse : subscribe done
+2017-09-08T09:12:07.193Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:08.723Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:10.276Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:11.752Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:13.251Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:14.936Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:16.350Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:17.885Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:19.387Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:20.904Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:22.383Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:23.980Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:25.451Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:26.936Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:28.514Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:30.091Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:31.571Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:12:31.971Z - debug: sse : a connection has been closed
+2017-09-08T09:12:34.824Z - debug: sse : subscribe done
+2017-09-08T09:12:39.506Z - warn: gm compare: Request did not return an image.
+
+2017-09-08T09:13:03.625Z - debug: faces recognize : 
+2017-09-08T09:13:03.637Z - debug: current context: NONE
+2017-09-08T09:13:03.638Z - debug: processing person
+2017-09-08T09:13:10.174Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:13:10.181Z - debug: current context: NONE
+2017-09-08T09:13:10.181Z - debug: processing person
+2017-09-08T09:13:10.181Z - info: Person already registered
+2017-09-08T09:14:34.831Z - debug: sse : a connection has been closed
+2017-09-08T09:14:39.856Z - debug: sse : subscribe done
+2017-09-08T09:16:02.274Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:16:02.275Z - debug: current context: NONE
+2017-09-08T09:16:02.276Z - debug: processing person
+2017-09-08T09:16:02.276Z - info: Person already registered
+2017-09-08T09:16:02.856Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:16:02.857Z - debug: current context: NONE
+2017-09-08T09:16:02.858Z - debug: processing person
+2017-09-08T09:16:02.861Z - info: Person already registered
+2017-09-08T09:16:03.616Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:16:03.618Z - debug: current context: NONE
+2017-09-08T09:16:03.618Z - debug: processing person
+2017-09-08T09:16:03.620Z - info: Person already registered
+2017-09-08T09:16:09.387Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:16:09.387Z - debug: current context: NONE
+2017-09-08T09:16:09.388Z - debug: processing person
+2017-09-08T09:16:09.389Z - info: Person already registered
+2017-09-08T09:16:39.858Z - debug: sse : a connection has been closed
+2017-09-08T09:16:44.888Z - debug: sse : subscribe done
+2017-09-08T09:18:17.492Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:18:17.493Z - debug: current context: NONE
+2017-09-08T09:18:17.493Z - debug: processing person
+2017-09-08T09:18:17.494Z - info: Person already registered
+2017-09-08T09:18:18.388Z - debug: faces recognize : 
+2017-09-08T09:18:18.388Z - debug: current context: NONE
+2017-09-08T09:18:18.388Z - debug: processing person
+2017-09-08T09:18:24.560Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:18:24.565Z - debug: current context: NONE
+2017-09-08T09:18:24.567Z - debug: processing person
+2017-09-08T09:18:24.569Z - info: Person already registered
+2017-09-08T09:18:44.890Z - debug: sse : a connection has been closed
+2017-09-08T09:18:49.904Z - debug: sse : subscribe done
+2017-09-08T09:19:48.069Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:19:48.071Z - debug: current context: NONE
+2017-09-08T09:19:48.071Z - debug: processing person
+2017-09-08T09:19:48.072Z - info: Person already registered
+2017-09-08T09:20:15.409Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:20:15.412Z - debug: current context: NONE
+2017-09-08T09:20:15.416Z - debug: processing person
+2017-09-08T09:20:15.417Z - info: Person already registered
+2017-09-08T09:20:16.461Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:20:16.461Z - debug: current context: NONE
+2017-09-08T09:20:16.461Z - debug: processing person
+2017-09-08T09:20:16.462Z - info: Person already registered
+2017-09-08T09:20:19.228Z - debug: sse : a connection has been closed
+2017-09-08T09:20:21.696Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:20:21.696Z - debug: current context: NONE
+2017-09-08T09:20:21.697Z - debug: processing person
+2017-09-08T09:20:21.697Z - info: Person already registered
+2017-09-08T09:20:22.412Z - debug: sse : subscribe done
+2017-09-08T09:20:22.707Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:20:22.707Z - debug: current context: NONE
+2017-09-08T09:20:22.707Z - debug: processing person
+2017-09-08T09:20:22.708Z - info: Person already registered
+2017-09-08T09:21:44.409Z - debug: sse : a connection has been closed
+2017-09-08T09:22:57.869Z - debug: sse : subscribe done
+2017-09-08T09:23:45.339Z - debug: sse : subscribe done
+2017-09-08T09:23:51.381Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:23:51.383Z - debug: current context: NONE
+2017-09-08T09:23:51.385Z - debug: processing person
+2017-09-08T09:23:51.392Z - info: Person already registered
+2017-09-08T09:23:51.394Z - debug: Person not seen yet
+2017-09-08T09:23:51.399Z - info: Your favorite color is : bleu
+2017-09-08T09:23:51.431Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-08T09:23:51.867Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T09:23:58.207Z - debug: sse : a connection has been closed
+2017-09-08T09:23:59.261Z - debug: sse : subscribe done
+2017-09-08T09:24:00.804Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:24:02.292Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:24:03.798Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:24:05.332Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:24:55.314Z - debug: sse : subscribe done
+2017-09-08T09:25:02.037Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:25:02.041Z - debug: current context: NONE
+2017-09-08T09:25:02.042Z - debug: processing person
+2017-09-08T09:25:02.047Z - info: Person already registered
+2017-09-08T09:25:02.050Z - debug: Person not seen yet
+2017-09-08T09:25:02.060Z - info: Your favorite color is : bleu
+2017-09-08T09:25:02.088Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-08T09:25:02.553Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T09:25:10.676Z - debug: sse : a connection has been closed
+2017-09-08T09:34:47.905Z - debug: sse : subscribe done
+2017-09-08T09:34:55.842Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:34:55.846Z - debug: current context: NONE
+2017-09-08T09:34:55.848Z - debug: processing person
+2017-09-08T09:34:55.852Z - info: Person already registered
+2017-09-08T09:34:55.854Z - debug: Person not seen yet
+2017-09-08T09:34:55.857Z - info: Your favorite color is : bleu
+2017-09-08T09:34:55.902Z - error: OHLamp fetch : FetchError: request to http://192.168.86.55:8080/rest/items/HueColorLamp2_Color failed, reason: connect ECONNREFUSED 192.168.86.55:8080
+2017-09-08T09:34:56.543Z - debug: sse fired with event : sse_voice, and data : http://api.voicerss.org/?key=b29c66ace5c74a4d8150cd95b6819725&hl=fr-fr&src=Bonjour%20Thibault%20Herault.%20Je%20met%20votre%20couleur%20pr%C3%A9f%C3%A9r%C3%A9e!%20%3F&r=0&c=mp3&f=44khz_16bit_stereo&ssml=false&b64=false
+2017-09-08T09:35:15.937Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:35:15.943Z - debug: current context: NONE
+2017-09-08T09:35:15.944Z - debug: processing person
+2017-09-08T09:35:15.947Z - info: Person already registered
+2017-09-08T09:35:17.129Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:35:17.130Z - debug: current context: NONE
+2017-09-08T09:35:17.131Z - debug: processing person
+2017-09-08T09:35:17.132Z - info: Person already registered
+2017-09-08T09:35:18.106Z - debug: faces recognize : 
+2017-09-08T09:35:18.107Z - debug: current context: NONE
+2017-09-08T09:35:18.107Z - debug: processing person
+2017-09-08T09:35:20.424Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:35:20.436Z - debug: current context: NONE
+2017-09-08T09:35:20.436Z - debug: processing person
+2017-09-08T09:35:20.436Z - info: Person already registered
+2017-09-08T09:35:20.678Z - debug: sse : a connection has been closed
+2017-09-08T09:35:21.433Z - debug: sse : subscribe done
+2017-09-08T09:35:21.734Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:35:21.734Z - debug: current context: NONE
+2017-09-08T09:35:21.735Z - debug: processing person
+2017-09-08T09:35:21.750Z - info: Person already registered
+2017-09-08T09:35:22.998Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:24.478Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:25.984Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:27.504Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:28.981Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:30.487Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:31.987Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:33.478Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:34.979Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:36.484Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:37.980Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:39.484Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:40.984Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:42.489Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:43.986Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:45.489Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:47.002Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:48.489Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:49.998Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:51.543Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:52.993Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:54.493Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:55.996Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:57.503Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:35:58.993Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:00.493Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:01.992Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:03.496Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:05.031Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:06.742Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:08.258Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:09.750Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:11.239Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:12.762Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:14.260Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:15.770Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:17.309Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:18.782Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:20.270Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:21.784Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:23.278Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:24.791Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:26.297Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:27.789Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:29.287Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:30.842Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:32.297Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:33.799Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:35.326Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:36.841Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:38.518Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:39.954Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:41.433Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:42.956Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:44.484Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:45.967Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:47.480Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:48.987Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:50.481Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:51.977Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:53.544Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:55.026Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:56.526Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:58.037Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:36:59.522Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:01.038Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:02.542Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:04.042Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:05.567Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:07.070Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:08.572Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:10.162Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:10.889Z - debug: sse : a connection has been closed
+2017-09-08T09:37:12.179Z - debug: sse : subscribe done
+2017-09-08T09:37:19.775Z - warn: gm compare: Request did not return an image.
+
+2017-09-08T09:37:24.894Z - debug: sse : a connection has been closed
+2017-09-08T09:37:26.591Z - debug: sse : subscribe done
+2017-09-08T09:37:32.075Z - debug: sse : a connection has been closed
+2017-09-08T09:37:34.243Z - debug: sse : subscribe done
+2017-09-08T09:37:38.823Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:40.322Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:41.832Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:43.324Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:44.824Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:46.326Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:47.824Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:49.337Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:50.836Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:52.336Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:53.835Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:55.339Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:56.843Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:37:58.439Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:00.244Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:01.520Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:03.045Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:04.556Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:06.085Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:07.572Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:09.120Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:10.593Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:12.094Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:13.597Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:15.201Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:16.637Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:18.152Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:19.659Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:21.168Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:22.674Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:24.187Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:25.720Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:27.201Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:28.714Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:30.279Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:31.779Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:33.316Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:34.805Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:36.319Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:37.838Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:39.336Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:40.862Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:42.353Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:43.862Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:45.367Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:46.870Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:48.372Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:49.875Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:54.388Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:55.903Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:57.412Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:38:58.985Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:00.528Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:02.045Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:03.529Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:05.026Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:06.522Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:08.036Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:09.637Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:11.169Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:12.651Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:14.140Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:15.685Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:17.163Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:18.674Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:20.160Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:21.705Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:22.719Z - debug: sse : subscribe done
+2017-09-08T09:39:23.334Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:24.949Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:26.390Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:27.247Z - debug: sse : a connection has been closed
+2017-09-08T09:39:27.892Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:29.392Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:30.899Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:32.449Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:33.927Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:34.246Z - debug: sse : a connection has been closed
+2017-09-08T09:39:35.428Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:37.100Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:38.564Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:39.257Z - debug: sse : subscribe done
+2017-09-08T09:39:40.116Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:41.572Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:43.069Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:44.590Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:46.099Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:39:46.180Z - debug: sse : a connection has been closed
+2017-09-08T09:39:49.811Z - debug: sse : subscribe done
+2017-09-08T09:39:52.936Z - warn: gm compare: Request did not return an image.
+
+2017-09-08T09:40:02.319Z - debug: faces recognize : 
+2017-09-08T09:40:02.320Z - debug: current context: NONE
+2017-09-08T09:40:02.321Z - debug: processing person
+2017-09-08T09:40:03.292Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:40:03.299Z - debug: current context: NONE
+2017-09-08T09:40:03.300Z - debug: processing person
+2017-09-08T09:40:03.301Z - info: Person already registered
+2017-09-08T09:40:05.141Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:40:05.141Z - debug: current context: NONE
+2017-09-08T09:40:05.141Z - debug: processing person
+2017-09-08T09:40:05.142Z - info: Person already registered
+2017-09-08T09:40:05.971Z - debug: faces recognize : 
+2017-09-08T09:40:05.974Z - debug: current context: NONE
+2017-09-08T09:40:05.974Z - debug: processing person
+2017-09-08T09:40:28.924Z - debug: faces recognize : 
+2017-09-08T09:40:28.924Z - debug: current context: NONE
+2017-09-08T09:40:28.925Z - debug: processing person
+2017-09-08T09:40:32.640Z - debug: faces recognize : 
+2017-09-08T09:40:32.645Z - debug: current context: NONE
+2017-09-08T09:40:32.646Z - debug: processing person
+2017-09-08T09:41:49.821Z - debug: sse : a connection has been closed
+2017-09-08T09:42:38.983Z - debug: sse : subscribe done
+2017-09-08T09:43:00.885Z - error:  Error: ENOENT: no such file or directory, rename './src/img/test1.jpg' -> './src/img/test0.jpg'
+    at Error (native)
+2017-09-08T09:43:03.440Z - debug: sse : a connection has been closed
+2017-09-08T09:43:04.657Z - debug: sse : subscribe done
+2017-09-08T09:43:06.062Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:43:06.066Z - debug: current context: NONE
+2017-09-08T09:43:06.067Z - debug: processing person
+2017-09-08T09:43:06.069Z - info: Person already registered
+2017-09-08T09:43:06.213Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:43:06.224Z - debug: current context: NONE
+2017-09-08T09:43:06.225Z - debug: processing person
+2017-09-08T09:43:06.226Z - info: Person already registered
+2017-09-08T09:43:07.310Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:43:07.310Z - debug: current context: NONE
+2017-09-08T09:43:07.310Z - debug: processing person
+2017-09-08T09:43:07.311Z - info: Person already registered
+2017-09-08T09:43:07.678Z - debug: faces recognize : Thibault Herault
+2017-09-08T09:43:07.679Z - debug: current context: NONE
+2017-09-08T09:43:07.679Z - debug: processing person
+2017-09-08T09:43:07.682Z - info: Person already registered
+2017-09-08T09:43:07.761Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:09.251Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:10.738Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:12.274Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:13.766Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:13.795Z - debug: faces recognize : 
+2017-09-08T09:43:13.795Z - debug: current context: NONE
+2017-09-08T09:43:13.798Z - debug: processing person
+2017-09-08T09:43:15.256Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:16.767Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:18.264Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:19.755Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:21.261Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:22.777Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:24.267Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:25.815Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:27.310Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:28.810Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:30.316Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:31.809Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:33.312Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:34.820Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:36.326Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:37.819Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:39.319Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:40.838Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:42.337Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:43.836Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:45.343Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:46.843Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:48.370Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:49.852Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:51.357Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:52.858Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:54.402Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:55.871Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:57.374Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:43:58.902Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:00.411Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:01.885Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:03.383Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:04.896Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:06.388Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:07.890Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:09.394Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:10.890Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:12.406Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:13.916Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:15.412Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:16.903Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:18.418Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:19.908Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:21.420Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:22.905Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:24.407Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:25.905Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:27.440Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:28.935Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
+2017-09-08T09:44:30.541Z - warn: gm compare: Empty input file (./src/img/test1.jpg).
+
