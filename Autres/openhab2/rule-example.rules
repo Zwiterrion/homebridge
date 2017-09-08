@@ -1,0 +1,10 @@
+rule "Light is on"
+		when
+			Item hue_0210_0017886830d3_2_color received change
+		then
+			var hsbValue = hue_0210_0017886830d3_2_color.state as HSBType
+
+			if(hsbValue.getBrightness() > 0) playSound("doorbell.mp3")
+			else playSound("barking.mp3")
+		end
+

@@ -1,0 +1,4 @@
+id	"001788fffe6830d3"
+internalipaddress	"192.168.86.41"
+
+"username": "mOFeoGPD5DJlOlU8viJNN0ePuzzN0jQm79anuFDU"

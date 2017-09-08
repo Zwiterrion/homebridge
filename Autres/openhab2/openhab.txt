@@ -1,0 +1,2 @@
+start openhab : sudo /bin/systemctl start openhab2.service
+
